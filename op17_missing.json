@@ -53,6 +53,44 @@
       "type_alerte": "NOUVELLE PRÉCOMMANDE",
       "boutique": "Philibert"
     },
+    "compteur": 2,
+    "alerte_envoyee": true
+  },
+  "Philibert|https://www.philibertnet.com/fr/one-piece-le-jeu-de-cartes/179736-one-piece-le-jeu-de-cartes-op17-les-guerriers-les-plus-puissants-au-monde-booster-double-pack-4582770058741.html": {
+    "boutique": "Philibert",
+    "produit": {
+      "site": "Philibert",
+      "name": "One Piece Le Jeu de Cartes - OP17 - Les Guerriers les plus puissants au Monde - Booster Double Pack",
+      "price": "12,95€",
+      "status": "PREORDER",
+      "availability": "Début septembre",
+      "link": "https://www.philibertnet.com/fr/one-piece-le-jeu-de-cartes/179736-one-piece-le-jeu-de-cartes-op17-les-guerriers-les-plus-puissants-au-monde-booster-double-pack-4582770058741.html",
+      "image": "https://cdn1.philibertnet.com/876822-large_default/one-piece-le-jeu-de-cartes-op17-les-guerriers-les-plus-puissants-au-monde-booster-double-pack-4582770058741.jpg",
+      "language": "VF",
+      "description": "Double pack contenant deux boosters et une carte DON!!",
+      "category": "DOUBLE_PACK",
+      "priority_target": "OP17",
+      "priority": 1004
+    },
+    "compteur": 1,
+    "alerte_envoyee": false
+  },
+  "Philibert|https://www.philibertnet.com/fr/one-piece-le-jeu-de-cartes/179735-one-piece-le-jeu-de-cartes-op17-les-guerriers-les-plus-puissants-au-monde-boite-de-24-boosters-2100001380243.html": {
+    "boutique": "Philibert",
+    "produit": {
+      "site": "Philibert",
+      "name": "One Piece Le Jeu de Cartes - OP17 - Les Guerriers les plus puissants au Monde - Boite de 24 Boosters",
+      "price": "Non disponible",
+      "status": "COMING_SOON",
+      "availability": "Aout",
+      "link": "https://www.philibertnet.com/fr/one-piece-le-jeu-de-cartes/179735-one-piece-le-jeu-de-cartes-op17-les-guerriers-les-plus-puissants-au-monde-boite-de-24-boosters-2100001380243.html",
+      "image": "https://cdn1.philibertnet.com/876820-large_default/one-piece-le-jeu-de-cartes-op17-les-guerriers-les-plus-puissants-au-monde-boite-de-24-boosters-2100001380243.jpg",
+      "language": "VF",
+      "description": "Boite de 24 boosters de la série OP17. Chaque booster contient 12 cartes.",
+      "category": "DISPLAY",
+      "priority_target": "OP17",
+      "priority": 1006
+    },
     "compteur": 1,
     "alerte_envoyee": false
   }
