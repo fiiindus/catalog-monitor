@@ -23,7 +23,18 @@ _BOUTIQUES_CONFIG = [
     {
         "nom": "Figurines Goodies",
         "url": "https://www.figurines-goodies.com/650-carte-a-jouer-one-piece",
-        "scanner": "figurines_goodies"
+        "scanner": "figurines_goodies",
+        "retry_attempts": 0,
+        "counts_toward_global_failure": False,
+        "known_outage_reason": (
+            "Le site renvoie actuellement une réponse HTTP 403 "
+            "aux contrôles automatisés"
+        ),
+        "known_outage_until": "2026-09-10T00:00:00+02:00",
+        "health_allowed_failure_messages": (
+            "Aucun produit One Piece Card Game surveillable détecté",
+            "403 Forbidden",
+        ),
     },
 
     {
