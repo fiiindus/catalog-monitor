@@ -41,16 +41,52 @@
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
-  "https://www.parkage.com/fr/1108960-one-piece-card-game-double-pack-set-dp-10-vol-10": {
-    "fingerprint": "b73eb9d042fbc70b285e2274a3fadcaea527445d46ad04b6ca3666386e6c4899",
-    "name": "One Piece Card Game Double Pack Set - DP-10 : Vol.10",
+  "https://www.philibertnet.com/fr/one-piece-le-jeu-de-cartes/179736-one-piece-le-jeu-de-cartes-op17-les-guerriers-les-plus-puissants-au-monde-booster-double-pack-4582770058741.html": {
+    "fingerprint": "d31187ddbe315873260a6e4c98fe54c2bde922404c481639e5d472e01b245bd7",
+    "name": "One Piece Le Jeu de Cartes - OP17 - Les Guerriers les plus puissants au Monde - Booster Double Pack",
+    "status": "COMING_SOON",
+    "type": "NOUVEAU PRODUIT RÉFÉRENCÉ"
+  },
+  "https://www.ultrajeux.com/produit-32956-display-op17-the-world-s-strongest-warriors-0810199501970.html": {
+    "fingerprint": "93cc847be961afd370a3a77ab5781564b4e9fa957ad0430f0f1bbbad451b4bc3",
+    "name": "Display OP17 - The World's Strongest Warriors",
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
-  "https://www.parkage.com/fr/1110025-coffret-one-piece-card-game-ld-01-lot-de-decks-apprenez-ensemble": {
-    "fingerprint": "1103c5f76e073e9524e7e1071b2083594db880afcf71b6b8050cee53dd434de6",
-    "name": "Coffret One Piece Card Game - LD-01 : Lot de Decks Apprenez Ensemble",
+  "https://www.ultrajeux.com/produit-32957-op17-the-world-s-strongest-warriors-0810199501963.html": {
+    "fingerprint": "eabed42c0e09a4701c51bedc15bfe8823bdbc527e93daa2756bc9d7134602b53",
+    "name": "OP17 - The World's Strongest Warriors",
+    "status": "SOLD OUT",
+    "type": "NOUVEAU PRODUIT RÉFÉRENCÉ"
+  },
+  "https://www.ultrajeux.com/produit-32958-display-op17-les-guerriers-les-plus-puissants-au-monde-4582770058710.html": {
+    "fingerprint": "1ad691110410aa5f9cc4a6e95ffcf00436b6de75468abf58ae6606fceba4093a",
+    "name": "Display OP17 - Les Guerriers les Plus Puissants au Monde",
     "status": "AVAILABLE",
-    "type": "RETOUR EN STOCK"
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.ultrajeux.com/produit-32959-op17-les-guerriers-les-plus-puissants-au-monde-4582770058710.html": {
+    "fingerprint": "3f2c1873c6415582fc69959fffb0f4badb3681d854c50ead97d1e7d9354bfc92",
+    "name": "OP17 - Les Guerriers les Plus Puissants au Monde",
+    "status": "SOLD OUT",
+    "type": "NOUVEAU PRODUIT RÉFÉRENCÉ"
+  },
+  "https://www.ultrajeux.com/produit-32968-premium-card-collection-best-selection-vol06-0810199502229.html": {
+    "fingerprint": "3e2d5379efb2a37953f58236a8624e66736be69265a00ff72fe1c80ed20c61ca",
+    "name": "Premium Card Collection Best Selection Vol.06",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.ultrajeux.com/produit-32976-double-pack-op17-les-guerriers-les-plus-puissants-au-monde-en-francais-4582770058741.html": {
+    "fingerprint": "df064636adf7cb55e8742bc2b8600756dbb1866a865dade142ba21f73e70f68d",
+    "name": "Double Pack - OP17 - Les Guerriers les Plus Puissants au Monde (En Français)",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.ultrajeux.com/produit-32977-op17-the-world-s-strongest-warriors-0810199502014.html": {
+    "fingerprint": "c700169b28dc1e2702d309ce62b672ec139d797f6a64fb17f1c0b639017af22f",
+    "name": "OP17 - The World's Strongest Warriors",
+    "status": "SOLD OUT",
+    "type": "NOUVEAU PRODUIT RÉFÉRENCÉ"
   }
 }

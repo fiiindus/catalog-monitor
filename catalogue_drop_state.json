@@ -1,1 +1,9 @@
-{}
+{
+  "Playin": {
+    "confirmations": 1,
+    "count": 20,
+    "previous_count": 17,
+    "reason": "RecoupementCatalogueSuspect",
+    "signature": "cda886996682df52a546b4684fa366fd4c5e3f752a2358fb173b94a075bcf430"
+  }
+}

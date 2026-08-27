@@ -15,5 +15,24 @@
     },
     "compteur": 2,
     "alerte_envoyee": true
+  },
+  "Philibert|https://www.philibertnet.com/fr/one-piece-le-jeu-de-cartes/179736-one-piece-le-jeu-de-cartes-op17-les-guerriers-les-plus-puissants-au-monde-booster-double-pack-2100001380267.html": {
+    "boutique": "Philibert",
+    "produit": {
+      "site": "Philibert",
+      "name": "One Piece Le Jeu de Cartes - OP17 - Les Guerriers les plus puissants au Monde - Booster Double Pack",
+      "price": "Non disponible",
+      "status": "COMING_SOON",
+      "availability": "Aout",
+      "link": "https://www.philibertnet.com/fr/one-piece-le-jeu-de-cartes/179736-one-piece-le-jeu-de-cartes-op17-les-guerriers-les-plus-puissants-au-monde-booster-double-pack-2100001380267.html",
+      "image": "https://cdn1.philibertnet.com/876822-large_default/one-piece-le-jeu-de-cartes-op17-les-guerriers-les-plus-puissants-au-monde-booster-double-pack-2100001380267.jpg",
+      "language": "VF",
+      "description": "Double pack contenant deux boosters et une carte DON!!",
+      "category": "DOUBLE_PACK",
+      "priority_target": "OP17",
+      "priority": 1004
+    },
+    "compteur": 1,
+    "alerte_envoyee": false
   }
 }
