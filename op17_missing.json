@@ -32,7 +32,7 @@
       "priority_target": "OP17",
       "priority": 1004
     },
-    "compteur": 1,
-    "alerte_envoyee": false
+    "compteur": 2,
+    "alerte_envoyee": true
   }
 }

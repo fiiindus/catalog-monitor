@@ -1,4 +1,16 @@
 {
+  "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7397-premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.html": {
+    "fingerprint": "185b127dfd83a27c4dc3e38b169855ca2d38ea6cdd35d45714e6401f96545f59",
+    "name": "Premium Card Collection Best Selection Vol.6 (Anglais) - One Piece Card Game",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://oupi.eu/fr/starter-deck-one-piece/7810-monkey-d-luffy-deck-de-demarrage-st-31-rouge-francais-one-piece-card-game.html": {
+    "fingerprint": "cc7f30f9cadcc8b5e0cde7b5c11092bd27662cec689eda5c1dd3cf92de5e64d0",
+    "name": "Monkey D. Luffy Deck de Démarrage ST-31 Rouge (Français) - One Piece Card Game",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
   "https://www.parkage.com/fr/1069318-one-piece-card-game-starter-deck-st-23-red-shanks": {
     "fingerprint": "40439b29af61a6f2f977503cb7c49aac1059a77ca69f544a332ebb18fe49a091",
     "name": "One Piece Card Game Starter Deck - ST-23 : Red Shanks",
@@ -41,11 +53,53 @@
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
-  "https://www.philibertnet.com/fr/one-piece-le-jeu-de-cartes/179736-one-piece-le-jeu-de-cartes-op17-les-guerriers-les-plus-puissants-au-monde-booster-double-pack-4582770058741.html": {
-    "fingerprint": "d31187ddbe315873260a6e4c98fe54c2bde922404c481639e5d472e01b245bd7",
+  "https://www.philibertnet.com/fr/one-piece-le-jeu-de-cartes/179736-one-piece-le-jeu-de-cartes-op17-les-guerriers-les-plus-puissants-au-monde-booster-double-pack-2100001380267.html": {
+    "fingerprint": "32f6a8627439f6a495b5db91fd71381d4d3d3f2f1db093ff093572eb0976c5a7",
     "name": "One Piece Le Jeu de Cartes - OP17 - Les Guerriers les plus puissants au Monde - Booster Double Pack",
-    "status": "COMING_SOON",
-    "type": "NOUVEAU PRODUIT RÉFÉRENCÉ"
+    "status": "REMOVED",
+    "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
+  },
+  "https://www.philibertnet.com/fr/one-piece-le-jeu-de-cartes/179736-one-piece-le-jeu-de-cartes-op17-les-guerriers-les-plus-puissants-au-monde-booster-double-pack-4582770058741.html": {
+    "fingerprint": "17ec3060475a887fc6a504a75c847f24d6f8ced12ca388f70c493ee43605071c",
+    "name": "One Piece Le Jeu de Cartes - OP17 - Les Guerriers les plus puissants au Monde - Booster Double Pack",
+    "status": "PREORDER",
+    "type": "NOUVELLE PRÉCOMMANDE"
+  },
+  "https://www.philibertnet.com/fr/one-piece-le-jeu-de-cartes/181395-one-piece-le-jeu-de-cartes-op17-les-guerriers-les-plus-puissants-au-monde-boite-de-24-boosters-boite-descellee-4582770058833.html": {
+    "fingerprint": "c911bd27d3f5243fc2bac2ca1b09ac6730579be8255ee024f7c609ef0fef0cdd",
+    "name": "One Piece Le Jeu de Cartes - OP17 - Les Guerriers les plus puissants au Monde - Boite de 24 Boosters (boite descellée)",
+    "status": "PREORDER",
+    "type": "NOUVELLE PRÉCOMMANDE"
+  },
+  "https://www.ultrajeux.com/produit-32840-st31-monkey-d-luffy-0810199500928.html": {
+    "fingerprint": "aabaf50c7025d81a396ccaef7fca7a611f7a3d477d8e968b7cd1398d5cc925c6",
+    "name": "ST31 : Monkey D. Luffy",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://www.ultrajeux.com/produit-32842-st33-kuzan-0810199500980.html": {
+    "fingerprint": "8ef649d05223943b9eaeb48758d408140f436390890c49ba09f30db7c1944301",
+    "name": "ST33 : Kuzan",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://www.ultrajeux.com/produit-32843-st34-charlotte-katakuri-0810199501017.html": {
+    "fingerprint": "e737f213fb6795074a5ddb72bdfcc0583b365c2d68d55385c5404b3410138cfd",
+    "name": "ST34 : Charlotte Katakuri",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://www.ultrajeux.com/produit-32844-st35-sabo-0810199501048.html": {
+    "fingerprint": "6be2df33d62efe6415c63846e15cd37c956eed6e71047d42c8b1165d5d1add39",
+    "name": "ST35 : Sabo",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://www.ultrajeux.com/produit-32845-st36-eustass-captain-kid-0810199501079.html": {
+    "fingerprint": "12f84ab458988f6bc74cdd38c27cc9ad44cb49a0c1c9e5b2e93008a84fc3d783",
+    "name": "ST36 : Eustass \"Captain\" Kid",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
   },
   "https://www.ultrajeux.com/produit-32956-display-op17-the-world-s-strongest-warriors-0810199501970.html": {
     "fingerprint": "93cc847be961afd370a3a77ab5781564b4e9fa957ad0430f0f1bbbad451b4bc3",
