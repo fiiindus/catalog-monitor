@@ -1,0 +1,20 @@
+{
+  "priority_set": "OP17",
+  "priority": {
+    "categories": {
+      "DISPLAY": 5,
+      "PRB": 5,
+      "PROMO": 4,
+      "BOOSTER_CARTON": 4,
+      "DOUBLE_PACK": 3,
+      "STARTER": 2,
+      "CASE": 1
+    },
+    "languages": {
+      "EN": 3,
+      "VF": 1,
+      "JP": 0,
+      "OTHER": -1
+    }
+  }
+}

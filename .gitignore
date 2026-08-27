@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+.deps/
+.python-packages/
+.test-tmp/
+*.tmp
+figurines_goodies.json

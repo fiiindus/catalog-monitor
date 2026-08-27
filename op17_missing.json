@@ -1,0 +1,19 @@
+{
+  "Figurines Goodies|https://www.figurines-goodies.com/11932-bundle-carton-de-24-boosters-sous-blisters-one-piece-op17-vf-playmat-vol-1.html": {
+    "boutique": "Figurines Goodies",
+    "produit": {
+      "site": "Figurines Goodies",
+      "name": "précommande Nouveau Disponible le 31/08/2026 BUNDLE CARTON DE 24 BOOSTERS SOUS BLISTERS ONE PIECE OP17 VF + PLAYMAT VOL 1",
+      "price": "259,90 €",
+      "status": "SOLD OUT",
+      "priority": 1005,
+      "link": "https://www.figurines-goodies.com/11932-bundle-carton-de-24-boosters-sous-blisters-one-piece-op17-vf-playmat-vol-1.html",
+      "image": "https://www.figurines-goodies.com/21239-home_default/bundle-carton-de-24-boosters-sous-blisters-one-piece-op17-vf-playmat-vol-1.jpg",
+      "category": "PROMO",
+      "language": "VF",
+      "priority_target": "OP17"
+    },
+    "compteur": 2,
+    "alerte_envoyee": true
+  }
+}
