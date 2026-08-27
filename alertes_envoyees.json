@@ -65,6 +65,12 @@
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
   },
+  "https://www.philibertnet.com/fr/one-piece-le-jeu-de-cartes/179735-one-piece-le-jeu-de-cartes-op17-les-guerriers-les-plus-puissants-au-monde-boite-de-24-boosters-2100001380243.html": {
+    "fingerprint": "f05ba9a7a864b703cab36891b468e8dc00b4a2606de2e039080cad1753d29823",
+    "name": "One Piece Le Jeu de Cartes - OP17 - Les Guerriers les plus puissants au Monde - Boite de 24 Boosters",
+    "status": "REMOVED",
+    "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
+  },
   "https://www.philibertnet.com/fr/one-piece-le-jeu-de-cartes/179736-one-piece-le-jeu-de-cartes-op17-les-guerriers-les-plus-puissants-au-monde-booster-double-pack-2100001380267.html": {
     "fingerprint": "32f6a8627439f6a495b5db91fd71381d4d3d3f2f1db093ff093572eb0976c5a7",
     "name": "One Piece Le Jeu de Cartes - OP17 - Les Guerriers les plus puissants au Monde - Booster Double Pack",
@@ -72,16 +78,82 @@
     "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
   },
   "https://www.philibertnet.com/fr/one-piece-le-jeu-de-cartes/179736-one-piece-le-jeu-de-cartes-op17-les-guerriers-les-plus-puissants-au-monde-booster-double-pack-4582770058741.html": {
-    "fingerprint": "17ec3060475a887fc6a504a75c847f24d6f8ced12ca388f70c493ee43605071c",
+    "fingerprint": "a482249e26efec8f35f295152e0b2dd2c974f2c508108261c65c97d6cc570626",
     "name": "One Piece Le Jeu de Cartes - OP17 - Les Guerriers les plus puissants au Monde - Booster Double Pack",
-    "status": "PREORDER",
-    "type": "NOUVELLE PRÉCOMMANDE"
+    "status": "REMOVED",
+    "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
   },
   "https://www.philibertnet.com/fr/one-piece-le-jeu-de-cartes/181395-one-piece-le-jeu-de-cartes-op17-les-guerriers-les-plus-puissants-au-monde-boite-de-24-boosters-boite-descellee-4582770058833.html": {
     "fingerprint": "803edd7b6ec53ff9f6c905df2a4a113aa49c1f31b47ae1f2ce4e2c3768f3346d",
     "name": "One Piece Le Jeu de Cartes - OP17 - Les Guerriers les plus puissants au Monde - Boite de 24 Boosters (boite descellée)",
     "status": "REMOVED",
     "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
+  },
+  "https://www.play-in.com/fr/produit/611687/deck-de-demarrage-one-piece-tcg-bleu-ace-newgate-st-22-fr": {
+    "fingerprint": "71df2935867041a2f92b0cd53d1871927380159bc530726fba7093c47af1a947",
+    "name": "Deck de démarrage Bleu Ace & Newgate ST-22 - One Piece FR",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.play-in.com/fr/produit/617903/coffret-lot-de-decks-apprenez-ensemble-one-piece-tcg-fr": {
+    "fingerprint": "cde194991f125be81c7464e30cff87be5c1e8bb487d2914cae4e224ddedfe5d6",
+    "name": "Coffret Lot de decks Apprenez Ensemble - One Piece FR",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.play-in.com/fr/produit/662629/deck-pour-debutant-one-piece-tcg-rouge-monkey-d-luffy-st-31-fr": {
+    "fingerprint": "a147caf22192f98fc17ad0a7a53e3360d1f5b55759e2eaf3613492060e344349",
+    "name": "Deck pour débutant Rouge Monkey D. Luffy ST-31 - One Piece FR",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.play-in.com/fr/produit/662631/deck-pour-debutant-one-piece-tcg-bleu-kuzan-st-33-fr": {
+    "fingerprint": "395f99d460ab026b867cabab53b41b727c34dbf0f650734cb4e75d6051c68f1c",
+    "name": "Deck pour débutant Bleu Kuzan ST-33 - One Piece FR",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.play-in.com/fr/produit/662632/deck-pour-debutant-one-piece-tcg-violet-charlotte-katakuri-st-34-fr": {
+    "fingerprint": "3bbbc79a3f25c99a613992bfa651daa0490de71e5e015ac8cdc537f2c7406fe3",
+    "name": "Deck pour débutant Violet Charlotte Katakuri ST-34 - One Piece FR",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.play-in.com/fr/produit/662633/deck-pour-debutant-one-piece-tcg-rouge-noir-sabo-st-35-fr": {
+    "fingerprint": "ee96552d14cf8eae3ae0f6f5318ea5be1a65d56b943a2aa225ba1b163af54959",
+    "name": "Deck pour débutant Rouge/Noir Sabo ST-35 - One Piece FR",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.play-in.com/fr/produit/662638/deck-pour-debutant-one-piece-tcg-jaune-eustass-captain-kidd-st-36-fr": {
+    "fingerprint": "6be9d7316546aa972a3704b9df16401ee6957c8f97350f13bffd7aad758159c9",
+    "name": "Deck pour débutant Jaune Eustass \"Captain\" Kidd ST-36 - One Piece FR",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.play-in.com/fr/produit/663248/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr": {
+    "fingerprint": "4549d349e53046fd99bee3ebedf003b980aeb5ec9c149a6c000099dd3899c6a7",
+    "name": "Booster OP-17 Les Guerriers Les Plus Puissants Au Monde - One Piece FR",
+    "status": "PREORDER",
+    "type": "NOUVELLE PRÉCOMMANDE"
+  },
+  "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr": {
+    "fingerprint": "de7aaaa6327e18401416d55156b8e0257712e209cc9802c69c746088eafd8b92",
+    "name": "Display de 24 boosters OP-17 Les Guerriers Les Plus Puissants Au Monde - One Piece FR",
+    "status": "PREORDER",
+    "type": "NOUVELLE PRÉCOMMANDE"
+  },
+  "https://www.play-in.com/fr/produit/663250/double-pack-set-one-piece-tcg-12-les-guerriers-les-plus-puissants-au-monde-op-17-fr": {
+    "fingerprint": "8f405958b0442eeafe7632d65d5b198998b2f2070f776da99c7343aebf2ad544",
+    "name": "Double Pack Set 12 Les Guerriers Les Plus Puissants Au Monde OP-17 - One Piece FR",
+    "status": "COMING_SOON",
+    "type": "NOUVEAU PRODUIT RÉFÉRENCÉ"
+  },
+  "https://www.play-in.com/fr/produit/663266/double-pack-set-one-piece-tcg-12-les-guerriers-les-plus-puissants-au-monde-op-17-en": {
+    "fingerprint": "c302469d414bb4a8b9923c1913467b9475eabfed5831f0a7962f557039dcc9e2",
+    "name": "Double Pack Set 12 Les Guerriers Les Plus Puissants Au Monde OP-17 - One Piece EN",
+    "status": "COMING_SOON",
+    "type": "NOUVEAU PRODUIT RÉFÉRENCÉ"
   },
   "https://www.ultrajeux.com/produit-32840-st31-monkey-d-luffy-0810199500928.html": {
     "fingerprint": "aabaf50c7025d81a396ccaef7fca7a611f7a3d477d8e968b7cd1398d5cc925c6",

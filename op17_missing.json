@@ -72,8 +72,8 @@
       "priority_target": "OP17",
       "priority": 1004
     },
-    "compteur": 1,
-    "alerte_envoyee": false
+    "compteur": 2,
+    "alerte_envoyee": true
   },
   "Philibert|https://www.philibertnet.com/fr/one-piece-le-jeu-de-cartes/179735-one-piece-le-jeu-de-cartes-op17-les-guerriers-les-plus-puissants-au-monde-boite-de-24-boosters-2100001380243.html": {
     "boutique": "Philibert",
@@ -87,6 +87,48 @@
       "image": "https://cdn1.philibertnet.com/876820-large_default/one-piece-le-jeu-de-cartes-op17-les-guerriers-les-plus-puissants-au-monde-boite-de-24-boosters-2100001380243.jpg",
       "language": "VF",
       "description": "Boite de 24 boosters de la série OP17. Chaque booster contient 12 cartes.",
+      "category": "DISPLAY",
+      "priority_target": "OP17",
+      "priority": 1006
+    },
+    "compteur": 2,
+    "alerte_envoyee": true
+  },
+  "Playin|https://www.play-in.com/fr/produit/663250/double-pack-set-12-les-guerriers-les-plus-puissants-au-monde-op-17-one-piece-fr": {
+    "boutique": "Playin",
+    "produit": {
+      "site": "Playin",
+      "name": "Double Pack Set 12 Les Guerriers Les Plus Puissants Au Monde OP-17 - One Piece FR",
+      "price": "Non disponible",
+      "status": "COMING_SOON",
+      "availability": "28/08/2026",
+      "link": "https://www.play-in.com/fr/produit/663250/double-pack-set-12-les-guerriers-les-plus-puissants-au-monde-op-17-one-piece-fr",
+      "image": "https://media.play-in.com/media/medias/6a69b5c5288a7777447308.jpg",
+      "language": "VF",
+      "source": "catalogue",
+      "delivery": "SHIPPING_OR_ANNOUNCED",
+      "notify_when_referenced": true,
+      "category": "DOUBLE_PACK",
+      "priority_target": "OP17",
+      "priority": 1004
+    },
+    "compteur": 1,
+    "alerte_envoyee": false
+  },
+  "Playin|https://www.play-in.com/fr/produit/663249/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr": {
+    "boutique": "Playin",
+    "produit": {
+      "site": "Playin",
+      "name": "Display de 24 boosters OP-17 Les Guerriers Les Plus Puissants Au Monde - One Piece FR",
+      "price": "Non disponible",
+      "status": "COMING_SOON",
+      "availability": "28/08/2026",
+      "link": "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr",
+      "image": "https://media.play-in.com/media/medias/6a69b243646a5032661065.jpg",
+      "language": "VF",
+      "source": "catalogue",
+      "delivery": "SHIPPING_OR_ANNOUNCED",
+      "notify_when_referenced": true,
       "category": "DISPLAY",
       "priority_target": "OP17",
       "priority": 1006
