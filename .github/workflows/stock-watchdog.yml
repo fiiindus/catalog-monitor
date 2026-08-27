@@ -1,0 +1,136 @@
+name: Stock Tracker Watchdog
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # Vérifie 20 minutes après chaque passage principal attendu.
+    - cron: "27,57 * * * *"
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: stock-tracker-watchdog
+  cancel-in-progress: true
+
+jobs:
+  verify-recent-scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Check last successful stock scan
+        id: watchdog
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          now_epoch=$(date -u +%s)
+          last_success=$(gh run list \
+            --repo "$GH_REPO" \
+            --workflow check.yml \
+            --branch main \
+            --status success \
+            --limit 1 \
+            --json createdAt \
+            --jq '.[0].createdAt // empty')
+
+          if [[ -n "$last_success" ]]; then
+            last_epoch=$(date -u -d "$last_success" +%s)
+            age_seconds=$((now_epoch - last_epoch))
+          else
+            age_seconds=999999
+          fi
+
+          echo "Dernier contrôle réussi : ${last_success:-aucun}"
+          echo "Âge du dernier contrôle : ${age_seconds}s"
+
+          if (( age_seconds < 2700 )); then
+            echo "✅ Contrôle récent : aucune relance nécessaire"
+            echo "recovery=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "⚠️ Contrôle en retard : relance immédiate"
+          gh workflow run check.yml --repo "$GH_REPO" --ref main
+          echo "recovery=true" >> "$GITHUB_OUTPUT"
+
+      - name: Report automatic recovery to Discord
+        if: steps.watchdog.outputs.recovery == 'true'
+        env:
+          DISCORD_ERROR_WEBHOOK: ${{ secrets.DISCORD_ERROR_WEBHOOK }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import urllib.request
+
+          webhook = os.getenv("DISCORD_ERROR_WEBHOOK", "").strip()
+          if not webhook:
+              raise SystemExit(0)
+
+          run_url = (
+              f"{os.environ['GITHUB_SERVER_URL']}/{os.environ['GITHUB_REPOSITORY']}"
+              f"/actions/runs/{os.environ['GITHUB_RUN_ID']}"
+          )
+          payload = {
+              "content": (
+                  "⚠️ **CONTRÔLE STOCK EN RETARD**\n"
+                  "Le garde-fou a détecté un passage manqué et vient de relancer "
+                  f"automatiquement le tracker. Vérification : {run_url}"
+              )
+          }
+          request = urllib.request.Request(
+              webhook,
+              data=json.dumps(payload).encode("utf-8"),
+              headers={
+                  "Content-Type": "application/json",
+                  "User-Agent": "onepiece-stock-tracker/1.0",
+              },
+              method="POST",
+          )
+          with urllib.request.urlopen(request, timeout=20) as response:
+              print(f"Alerte de rattrapage envoyée : {response.status}")
+          PY
+
+      - name: Alert Discord if watchdog fails
+        if: failure()
+        env:
+          DISCORD_ERROR_WEBHOOK: ${{ secrets.DISCORD_ERROR_WEBHOOK }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import urllib.request
+
+          webhook = os.getenv("DISCORD_ERROR_WEBHOOK", "").strip()
+          if not webhook:
+              raise SystemExit(0)
+
+          run_url = (
+              f"{os.environ['GITHUB_SERVER_URL']}/{os.environ['GITHUB_REPOSITORY']}"
+              f"/actions/runs/{os.environ['GITHUB_RUN_ID']}"
+          )
+          payload = {
+              "content": (
+                  "🚨 **ÉCHEC DU GARDE-FOU STOCK**\n"
+                  f"La vérification automatique doit être contrôlée : {run_url}"
+              )
+          }
+          request = urllib.request.Request(
+              webhook,
+              data=json.dumps(payload).encode("utf-8"),
+              headers={
+                  "Content-Type": "application/json",
+                  "User-Agent": "onepiece-stock-tracker/1.0",
+              },
+              method="POST",
+          )
+          with urllib.request.urlopen(request, timeout=20) as response:
+              print(f"Alerte garde-fou envoyée : {response.status}")
+          PY

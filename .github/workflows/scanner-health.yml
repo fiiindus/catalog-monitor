@@ -1,0 +1,122 @@
+name: Scanner health checks
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "19 4 * * 0"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: scanner-health-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  scanner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        scanner:
+          - figurines_goodies
+          - ultrajeux
+          - premium_bandai
+          - parkage
+          - philibert
+          - carte_one_piece
+          - oupi
+          - playin
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Setup Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Restore Playwright browser
+        id: playwright-cache
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ hashFiles('requirements.txt') }}
+
+      - name: Install Playwright browser
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+        run: playwright install chromium
+
+      - name: Scan and validate ${{ matrix.scanner }}
+        env:
+          SCANNER_MODULE: ${{ matrix.scanner }}
+        run: |
+          python - <<'PY'
+          import importlib
+          import os
+
+          from boutiques import BOUTIQUES
+          from integrite import charger_stock_precedent, valider_scan
+
+          scanner = os.environ["SCANNER_MODULE"]
+          boutique = next(
+              (
+                  configuration
+                  for configuration in BOUTIQUES
+                  if configuration["scanner"] == scanner
+              ),
+              None,
+          )
+
+          if boutique is None:
+              raise RuntimeError(
+                  f"Aucune configuration de boutique pour le scanner {scanner}"
+              )
+
+          stock_precedent = charger_stock_precedent()
+
+          try:
+              produits = importlib.import_module(
+                  f"scanners.{scanner}"
+              ).scan()
+              valider_scan(
+                  boutique,
+                  produits,
+                  stock_precedent,
+              )
+          except Exception as erreur:
+              message = str(erreur)
+              messages_autorises = tuple(
+                  boutique.get("health_allowed_failure_messages", ())
+              )
+              panne_connue = (
+                  boutique.get("counts_toward_global_failure", True) is False
+                  and boutique.get("suppress_technical_alert", False) is True
+                  and bool(messages_autorises)
+                  and any(
+                      fragment in message
+                      for fragment in messages_autorises
+                  )
+              )
+
+              if panne_connue:
+                  print(
+                      f"⚠️ {boutique['nom']} : panne d'accès connue tolérée par le "
+                      f"health-check ({erreur})"
+                  )
+                  raise SystemExit(0)
+
+              raise
+
+          print(
+              f"✅ {boutique['nom']}: {len(produits)} produit(s) "
+              "validé(s) avec les règles d'intégrité de production"
+          )
+          PY

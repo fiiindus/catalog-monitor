@@ -1,0 +1,113 @@
+name: Stock Tracker
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stock-tracker-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  surveillance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Restore Playwright browser
+        id: playwright-cache
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ hashFiles('requirements.txt') }}
+
+      - name: Install Playwright browser
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+        run: playwright install chromium
+
+      - name: Run surveillance
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          DISCORD_ERROR_WEBHOOK: ${{ secrets.DISCORD_ERROR_WEBHOOK }}
+        run: python -u surveillance.py
+
+      - name: Save stock history
+        run: |
+          if [[ "${GITHUB_REF_NAME}" != "main" ]]; then
+            echo "ℹ️ Branche de validation : historique non publié"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            ancien_stock.json \
+            op17_missing.json \
+            boutiques_unavailable.json \
+            catalogue_drop_state.json \
+            alertes_envoyees.json
+
+          if git diff --cached --quiet; then
+            echo "✅ Aucun changement d'état à enregistrer"
+          else
+            git commit -m "Update stock history"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+            echo "✅ Historique et états techniques enregistrés"
+          fi
+
+      - name: Alert Discord if scan fails
+        if: failure()
+        env:
+          DISCORD_ERROR_WEBHOOK: ${{ secrets.DISCORD_ERROR_WEBHOOK }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import urllib.request
+
+          webhook = os.getenv("DISCORD_ERROR_WEBHOOK", "").strip()
+          if not webhook:
+              print("DISCORD_ERROR_WEBHOOK absent : alerte technique ignorée")
+              raise SystemExit(0)
+
+          run_url = (
+              f"{os.environ['GITHUB_SERVER_URL']}/{os.environ['GITHUB_REPOSITORY']}"
+              f"/actions/runs/{os.environ['GITHUB_RUN_ID']}"
+          )
+          payload = {
+              "content": (
+                  "🚨 **ÉCHEC DU CONTRÔLE STOCK**\n"
+                  f"Le passage automatique n'a pas abouti. Détails : {run_url}"
+              )
+          }
+          request = urllib.request.Request(
+              webhook,
+              data=json.dumps(payload).encode("utf-8"),
+              headers={
+                  "Content-Type": "application/json",
+                  "User-Agent": "onepiece-stock-tracker/1.0",
+              },
+              method="POST",
+          )
+          with urllib.request.urlopen(request, timeout=20) as response:
+              print(f"Alerte Discord envoyée : {response.status}")
+          PY
