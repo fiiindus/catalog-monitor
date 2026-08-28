@@ -65,6 +65,42 @@
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
   },
+  "https://www.parkage.com/fr/1089779-one-piece-card-game-tin-pack-set-ts-02-vol-2-random-type": {
+    "fingerprint": "bf7eaa6bec91d356576c76259f5746ef767cb106e692cef0cb26880ebb7ad085",
+    "name": "One Piece Card Game Tin Pack Set - TS-02 : Vol.2 (Random Type)",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1095580-one-piece-card-game-extra-booster-pack-eb-03-heroines-edition": {
+    "fingerprint": "bd443f90957c14e34b764948d5173337cc3e31fe9cb3f0dabaf2a5ccbae5bd4d",
+    "name": "One Piece Card Game Extra Booster Pack - EB-03 : Heroines Edition",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1095581-one-piece-card-game-display-x24-extra-booster-packs-eb-03-heroines-edition": {
+    "fingerprint": "31f2d4ca7f7a1bdf805e9655933ce8fdb2babcd93ffd16ffb12f95237ee76abb",
+    "name": "One Piece Card Game Display (x24 Extra Booster Packs) - EB-03 : Heroines Edition",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1107144-booster-premium-one-piece-card-game-prb-02-the-best-vol-2": {
+    "fingerprint": "8e74270b4e3350641418e9baa2587e135e9ed39cb5e2fa71294fba345e7b4880",
+    "name": "Booster Premium One Piece Card Game - PRB-02 : The Best Vol.2",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1107145-boite-de-20-boosters-premium-one-piece-card-game-prb-02-the-best-vol-2": {
+    "fingerprint": "c3a1c08daa5c17886bec6dac2e1db918e560574316ceaf5149861181b48100e5",
+    "name": "Boîte de 20 Boosters Premium One Piece Card Game - PRB-02 : The Best Vol.2",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1111409-one-piece-card-game-starter-deck-ex-st-30-luffy-ace": {
+    "fingerprint": "6653925defa4fe4a43f3b60c35118c3b49e207f1998d52cf62e4c5cebe9d72fe",
+    "name": "One Piece Card Game Starter Deck EX - ST-30 : Luffy & Ace",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
   "https://www.parkage.com/fr/1123139-one-piece-card-game-booster-pack-op-17-the-world-s-strongest-warriors": {
     "fingerprint": "20d397e78073a7be4d945a3792e17e7b290f8650ced3e2267d57c080cbf192c5",
     "name": "One Piece Card Game Booster Pack - OP-17 : The world's strongest warriors",
@@ -92,6 +128,12 @@
   "https://www.parkage.com/fr/1123151-double-pack-set-one-piece-card-game-dp-12-vol-12": {
     "fingerprint": "a4333c90e4ca55f7b2e795d86f6e474f036d35837a7660ab61e7fc37e672ef99",
     "name": "Double Pack Set One Piece Card Game - DP-12 : Vol.12",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1123719-one-piece-card-game-box-premium-card-collection-best-selection-vol-6": {
+    "fingerprint": "751b6513181916969ac0a5f8bdd79befba2a9ddf2c261dcb6336109c801dc3f4",
+    "name": "One Piece Card Game Box - Premium Card Collection - Best Selection Vol.6",
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
@@ -180,10 +222,10 @@
     "type": "PRÉCOMMANDE MAINTENANT DISPONIBLE"
   },
   "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr": {
-    "fingerprint": "e70b087fd6909142a12b98d7e5c87e095496ab6087c3fac7bea5ca8cf90b0741",
+    "fingerprint": "f617667bd1d5ade09e8a2dbe523c09e0e0d07c821b2cbb46314f777366dc9099",
     "name": "Display de 24 boosters OP-17 Les Guerriers Les Plus Puissants Au Monde - One Piece FR",
-    "status": "REMOVED",
-    "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
   "https://www.play-in.com/fr/produit/663250/double-pack-set-12-les-guerriers-les-plus-puissants-au-monde-op-17-one-piece-fr": {
     "fingerprint": "72d026d06ce53bbf5cac181a70cafc240df2ccf7ab822dfafdc5b4ada1fed5c8",
@@ -214,6 +256,30 @@
     "name": "Double Pack Set 12 Les Guerriers Les Plus Puissants Au Monde OP-17 - One Piece EN",
     "status": "COMING_SOON",
     "type": "NOUVEAU PRODUIT RÉFÉRENCÉ"
+  },
+  "https://www.ultrajeux.com/produit-31734-display-op14-les-sept-de-la-mer-d-azur-4582769923357.html": {
+    "fingerprint": "2414eae5157a02f6a47e79f973b2bb0c5999fa12127e9e532778b8fbb987b6a2",
+    "name": "Display OP14 - Les Sept de la Mer d'Azur",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://www.ultrajeux.com/produit-31735-op14-les-sept-de-la-mer-d-azur-4582769923159.html": {
+    "fingerprint": "ba48fca588e665c8ae278c26e5a949f5b9f01afd3e1e9f3914d57e3421d3f0b0",
+    "name": "OP14 - Les Sept de la Mer d'Azur",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://www.ultrajeux.com/produit-31830-op14-the-azure-sea-s-seven-0810158836433.html": {
+    "fingerprint": "63431d616908bf682e81c6f4f0a26bbd023204abefbd3a82542c18787fa3476a",
+    "name": "OP14 - The Azure Sea's Seven",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://www.ultrajeux.com/produit-32609-op16-l-heure-de-la-bataille-decisive-4582770058697.html": {
+    "fingerprint": "ad1db03561de69aa6c28437364abcc7d46bc3cca11fce9161e983b81aacdf8d1",
+    "name": "OP16 - L'Heure de la Bataille Décisive",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
   },
   "https://www.ultrajeux.com/produit-32842-st33-kuzan-0810199500980.html": {
     "fingerprint": "8ef649d05223943b9eaeb48758d408140f436390890c49ba09f30db7c1944301",
@@ -251,17 +317,17 @@
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
+  "https://www.ultrajeux.com/produit-32958-display-op17-les-guerriers-les-plus-puissants-au-monde-4582770058833.html": {
+    "fingerprint": "0702c2b50acbdcf3073b29c739c7af94e36e36f54233314feee5234e0bb6f429",
+    "name": "Display OP17 - Les Guerriers les Plus Puissants au Monde",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
   "https://www.ultrajeux.com/produit-32959-op17-les-guerriers-les-plus-puissants-au-monde-4582770058710.html": {
     "fingerprint": "f087b6b21983dafaff361b4d6c9c3dc84adec53951888fdad9c259bcf7ada469",
     "name": "OP17 - Les Guerriers les Plus Puissants au Monde",
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
-  },
-  "https://www.ultrajeux.com/produit-32968-premium-card-collection-best-selection-vol06-0810199502229.html": {
-    "fingerprint": "3e2d5379efb2a37953f58236a8624e66736be69265a00ff72fe1c80ed20c61ca",
-    "name": "Premium Card Collection Best Selection Vol.06",
-    "status": "AVAILABLE",
-    "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
   "https://www.ultrajeux.com/produit-32976-double-pack-op17-les-guerriers-les-plus-puissants-au-monde-en-francais-4582770058741.html": {
     "fingerprint": "df064636adf7cb55e8742bc2b8600756dbb1866a865dade142ba21f73e70f68d",
