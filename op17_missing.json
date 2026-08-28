@@ -129,8 +129,8 @@
       "language": "OTHER",
       "priority_target": "OP17"
     },
-    "compteur": 1,
-    "alerte_envoyee": false
+    "compteur": 2,
+    "alerte_envoyee": true
   },
   "Playin|https://www.play-in.com/fr/produit/663250/double-pack-set-one-piece-tcg-12-les-guerriers-les-plus-puissants-au-monde-op-17-fr": {
     "boutique": "Playin",
@@ -150,8 +150,8 @@
       "priority_target": "OP17",
       "priority": 1004
     },
-    "compteur": 1,
-    "alerte_envoyee": false
+    "compteur": 2,
+    "alerte_envoyee": true
   },
   "Playin|https://www.play-in.com/fr/produit/663249/display-de-24-boosters-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr": {
     "boutique": "Playin",
@@ -171,7 +171,7 @@
       "priority_target": "OP17",
       "priority": 1006
     },
-    "compteur": 1,
-    "alerte_envoyee": false
+    "compteur": 2,
+    "alerte_envoyee": true
   }
 }

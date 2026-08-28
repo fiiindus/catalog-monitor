@@ -216,10 +216,10 @@
     "type": "PRÉCOMMANDE MAINTENANT DISPONIBLE"
   },
   "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr": {
-    "fingerprint": "a3109df8dc3575c6be6d785da97de8a64817005e82824990317a663277eff1a4",
+    "fingerprint": "02c0b5008ace949adc27e834f04a4ee74a20a0ef802822472336f4037578e447",
     "name": "Display de 24 boosters OP-17 Les Guerriers Les Plus Puissants Au Monde - One Piece FR",
-    "status": "AVAILABLE",
-    "type": "PRÉCOMMANDE MAINTENANT DISPONIBLE"
+    "status": "REMOVED",
+    "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
   },
   "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr": {
     "fingerprint": "f617667bd1d5ade09e8a2dbe523c09e0e0d07c821b2cbb46314f777366dc9099",
@@ -234,10 +234,10 @@
     "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
   },
   "https://www.play-in.com/fr/produit/663250/double-pack-set-one-piece-tcg-12-les-guerriers-les-plus-puissants-au-monde-op-17-fr": {
-    "fingerprint": "8f405958b0442eeafe7632d65d5b198998b2f2070f776da99c7343aebf2ad544",
+    "fingerprint": "9eee9786ccc1449da574c1835f6371219948de471a3983ad6d4bdddbbc18a6f8",
     "name": "Double Pack Set 12 Les Guerriers Les Plus Puissants Au Monde OP-17 - One Piece FR",
-    "status": "COMING_SOON",
-    "type": "NOUVEAU PRODUIT RÉFÉRENCÉ"
+    "status": "REMOVED",
+    "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
   },
   "https://www.play-in.com/fr/produit/663264/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en": {
     "fingerprint": "eb8e6773bb2ec47437f168935c9627001dacbb3880318169c802e94daa1777a1",
@@ -312,10 +312,10 @@
     "type": "NOUVEAU PRODUIT RÉFÉRENCÉ"
   },
   "https://www.ultrajeux.com/produit-32958-display-op17-les-guerriers-les-plus-puissants-au-monde-4582770058710.html": {
-    "fingerprint": "1ad691110410aa5f9cc4a6e95ffcf00436b6de75468abf58ae6606fceba4093a",
+    "fingerprint": "e2b0362bb32ceee8c2abc3781673cc34a6c0673200067c92342abc4ade55f71c",
     "name": "Display OP17 - Les Guerriers les Plus Puissants au Monde",
-    "status": "AVAILABLE",
-    "type": "NOUVEAU PRODUIT DISPONIBLE"
+    "status": "REMOVED",
+    "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
   },
   "https://www.ultrajeux.com/produit-32958-display-op17-les-guerriers-les-plus-puissants-au-monde-4582770058833.html": {
     "fingerprint": "0702c2b50acbdcf3073b29c739c7af94e36e36f54233314feee5234e0bb6f429",
