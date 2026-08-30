@@ -3538,21 +3538,6 @@
             "priority_target": "",
             "priority": 4
         },
-        "https://oupi.eu/fr/6779-double-pack-set-vol8-dp-08-francais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Double Pack Set Vol.8 [DP-08] (Français) - One Piece Card Game",
-            "price": "24,95 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/6779-double-pack-set-vol8-dp-08-francais-one-piece-card-game.html",
-            "image": "https://oupi.eu/20310-home_default/double-pack-set-vol8-dp-08-francais-one-piece-card-game.jpg",
-            "language": "VF",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "DOUBLE_PACK",
-            "priority_target": "",
-            "priority": 4
-        },
         "https://oupi.eu/fr/case-scelle-de-display/6778-case-scellee-de-12-display-lheritage-du-maitre-op-12-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case Scellée de 12 Display L’Héritage du Maître OP-12 (Français) - One Piece Card Game",
@@ -3567,21 +3552,6 @@
             "category": "CASE",
             "priority_target": "",
             "priority": 2
-        },
-        "https://oupi.eu/fr/one-piece/7674-booster-blister-lheritage-du-maitre-op-12-francais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Booster Blister L’Héritage du Maître OP-12 (Français) - One Piece Card Game",
-            "price": "8,99 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/one-piece/7674-booster-blister-lheritage-du-maitre-op-12-francais-one-piece-card-game.html",
-            "image": "https://oupi.eu/23134-home_default/booster-blister-lheritage-du-maitre-op-12-francais-one-piece-card-game.jpg",
-            "language": "VF",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "BOOSTER_CARTON",
-            "priority_target": "",
-            "priority": 5
         },
         "https://oupi.eu/fr/starter-deck-one-piece/7262-st-29-egghead-deck-de-demarrage-francais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -4017,6 +3987,21 @@
             "category": "OTHER",
             "priority_target": "",
             "priority": 3
+        },
+        "https://oupi.eu/fr/one-piece/7674-booster-blister-lheritage-du-maitre-op-12-francais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Booster Blister L’Héritage du Maître OP-12 (Français) - One Piece Card Game",
+            "price": "8,99 €",
+            "status": "SOLD OUT",
+            "availability": "",
+            "link": "https://oupi.eu/fr/one-piece/7674-booster-blister-lheritage-du-maitre-op-12-francais-one-piece-card-game.html",
+            "image": "https://oupi.eu/23134-home_default/booster-blister-lheritage-du-maitre-op-12-francais-one-piece-card-game.jpg",
+            "language": "VF",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "BOOSTER_CARTON",
+            "priority_target": "",
+            "priority": 5
         },
         "https://oupi.eu/fr/one-piece/7669-double-pack-set-vol11-dp-11-the-time-of-battle-anglais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -4677,6 +4662,21 @@
             "category": "DOUBLE_PACK",
             "priority_target": "",
             "priority": 6
+        },
+        "https://oupi.eu/fr/6779-double-pack-set-vol8-dp-08-francais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Double Pack Set Vol.8 [DP-08] (Français) - One Piece Card Game",
+            "price": "24,95 €",
+            "status": "SOLD OUT",
+            "availability": "",
+            "link": "https://oupi.eu/fr/6779-double-pack-set-vol8-dp-08-francais-one-piece-card-game.html",
+            "image": "https://oupi.eu/20310-home_default/double-pack-set-vol8-dp-08-francais-one-piece-card-game.jpg",
+            "language": "VF",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "DOUBLE_PACK",
+            "priority_target": "",
+            "priority": 4
         },
         "https://oupi.eu/fr/starter-deck-one-piece/6647-st-28-yamato-deck-de-demarrage-francais-one-piece-card-game.html": {
             "site": "Oupi",
