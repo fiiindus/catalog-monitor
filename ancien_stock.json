@@ -1116,9 +1116,7 @@
             "image": "https://www.ultrajeux.com/images/pays/fr.png",
             "category": "DOUBLE_PACK",
             "language": "OTHER",
-            "priority_target": "OP17",
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "UltraJeux"
+            "priority_target": "OP17"
         },
         "https://www.ultrajeux.com/produit-32968-premium-card-collection-best-selection-vol06-0810199502229.html": {
             "site": "UltraJeux",
