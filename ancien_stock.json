@@ -1106,17 +1106,19 @@
             "language": "OTHER",
             "priority_target": "OP17"
         },
-        "https://www.ultrajeux.com/produit-32976-double-pack-op17-les-guerriers-les-plus-puissants-au-monde-en-francais-4582770058741.html": {
+        "https://www.ultrajeux.com/produit-32976-double-pack-op17-les-guerriers-les-plus-puissants-au-monde-4582770058741.html": {
             "site": "UltraJeux",
-            "name": "Double Pack - OP17 - Les Guerriers les Plus Puissants au Monde (En Français)",
+            "name": "Double Pack - OP17 - Les Guerriers les Plus Puissants au Monde",
             "price": "29,90 €",
             "status": "AVAILABLE",
-            "priority": 1004,
-            "link": "https://www.ultrajeux.com/produit-32976-double-pack-op17-les-guerriers-les-plus-puissants-au-monde-en-francais-4582770058741.html",
+            "priority": 1002,
+            "link": "https://www.ultrajeux.com/produit-32976-double-pack-op17-les-guerriers-les-plus-puissants-au-monde-4582770058741.html",
             "image": "https://www.ultrajeux.com/images/pays/fr.png",
             "category": "DOUBLE_PACK",
-            "language": "VF",
-            "priority_target": "OP17"
+            "language": "OTHER",
+            "priority_target": "OP17",
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "UltraJeux"
         },
         "https://www.ultrajeux.com/produit-32968-premium-card-collection-best-selection-vol06-0810199502229.html": {
             "site": "UltraJeux",
@@ -1298,16 +1300,16 @@
             "language": "OTHER",
             "priority_target": ""
         },
-        "https://www.ultrajeux.com/produit-32610-double-pack-op16-l-heure-de-la-bataille-decisive-en-francais-4582770058734.html": {
+        "https://www.ultrajeux.com/produit-32610-double-pack-op16-l-heure-de-la-bataille-decisive-4582770058734.html": {
             "site": "UltraJeux",
-            "name": "Double Pack - OP16 - L'Heure de la Bataille Décisive (En Français)",
+            "name": "Double Pack - OP16 - L'Heure de la Bataille Décisive",
             "price": "19,90 €",
             "status": "SOLD OUT",
-            "priority": 4,
-            "link": "https://www.ultrajeux.com/produit-32610-double-pack-op16-l-heure-de-la-bataille-decisive-en-francais-4582770058734.html",
+            "priority": 2,
+            "link": "https://www.ultrajeux.com/produit-32610-double-pack-op16-l-heure-de-la-bataille-decisive-4582770058734.html",
             "image": "https://www.ultrajeux.com/images/pays/fr.png",
             "category": "DOUBLE_PACK",
-            "language": "VF",
+            "language": "OTHER",
             "priority_target": ""
         },
         "https://www.ultrajeux.com/produit-32609-op16-l-heure-de-la-bataille-decisive-4582770058697.html": {
@@ -2637,7 +2639,7 @@
             "site": "Parkage",
             "name": "One Piece Card Game Box - English Version 3rd Anniversary Set",
             "price": "700,00 €",
-            "status": "STORE_ONLY",
+            "status": "SOLD OUT",
             "link": "https://www.parkage.com/fr/1121400-one-piece-card-game-box-english-version-3rd-anniversary-set",
             "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/pack_speciaux/137646_0.jpg",
             "language": "EN",
@@ -5806,22 +5808,6 @@
             "priority_target": "OP17",
             "priority": 1006
         },
-        "https://www.play-in.com/fr/produit/663248/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr": {
-            "site": "Playin",
-            "name": "Booster OP-17 Les Guerriers Les Plus Puissants Au Monde - One Piece FR",
-            "price": "14,90 €",
-            "status": "AVAILABLE",
-            "availability": "28/08/2026",
-            "link": "https://www.play-in.com/fr/produit/663248/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr",
-            "image": "https://media.play-in.com/media/medias/6a69b0e848975867805898.jpg",
-            "language": "VF",
-            "source": "catalogue",
-            "delivery": "SHIPPING_OR_ANNOUNCED",
-            "notify_when_referenced": true,
-            "category": "OTHER",
-            "priority_target": "OP17",
-            "priority": 1001
-        },
         "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr": {
             "site": "Playin",
             "name": "Display de 24 boosters OP-17 Les Guerriers Les Plus Puissants Au Monde - One Piece FR",
@@ -5853,6 +5839,22 @@
             "category": "DISPLAY",
             "priority_target": "OP17",
             "priority": 1008
+        },
+        "https://www.play-in.com/fr/produit/663248/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr": {
+            "site": "Playin",
+            "name": "Booster OP-17 Les Guerriers Les Plus Puissants Au Monde - One Piece FR",
+            "price": "14,90 €",
+            "status": "AVAILABLE",
+            "availability": "28/08/2026",
+            "link": "https://www.play-in.com/fr/produit/663248/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr",
+            "image": "https://media.play-in.com/media/medias/6a69b0e848975867805898.jpg",
+            "language": "VF",
+            "source": "catalogue",
+            "delivery": "SHIPPING_OR_ANNOUNCED",
+            "notify_when_referenced": true,
+            "category": "OTHER",
+            "priority_target": "OP17",
+            "priority": 1001
         },
         "https://www.play-in.com/fr/produit/663264/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en": {
             "site": "Playin",

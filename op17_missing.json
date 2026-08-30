@@ -173,5 +173,22 @@
     },
     "compteur": 2,
     "alerte_envoyee": true
+  },
+  "UltraJeux|https://www.ultrajeux.com/produit-32976-double-pack-op17-les-guerriers-les-plus-puissants-au-monde-en-francais-4582770058741.html": {
+    "boutique": "UltraJeux",
+    "produit": {
+      "site": "UltraJeux",
+      "name": "Double Pack - OP17 - Les Guerriers les Plus Puissants au Monde (En Français)",
+      "price": "29,90 €",
+      "status": "AVAILABLE",
+      "priority": 1004,
+      "link": "https://www.ultrajeux.com/produit-32976-double-pack-op17-les-guerriers-les-plus-puissants-au-monde-en-francais-4582770058741.html",
+      "image": "https://www.ultrajeux.com/images/pays/fr.png",
+      "category": "DOUBLE_PACK",
+      "language": "VF",
+      "priority_target": "OP17"
+    },
+    "compteur": 1,
+    "alerte_envoyee": false
   }
 }
