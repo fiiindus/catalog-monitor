@@ -206,8 +206,8 @@
       "priority_target": "OP17",
       "priority": 1006
     },
-    "compteur": 1,
-    "alerte_envoyee": false
+    "compteur": 2,
+    "alerte_envoyee": true
   },
   "Parkage|https://www.parkage.com/fr/1123139-one-piece-card-game-booster-pack-op-17-the-world-s-strongest-warriors": {
     "boutique": "Parkage",
@@ -224,7 +224,7 @@
       "priority_target": "OP17",
       "priority": 1001
     },
-    "compteur": 1,
-    "alerte_envoyee": false
+    "compteur": 2,
+    "alerte_envoyee": true
   }
 }
