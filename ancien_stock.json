@@ -3510,9 +3510,7 @@
             "notify_when_referenced": false,
             "category": "DOUBLE_PACK",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Oupi"
+            "priority": 4
         },
         "https://oupi.eu/fr/case-scelle-de-display/6778-case-scellee-de-12-display-lheritage-du-maitre-op-12-francais-one-piece-card-game.html": {
             "site": "Oupi",
