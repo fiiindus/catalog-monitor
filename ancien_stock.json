@@ -2607,6 +2607,21 @@
             "priority_target": "OP17",
             "priority": 1001
         },
+        "https://www.parkage.com/fr/1123139-one-piece-card-game-booster-pack-op-17-the-world-s-strongest-warriors": {
+            "site": "Parkage",
+            "name": "One Piece Card Game Booster Pack - OP-17 : The world's strongest warriors",
+            "price": "12,00 €",
+            "status": "AVAILABLE",
+            "link": "https://www.parkage.com/fr/1123139-one-piece-card-game-booster-pack-op-17-the-world-s-strongest-warriors",
+            "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/op-17/booster_en.jpg",
+            "language": "VF",
+            "product_types": [],
+            "category": "OTHER",
+            "priority_target": "OP17",
+            "priority": 1001,
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "Parkage"
+        },
         "https://www.parkage.com/fr/1121400-one-piece-card-game-box-english-version-3rd-anniversary-set": {
             "site": "Parkage",
             "name": "One Piece Card Game Box - English Version 3rd Anniversary Set",
@@ -5796,22 +5811,6 @@
             "priority_target": "OP17",
             "priority": 999
         },
-        "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr": {
-            "site": "Playin",
-            "name": "Display de 24 boosters One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - FR",
-            "price": "349,90 €",
-            "status": "AVAILABLE",
-            "availability": "28/08/2026",
-            "link": "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr",
-            "image": "https://media.play-in.com/media/medias/6a69b243646a5032661065.jpg",
-            "language": "OTHER",
-            "source": "catalogue",
-            "delivery": "SHIPPING_OR_ANNOUNCED",
-            "notify_when_referenced": true,
-            "category": "DISPLAY",
-            "priority_target": "OP17",
-            "priority": 1004
-        },
         "https://www.play-in.com/fr/produit/663265/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en": {
             "site": "Playin",
             "name": "Display de 24 boosters One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - EN",
@@ -5820,6 +5819,22 @@
             "availability": "28/08/2026",
             "link": "https://www.play-in.com/fr/produit/663265/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en",
             "image": "https://media.play-in.com/media/medias/6a69d5e69fe69479001294.jpg",
+            "language": "OTHER",
+            "source": "catalogue",
+            "delivery": "SHIPPING_OR_ANNOUNCED",
+            "notify_when_referenced": true,
+            "category": "DISPLAY",
+            "priority_target": "OP17",
+            "priority": 1004
+        },
+        "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr": {
+            "site": "Playin",
+            "name": "Display de 24 boosters One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - FR",
+            "price": "349,90 €",
+            "status": "AVAILABLE",
+            "availability": "28/08/2026",
+            "link": "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr",
+            "image": "https://media.play-in.com/media/medias/6a69b243646a5032661065.jpg",
             "language": "OTHER",
             "source": "catalogue",
             "delivery": "SHIPPING_OR_ANNOUNCED",
@@ -6003,38 +6018,6 @@
             "category": "STARTER",
             "priority_target": "",
             "priority": 1
-        },
-        "https://www.play-in.com/fr/produit/638427/display-de-24-boosters-one-piece-tcg-aventure-sur-l-ile-de-dieu-op-15-en": {
-            "site": "Playin",
-            "name": "Display de 24 boosters One Piece Tcg : Aventure sur l'Île de Dieu [OP-15] - EN",
-            "price": "169,90 €",
-            "status": "SOLD OUT",
-            "availability": "",
-            "link": "https://www.play-in.com/fr/produit/638427/display-de-24-boosters-one-piece-tcg-aventure-sur-l-ile-de-dieu-op-15-en",
-            "image": "https://media.play-in.com/img/product/displa-op-15-en.jpg",
-            "language": "OTHER",
-            "source": "catalogue",
-            "delivery": "SHIPPING_OR_ANNOUNCED",
-            "notify_when_referenced": false,
-            "category": "DISPLAY",
-            "priority_target": "",
-            "priority": 4
-        },
-        "https://www.play-in.com/fr/produit/646362/booster-blister-one-piece-tcg-des-poings-vifs-comme-l-eclair-op-11-fr": {
-            "site": "Playin",
-            "name": "Booster blister One Piece Tcg : Des Poings Vifs comme l'Éclair [OP-11] - FR",
-            "price": "7,50 €",
-            "status": "SOLD OUT",
-            "availability": "",
-            "link": "https://www.play-in.com/fr/produit/646362/booster-blister-one-piece-tcg-des-poings-vifs-comme-l-eclair-op-11-fr",
-            "image": "https://media.play-in.com/img/product/booster-blister-op11-fr.jpg",
-            "language": "OTHER",
-            "source": "catalogue",
-            "delivery": "SHIPPING_OR_ANNOUNCED",
-            "notify_when_referenced": false,
-            "category": "BOOSTER_CARTON",
-            "priority_target": "",
-            "priority": 3
         }
     }
 }
