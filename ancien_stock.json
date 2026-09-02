@@ -2618,9 +2618,7 @@
             "product_types": [],
             "category": "OTHER",
             "priority_target": "OP17",
-            "priority": 1001,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage"
+            "priority": 1001
         },
         "https://www.parkage.com/fr/1121400-one-piece-card-game-box-english-version-3rd-anniversary-set": {
             "site": "Parkage",
