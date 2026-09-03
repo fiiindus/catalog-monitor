@@ -3585,21 +3585,6 @@
             "priority_target": "",
             "priority": 2
         },
-        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7397-premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Premium Card Collection Best Selection Vol.6 (Anglais) - One Piece Card Game",
-            "price": "59,99 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7397-premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/22210-home_default/premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "PROMO",
-            "priority_target": "",
-            "priority": 7
-        },
         "https://oupi.eu/fr/case-scelle-de-display/7349-case-scellee-de-12-display-xxxxxxxxxxxxxxxx-op-xx-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case Scellée de 12 Display Héroïnes Édition EB-03 (Français) - One Piece Card Game",
@@ -4124,6 +4109,21 @@
             "category": "CASE",
             "priority_target": "",
             "priority": 2
+        },
+        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7397-premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Premium Card Collection Best Selection Vol.6 (Anglais) - One Piece Card Game",
+            "price": "59,99 €",
+            "status": "SOLD OUT",
+            "availability": "",
+            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7397-premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/22210-home_default/premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "PROMO",
+            "priority_target": "",
+            "priority": 7
         },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7395-premium-card-collection-best-selection-vol5-anglais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -5793,22 +5793,6 @@
             "priority_target": "OP17",
             "priority": 1002
         },
-        "https://www.play-in.com/fr/produit/663248/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr": {
-            "site": "Playin",
-            "name": "Booster One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - FR",
-            "price": "14,90 €",
-            "status": "AVAILABLE",
-            "availability": "28/08/2026",
-            "link": "https://www.play-in.com/fr/produit/663248/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr",
-            "image": "https://media.play-in.com/media/medias/6a69b0e848975867805898.jpg",
-            "language": "OTHER",
-            "source": "catalogue",
-            "delivery": "SHIPPING_OR_ANNOUNCED",
-            "notify_when_referenced": true,
-            "category": "OTHER",
-            "priority_target": "OP17",
-            "priority": 999
-        },
         "https://www.play-in.com/fr/produit/663265/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en": {
             "site": "Playin",
             "name": "Display de 24 boosters One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - EN",
@@ -5824,6 +5808,22 @@
             "category": "DISPLAY",
             "priority_target": "OP17",
             "priority": 1004
+        },
+        "https://www.play-in.com/fr/produit/663248/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr": {
+            "site": "Playin",
+            "name": "Booster One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - FR",
+            "price": "14,90 €",
+            "status": "AVAILABLE",
+            "availability": "28/08/2026",
+            "link": "https://www.play-in.com/fr/produit/663248/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr",
+            "image": "https://media.play-in.com/media/medias/6a69b0e848975867805898.jpg",
+            "language": "OTHER",
+            "source": "catalogue",
+            "delivery": "SHIPPING_OR_ANNOUNCED",
+            "notify_when_referenced": true,
+            "category": "OTHER",
+            "priority_target": "OP17",
+            "priority": 999
         },
         "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr": {
             "site": "Playin",
