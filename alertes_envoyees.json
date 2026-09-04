@@ -5,6 +5,12 @@
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
   },
+  "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7397-premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.html": {
+    "fingerprint": "185b127dfd83a27c4dc3e38b169855ca2d38ea6cdd35d45714e6401f96545f59",
+    "name": "Premium Card Collection Best Selection Vol.6 (Anglais) - One Piece Card Game",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
   "https://oupi.eu/fr/starter-deck-one-piece/7810-monkey-d-luffy-deck-de-demarrage-st-31-rouge-francais-one-piece-card-game.html": {
     "fingerprint": "cc7f30f9cadcc8b5e0cde7b5c11092bd27662cec689eda5c1dd3cf92de5e64d0",
     "name": "Monkey D. Luffy Deck de Démarrage ST-31 Rouge (Français) - One Piece Card Game",
@@ -188,6 +194,12 @@
   "https://www.play-in.com/fr/produit/662638/deck-pour-debutant-one-piece-tcg-jaune-eustass-captain-kidd-st-36-fr": {
     "fingerprint": "6be9d7316546aa972a3704b9df16401ee6957c8f97350f13bffd7aad758159c9",
     "name": "Deck pour débutant Jaune Eustass \"Captain\" Kidd ST-36 - One Piece FR",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.play-in.com/fr/produit/662663/illustration-box-one-piece-tcg-vol-8-ib-08-en": {
+    "fingerprint": "cb0b6bf0aa623ceff3afdbabe3b3220fcd7dd76908fa9bfb1f8679a51b877c34",
+    "name": "Illustration Box One Piece Tcg : Vol.8 [IB-08] - EN",
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },

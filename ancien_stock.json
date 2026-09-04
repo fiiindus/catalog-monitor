@@ -3585,6 +3585,23 @@
             "priority_target": "",
             "priority": 2
         },
+        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7397-premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Premium Card Collection Best Selection Vol.6 (Anglais) - One Piece Card Game",
+            "price": "59,99 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7397-premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/22210-home_default/premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "PROMO",
+            "priority_target": "",
+            "priority": 7,
+            "type_alerte": "RETOUR EN STOCK",
+            "boutique": "Oupi"
+        },
         "https://oupi.eu/fr/case-scelle-de-display/7349-case-scellee-de-12-display-xxxxxxxxxxxxxxxx-op-xx-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case Scellée de 12 Display Héroïnes Édition EB-03 (Français) - One Piece Card Game",
@@ -4109,21 +4126,6 @@
             "category": "CASE",
             "priority_target": "",
             "priority": 2
-        },
-        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7397-premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Premium Card Collection Best Selection Vol.6 (Anglais) - One Piece Card Game",
-            "price": "59,99 €",
-            "status": "SOLD OUT",
-            "availability": "",
-            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7397-premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/22210-home_default/premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "PROMO",
-            "priority_target": "",
-            "priority": 7
         },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7395-premium-card-collection-best-selection-vol5-anglais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -5793,22 +5795,6 @@
             "priority_target": "OP17",
             "priority": 1002
         },
-        "https://www.play-in.com/fr/produit/663265/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en": {
-            "site": "Playin",
-            "name": "Display de 24 boosters One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - EN",
-            "price": "349,90 €",
-            "status": "AVAILABLE",
-            "availability": "28/08/2026",
-            "link": "https://www.play-in.com/fr/produit/663265/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en",
-            "image": "https://media.play-in.com/media/medias/6a69d5e69fe69479001294.jpg",
-            "language": "OTHER",
-            "source": "catalogue",
-            "delivery": "SHIPPING_OR_ANNOUNCED",
-            "notify_when_referenced": true,
-            "category": "DISPLAY",
-            "priority_target": "OP17",
-            "priority": 1004
-        },
         "https://www.play-in.com/fr/produit/663248/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr": {
             "site": "Playin",
             "name": "Booster One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - FR",
@@ -5833,6 +5819,22 @@
             "availability": "28/08/2026",
             "link": "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr",
             "image": "https://media.play-in.com/media/medias/6a69b243646a5032661065.jpg",
+            "language": "OTHER",
+            "source": "catalogue",
+            "delivery": "SHIPPING_OR_ANNOUNCED",
+            "notify_when_referenced": true,
+            "category": "DISPLAY",
+            "priority_target": "OP17",
+            "priority": 1004
+        },
+        "https://www.play-in.com/fr/produit/663265/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en": {
+            "site": "Playin",
+            "name": "Display de 24 boosters One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - EN",
+            "price": "349,90 €",
+            "status": "AVAILABLE",
+            "availability": "28/08/2026",
+            "link": "https://www.play-in.com/fr/produit/663265/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en",
+            "image": "https://media.play-in.com/media/medias/6a69d5e69fe69479001294.jpg",
             "language": "OTHER",
             "source": "catalogue",
             "delivery": "SHIPPING_OR_ANNOUNCED",
@@ -5905,22 +5907,6 @@
             "priority_target": "",
             "priority": 1
         },
-        "https://www.play-in.com/fr/produit/662629/deck-pour-debutant-one-piece-tcg-rouge-monkey-d-luffy-st-31-fr": {
-            "site": "Playin",
-            "name": "Deck pour débutant One Piece Tcg : Rouge Monkey D. Luffy [ST-31] - FR",
-            "price": "29,90 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://www.play-in.com/fr/produit/662629/deck-pour-debutant-one-piece-tcg-rouge-monkey-d-luffy-st-31-fr",
-            "image": "https://media.play-in.com/media/medias/6a675dc20f9a1216167001.jpg",
-            "language": "OTHER",
-            "source": "catalogue",
-            "delivery": "SHIPPING_OR_ANNOUNCED",
-            "notify_when_referenced": false,
-            "category": "STARTER",
-            "priority_target": "",
-            "priority": 1
-        },
         "https://www.play-in.com/fr/produit/662633/deck-pour-debutant-one-piece-tcg-rouge-noir-sabo-st-35-fr": {
             "site": "Playin",
             "name": "Deck pour débutant One Piece Tcg : Rouge/Noir Sabo [ST-35] - FR",
@@ -5953,14 +5939,14 @@
             "priority_target": "",
             "priority": 1
         },
-        "https://www.play-in.com/fr/produit/662638/deck-pour-debutant-one-piece-tcg-jaune-eustass-captain-kidd-st-36-fr": {
+        "https://www.play-in.com/fr/produit/662629/deck-pour-debutant-one-piece-tcg-rouge-monkey-d-luffy-st-31-fr": {
             "site": "Playin",
-            "name": "Deck pour débutant One Piece Tcg : Jaune Eustass Captain Kidd [ST-36] - FR",
-            "price": "19,90 €",
+            "name": "Deck pour débutant One Piece Tcg : Rouge Monkey D. Luffy [ST-31] - FR",
+            "price": "29,90 €",
             "status": "AVAILABLE",
             "availability": "",
-            "link": "https://www.play-in.com/fr/produit/662638/deck-pour-debutant-one-piece-tcg-jaune-eustass-captain-kidd-st-36-fr",
-            "image": "https://media.play-in.com/media/medias/6a676bbf2ea18531175428.jpg",
+            "link": "https://www.play-in.com/fr/produit/662629/deck-pour-debutant-one-piece-tcg-rouge-monkey-d-luffy-st-31-fr",
+            "image": "https://media.play-in.com/media/medias/6a675dc20f9a1216167001.jpg",
             "language": "OTHER",
             "source": "catalogue",
             "delivery": "SHIPPING_OR_ANNOUNCED",
@@ -5985,6 +5971,22 @@
             "priority_target": "",
             "priority": 1
         },
+        "https://www.play-in.com/fr/produit/662638/deck-pour-debutant-one-piece-tcg-jaune-eustass-captain-kidd-st-36-fr": {
+            "site": "Playin",
+            "name": "Deck pour débutant One Piece Tcg : Jaune Eustass Captain Kidd [ST-36] - FR",
+            "price": "19,90 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://www.play-in.com/fr/produit/662638/deck-pour-debutant-one-piece-tcg-jaune-eustass-captain-kidd-st-36-fr",
+            "image": "https://media.play-in.com/media/medias/6a676bbf2ea18531175428.jpg",
+            "language": "OTHER",
+            "source": "catalogue",
+            "delivery": "SHIPPING_OR_ANNOUNCED",
+            "notify_when_referenced": false,
+            "category": "STARTER",
+            "priority_target": "",
+            "priority": 1
+        },
         "https://www.play-in.com/fr/produit/617903/coffret-lot-de-decks-apprenez-ensemble-one-piece-tcg-fr": {
             "site": "Playin",
             "name": "Coffret Lot de decks Apprenez Ensemble One Piece Tcg - FR",
@@ -6000,6 +6002,24 @@
             "category": "STARTER",
             "priority_target": "",
             "priority": 1
+        },
+        "https://www.play-in.com/fr/produit/662663/illustration-box-one-piece-tcg-vol-8-ib-08-en": {
+            "site": "Playin",
+            "name": "Illustration Box One Piece Tcg : Vol.8 [IB-08] - EN",
+            "price": "49,90 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://www.play-in.com/fr/produit/662663/illustration-box-one-piece-tcg-vol-8-ib-08-en",
+            "image": "https://media.play-in.com/media/medias/6a67715133a6f133609605.jpg",
+            "language": "OTHER",
+            "source": "catalogue",
+            "delivery": "SHIPPING_OR_ANNOUNCED",
+            "notify_when_referenced": false,
+            "category": "OTHER",
+            "priority_target": "",
+            "priority": -1,
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "Playin"
         },
         "https://www.play-in.com/fr/produit/611687/deck-de-demarrage-one-piece-tcg-bleu-ace-newgate-st-22-fr": {
             "site": "Playin",
