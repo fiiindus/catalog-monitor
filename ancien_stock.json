@@ -5791,9 +5791,7 @@
             "notify_when_referenced": true,
             "category": "DOUBLE_PACK",
             "priority_target": "OP17",
-            "priority": 1002,
-            "type_alerte": "DATE DE DISPONIBILITÉ MISE À JOUR",
-            "boutique": "Playin"
+            "priority": 1002
         },
         "https://www.play-in.com/fr/produit/663265/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en": {
             "site": "Playin",
