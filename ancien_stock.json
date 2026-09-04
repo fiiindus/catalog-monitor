@@ -3598,9 +3598,7 @@
             "notify_when_referenced": false,
             "category": "PROMO",
             "priority_target": "",
-            "priority": 7,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Oupi"
+            "priority": 7
         },
         "https://oupi.eu/fr/case-scelle-de-display/7349-case-scellee-de-12-display-xxxxxxxxxxxxxxxx-op-xx-francais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -6017,9 +6015,7 @@
             "notify_when_referenced": false,
             "category": "OTHER",
             "priority_target": "",
-            "priority": -1,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Playin"
+            "priority": -1
         },
         "https://www.play-in.com/fr/produit/611687/deck-de-demarrage-one-piece-tcg-bleu-ace-newgate-st-22-fr": {
             "site": "Playin",
