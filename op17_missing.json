@@ -208,5 +208,26 @@
     },
     "compteur": 2,
     "alerte_envoyee": true
+  },
+  "Playin|https://www.play-in.com/fr/produit/663266/double-pack-set-one-piece-tcg-12-les-guerriers-les-plus-puissants-au-monde-op-17-en": {
+    "boutique": "Playin",
+    "produit": {
+      "site": "Playin",
+      "name": "Double Pack Set One Piece Tcg : 12 Les Guerriers Les Plus Puissants Au Monde [OP-17] - EN",
+      "price": "24,90 €",
+      "status": "COMING_SOON",
+      "availability": "28/08/2026",
+      "link": "https://www.play-in.com/fr/produit/663266/double-pack-set-one-piece-tcg-12-les-guerriers-les-plus-puissants-au-monde-op-17-en",
+      "image": "https://media.play-in.com/media/medias/6a69d6ce2cc23314895304.jpg",
+      "language": "OTHER",
+      "source": "catalogue",
+      "delivery": "SHIPPING_OR_ANNOUNCED",
+      "notify_when_referenced": true,
+      "category": "DOUBLE_PACK",
+      "priority_target": "OP17",
+      "priority": 1002
+    },
+    "compteur": 1,
+    "alerte_envoyee": false
   }
 }
