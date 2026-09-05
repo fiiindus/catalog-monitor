@@ -1314,7 +1314,7 @@
             "site": "UltraJeux",
             "name": "OP16 - L'Heure de la Bataille Décisive",
             "price": "9,90 €",
-            "status": "AVAILABLE",
+            "status": "SOLD OUT",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-32609-op16-l-heure-de-la-bataille-decisive-4582770058697.html",
             "image": "https://www.ultrajeux.com/images/pays/fr.png",
@@ -5793,6 +5793,22 @@
             "priority_target": "OP17",
             "priority": 1002
         },
+        "https://www.play-in.com/fr/produit/663248/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr": {
+            "site": "Playin",
+            "name": "Booster One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - FR",
+            "price": "14,90 €",
+            "status": "AVAILABLE",
+            "availability": "28/08/2026",
+            "link": "https://www.play-in.com/fr/produit/663248/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr",
+            "image": "https://media.play-in.com/media/medias/6a69b0e848975867805898.jpg",
+            "language": "OTHER",
+            "source": "catalogue",
+            "delivery": "SHIPPING_OR_ANNOUNCED",
+            "notify_when_referenced": true,
+            "category": "OTHER",
+            "priority_target": "OP17",
+            "priority": 999
+        },
         "https://www.play-in.com/fr/produit/663265/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en": {
             "site": "Playin",
             "name": "Display de 24 boosters One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - EN",
@@ -5824,22 +5840,6 @@
             "category": "DISPLAY",
             "priority_target": "OP17",
             "priority": 1004
-        },
-        "https://www.play-in.com/fr/produit/663248/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr": {
-            "site": "Playin",
-            "name": "Booster One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - FR",
-            "price": "14,90 €",
-            "status": "AVAILABLE",
-            "availability": "28/08/2026",
-            "link": "https://www.play-in.com/fr/produit/663248/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr",
-            "image": "https://media.play-in.com/media/medias/6a69b0e848975867805898.jpg",
-            "language": "OTHER",
-            "source": "catalogue",
-            "delivery": "SHIPPING_OR_ANNOUNCED",
-            "notify_when_referenced": true,
-            "category": "OTHER",
-            "priority_target": "OP17",
-            "priority": 999
         },
         "https://www.play-in.com/fr/produit/663264/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en": {
             "site": "Playin",
