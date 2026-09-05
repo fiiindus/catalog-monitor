@@ -3454,9 +3454,7 @@
             "notify_when_referenced": false,
             "category": "PROMO",
             "priority_target": "",
-            "priority": 7,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Oupi"
+            "priority": 7
         },
         "https://oupi.eu/fr/starter-deck-one-piece/7330-lot-de-decks-apprenez-ensemble-avec-carte-promo-francais-one-piece-card-game.html": {
             "site": "Oupi",
