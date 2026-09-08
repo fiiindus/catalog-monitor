@@ -3010,6 +3010,21 @@
             "priority_target": "",
             "priority": 3
         },
+        "https://www.parkage.com/fr/1107099-deck-de-demarrage-one-piece-card-game-st-22-ace-et-newgate": {
+            "site": "Parkage",
+            "name": "Deck de Démarrage One Piece Card Game - ST-22 : Ace et Newgate",
+            "price": "19,00 €",
+            "status": "AVAILABLE",
+            "link": "https://www.parkage.com/fr/1107099-deck-de-demarrage-one-piece-card-game-st-22-ace-et-newgate",
+            "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/deck/opst22fr_box3dbis_20250728.png",
+            "language": "VF",
+            "product_types": [],
+            "category": "STARTER",
+            "priority_target": "",
+            "priority": 3,
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "Parkage"
+        },
         "https://www.parkage.com/fr/1088436-one-piece-card-game-starter-deck-st-22-ace-newgate": {
             "site": "Parkage",
             "name": "One Piece Card Game Starter Deck - ST-22 : Ace & Newgate",
@@ -3049,6 +3064,36 @@
             "priority_target": "",
             "priority": 1
         },
+        "https://www.parkage.com/fr/1069730-deck-pour-debutant-one-piece-card-game-st-20-jaune-charlotte-katakuri": {
+            "site": "Parkage",
+            "name": "Deck pour débutant One Piece Card Game - ST-20 : Jaune Charlotte Katakuri",
+            "price": "19,90 €",
+            "status": "AVAILABLE",
+            "link": "https://www.parkage.com/fr/1069730-deck-pour-debutant-one-piece-card-game-st-20-jaune-charlotte-katakuri",
+            "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/deck/opbd001_opsd20fr_box3dbis_20241213_1.png",
+            "language": "VF",
+            "product_types": [],
+            "category": "STARTER",
+            "priority_target": "",
+            "priority": 3,
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "Parkage"
+        },
+        "https://www.parkage.com/fr/1069729-deck-pour-debutant-one-piece-card-game-st-19-noir-smoker": {
+            "site": "Parkage",
+            "name": "Deck pour débutant One Piece Card Game - ST-19 : Noir Smoker",
+            "price": "19,90 €",
+            "status": "AVAILABLE",
+            "link": "https://www.parkage.com/fr/1069729-deck-pour-debutant-one-piece-card-game-st-19-noir-smoker",
+            "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/deck/opbd001_opsd19fr_box3dbis_20241213.png",
+            "language": "VF",
+            "product_types": [],
+            "category": "STARTER",
+            "priority_target": "",
+            "priority": 3,
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "Parkage"
+        },
         "https://www.parkage.com/fr/1069726-deck-pour-debutant-one-piece-card-game-st-16-vert-uta": {
             "site": "Parkage",
             "name": "Deck pour débutant One Piece Card Game - ST-16 : Vert Uta",
@@ -3061,6 +3106,21 @@
             "category": "STARTER",
             "priority_target": "",
             "priority": 3
+        },
+        "https://www.parkage.com/fr/1069725-deck-pour-debutant-one-piece-card-game-st-15-rouge-edward-newgate": {
+            "site": "Parkage",
+            "name": "Deck pour débutant One Piece Card Game - ST-15 : Rouge Edward.Newgate",
+            "price": "19,00 €",
+            "status": "AVAILABLE",
+            "link": "https://www.parkage.com/fr/1069725-deck-pour-debutant-one-piece-card-game-st-15-rouge-edward-newgate",
+            "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/deck/opbd001_opsd15fr_box3dbis_20241213.png",
+            "language": "VF",
+            "product_types": [],
+            "category": "STARTER",
+            "priority_target": "",
+            "priority": 3,
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "Parkage"
         }
     },
     "Philibert": {

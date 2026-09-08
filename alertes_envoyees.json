@@ -53,11 +53,29 @@
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
+  "https://www.parkage.com/fr/1069725-deck-pour-debutant-one-piece-card-game-st-15-rouge-edward-newgate": {
+    "fingerprint": "03d24d1cf254ce34d8028e04bf0b9252bb7ee52df7764a6b739fffdb3540629d",
+    "name": "Deck pour débutant One Piece Card Game - ST-15 : Rouge Edward.Newgate",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
   "https://www.parkage.com/fr/1069726-deck-pour-debutant-one-piece-card-game-st-16-vert-uta": {
     "fingerprint": "47abb07f65e800451e9b5d90985feeba4b71a06f29871f179f4ee862ef3b7e90",
     "name": "Deck pour débutant One Piece Card Game - ST-16 : Vert Uta",
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
+  },
+  "https://www.parkage.com/fr/1069729-deck-pour-debutant-one-piece-card-game-st-19-noir-smoker": {
+    "fingerprint": "50a2bdaf394eee4bd2e72781c9f4be88d683f1f3ff6e9872df0935daa8dce1c0",
+    "name": "Deck pour débutant One Piece Card Game - ST-19 : Noir Smoker",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1069730-deck-pour-debutant-one-piece-card-game-st-20-jaune-charlotte-katakuri": {
+    "fingerprint": "d5b1bc2a0e099b18ecb0d665f103c90aa4bdf989633bea582eddf0fcec1151a3",
+    "name": "Deck pour débutant One Piece Card Game - ST-20 : Jaune Charlotte Katakuri",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
   "https://www.parkage.com/fr/1078812-one-piece-card-game-booster-pack-op-12-legacy-of-the-master": {
     "fingerprint": "1cafb57aba6baff6ac534385db3ade4d8df059ce2a213c59e52bbcb0c1695065",
@@ -74,6 +92,12 @@
   "https://www.parkage.com/fr/1089779-one-piece-card-game-tin-pack-set-ts-02-vol-2-random-type": {
     "fingerprint": "bf7eaa6bec91d356576c76259f5746ef767cb106e692cef0cb26880ebb7ad085",
     "name": "One Piece Card Game Tin Pack Set - TS-02 : Vol.2 (Random Type)",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1107099-deck-de-demarrage-one-piece-card-game-st-22-ace-et-newgate": {
+    "fingerprint": "53a9757dd29c30158be0173526331261cc763fb3896f96f8d1c2158fce180e15",
+    "name": "Deck de Démarrage One Piece Card Game - ST-22 : Ace et Newgate",
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
