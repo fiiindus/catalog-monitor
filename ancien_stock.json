@@ -3021,9 +3021,7 @@
             "product_types": [],
             "category": "STARTER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage"
+            "priority": 3
         },
         "https://www.parkage.com/fr/1088436-one-piece-card-game-starter-deck-st-22-ace-newgate": {
             "site": "Parkage",
@@ -3075,9 +3073,7 @@
             "product_types": [],
             "category": "STARTER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage"
+            "priority": 3
         },
         "https://www.parkage.com/fr/1069729-deck-pour-debutant-one-piece-card-game-st-19-noir-smoker": {
             "site": "Parkage",
@@ -3090,9 +3086,7 @@
             "product_types": [],
             "category": "STARTER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage"
+            "priority": 3
         },
         "https://www.parkage.com/fr/1069726-deck-pour-debutant-one-piece-card-game-st-16-vert-uta": {
             "site": "Parkage",
@@ -3118,9 +3112,7 @@
             "product_types": [],
             "category": "STARTER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage"
+            "priority": 3
         }
     },
     "Philibert": {
