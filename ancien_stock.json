@@ -3634,20 +3634,20 @@
             "priority_target": "",
             "priority": 4
         },
-        "https://oupi.eu/fr/one-piece/7914-xxxxxxxxxxx-anglais-one-piece-card-game.html": {
+        "https://oupi.eu/fr/one-piece/7913-double-pack-set-vol12-dp-12-francais-one-piece-card-game.html": {
             "site": "Oupi",
-            "name": "Double Pack Set Vol.12 [DP-12] (Anglais) - One Piece Card Game",
+            "name": "Double Pack Set Vol.12 [DP-12] (Français) - One Piece Card Game",
             "price": "19,99 €",
             "status": "SOLD OUT",
             "availability": "",
-            "link": "https://oupi.eu/fr/one-piece/7914-xxxxxxxxxxx-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/23772-home_default/xxxxxxxxxxx-anglais-one-piece-card-game.jpg",
-            "language": "EN",
+            "link": "https://oupi.eu/fr/one-piece/7913-double-pack-set-vol12-dp-12-francais-one-piece-card-game.html",
+            "image": "https://oupi.eu/23768-home_default/double-pack-set-vol12-dp-12-francais-one-piece-card-game.jpg",
+            "language": "VF",
             "source": "catalogue",
             "notify_when_referenced": false,
             "category": "DOUBLE_PACK",
             "priority_target": "",
-            "priority": 6
+            "priority": 4
         },
         "https://oupi.eu/fr/case-scelle-de-display/7909-case-scellee-de-12-display-eb-06-francais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -5719,20 +5719,20 @@
             "priority_target": "",
             "priority": 1
         },
-        "https://oupi.eu/fr/one-piece/7913-double-pack-set-vol12-dp-12-francais-one-piece-card-game.html": {
+        "https://oupi.eu/fr/one-piece/7914-xxxxxxxxxxx-anglais-one-piece-card-game.html": {
             "site": "Oupi",
-            "name": "Double Pack Set Vol.12 [DP-12] (Français) - One Piece Card Game",
+            "name": "Double Pack Set Vol.12 [DP-12] (Anglais) - One Piece Card Game",
             "price": "19,99 €",
             "status": "SOLD OUT",
             "availability": "",
-            "link": "https://oupi.eu/fr/one-piece/7913-double-pack-set-vol12-dp-12-francais-one-piece-card-game.html",
-            "image": "https://oupi.eu/23768-home_default/double-pack-set-vol12-dp-12-francais-one-piece-card-game.jpg",
-            "language": "VF",
+            "link": "https://oupi.eu/fr/one-piece/7914-xxxxxxxxxxx-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/23772-home_default/xxxxxxxxxxx-anglais-one-piece-card-game.jpg",
+            "language": "EN",
             "source": "catalogue",
             "notify_when_referenced": false,
             "category": "DOUBLE_PACK",
             "priority_target": "",
-            "priority": 4
+            "priority": 6
         },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/5649-premium-card-collection-live-action-edition-one-piece-card-game.html": {
             "site": "Oupi",
