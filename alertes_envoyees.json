@@ -119,6 +119,12 @@
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
+  "https://www.parkage.com/fr/1110025-coffret-one-piece-card-game-ld-01-lot-de-decks-apprenez-ensemble": {
+    "fingerprint": "1103c5f76e073e9524e7e1071b2083594db880afcf71b6b8050cee53dd434de6",
+    "name": "Coffret One Piece Card Game - LD-01 : Lot de Decks Apprenez Ensemble",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
   "https://www.parkage.com/fr/1111409-one-piece-card-game-starter-deck-ex-st-30-luffy-ace": {
     "fingerprint": "6653925defa4fe4a43f3b60c35118c3b49e207f1998d52cf62e4c5cebe9d72fe",
     "name": "One Piece Card Game Starter Deck EX - ST-30 : Luffy & Ace",
@@ -136,6 +142,12 @@
     "name": "One Piece Card Game Box - IB-08 : Illustration Box Vol.8",
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1123139-one-piece-card-game-booster-pack-op-17-the-world-s-strongest-warriors": {
+    "fingerprint": "9e09a65347da046a250324052c03f4c135b6ca9c9090602a707629a842b55fb0",
+    "name": "One Piece Card Game Booster Pack - OP-17 : The world's strongest warriors",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
   },
   "https://www.parkage.com/fr/1123140-one-piece-card-game-display-x24-booster-packs-op-17-the-world-s-strongest-warriors-limited-to-1-display-per-household": {
     "fingerprint": "045f0437496d9309a598917903232e23823d26492c1323095bf5d888f993a2e4",
