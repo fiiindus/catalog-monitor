@@ -2813,9 +2813,7 @@
             "product_types": [],
             "category": "STARTER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage"
+            "priority": 3
         },
         "https://www.parkage.com/fr/1116903-one-piece-card-game-starter-deck-st-31-red-monkey-d-luffy": {
             "site": "Parkage",
