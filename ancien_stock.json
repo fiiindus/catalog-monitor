@@ -5861,9 +5861,7 @@
             "notify_when_referenced": false,
             "category": "STARTER",
             "priority_target": "",
-            "priority": 1,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Playin"
+            "priority": 1
         },
         "https://www.play-in.com/fr/produit/662631/deck-pour-debutant-one-piece-tcg-bleu-kuzan-st-33-fr": {
             "site": "Playin",
