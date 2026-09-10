@@ -1122,13 +1122,15 @@
             "site": "UltraJeux",
             "name": "Premium Card Collection Best Selection Vol.06",
             "price": "49,90 €",
-            "status": "SOLD OUT",
+            "status": "AVAILABLE",
             "priority": 3,
             "link": "https://www.ultrajeux.com/produit-32968-premium-card-collection-best-selection-vol06-0810199502229.html",
             "image": "https://www.ultrajeux.com/images/pays/gb.png",
             "category": "PROMO",
             "language": "OTHER",
-            "priority_target": ""
+            "priority_target": "",
+            "type_alerte": "RETOUR EN STOCK",
+            "boutique": "UltraJeux"
         },
         "https://www.ultrajeux.com/produit-32907-st36-eustass-captain-kid-4582770058758.html": {
             "site": "UltraJeux",
@@ -1536,9 +1538,7 @@
             "image": "https://www.ultrajeux.com/images/pays/gb.png",
             "category": "OTHER",
             "language": "EN",
-            "priority_target": "",
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "UltraJeux"
+            "priority_target": ""
         },
         "https://www.ultrajeux.com/produit-31559-df03-devil-fruits-collection-vol3-en-francais-4582769912160.html": {
             "site": "UltraJeux",
@@ -2626,7 +2626,7 @@
             "site": "Parkage",
             "name": "One Piece Card Game Box - English Version 3rd Anniversary Set",
             "price": "749,00 €",
-            "status": "STORE_ONLY",
+            "status": "SOLD OUT",
             "link": "https://www.parkage.com/fr/1121400-one-piece-card-game-box-english-version-3rd-anniversary-set",
             "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/pack_speciaux/137646_0.jpg",
             "language": "EN",
