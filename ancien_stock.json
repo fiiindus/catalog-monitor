@@ -5831,22 +5831,6 @@
             "priority_target": "",
             "priority": 1
         },
-        "https://www.play-in.com/fr/produit/662631/deck-pour-debutant-one-piece-tcg-bleu-kuzan-st-33-fr": {
-            "site": "Playin",
-            "name": "Deck pour débutant One Piece Tcg : Bleu Kuzan [ST-33] - FR",
-            "price": "24,90 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://www.play-in.com/fr/produit/662631/deck-pour-debutant-one-piece-tcg-bleu-kuzan-st-33-fr",
-            "image": "https://media.play-in.com/media/medias/6a6763c78e118880702275.jpg",
-            "language": "OTHER",
-            "source": "catalogue",
-            "delivery": "SHIPPING_OR_ANNOUNCED",
-            "notify_when_referenced": false,
-            "category": "STARTER",
-            "priority_target": "",
-            "priority": 1
-        },
         "https://www.play-in.com/fr/produit/617903/coffret-lot-de-decks-apprenez-ensemble-one-piece-tcg-fr": {
             "site": "Playin",
             "name": "Coffret Lot de decks Apprenez Ensemble One Piece Tcg - FR",
@@ -5855,6 +5839,40 @@
             "availability": "",
             "link": "https://www.play-in.com/fr/produit/617903/coffret-lot-de-decks-apprenez-ensemble-one-piece-tcg-fr",
             "image": "https://media.play-in.com/img/product/lot-de-decks-apprenez-ensemble-one-piece-fr.jpg",
+            "language": "OTHER",
+            "source": "catalogue",
+            "delivery": "SHIPPING_OR_ANNOUNCED",
+            "notify_when_referenced": false,
+            "category": "STARTER",
+            "priority_target": "",
+            "priority": 1
+        },
+        "https://www.play-in.com/fr/produit/662630/deck-pour-debutant-one-piece-tcg-vert-roronoa-zoro-st-32-fr": {
+            "site": "Playin",
+            "name": "Deck pour débutant One Piece Tcg : Vert Roronoa Zoro [ST-32] - FR",
+            "price": "29,90 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://www.play-in.com/fr/produit/662630/deck-pour-debutant-one-piece-tcg-vert-roronoa-zoro-st-32-fr",
+            "image": "https://media.play-in.com/media/medias/6a676245ac03b633176628.jpg",
+            "language": "OTHER",
+            "source": "catalogue",
+            "delivery": "SHIPPING_OR_ANNOUNCED",
+            "notify_when_referenced": false,
+            "category": "STARTER",
+            "priority_target": "",
+            "priority": 1,
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "Playin"
+        },
+        "https://www.play-in.com/fr/produit/662631/deck-pour-debutant-one-piece-tcg-bleu-kuzan-st-33-fr": {
+            "site": "Playin",
+            "name": "Deck pour débutant One Piece Tcg : Bleu Kuzan [ST-33] - FR",
+            "price": "24,90 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://www.play-in.com/fr/produit/662631/deck-pour-debutant-one-piece-tcg-bleu-kuzan-st-33-fr",
+            "image": "https://media.play-in.com/media/medias/6a6763c78e118880702275.jpg",
             "language": "OTHER",
             "source": "catalogue",
             "delivery": "SHIPPING_OR_ANNOUNCED",
@@ -5926,22 +5944,6 @@
             "category": "OTHER",
             "priority_target": "",
             "priority": -1
-        },
-        "https://www.play-in.com/fr/produit/611687/deck-de-demarrage-one-piece-tcg-bleu-ace-newgate-st-22-fr": {
-            "site": "Playin",
-            "name": "Deck de démarrage One Piece Tcg : Bleu Ace & Newgate [ST-22] - FR",
-            "price": "19,90 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://www.play-in.com/fr/produit/611687/deck-de-demarrage-one-piece-tcg-bleu-ace-newgate-st-22-fr",
-            "image": "https://media.play-in.com/img/product/deck-one-piece-card-game-st-22.jpg",
-            "language": "OTHER",
-            "source": "catalogue",
-            "delivery": "SHIPPING_OR_ANNOUNCED",
-            "notify_when_referenced": false,
-            "category": "STARTER",
-            "priority_target": "",
-            "priority": 1
         }
     }
 }
