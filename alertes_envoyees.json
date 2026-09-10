@@ -305,6 +305,12 @@
     "status": "REMOVED",
     "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
   },
+  "https://www.ultrajeux.com/produit-31704-st22-ace-et-newgate-bleu-anglais-0810158834958.html": {
+    "fingerprint": "e4d1d80b1b95b57923ade155ecb2ce3c5e436870330e2d90792e3c1d49b18add",
+    "name": "ST22 : Ace et Newgate Bleu (Anglais)",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
   "https://www.ultrajeux.com/produit-32842-st33-kuzan-0810199500980.html": {
     "fingerprint": "8ef649d05223943b9eaeb48758d408140f436390890c49ba09f30db7c1944301",
     "name": "ST33 : Kuzan",
