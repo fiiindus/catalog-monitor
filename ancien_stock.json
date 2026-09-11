@@ -3560,21 +3560,6 @@
             "priority_target": "",
             "priority": 7
         },
-        "https://oupi.eu/fr/starter-deck-one-piece/7330-lot-de-decks-apprenez-ensemble-avec-carte-promo-francais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Lot de decks Apprenez Ensemble avec carte Promo LD-01 (Français) - One Piece Card Game",
-            "price": "28,95 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/starter-deck-one-piece/7330-lot-de-decks-apprenez-ensemble-avec-carte-promo-francais-one-piece-card-game.html",
-            "image": "https://oupi.eu/22050-home_default/lot-de-decks-apprenez-ensemble-avec-carte-promo-francais-one-piece-card-game.jpg",
-            "language": "VF",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "PROMO",
-            "priority_target": "",
-            "priority": 5
-        },
         "https://oupi.eu/fr/case-scelle-de-display/7000-case-scellee-de-12-display-op-14-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case Scellée de 12 Display The Azure Sea’s Seven OP-14 & EB-04 (Anglais) - One Piece Card Game",
@@ -3664,21 +3649,6 @@
             "category": "CASE",
             "priority_target": "",
             "priority": 2
-        },
-        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7397-premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Premium Card Collection Best Selection Vol.6 (Anglais) - One Piece Card Game",
-            "price": "59,99 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7397-premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/22210-home_default/premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "PROMO",
-            "priority_target": "",
-            "priority": 7
         },
         "https://oupi.eu/fr/case-scelle-de-display/7349-case-scellee-de-12-display-xxxxxxxxxxxxxxxx-op-xx-francais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -4190,6 +4160,21 @@
             "priority_target": "",
             "priority": 2
         },
+        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7397-premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Premium Card Collection Best Selection Vol.6 (Anglais) - One Piece Card Game",
+            "price": "59,99 €",
+            "status": "SOLD OUT",
+            "availability": "",
+            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7397-premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/22210-home_default/premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "PROMO",
+            "priority_target": "",
+            "priority": 7
+        },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7395-premium-card-collection-best-selection-vol5-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Premium Card Collection Best Selection Vol.5 (Anglais) - One Piece Card Game",
@@ -4279,6 +4264,21 @@
             "category": "DISPLAY",
             "priority_target": "",
             "priority": 6
+        },
+        "https://oupi.eu/fr/starter-deck-one-piece/7330-lot-de-decks-apprenez-ensemble-avec-carte-promo-francais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Lot de decks Apprenez Ensemble avec carte Promo LD-01 (Français) - One Piece Card Game",
+            "price": "28,95 €",
+            "status": "SOLD OUT",
+            "availability": "",
+            "link": "https://oupi.eu/fr/starter-deck-one-piece/7330-lot-de-decks-apprenez-ensemble-avec-carte-promo-francais-one-piece-card-game.html",
+            "image": "https://oupi.eu/22050-home_default/lot-de-decks-apprenez-ensemble-avec-carte-promo-francais-one-piece-card-game.jpg",
+            "language": "VF",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "PROMO",
+            "priority_target": "",
+            "priority": 5
         },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7316-tin-pack-set-vol2-ts-02-sabo-francais-one-piece-card-game.html": {
             "site": "Oupi",
