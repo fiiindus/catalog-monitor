@@ -2607,6 +2607,21 @@
             "priority_target": "OP17",
             "priority": 1001
         },
+        "https://www.parkage.com/fr/1123140-one-piece-card-game-display-x24-booster-packs-op-17-the-world-s-strongest-warriors-limited-to-1-display-per-household": {
+            "site": "Parkage",
+            "name": "One Piece Card Game Display (x24 Booster Packs) - OP-17 : The world's strongest warriors ***Limited to 1 display per household***",
+            "price": "279,90 €",
+            "status": "AVAILABLE",
+            "link": "https://www.parkage.com/fr/1123140-one-piece-card-game-display-x24-booster-packs-op-17-the-world-s-strongest-warriors-limited-to-1-display-per-household",
+            "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/op-17/box_en_x1.jpg",
+            "language": "VF",
+            "product_types": [],
+            "category": "DISPLAY",
+            "priority_target": "OP17",
+            "priority": 1006,
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "Parkage"
+        },
         "https://www.parkage.com/fr/1123139-one-piece-card-game-booster-pack-op-17-the-world-s-strongest-warriors": {
             "site": "Parkage",
             "name": "One Piece Card Game Booster Pack - OP-17 : The world's strongest warriors",
