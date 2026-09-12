@@ -2618,9 +2618,7 @@
             "product_types": [],
             "category": "DISPLAY",
             "priority_target": "OP17",
-            "priority": 1006,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage"
+            "priority": 1006
         },
         "https://www.parkage.com/fr/1123139-one-piece-card-game-booster-pack-op-17-the-world-s-strongest-warriors": {
             "site": "Parkage",
