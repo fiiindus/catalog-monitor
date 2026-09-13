@@ -6045,9 +6045,7 @@
             "notify_when_referenced": false,
             "category": "STARTER",
             "priority_target": "",
-            "priority": 1,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Playin"
+            "priority": 1
         }
     }
 }
