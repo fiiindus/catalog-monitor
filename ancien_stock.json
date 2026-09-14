@@ -1056,9 +1056,7 @@
             "image": "https://www.ultrajeux.com/images/pays/gb.png",
             "category": "OTHER",
             "language": "OTHER",
-            "priority_target": "OP17",
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "UltraJeux"
+            "priority_target": "OP17"
         },
         "https://www.ultrajeux.com/produit-32976-double-pack-op17-les-guerriers-les-plus-puissants-au-monde-4582770058741.html": {
             "site": "UltraJeux",
@@ -1106,9 +1104,7 @@
             "image": "https://www.ultrajeux.com/images/pays/gb.png",
             "category": "OTHER",
             "language": "OTHER",
-            "priority_target": "OP17",
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "UltraJeux"
+            "priority_target": "OP17"
         },
         "https://www.ultrajeux.com/produit-32956-display-op17-the-world-s-strongest-warriors-0810199501970.html": {
             "site": "UltraJeux",
