@@ -1049,19 +1049,21 @@
         "https://www.ultrajeux.com/produit-32977-op17-the-world-s-strongest-warriors-0810199502014.html": {
             "site": "UltraJeux",
             "name": "OP17 - The World's Strongest Warriors",
-            "price": "Non trouvé",
-            "status": "SOLD OUT",
+            "price": "39,90 €",
+            "status": "AVAILABLE",
             "priority": 999,
             "link": "https://www.ultrajeux.com/produit-32977-op17-the-world-s-strongest-warriors-0810199502014.html",
             "image": "https://www.ultrajeux.com/images/pays/gb.png",
             "category": "OTHER",
             "language": "OTHER",
-            "priority_target": "OP17"
+            "priority_target": "OP17",
+            "type_alerte": "RETOUR EN STOCK",
+            "boutique": "UltraJeux"
         },
         "https://www.ultrajeux.com/produit-32976-double-pack-op17-les-guerriers-les-plus-puissants-au-monde-4582770058741.html": {
             "site": "UltraJeux",
             "name": "Double Pack - OP17 - Les Guerriers les Plus Puissants au Monde",
-            "price": "29,90 €",
+            "price": "34,90 €",
             "status": "AVAILABLE",
             "priority": 1002,
             "link": "https://www.ultrajeux.com/produit-32976-double-pack-op17-les-guerriers-les-plus-puissants-au-monde-4582770058741.html",
@@ -1073,7 +1075,7 @@
         "https://www.ultrajeux.com/produit-32959-op17-les-guerriers-les-plus-puissants-au-monde-4582770058710.html": {
             "site": "UltraJeux",
             "name": "OP17 - Les Guerriers les Plus Puissants au Monde",
-            "price": "13,90 €",
+            "price": "14,90 €",
             "status": "AVAILABLE",
             "priority": 999,
             "link": "https://www.ultrajeux.com/produit-32959-op17-les-guerriers-les-plus-puissants-au-monde-4582770058710.html",
@@ -1097,14 +1099,16 @@
         "https://www.ultrajeux.com/produit-32957-op17-the-world-s-strongest-warriors-0810199501963.html": {
             "site": "UltraJeux",
             "name": "OP17 - The World's Strongest Warriors",
-            "price": "Non trouvé",
-            "status": "SOLD OUT",
+            "price": "16,90 €",
+            "status": "AVAILABLE",
             "priority": 999,
             "link": "https://www.ultrajeux.com/produit-32957-op17-the-world-s-strongest-warriors-0810199501963.html",
             "image": "https://www.ultrajeux.com/images/pays/gb.png",
             "category": "OTHER",
             "language": "OTHER",
-            "priority_target": "OP17"
+            "priority_target": "OP17",
+            "type_alerte": "RETOUR EN STOCK",
+            "boutique": "UltraJeux"
         },
         "https://www.ultrajeux.com/produit-32956-display-op17-the-world-s-strongest-warriors-0810199501970.html": {
             "site": "UltraJeux",

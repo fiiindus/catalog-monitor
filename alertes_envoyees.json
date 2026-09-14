@@ -312,10 +312,10 @@
     "type": "RETOUR EN STOCK"
   },
   "https://www.ultrajeux.com/produit-32957-op17-the-world-s-strongest-warriors-0810199501963.html": {
-    "fingerprint": "eabed42c0e09a4701c51bedc15bfe8823bdbc527e93daa2756bc9d7134602b53",
+    "fingerprint": "4a25afc068cfdd2b512f38080f7b97e08311f3081cfcef35ddc634ec658c375d",
     "name": "OP17 - The World's Strongest Warriors",
-    "status": "SOLD OUT",
-    "type": "NOUVEAU PRODUIT RÉFÉRENCÉ"
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
   },
   "https://www.ultrajeux.com/produit-32958-display-op17-les-guerriers-les-plus-puissants-au-monde-4582770058710.html": {
     "fingerprint": "e2b0362bb32ceee8c2abc3781673cc34a6c0673200067c92342abc4ade55f71c",
@@ -348,9 +348,9 @@
     "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
   },
   "https://www.ultrajeux.com/produit-32977-op17-the-world-s-strongest-warriors-0810199502014.html": {
-    "fingerprint": "c700169b28dc1e2702d309ce62b672ec139d797f6a64fb17f1c0b639017af22f",
+    "fingerprint": "b7b3713ef8a8b4db61cd4412456e2c4c4babe133a39e63a45c7a3f485ae1a373",
     "name": "OP17 - The World's Strongest Warriors",
-    "status": "SOLD OUT",
-    "type": "NOUVEAU PRODUIT RÉFÉRENCÉ"
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
   }
 }
