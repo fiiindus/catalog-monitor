@@ -2676,7 +2676,7 @@
             "site": "Parkage",
             "name": "One Piece Card Game Box - IB-07 : Illustration Box Vol.7",
             "price": "44,90 €",
-            "status": "AVAILABLE",
+            "status": "SOLD OUT",
             "link": "https://www.parkage.com/fr/1120115-one-piece-card-game-box-ib-07-illustration-box-vol-7",
             "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/pack_speciaux/illustration_box_vol_7_01.jpg",
             "language": "VF",
@@ -3291,9 +3291,7 @@
             "description": "Double pack contenant deux boosters et une carte DON!!",
             "category": "DOUBLE_PACK",
             "priority_target": "OP17",
-            "priority": 1004,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Philibert"
+            "priority": 1004
         },
         "https://www.philibertnet.com/fr/one-piece-le-jeu-de-cartes/176398-one-piece-le-jeu-de-cartes-deck-pour-debutant-30-luffy-ace-4582769982606.html": {
             "site": "Philibert",
