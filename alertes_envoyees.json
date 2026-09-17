@@ -5,12 +5,6 @@
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
   },
-  "https://oupi.eu/fr/case-scelle-de-display/7370-case-scellee-de-12-display-op-17-anglais-one-piece-card-game.html": {
-    "fingerprint": "241f180a09fbf58b969bdb9667dc99b0bd9bfc3eb8bc86f526a51e18fb4f87dd",
-    "name": "Case Scellée de 12 Display The World's Strongest Warriors OP-17 (Anglais) - One Piece Card Game",
-    "status": "AVAILABLE",
-    "type": "RETOUR EN STOCK"
-  },
   "https://oupi.eu/fr/collection-pack-speciaux-one-piece/6473-premium-card-collection-best-selection-vol3-anglais-one-piece-card-game.html": {
     "fingerprint": "1b3d4ef775166b8fdafaeafb2cd62f3659923c4262e06ec17b758b94db9ac231",
     "name": "Premium Card Collection Best Selection Vol.3 (Anglais) - One Piece Card Game",
@@ -176,6 +170,12 @@
   "https://www.parkage.com/fr/1123719-one-piece-card-game-box-premium-card-collection-best-selection-vol-6": {
     "fingerprint": "751b6513181916969ac0a5f8bdd79befba2a9ddf2c261dcb6336109c801dc3f4",
     "name": "One Piece Card Game Box - Premium Card Collection - Best Selection Vol.6",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1130713-one-piece-card-game-deck-sd-01-set-sail-deck-set": {
+    "fingerprint": "717bb12222fe95d6559d9bcef1e6188412609150c6a2df518de542b984d0f9f3",
+    "name": "One Piece Card Game Deck - SD-01 : Set Sail Deck Set",
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
