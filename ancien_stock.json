@@ -2688,25 +2688,10 @@
     },
     "Carte One Piece": {},
     "Oupi": {
-        "https://oupi.eu/fr/starter-deck-one-piece/7807-charlotte-katakuri-deck-de-demarrage-st-34-purple-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Charlotte Katakuri Deck de Démarrage ST-34 Purple (Anglais) - One Piece Card Game",
-            "price": "19,90 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/starter-deck-one-piece/7807-charlotte-katakuri-deck-de-demarrage-st-34-purple-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/23522-home_default/charlotte-katakuri-deck-de-demarrage-st-34-purple-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "STARTER",
-            "priority_target": "",
-            "priority": 5
-        },
         "https://oupi.eu/fr/starter-deck-one-piece/7809-eustass-captain-kid-deck-de-demarrage-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Eustass \"Captain\" Kid ST-36 Deck de Démarrage (Anglais) - One Piece Card Game",
-            "price": "18,90 €",
+            "price": "15,75 €",
             "status": "AVAILABLE",
             "availability": "",
             "link": "https://oupi.eu/fr/starter-deck-one-piece/7809-eustass-captain-kid-deck-de-demarrage-anglais-one-piece-card-game.html",
@@ -2718,10 +2703,25 @@
             "priority_target": "",
             "priority": 5
         },
+        "https://oupi.eu/fr/starter-deck-one-piece/7807-charlotte-katakuri-deck-de-demarrage-st-34-purple-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Charlotte Katakuri Deck de Démarrage ST-34 Purple (Anglais) - One Piece Card Game",
+            "price": "16,58 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://oupi.eu/fr/starter-deck-one-piece/7807-charlotte-katakuri-deck-de-demarrage-st-34-purple-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/23522-home_default/charlotte-katakuri-deck-de-demarrage-st-34-purple-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "STARTER",
+            "priority_target": "",
+            "priority": 5
+        },
         "https://oupi.eu/fr/starter-deck-one-piece/7806-kuzan-deck-de-demarrage-st-33-blue-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Kuzan Deck de Démarrage ST-33 Blue (Anglais) - One Piece Card Game",
-            "price": "19,90 €",
+            "price": "16,58 €",
             "status": "AVAILABLE",
             "availability": "",
             "link": "https://oupi.eu/fr/starter-deck-one-piece/7806-kuzan-deck-de-demarrage-st-33-blue-anglais-one-piece-card-game.html",
@@ -2736,7 +2736,7 @@
         "https://oupi.eu/fr/starter-deck-one-piece/7804-monkeydluffy-deck-de-demarrage-st-31-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Monkey.D.Luffy Deck de Démarrage ST-31 (Anglais) - One Piece Card Game",
-            "price": "21,90 €",
+            "price": "18,25 €",
             "status": "AVAILABLE",
             "availability": "",
             "link": "https://oupi.eu/fr/starter-deck-one-piece/7804-monkeydluffy-deck-de-demarrage-st-31-anglais-one-piece-card-game.html",
@@ -2751,7 +2751,7 @@
         "https://oupi.eu/fr/starter-deck-one-piece/6975-ace-newgate-st-22-deck-de-demarrage-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Ace & Newgate ST-22 Deck de Démarrage (Anglais) - One Piece Card Game",
-            "price": "19,90 €",
+            "price": "16,58 €",
             "status": "AVAILABLE",
             "availability": "",
             "link": "https://oupi.eu/fr/starter-deck-one-piece/6975-ace-newgate-st-22-deck-de-demarrage-anglais-one-piece-card-game.html",
@@ -2766,7 +2766,7 @@
         "https://oupi.eu/fr/starter-deck-one-piece/6630-st-27-marshalldteach-starter-deck-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "ST-27 Marshall.D.Teach Starter Deck (Anglais) - One Piece Card Game",
-            "price": "22,90 €",
+            "price": "19,08 €",
             "status": "AVAILABLE",
             "availability": "",
             "link": "https://oupi.eu/fr/starter-deck-one-piece/6630-st-27-marshalldteach-starter-deck-anglais-one-piece-card-game.html",
@@ -2781,7 +2781,7 @@
         "https://oupi.eu/fr/starter-deck-one-piece/7815-eustass-captain-kidd-deck-de-demarrage-st-36-jaune-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Eustass \"Captain\" Kidd Deck de Démarrage ST-36 Jaune (Français) - One Piece Card Game",
-            "price": "17,90 €",
+            "price": "14,92 €",
             "status": "AVAILABLE",
             "availability": "",
             "link": "https://oupi.eu/fr/starter-deck-one-piece/7815-eustass-captain-kidd-deck-de-demarrage-st-36-jaune-francais-one-piece-card-game.html",
@@ -2796,7 +2796,7 @@
         "https://oupi.eu/fr/starter-deck-one-piece/8062-set-sail-deck-set-sd-01-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Set Sail Deck Set [SD-01] (Anglais) - One Piece Card Game",
-            "price": "29,99 €",
+            "price": "24,99 €",
             "status": "AVAILABLE",
             "availability": "",
             "link": "https://oupi.eu/fr/starter-deck-one-piece/8062-set-sail-deck-set-sd-01-anglais-one-piece-card-game.html",
@@ -2811,7 +2811,7 @@
         "https://oupi.eu/fr/starter-deck-one-piece/7814-sabo-deck-de-demarrage-st-35-rougenoir-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Sabo Deck de Démarrage ST-35 Rouge/Noir (Français) - One Piece Card Game",
-            "price": "17,90 €",
+            "price": "14,92 €",
             "status": "AVAILABLE",
             "availability": "",
             "link": "https://oupi.eu/fr/starter-deck-one-piece/7814-sabo-deck-de-demarrage-st-35-rougenoir-francais-one-piece-card-game.html",
@@ -2826,7 +2826,7 @@
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/4924-special-goods-set-acesaboluffy-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Special Goods Set - Ace/Sabo/Luffy - One Piece Card Game",
-            "price": "53,50 €",
+            "price": "44,58 €",
             "status": "AVAILABLE",
             "availability": "",
             "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/4924-special-goods-set-acesaboluffy-one-piece-card-game.html",
@@ -2841,7 +2841,7 @@
         "https://oupi.eu/fr/starter-deck-one-piece/7812-kuzan-deck-de-demarrage-st-33-bleu-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Kuzan Deck de Démarrage ST-33 Bleu (Français) - One Piece Card Game",
-            "price": "17,90 €",
+            "price": "14,92 €",
             "status": "AVAILABLE",
             "availability": "",
             "link": "https://oupi.eu/fr/starter-deck-one-piece/7812-kuzan-deck-de-demarrage-st-33-bleu-francais-one-piece-card-game.html",
@@ -2856,7 +2856,7 @@
         "https://oupi.eu/fr/case-scelle-de-display/7293-case-scellee-de-12-display-sang-royal-op-10-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case Scellée de 12 Display Sang Royal OP-10 (Français) - One Piece Card Game",
-            "price": "1 950,00 €",
+            "price": "1 625,00 €",
             "status": "AVAILABLE",
             "availability": "",
             "link": "https://oupi.eu/fr/case-scelle-de-display/7293-case-scellee-de-12-display-sang-royal-op-10-francais-one-piece-card-game.html",
@@ -2871,7 +2871,7 @@
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/6059-sound-loader-volume2-sl-02-enel-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Sound Loader Volume.2 SL-02 Enel - One Piece Card Game",
-            "price": "59,90 €",
+            "price": "49,92 €",
             "status": "AVAILABLE",
             "availability": "",
             "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/6059-sound-loader-volume2-sl-02-enel-one-piece-card-game.html",
@@ -2886,7 +2886,7 @@
         "https://oupi.eu/fr/starter-deck-one-piece/7813-charlotte-katakuri-deck-de-demarrage-st-34-violet-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Charlotte Katakuri Deck de Démarrage ST-34 Violet (Français) - One Piece Card Game",
-            "price": "17,90 €",
+            "price": "14,92 €",
             "status": "AVAILABLE",
             "availability": "",
             "link": "https://oupi.eu/fr/starter-deck-one-piece/7813-charlotte-katakuri-deck-de-demarrage-st-34-violet-francais-one-piece-card-game.html",
@@ -2901,7 +2901,7 @@
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/6473-premium-card-collection-best-selection-vol3-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Premium Card Collection Best Selection Vol.3 (Anglais) - One Piece Card Game",
-            "price": "79,99 €",
+            "price": "66,66 €",
             "status": "AVAILABLE",
             "availability": "",
             "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/6473-premium-card-collection-best-selection-vol3-anglais-one-piece-card-game.html",
@@ -2916,7 +2916,7 @@
         "https://oupi.eu/fr/case-scelle-de-display/7000-case-scellee-de-12-display-op-14-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case Scellée de 12 Display The Azure Sea’s Seven OP-14 & EB-04 (Anglais) - One Piece Card Game",
-            "price": "2 795,00 €",
+            "price": "2 329,17 €",
             "status": "AVAILABLE",
             "availability": "",
             "link": "https://oupi.eu/fr/case-scelle-de-display/7000-case-scellee-de-12-display-op-14-anglais-one-piece-card-game.html",
@@ -2931,7 +2931,7 @@
         "https://oupi.eu/fr/6779-double-pack-set-vol8-dp-08-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Double Pack Set Vol.8 [DP-08] (Français) - One Piece Card Game",
-            "price": "24,95 €",
+            "price": "20,79 €",
             "status": "AVAILABLE",
             "availability": "",
             "link": "https://oupi.eu/fr/6779-double-pack-set-vol8-dp-08-francais-one-piece-card-game.html",
@@ -2946,7 +2946,7 @@
         "https://oupi.eu/fr/case-scelle-de-display/6778-case-scellee-de-12-display-lheritage-du-maitre-op-12-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case Scellée de 12 Display L’Héritage du Maître OP-12 (Français) - One Piece Card Game",
-            "price": "2 490,90 €",
+            "price": "2 075,75 €",
             "status": "AVAILABLE",
             "availability": "",
             "link": "https://oupi.eu/fr/case-scelle-de-display/6778-case-scellee-de-12-display-lheritage-du-maitre-op-12-francais-one-piece-card-game.html",
@@ -2961,7 +2961,7 @@
         "https://oupi.eu/fr/case-scelle-de-display/7602-case-scellee-de-12-display-l-heure-de-la-bataille-decisive-op-16-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case Scellée de 12 Display L'Heure de la Bataille Décisive OP-16 (Français) - One Piece Card Game",
-            "price": "2 495,00 €",
+            "price": "2 079,17 €",
             "status": "AVAILABLE",
             "availability": "",
             "link": "https://oupi.eu/fr/case-scelle-de-display/7602-case-scellee-de-12-display-l-heure-de-la-bataille-decisive-op-16-francais-one-piece-card-game.html",
@@ -2976,7 +2976,7 @@
         "https://oupi.eu/fr/case-scelle-de-display/7349-case-scellee-de-12-display-xxxxxxxxxxxxxxxx-op-xx-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case Scellée de 12 Display Héroïnes Édition EB-03 (Français) - One Piece Card Game",
-            "price": "3 490,90 €",
+            "price": "2 909,08 €",
             "status": "AVAILABLE",
             "availability": "",
             "link": "https://oupi.eu/fr/case-scelle-de-display/7349-case-scellee-de-12-display-xxxxxxxxxxxxxxxx-op-xx-francais-one-piece-card-game.html",
@@ -2991,7 +2991,7 @@
         "https://oupi.eu/fr/case-scelle-de-display/7211-case-scellee-de-12-display-op-16-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case Scellée de 12 Display The Time of Battle OP-16 (Anglais) - One Piece Card Game",
-            "price": "2 495,00 €",
+            "price": "2 079,17 €",
             "status": "AVAILABLE",
             "availability": "",
             "link": "https://oupi.eu/fr/case-scelle-de-display/7211-case-scellee-de-12-display-op-16-anglais-one-piece-card-game.html",
@@ -3006,7 +3006,7 @@
         "https://oupi.eu/fr/case-scelle-de-display/4927-case-de-12-display-op-08-boite-de-booster-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case de 12 Display OP-08 Boite de Booster (Anglais) - One Piece Card Game",
-            "price": "2 495,00 €",
+            "price": "2 079,17 €",
             "status": "AVAILABLE",
             "availability": "",
             "link": "https://oupi.eu/fr/case-scelle-de-display/4927-case-de-12-display-op-08-boite-de-booster-one-piece-card-game.html",
@@ -3021,7 +3021,7 @@
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8060-monkey-d-luffy-official-playmat-limited-edition-vol5-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Monkey D. Luffy Official Playmat Limited Edition Vol.5 (Anglais) - One Piece Card Game",
-            "price": "450,00 €",
+            "price": "375,00 €",
             "status": "AVAILABLE",
             "availability": "",
             "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8060-monkey-d-luffy-official-playmat-limited-edition-vol5-anglais-one-piece-card-game.html",
@@ -3036,7 +3036,7 @@
         "https://oupi.eu/fr/starter-deck-one-piece/7262-st-29-egghead-deck-de-demarrage-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "ST-29 Egghead Deck de Démarrage (Français) - One Piece Card Game",
-            "price": "18,90 €",
+            "price": "15,75 €",
             "status": "AVAILABLE",
             "availability": "",
             "link": "https://oupi.eu/fr/starter-deck-one-piece/7262-st-29-egghead-deck-de-demarrage-francais-one-piece-card-game.html",
@@ -3051,7 +3051,7 @@
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8061-english-3rd-anniversary-set-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "English 3rd Anniversary Set (Anglais) - One Piece Card Game",
-            "price": "699,00 €",
+            "price": "582,50 €",
             "status": "SOLD OUT",
             "availability": "",
             "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8061-english-3rd-anniversary-set-anglais-one-piece-card-game.html",
@@ -3066,7 +3066,7 @@
         "https://oupi.eu/fr/one-piece/7914-xxxxxxxxxxx-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Double Pack Set Vol.12 [DP-12] (Anglais) - One Piece Card Game",
-            "price": "19,99 €",
+            "price": "16,66 €",
             "status": "SOLD OUT",
             "availability": "",
             "link": "https://oupi.eu/fr/one-piece/7914-xxxxxxxxxxx-anglais-one-piece-card-game.html",
@@ -3081,7 +3081,7 @@
         "https://oupi.eu/fr/one-piece/7913-double-pack-set-vol12-dp-12-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Double Pack Set Vol.12 [DP-12] (Français) - One Piece Card Game",
-            "price": "19,99 €",
+            "price": "16,66 €",
             "status": "SOLD OUT",
             "availability": "",
             "link": "https://oupi.eu/fr/one-piece/7913-double-pack-set-vol12-dp-12-francais-one-piece-card-game.html",
@@ -3096,7 +3096,7 @@
         "https://oupi.eu/fr/case-scelle-de-display/7909-case-scellee-de-12-display-eb-06-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case Scellée de 12 Display EB-06 (Français) - One Piece Card Game",
-            "price": "1 668,90 €",
+            "price": "1 390,75 €",
             "status": "SOLD OUT",
             "availability": "5 Février 2026",
             "link": "https://oupi.eu/fr/case-scelle-de-display/7909-case-scellee-de-12-display-eb-06-francais-one-piece-card-game.html",
@@ -3111,7 +3111,7 @@
         "https://oupi.eu/fr/display-one-piece/7908-display-eb-06-boite-de-booster-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Display EB-06 Boite de Booster (Anglais) - One Piece Card Game",
-            "price": "119,76 €",
+            "price": "99,80 €",
             "status": "SOLD OUT",
             "availability": "5 Février 2026",
             "link": "https://oupi.eu/fr/display-one-piece/7908-display-eb-06-boite-de-booster-anglais-one-piece-card-game.html",
@@ -3126,7 +3126,7 @@
         "https://oupi.eu/fr/case-scelle-de-display/7907-case-scellee-de-12-display-eb-06-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case Scellée de 12 Display EB-06 (Français) - One Piece Card Game",
-            "price": "1 668,90 €",
+            "price": "1 390,75 €",
             "status": "SOLD OUT",
             "availability": "5 Février 2026",
             "link": "https://oupi.eu/fr/case-scelle-de-display/7907-case-scellee-de-12-display-eb-06-francais-one-piece-card-game.html",
@@ -3141,7 +3141,7 @@
         "https://oupi.eu/fr/display-one-piece/7906-display-eb-06-boite-de-booster-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Display EB-06 Boite de Booster (Français) - One Piece Card Game",
-            "price": "143,70 €",
+            "price": "119,75 €",
             "status": "SOLD OUT",
             "availability": "5 Février 2026",
             "link": "https://oupi.eu/fr/display-one-piece/7906-display-eb-06-boite-de-booster-francais-one-piece-card-game.html",
@@ -3156,7 +3156,7 @@
         "https://oupi.eu/fr/case-scelle-de-display/7904-case-scellee-de-12-display-heroine-edition-vol2-eb-05-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case Scellée de 12 Display Heroine Edition Vol.2 EB-05 (Anglais) - One Piece Card Game",
-            "price": "1 428,90 €",
+            "price": "1 190,75 €",
             "status": "SOLD OUT",
             "availability": "13 Novembre 2026",
             "link": "https://oupi.eu/fr/case-scelle-de-display/7904-case-scellee-de-12-display-heroine-edition-vol2-eb-05-anglais-one-piece-card-game.html",
@@ -3171,7 +3171,7 @@
         "https://oupi.eu/fr/display-one-piece/7903-display-heroine-edition-vol2-eb-05-boite-de-booster-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Display Heroine Edition Vol.2 EB-05 Boite de Booster (Anglais) - One Piece Card Game",
-            "price": "119,76 €",
+            "price": "99,80 €",
             "status": "SOLD OUT",
             "availability": "13 Novembre 2026",
             "link": "https://oupi.eu/fr/display-one-piece/7903-display-heroine-edition-vol2-eb-05-boite-de-booster-anglais-one-piece-card-game.html",
@@ -3186,7 +3186,7 @@
         "https://oupi.eu/fr/case-scelle-de-display/7902-case-scellee-de-12-display-heroine-edition-vol2-eb-05-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case Scellée de 12 Display Heroine Edition Vol.2 EB-05 (Français) - One Piece Card Game",
-            "price": "1 668,90 €",
+            "price": "1 390,75 €",
             "status": "SOLD OUT",
             "availability": "13 Novembre 2026",
             "link": "https://oupi.eu/fr/case-scelle-de-display/7902-case-scellee-de-12-display-heroine-edition-vol2-eb-05-francais-one-piece-card-game.html",
@@ -3201,7 +3201,7 @@
         "https://oupi.eu/fr/display-one-piece/7901-display-heroine-edition-vol2-eb-05-boite-de-booster-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Display Heroine Edition Vol.2 EB-05 Boite de Booster (Français) - One Piece Card Game",
-            "price": "143,70 €",
+            "price": "119,75 €",
             "status": "SOLD OUT",
             "availability": "13 Novembre 2026",
             "link": "https://oupi.eu/fr/display-one-piece/7901-display-heroine-edition-vol2-eb-05-boite-de-booster-francais-one-piece-card-game.html",
@@ -3216,7 +3216,7 @@
         "https://oupi.eu/fr/case-scelle-de-display/7899-case-scellee-de-12-display-op-19-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case Scellée de 12 Display OP-19 (Anglais) - One Piece Card Game",
-            "price": "1 428,90 €",
+            "price": "1 190,75 €",
             "status": "SOLD OUT",
             "availability": "5 mars 2027",
             "link": "https://oupi.eu/fr/case-scelle-de-display/7899-case-scellee-de-12-display-op-19-anglais-one-piece-card-game.html",
