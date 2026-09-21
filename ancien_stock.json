@@ -3018,21 +3018,6 @@
             "priority_target": "",
             "priority": 4
         },
-        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8060-monkey-d-luffy-official-playmat-limited-edition-vol5-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Monkey D. Luffy Official Playmat Limited Edition Vol.5 (Anglais) - One Piece Card Game",
-            "price": "450,00 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8060-monkey-d-luffy-official-playmat-limited-edition-vol5-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/24168-home_default/monkey-d-luffy-official-playmat-limited-edition-vol5-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "PROMO",
-            "priority_target": "",
-            "priority": 7
-        },
         "https://oupi.eu/fr/starter-deck-one-piece/7262-st-29-egghead-deck-de-demarrage-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "ST-29 Egghead Deck de Démarrage (Français) - One Piece Card Game",
@@ -3056,6 +3041,21 @@
             "availability": "",
             "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8061-english-3rd-anniversary-set-anglais-one-piece-card-game.html",
             "image": "https://oupi.eu/24171-home_default/english-3rd-anniversary-set-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "PROMO",
+            "priority_target": "",
+            "priority": 7
+        },
+        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8060-monkey-d-luffy-official-playmat-limited-edition-vol5-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Monkey D. Luffy Official Playmat Limited Edition Vol.5 (Anglais) - One Piece Card Game",
+            "price": "450,00 €",
+            "status": "SOLD OUT",
+            "availability": "",
+            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8060-monkey-d-luffy-official-playmat-limited-edition-vol5-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/24168-home_default/monkey-d-luffy-official-playmat-limited-edition-vol5-anglais-one-piece-card-game.jpg",
             "language": "EN",
             "source": "catalogue",
             "notify_when_referenced": false,
