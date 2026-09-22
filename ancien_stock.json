@@ -2643,21 +2643,6 @@
             "priority_target": "",
             "priority": 7
         },
-        "https://oupi.eu/fr/starter-deck-one-piece/8062-set-sail-deck-set-sd-01-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Set Sail Deck Set [SD-01] (Anglais) - One Piece Card Game",
-            "price": "29,99 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/starter-deck-one-piece/8062-set-sail-deck-set-sd-01-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/24177-home_default/set-sail-deck-set-sd-01-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "STARTER",
-            "priority_target": "",
-            "priority": 5
-        },
         "https://oupi.eu/fr/case-scelle-de-display/7000-case-scellee-de-12-display-op-14-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case Scellée de 12 Display The Azure Sea’s Seven OP-14 & EB-04 (Anglais) - One Piece Card Game",
@@ -2763,20 +2748,20 @@
             "priority_target": "",
             "priority": 4
         },
-        "https://oupi.eu/fr/starter-deck-one-piece/7262-st-29-egghead-deck-de-demarrage-francais-one-piece-card-game.html": {
+        "https://oupi.eu/fr/starter-deck-one-piece/8062-set-sail-deck-set-sd-01-anglais-one-piece-card-game.html": {
             "site": "Oupi",
-            "name": "ST-29 Egghead Deck de Démarrage (Français) - One Piece Card Game",
-            "price": "18,90 €",
+            "name": "Set Sail Deck Set [SD-01] (Anglais) - One Piece Card Game",
+            "price": "29,99 €",
             "status": "AVAILABLE",
             "availability": "",
-            "link": "https://oupi.eu/fr/starter-deck-one-piece/7262-st-29-egghead-deck-de-demarrage-francais-one-piece-card-game.html",
-            "image": "https://oupi.eu/21855-home_default/st-29-egghead-deck-de-demarrage-francais-one-piece-card-game.jpg",
-            "language": "VF",
+            "link": "https://oupi.eu/fr/starter-deck-one-piece/8062-set-sail-deck-set-sd-01-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/24177-home_default/set-sail-deck-set-sd-01-anglais-one-piece-card-game.jpg",
+            "language": "EN",
             "source": "catalogue",
             "notify_when_referenced": false,
             "category": "STARTER",
             "priority_target": "",
-            "priority": 3
+            "priority": 5
         },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8061-english-3rd-anniversary-set-anglais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -3587,6 +3572,21 @@
             "category": "DOUBLE_PACK",
             "priority_target": "",
             "priority": 4
+        },
+        "https://oupi.eu/fr/starter-deck-one-piece/7262-st-29-egghead-deck-de-demarrage-francais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "ST-29 Egghead Deck de Démarrage (Français) - One Piece Card Game",
+            "price": "18,90 €",
+            "status": "SOLD OUT",
+            "availability": "",
+            "link": "https://oupi.eu/fr/starter-deck-one-piece/7262-st-29-egghead-deck-de-demarrage-francais-one-piece-card-game.html",
+            "image": "https://oupi.eu/21855-home_default/st-29-egghead-deck-de-demarrage-francais-one-piece-card-game.jpg",
+            "language": "VF",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "STARTER",
+            "priority_target": "",
+            "priority": 3
         },
         "https://oupi.eu/fr/starter-deck-one-piece/7261-st-29-egghead-deck-de-demarrage-anglais-one-piece-card-game.html": {
             "site": "Oupi",
