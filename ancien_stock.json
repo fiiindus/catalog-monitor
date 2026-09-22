@@ -2568,21 +2568,6 @@
             "priority_target": "",
             "priority": 3
         },
-        "https://oupi.eu/fr/starter-deck-one-piece/8062-set-sail-deck-set-sd-01-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Set Sail Deck Set [SD-01] (Anglais) - One Piece Card Game",
-            "price": "29,99 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/starter-deck-one-piece/8062-set-sail-deck-set-sd-01-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/24177-home_default/set-sail-deck-set-sd-01-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "STARTER",
-            "priority_target": "",
-            "priority": 5
-        },
         "https://oupi.eu/fr/starter-deck-one-piece/7812-kuzan-deck-de-demarrage-st-33-bleu-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Kuzan Deck de Démarrage ST-33 Bleu (Français) - One Piece Card Game",
@@ -2657,6 +2642,21 @@
             "category": "PROMO",
             "priority_target": "",
             "priority": 7
+        },
+        "https://oupi.eu/fr/starter-deck-one-piece/8062-set-sail-deck-set-sd-01-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Set Sail Deck Set [SD-01] (Anglais) - One Piece Card Game",
+            "price": "29,99 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://oupi.eu/fr/starter-deck-one-piece/8062-set-sail-deck-set-sd-01-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/24177-home_default/set-sail-deck-set-sd-01-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "STARTER",
+            "priority_target": "",
+            "priority": 5
         },
         "https://oupi.eu/fr/case-scelle-de-display/7000-case-scellee-de-12-display-op-14-anglais-one-piece-card-game.html": {
             "site": "Oupi",
