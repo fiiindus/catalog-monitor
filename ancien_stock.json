@@ -2553,9 +2553,7 @@
             "notify_when_referenced": false,
             "category": "PROMO",
             "priority_target": "",
-            "priority": 5,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Oupi"
+            "priority": 5
         },
         "https://oupi.eu/fr/starter-deck-one-piece/7812-kuzan-deck-de-demarrage-st-33-bleu-francais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -2660,9 +2658,7 @@
             "notify_when_referenced": false,
             "category": "STARTER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Oupi"
+            "priority": 3
         },
         "https://oupi.eu/fr/case-scelle-de-display/7000-case-scellee-de-12-display-op-14-anglais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -2722,9 +2718,7 @@
             "notify_when_referenced": false,
             "category": "STARTER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Oupi"
+            "priority": 3
         },
         "https://oupi.eu/fr/case-scelle-de-display/7602-case-scellee-de-12-display-l-heure-de-la-bataille-decisive-op-16-francais-one-piece-card-game.html": {
             "site": "Oupi",
