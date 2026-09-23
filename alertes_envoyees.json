@@ -11,12 +11,6 @@
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
   },
-  "https://oupi.eu/fr/starter-deck-one-piece/8062-set-sail-deck-set-sd-01-anglais-one-piece-card-game.html": {
-    "fingerprint": "01bdc3fd46e9323fa794ed0ced7e7e2796a29e74940a12ab9cb876a6b09ca30c",
-    "name": "Set Sail Deck Set [SD-01] (Anglais) - One Piece Card Game",
-    "status": "AVAILABLE",
-    "type": "RETOUR EN STOCK"
-  },
   "https://p-bandai.com/us/item/N9065180001": {
     "fingerprint": "54aa8dce2e573b881bdf3cabf8e7b4f5deafb47d59a4c18658f4a0c1385528b8",
     "name": "ONE PIECE CARD GAME -THE TIME OF BATTLE- [OP-16] Booster Box",
@@ -138,10 +132,16 @@
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
   "https://www.parkage.com/fr/1123139-one-piece-card-game-booster-pack-op-17-the-world-s-strongest-warriors": {
-    "fingerprint": "9e09a65347da046a250324052c03f4c135b6ca9c9090602a707629a842b55fb0",
+    "fingerprint": "07603aacc89f6404cc01946bea799ababf7c4f9af1bd2ae06883654aee64b742",
     "name": "One Piece Card Game Booster Pack - OP-17 : The world's strongest warriors",
-    "status": "AVAILABLE",
-    "type": "RETOUR EN STOCK"
+    "status": "REMOVED",
+    "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
+  },
+  "https://www.parkage.com/fr/1123140-one-piece-card-game-display-x24-booster-packs-op-17-the-world-s-strongest-warriors-limited-to-1-display-per-household": {
+    "fingerprint": "045f0437496d9309a598917903232e23823d26492c1323095bf5d888f993a2e4",
+    "name": "One Piece Card Game Display (x24 Booster Packs) - OP-17 : The world's strongest warriors ***Limited to 1 display per household***",
+    "status": "REMOVED",
+    "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
   },
   "https://www.parkage.com/fr/1123151-double-pack-set-one-piece-card-game-dp-12-vol-12": {
     "fingerprint": "a4333c90e4ca55f7b2e795d86f6e474f036d35837a7660ab61e7fc37e672ef99",

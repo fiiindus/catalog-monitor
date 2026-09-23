@@ -2208,9 +2208,7 @@
             "product_types": [],
             "category": "STARTER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage"
+            "priority": 3
         },
         "https://www.parkage.com/fr/1053653-one-piece-card-game-booster-pack-op-10-royal-blood": {
             "site": "Parkage",
@@ -2741,7 +2739,7 @@
             "site": "Oupi",
             "name": "Set Sail Deck Set [SD-01] (Anglais) - One Piece Card Game",
             "price": "29,99 €",
-            "status": "AVAILABLE",
+            "status": "SOLD OUT",
             "availability": "",
             "link": "https://oupi.eu/fr/starter-deck-one-piece/8062-set-sail-deck-set-sd-01-anglais-one-piece-card-game.html",
             "image": "https://oupi.eu/24177-home_default/set-sail-deck-set-sd-01-anglais-one-piece-card-game.jpg",
