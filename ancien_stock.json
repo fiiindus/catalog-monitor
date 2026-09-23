@@ -2540,20 +2540,22 @@
             "priority_target": "",
             "priority": 3
         },
-        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/4924-special-goods-set-acesaboluffy-one-piece-card-game.html": {
+        "https://oupi.eu/fr/starter-deck-one-piece/7330-lot-de-decks-apprenez-ensemble-avec-carte-promo-francais-one-piece-card-game.html": {
             "site": "Oupi",
-            "name": "Special Goods Set - Ace/Sabo/Luffy - One Piece Card Game",
-            "price": "53,50 €",
+            "name": "Lot de decks Apprenez Ensemble avec carte Promo LD-01 (Français) - One Piece Card Game",
+            "price": "32,50 €",
             "status": "AVAILABLE",
             "availability": "",
-            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/4924-special-goods-set-acesaboluffy-one-piece-card-game.html",
-            "image": "https://oupi.eu/14062-home_default/special-goods-set-acesaboluffy-one-piece-card-game.jpg",
-            "language": "OTHER",
+            "link": "https://oupi.eu/fr/starter-deck-one-piece/7330-lot-de-decks-apprenez-ensemble-avec-carte-promo-francais-one-piece-card-game.html",
+            "image": "https://oupi.eu/22050-home_default/lot-de-decks-apprenez-ensemble-avec-carte-promo-francais-one-piece-card-game.jpg",
+            "language": "VF",
             "source": "catalogue",
             "notify_when_referenced": false,
             "category": "PROMO",
             "priority_target": "",
-            "priority": 3
+            "priority": 5,
+            "type_alerte": "RETOUR EN STOCK",
+            "boutique": "Oupi"
         },
         "https://oupi.eu/fr/starter-deck-one-piece/7812-kuzan-deck-de-demarrage-st-33-bleu-francais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -2567,6 +2569,36 @@
             "source": "catalogue",
             "notify_when_referenced": false,
             "category": "STARTER",
+            "priority_target": "",
+            "priority": 3
+        },
+        "https://oupi.eu/fr/starter-deck-one-piece/7813-charlotte-katakuri-deck-de-demarrage-st-34-violet-francais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Charlotte Katakuri Deck de Démarrage ST-34 Violet (Français) - One Piece Card Game",
+            "price": "17,90 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://oupi.eu/fr/starter-deck-one-piece/7813-charlotte-katakuri-deck-de-demarrage-st-34-violet-francais-one-piece-card-game.html",
+            "image": "https://oupi.eu/23533-home_default/charlotte-katakuri-deck-de-demarrage-st-34-violet-francais-one-piece-card-game.jpg",
+            "language": "VF",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "STARTER",
+            "priority_target": "",
+            "priority": 3
+        },
+        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/4924-special-goods-set-acesaboluffy-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Special Goods Set - Ace/Sabo/Luffy - One Piece Card Game",
+            "price": "53,50 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/4924-special-goods-set-acesaboluffy-one-piece-card-game.html",
+            "image": "https://oupi.eu/14062-home_default/special-goods-set-acesaboluffy-one-piece-card-game.jpg",
+            "language": "OTHER",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "PROMO",
             "priority_target": "",
             "priority": 3
         },
@@ -2600,21 +2632,6 @@
             "priority_target": "",
             "priority": -1
         },
-        "https://oupi.eu/fr/starter-deck-one-piece/7813-charlotte-katakuri-deck-de-demarrage-st-34-violet-francais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Charlotte Katakuri Deck de Démarrage ST-34 Violet (Français) - One Piece Card Game",
-            "price": "17,90 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/starter-deck-one-piece/7813-charlotte-katakuri-deck-de-demarrage-st-34-violet-francais-one-piece-card-game.html",
-            "image": "https://oupi.eu/23533-home_default/charlotte-katakuri-deck-de-demarrage-st-34-violet-francais-one-piece-card-game.jpg",
-            "language": "VF",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "STARTER",
-            "priority_target": "",
-            "priority": 3
-        },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/6473-premium-card-collection-best-selection-vol3-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Premium Card Collection Best Selection Vol.3 (Anglais) - One Piece Card Game",
@@ -2629,6 +2646,23 @@
             "category": "PROMO",
             "priority_target": "",
             "priority": 7
+        },
+        "https://oupi.eu/fr/starter-deck-one-piece/7810-monkey-d-luffy-deck-de-demarrage-st-31-rouge-francais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Monkey D. Luffy Deck de Démarrage ST-31 Rouge (Français) - One Piece Card Game",
+            "price": "19,90 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://oupi.eu/fr/starter-deck-one-piece/7810-monkey-d-luffy-deck-de-demarrage-st-31-rouge-francais-one-piece-card-game.html",
+            "image": "https://oupi.eu/23528-home_default/monkey-d-luffy-deck-de-demarrage-st-31-rouge-francais-one-piece-card-game.jpg",
+            "language": "VF",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "STARTER",
+            "priority_target": "",
+            "priority": 3,
+            "type_alerte": "RETOUR EN STOCK",
+            "boutique": "Oupi"
         },
         "https://oupi.eu/fr/case-scelle-de-display/7000-case-scellee-de-12-display-op-14-anglais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -2674,6 +2708,23 @@
             "category": "CASE",
             "priority_target": "",
             "priority": 2
+        },
+        "https://oupi.eu/fr/starter-deck-one-piece/7811-roronoa-zoro-deck-de-demarrage-st-32-vert-francais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Roronoa Zoro Deck de Démarrage ST-32 Vert (Français) - One Piece Card Game",
+            "price": "19,90 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://oupi.eu/fr/starter-deck-one-piece/7811-roronoa-zoro-deck-de-demarrage-st-32-vert-francais-one-piece-card-game.html",
+            "image": "https://oupi.eu/23529-home_default/roronoa-zoro-deck-de-demarrage-st-32-vert-francais-one-piece-card-game.jpg",
+            "language": "VF",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "STARTER",
+            "priority_target": "",
+            "priority": 3,
+            "type_alerte": "RETOUR EN STOCK",
+            "boutique": "Oupi"
         },
         "https://oupi.eu/fr/case-scelle-de-display/7602-case-scellee-de-12-display-l-heure-de-la-bataille-decisive-op-16-francais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -3050,36 +3101,6 @@
             "priority_target": "",
             "priority": 6
         },
-        "https://oupi.eu/fr/starter-deck-one-piece/7811-roronoa-zoro-deck-de-demarrage-st-32-vert-francais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Roronoa Zoro Deck de Démarrage ST-32 Vert (Français) - One Piece Card Game",
-            "price": "18,90 €",
-            "status": "SOLD OUT",
-            "availability": "",
-            "link": "https://oupi.eu/fr/starter-deck-one-piece/7811-roronoa-zoro-deck-de-demarrage-st-32-vert-francais-one-piece-card-game.html",
-            "image": "https://oupi.eu/23529-home_default/roronoa-zoro-deck-de-demarrage-st-32-vert-francais-one-piece-card-game.jpg",
-            "language": "VF",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "STARTER",
-            "priority_target": "",
-            "priority": 3
-        },
-        "https://oupi.eu/fr/starter-deck-one-piece/7810-monkey-d-luffy-deck-de-demarrage-st-31-rouge-francais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Monkey D. Luffy Deck de Démarrage ST-31 Rouge (Français) - One Piece Card Game",
-            "price": "18,90 €",
-            "status": "SOLD OUT",
-            "availability": "",
-            "link": "https://oupi.eu/fr/starter-deck-one-piece/7810-monkey-d-luffy-deck-de-demarrage-st-31-rouge-francais-one-piece-card-game.html",
-            "image": "https://oupi.eu/23528-home_default/monkey-d-luffy-deck-de-demarrage-st-31-rouge-francais-one-piece-card-game.jpg",
-            "language": "VF",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "STARTER",
-            "priority_target": "",
-            "priority": 3
-        },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7803-yamato-official-playmat-limited-edition-vol6-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Yamato Official Playmat Limited edition Vol.6 (Anglais) - One Piece Card Game",
@@ -3379,21 +3400,6 @@
             "category": "DISPLAY",
             "priority_target": "",
             "priority": 6
-        },
-        "https://oupi.eu/fr/starter-deck-one-piece/7330-lot-de-decks-apprenez-ensemble-avec-carte-promo-francais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Lot de decks Apprenez Ensemble avec carte Promo LD-01 (Français) - One Piece Card Game",
-            "price": "28,95 €",
-            "status": "SOLD OUT",
-            "availability": "",
-            "link": "https://oupi.eu/fr/starter-deck-one-piece/7330-lot-de-decks-apprenez-ensemble-avec-carte-promo-francais-one-piece-card-game.html",
-            "image": "https://oupi.eu/22050-home_default/lot-de-decks-apprenez-ensemble-avec-carte-promo-francais-one-piece-card-game.jpg",
-            "language": "VF",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "PROMO",
-            "priority_target": "",
-            "priority": 5
         },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7316-tin-pack-set-vol2-ts-02-sabo-francais-one-piece-card-game.html": {
             "site": "Oupi",
