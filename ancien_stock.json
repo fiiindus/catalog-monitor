@@ -2645,21 +2645,6 @@
             "priority_target": "",
             "priority": 7
         },
-        "https://oupi.eu/fr/starter-deck-one-piece/7810-monkey-d-luffy-deck-de-demarrage-st-31-rouge-francais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Monkey D. Luffy Deck de Démarrage ST-31 Rouge (Français) - One Piece Card Game",
-            "price": "19,90 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/starter-deck-one-piece/7810-monkey-d-luffy-deck-de-demarrage-st-31-rouge-francais-one-piece-card-game.html",
-            "image": "https://oupi.eu/23528-home_default/monkey-d-luffy-deck-de-demarrage-st-31-rouge-francais-one-piece-card-game.jpg",
-            "language": "VF",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "STARTER",
-            "priority_target": "",
-            "priority": 3
-        },
         "https://oupi.eu/fr/case-scelle-de-display/7000-case-scellee-de-12-display-op-14-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case Scellée de 12 Display The Azure Sea’s Seven OP-14 & EB-04 (Anglais) - One Piece Card Game",
@@ -2713,6 +2698,21 @@
             "availability": "",
             "link": "https://oupi.eu/fr/starter-deck-one-piece/7811-roronoa-zoro-deck-de-demarrage-st-32-vert-francais-one-piece-card-game.html",
             "image": "https://oupi.eu/23529-home_default/roronoa-zoro-deck-de-demarrage-st-32-vert-francais-one-piece-card-game.jpg",
+            "language": "VF",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "STARTER",
+            "priority_target": "",
+            "priority": 3
+        },
+        "https://oupi.eu/fr/starter-deck-one-piece/7810-monkey-d-luffy-deck-de-demarrage-st-31-rouge-francais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Monkey D. Luffy Deck de Démarrage ST-31 Rouge (Français) - One Piece Card Game",
+            "price": "19,90 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://oupi.eu/fr/starter-deck-one-piece/7810-monkey-d-luffy-deck-de-demarrage-st-31-rouge-francais-one-piece-card-game.html",
+            "image": "https://oupi.eu/23528-home_default/monkey-d-luffy-deck-de-demarrage-st-31-rouge-francais-one-piece-card-game.jpg",
             "language": "VF",
             "source": "catalogue",
             "notify_when_referenced": false,
