@@ -149,6 +149,12 @@
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
+  "https://www.parkage.com/fr/1121400-one-piece-card-game-box-english-version-3rd-anniversary-set": {
+    "fingerprint": "2607f17f6a8c1a6a8c096267e3b749b129a39ce357fcd7ad7ba0b0ee185b8d82",
+    "name": "One Piece Card Game Box - English Version 3rd Anniversary Set",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
   "https://www.parkage.com/fr/1123139-one-piece-card-game-booster-pack-op-17-the-world-s-strongest-warriors": {
     "fingerprint": "07603aacc89f6404cc01946bea799ababf7c4f9af1bd2ae06883654aee64b742",
     "name": "One Piece Card Game Booster Pack - OP-17 : The world's strongest warriors",
@@ -257,6 +263,12 @@
     "status": "REMOVED",
     "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
   },
+  "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr": {
+    "fingerprint": "f8a517b01a4453e591e73639c4f31be175728efd7f18298146e449bc20f43fb7",
+    "name": "Display de 24 boosters One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - FR",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
   "https://www.play-in.com/fr/produit/663250/double-pack-set-12-les-guerriers-les-plus-puissants-au-monde-op-17-one-piece-fr": {
     "fingerprint": "72d026d06ce53bbf5cac181a70cafc240df2ccf7ab822dfafdc5b4ada1fed5c8",
     "name": "Double Pack Set 12 Les Guerriers Les Plus Puissants Au Monde OP-17 - One Piece FR",
@@ -286,6 +298,12 @@
     "name": "Double Pack Set One Piece Tcg : 12 Les Guerriers Les Plus Puissants Au Monde [OP-17] - EN",
     "status": "REMOVED",
     "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
+  },
+  "https://www.ultrajeux.com/produit-31374-op13-successeurs-4582769865589.html": {
+    "fingerprint": "09a1a1172200a8f73eee9243fc38c8bc208b57814ab5836d684eb86e9c600437",
+    "name": "OP13 - Successeurs",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
   },
   "https://www.ultrajeux.com/produit-31704-st22-ace-et-newgate-bleu-anglais-0810158834958.html": {
     "fingerprint": "e4d1d80b1b95b57923ade155ecb2ce3c5e436870330e2d90792e3c1d49b18add",
