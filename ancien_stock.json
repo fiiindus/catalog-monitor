@@ -1464,9 +1464,7 @@
             "image": "https://www.ultrajeux.com/images/pays/fr.png",
             "category": "OTHER",
             "language": "OTHER",
-            "priority_target": "",
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "UltraJeux"
+            "priority_target": ""
         },
         "https://www.ultrajeux.com/produit-30930-st22-bleu-ace-et-newgate-francais-4582769894619.html": {
             "site": "UltraJeux",
@@ -1742,9 +1740,7 @@
             "product_types": [],
             "category": "PROMO",
             "priority_target": "",
-            "priority": 7,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage"
+            "priority": 7
         },
         "https://www.parkage.com/fr/1123719-one-piece-card-game-box-premium-card-collection-best-selection-vol-6": {
             "site": "Parkage",
@@ -5033,9 +5029,7 @@
             "notify_when_referenced": true,
             "category": "DISPLAY",
             "priority_target": "OP17",
-            "priority": 1004,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Playin"
+            "priority": 1004
         },
         "https://www.play-in.com/fr/produit/663265/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en": {
             "site": "Playin",
