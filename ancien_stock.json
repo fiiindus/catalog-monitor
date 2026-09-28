@@ -2716,6 +2716,40 @@
             "priority_target": "",
             "priority": 2
         },
+        "https://oupi.eu/fr/one-piece/7913-double-pack-set-vol12-dp-12-francais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Double Pack Set Vol.12 [DP-12] (Français) - One Piece Card Game",
+            "price": "19,99 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://oupi.eu/fr/one-piece/7913-double-pack-set-vol12-dp-12-francais-one-piece-card-game.html",
+            "image": "https://oupi.eu/23768-home_default/double-pack-set-vol12-dp-12-francais-one-piece-card-game.jpg",
+            "language": "VF",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "DOUBLE_PACK",
+            "priority_target": "",
+            "priority": 4,
+            "type_alerte": "RETOUR EN STOCK",
+            "boutique": "Oupi"
+        },
+        "https://oupi.eu/fr/display-one-piece/6999-display-op-14-boite-de-booster-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Display The Azure Sea’s Seven OP-14 & EB-04 Boite de Booster (Anglais) - One Piece Card Game",
+            "price": "185,00 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://oupi.eu/fr/display-one-piece/6999-display-op-14-boite-de-booster-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/21848-home_default/display-op-14-boite-de-booster-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "DISPLAY",
+            "priority_target": "",
+            "priority": 8,
+            "type_alerte": "RETOUR EN STOCK",
+            "boutique": "Oupi"
+        },
         "https://oupi.eu/fr/starter-deck-one-piece/7811-roronoa-zoro-deck-de-demarrage-st-32-vert-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Roronoa Zoro Deck de Démarrage ST-32 Vert (Français) - One Piece Card Game",
@@ -2776,6 +2810,23 @@
             "priority_target": "",
             "priority": 4
         },
+        "https://oupi.eu/fr/case-scelle-de-display/7208-case-scellee-de-12-display-op-15-eb-04-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Case Scellée de 12 Display Adventure on Kami's Island OP-15 & EB-04 (Anglais) - One Piece Card Game",
+            "price": "2 495,00 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://oupi.eu/fr/case-scelle-de-display/7208-case-scellee-de-12-display-op-15-eb-04-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/21689-home_default/case-scellee-de-12-display-op-15-eb-04-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "CASE",
+            "priority_target": "",
+            "priority": 4,
+            "type_alerte": "RETOUR EN STOCK",
+            "boutique": "Oupi"
+        },
         "https://oupi.eu/fr/case-scelle-de-display/4927-case-de-12-display-op-08-boite-de-booster-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case de 12 Display OP-08 Boite de Booster (Anglais) - One Piece Card Game",
@@ -2804,7 +2855,22 @@
             "notify_when_referenced": false,
             "category": "PROMO",
             "priority_target": "",
-            "priority": 7,
+            "priority": 7
+        },
+        "https://oupi.eu/fr/display-one-piece/7210-display-op-16-boite-de-booster-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Display The Time of Battle OP-16 Boite de Booster (Anglais) - One Piece Card Game",
+            "price": "169,90 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://oupi.eu/fr/display-one-piece/7210-display-op-16-boite-de-booster-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/22909-home_default/display-op-16-boite-de-booster-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "DISPLAY",
+            "priority_target": "",
+            "priority": 8,
             "type_alerte": "RETOUR EN STOCK",
             "boutique": "Oupi"
         },
@@ -2867,21 +2933,6 @@
             "category": "DOUBLE_PACK",
             "priority_target": "",
             "priority": 6
-        },
-        "https://oupi.eu/fr/one-piece/7913-double-pack-set-vol12-dp-12-francais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Double Pack Set Vol.12 [DP-12] (Français) - One Piece Card Game",
-            "price": "19,99 €",
-            "status": "SOLD OUT",
-            "availability": "",
-            "link": "https://oupi.eu/fr/one-piece/7913-double-pack-set-vol12-dp-12-francais-one-piece-card-game.html",
-            "image": "https://oupi.eu/23768-home_default/double-pack-set-vol12-dp-12-francais-one-piece-card-game.jpg",
-            "language": "VF",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "DOUBLE_PACK",
-            "priority_target": "",
-            "priority": 4
         },
         "https://oupi.eu/fr/case-scelle-de-display/7909-case-scellee-de-12-display-eb-06-francais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -3381,7 +3432,7 @@
         "https://oupi.eu/fr/display-one-piece/7369-display-op-17-boite-de-booster-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Display The World's Strongest Warriors OP-17 Boite de Booster (Anglais) - One Piece Card Game",
-            "price": "299,90 €",
+            "price": "289,90 €",
             "status": "SOLD OUT",
             "availability": "",
             "link": "https://oupi.eu/fr/display-one-piece/7369-display-op-17-boite-de-booster-anglais-one-piece-card-game.html",
@@ -3648,21 +3699,6 @@
             "priority_target": "",
             "priority": 2
         },
-        "https://oupi.eu/fr/display-one-piece/7210-display-op-16-boite-de-booster-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Display The Time of Battle OP-16 Boite de Booster (Anglais) - One Piece Card Game",
-            "price": "169,90 €",
-            "status": "SOLD OUT",
-            "availability": "",
-            "link": "https://oupi.eu/fr/display-one-piece/7210-display-op-16-boite-de-booster-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/22909-home_default/display-op-16-boite-de-booster-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "DISPLAY",
-            "priority_target": "",
-            "priority": 8
-        },
         "https://oupi.eu/fr/display-one-piece/7209-display-op-15-eb-04-boite-de-booster-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Display Adventure on Kami's Island OP-15 & EB-04 Boite de Booster (Anglais) - One Piece Card Game",
@@ -3677,21 +3713,6 @@
             "category": "DISPLAY",
             "priority_target": "",
             "priority": 8
-        },
-        "https://oupi.eu/fr/case-scelle-de-display/7208-case-scellee-de-12-display-op-15-eb-04-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Case Scellée de 12 Display Adventure on Kami's Island OP-15 & EB-04 (Anglais) - One Piece Card Game",
-            "price": "1 437,12 €",
-            "status": "SOLD OUT",
-            "availability": "",
-            "link": "https://oupi.eu/fr/case-scelle-de-display/7208-case-scellee-de-12-display-op-15-eb-04-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/21689-home_default/case-scellee-de-12-display-op-15-eb-04-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "CASE",
-            "priority_target": "",
-            "priority": 4
         },
         "https://oupi.eu/fr/case-scelle-de-display/7207-case-scellee-de-12-display-one-piece-heroines-edition-eb-03-anglais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -3752,21 +3773,6 @@
             "category": "PROMO",
             "priority_target": "",
             "priority": 7
-        },
-        "https://oupi.eu/fr/display-one-piece/6999-display-op-14-boite-de-booster-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Display The Azure Sea’s Seven OP-14 & EB-04 Boite de Booster (Anglais) - One Piece Card Game",
-            "price": "149,90 €",
-            "status": "SOLD OUT",
-            "availability": "",
-            "link": "https://oupi.eu/fr/display-one-piece/6999-display-op-14-boite-de-booster-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/21848-home_default/display-op-14-boite-de-booster-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "DISPLAY",
-            "priority_target": "",
-            "priority": 8
         },
         "https://oupi.eu/fr/case-scelle-de-display/6998-case-scellee-de-12-display-op-14-francais-one-piece-card-game.html": {
             "site": "Oupi",
