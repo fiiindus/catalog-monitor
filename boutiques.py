@@ -48,7 +48,8 @@ _BOUTIQUES_CONFIG = [
         "url": "https://p-bandai.com/us/series/onepiece-series",
         "scanner": "premium_bandai",
         "minimum_count_ratio": 0.85,
-        "minimum_overlap_ratio": 0.85
+        "minimum_overlap_ratio": 0.85,
+        "maximum_unknown_ratio": 1.0
     },
 
     {

@@ -5,22 +5,25 @@ from playwright.sync_api import sync_playwright
 from urllib.parse import urljoin
 
 from observabilite import noter_requete
-from scanners.politique import produit_autorise
 
 
 BASE_URL = "https://p-bandai.com"
 
-URL_TEMPLATE = (
+URL_TEMPLATES = (
+    # Search across all shops and series, including closed and upcoming items.
+    "https://p-bandai.com/us/search?keyword=ONE%20PIECE%20CARD%20GAME"
+    "&offset={offset}&limit={limit}&sortType=NewArrival"
+    "&_f_productStatuses=Waiting,On,End",
+    "https://p-bandai.com/us/search?keyword=ONE%20PIECE%20CARD%20GAME"
+    "&offset={offset}&limit={limit}&sortType=Relevance"
+    "&_f_productStatuses=Waiting,On,End",
+    # The series listing catches items omitted by the site's text index.
     "https://p-bandai.com/us/series/onepiece-series"
-    "?_f_shops=05-0004"
-    "&_f_series=03-002"
-    "&offset={offset}"
-    "&limit={limit}"
-    "&sortType=NewArrival"
-    "&_f_productStatuses=Waiting,On"
+    "?offset={offset}&limit={limit}&sortType=NewArrival"
+    "&_f_productStatuses=Waiting,On,End",
 )
 
-PAGE_SIZE = 20
+PAGE_SIZE = 40
 MAX_PAGES = 10
 
 PRODUCT_SELECTOR = ".o-search-product .c-product__link"
@@ -31,27 +34,6 @@ NEXT_PAGE_CHANGE_TIMEOUT_MS = 15000
 NEXT_PAGE_POLL_MS = 500
 EMPTY_PAGE_CONFIRM_MS = 2000
 DETAIL_PAGE_SETTLE_MS = 1500
-
-ACCESSORY_MARKERS = (
-    "PLAYMAT",
-    "PLAY MAT",
-    "PROTÈGE-CARTES",
-    "PROTEGE-CARTES",
-    "CARD SLEEVES",
-    "SLEEVES",
-    "DECK BOX",
-)
-
-PROMO_CARD_MARKERS = (
-    "CARTE PROMO",
-    "CARTE PROMOTIONNELLE",
-    "CARTE EXCLUSIVE",
-    "PROMO CARD",
-    "PROMOTIONAL CARD",
-    "EXCLUSIVE CARD",
-    "INCLUDES CARD",
-    "WITH CARD",
-)
 
 STATUTS_FERMES = (
     "PRE-ORDER CLOSED",
@@ -105,28 +87,7 @@ def nettoyer_texte(texte):
 
 
 def produit_surveille(nom):
-    # Premium Bandai est une exception volontaire à la politique générale :
-    # les produits officiels scellés asiatiques sont admis. Les cartes à
-    # l'unité et accessoires ordinaires restent filtrés.
-    if not produit_autorise(
-        nom,
-        autoriser_langues_asiatiques=True,
-    ):
-        return False
-
-    texte = nettoyer_texte(nom).upper()
-
-    est_accessoire = any(
-        marqueur in texte
-        for marqueur in ACCESSORY_MARKERS
-    )
-
-    contient_carte_promo = any(
-        marqueur in texte
-        for marqueur in PROMO_CARD_MARKERS
-    )
-
-    return not est_accessoire or contient_carte_promo
+    return "ONE PIECE CARD GAME" in nettoyer_texte(nom).upper()
 
 
 def est_commandable(status):
@@ -159,6 +120,9 @@ def detecter_statut(texte):
     # génériques contenant PRE-ORDER / ORDER.
     if any(marqueur in texte for marqueur in STATUTS_FERMES):
         return "SOLD OUT"
+
+    if "COMING SOON" in texte or "COMING_SOON" in texte:
+        return "COMING_SOON"
 
     if any(marqueur in texte for marqueur in STATUTS_PRECOMMANDE):
         return "PREORDER"
@@ -270,6 +234,7 @@ def extraire_page(html, products):
             "price": price,
             "status": status,
             "orderable": est_commandable(status),
+            "notify_when_referenced": True,
             "link": href,
             "image": image,
         }
@@ -349,70 +314,45 @@ def charger_page_catalogue(
     return page.content()
 
 
-def _scan_premiere_page():
-    products = {}
-
-    with sync_playwright() as playwright:
-        browser = playwright.chromium.launch(headless=True)
-        page = browser.new_page(locale="en-US")
-
-        try:
-            html = charger_page_catalogue(
-                page,
-                URL_TEMPLATE.format(offset=0, limit=PAGE_SIZE),
-                exiger_produits=True,
-            )
-        finally:
-            browser.close()
-
-    extraire_page(html, products)
-
-    if not products:
-        raise RuntimeError(
-            "Aucun produit One Piece Card Game détecté sur Premium Bandai"
-        )
-
-    return products
-
-
 def scan():
     products = {}
-    liens_bruts_vus = set()
-    liens_page_precedente = None
 
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=True)
         page = browser.new_page(locale="en-US")
 
         try:
-            for numero_page in range(MAX_PAGES):
-                offset = numero_page * PAGE_SIZE
-                url_page = URL_TEMPLATE.format(
-                    offset=offset,
-                    limit=PAGE_SIZE,
-                )
-                print("🔎 Premium Bandai offset :", offset)
+            for source in URL_TEMPLATES:
+                liens_bruts_vus = set()
+                liens_page_precedente = None
+                for numero_page in range(MAX_PAGES):
+                    offset = numero_page * PAGE_SIZE
+                    url_page = source.format(offset=offset, limit=PAGE_SIZE)
+                    print("🔎 Premium Bandai :", url_page)
 
-                html = charger_page_catalogue(
-                    page,
-                    url_page,
-                    exiger_produits=(numero_page == 0),
-                    liens_precedents=liens_page_precedente,
-                )
-                liens_bruts_page = extraire_page(
-                    html,
-                    products,
-                )
-                nouveaux_liens = liens_bruts_page - liens_bruts_vus
+                    try:
+                        html = charger_page_catalogue(
+                            page,
+                            url_page,
+                            exiger_produits=(numero_page == 0),
+                            liens_precedents=liens_page_precedente,
+                        )
+                    except Exception as erreur:
+                        if numero_page == 0:
+                            print("⚠️ Premium Bandai source indisponible :", erreur)
+                            continue
+                        raise
+                    liens_bruts_page = extraire_page(html, products)
+                    nouveaux_liens = liens_bruts_page - liens_bruts_vus
 
-                if not liens_bruts_page or not nouveaux_liens:
-                    break
+                    if not liens_bruts_page or not nouveaux_liens:
+                        break
 
-                liens_bruts_vus.update(liens_bruts_page)
-                liens_page_precedente = liens_bruts_page
+                    liens_bruts_vus.update(liens_bruts_page)
+                    liens_page_precedente = liens_bruts_page
 
-                if len(liens_bruts_page) < PAGE_SIZE:
-                    break
+                    if len(liens_bruts_page) < PAGE_SIZE:
+                        break
         finally:
             browser.close()
 

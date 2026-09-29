@@ -1,5 +1,6 @@
 import json
 import unittest
+from datetime import date, timedelta
 from unittest.mock import patch
 
 from cible import CIBLE_PRIORITAIRE
@@ -170,13 +171,14 @@ class PlayinScannerTests(unittest.TestCase):
         self.assertTrue(produit["notify_when_referenced"])
 
     def test_parses_priority_from_server_flight_data(self):
+        date_sortie = date.today() + timedelta(days=30)
         donnees = {
             "__typename": "SealedProduct",
             "_id": 663251,
             "transName": f"Display de 24 boosters {CIBLE_PRIORITAIRE} - One Piece FR",
             "sellPrice": 179.9,
             "imageUrl": "https://media.play-in.com/priority.jpg",
-            "releasedAt": "2026-08-27T00:00:00+02:00",
+            "releasedAt": date_sortie.isoformat() + "T00:00:00+02:00",
             "sellable": False,
             "inWarehouse": False,
             "inStore": False,
@@ -203,12 +205,12 @@ class PlayinScannerTests(unittest.TestCase):
         self.assertEqual(1, len(produits))
         produit = next(iter(produits.values()))
         self.assertEqual("COMING_SOON", produit["status"])
-        self.assertEqual("27/08/2026", produit["availability"])
+        self.assertEqual(date_sortie.strftime("%d/%m/%Y"), produit["availability"])
         self.assertEqual("VF", produit["language"])
         self.assertTrue(produit["notify_when_referenced"])
 
         self.assertEqual(
-            "27/08/2026",
+            date_sortie.strftime("%d/%m/%Y"),
             playin.extraire_disponibilite_detail(html, 663251),
         )
 
