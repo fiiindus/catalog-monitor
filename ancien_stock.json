@@ -2684,22 +2684,52 @@
             "priority_target": "",
             "priority": -1
         },
-        "https://oupi.eu/fr/one-piece/7913-double-pack-set-vol12-dp-12-francais-one-piece-card-game.html": {
+        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7802-illustration-box-vol8-anglais-one-piece-card-game.html": {
             "site": "Oupi",
-            "name": "Double Pack Set Vol.12 [DP-12] (Français) - One Piece Card Game",
-            "price": "19,99 €",
+            "name": "Illustration Box Vol.8 (Anglais) - One Piece Card Game",
+            "price": "38,90 €",
             "status": "AVAILABLE",
             "availability": "",
-            "link": "https://oupi.eu/fr/one-piece/7913-double-pack-set-vol12-dp-12-francais-one-piece-card-game.html",
-            "image": "https://oupi.eu/23768-home_default/double-pack-set-vol12-dp-12-francais-one-piece-card-game.jpg",
-            "language": "VF",
+            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7802-illustration-box-vol8-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/23510-home_default/illustration-box-vol8-anglais-one-piece-card-game.jpg",
+            "language": "EN",
             "source": "catalogue",
             "notify_when_referenced": false,
-            "category": "DOUBLE_PACK",
+            "category": "OTHER",
             "priority_target": "",
-            "priority": 4,
+            "priority": 3,
             "type_alerte": "RETOUR EN STOCK",
             "boutique": "Oupi"
+        },
+        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7801-illustration-box-vol7-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Illustration Box Vol.7 (Anglais) - One Piece Card Game",
+            "price": "38,90 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7801-illustration-box-vol7-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/23507-home_default/illustration-box-vol7-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "OTHER",
+            "priority_target": "",
+            "priority": 3
+        },
+        "https://oupi.eu/fr/display-one-piece/7369-display-op-17-boite-de-booster-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Display The World's Strongest Warriors OP-17 Boite de Booster (Anglais) - One Piece Card Game",
+            "price": "289,90 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://oupi.eu/fr/display-one-piece/7369-display-op-17-boite-de-booster-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/23501-home_default/display-op-17-boite-de-booster-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": true,
+            "category": "DISPLAY",
+            "priority_target": "OP17",
+            "priority": 1008
         },
         "https://oupi.eu/fr/case-scelle-de-display/7000-case-scellee-de-12-display-op-14-anglais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -2746,6 +2776,21 @@
             "priority_target": "",
             "priority": 2
         },
+        "https://oupi.eu/fr/display-one-piece/7210-display-op-16-boite-de-booster-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Display The Time of Battle OP-16 Boite de Booster (Anglais) - One Piece Card Game",
+            "price": "171,50 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://oupi.eu/fr/display-one-piece/7210-display-op-16-boite-de-booster-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/22909-home_default/display-op-16-boite-de-booster-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "DISPLAY",
+            "priority_target": "",
+            "priority": 8
+        },
         "https://oupi.eu/fr/display-one-piece/6999-display-op-14-boite-de-booster-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Display The Azure Sea’s Seven OP-14 & EB-04 Boite de Booster (Anglais) - One Piece Card Game",
@@ -2776,23 +2821,6 @@
             "priority_target": "",
             "priority": 3
         },
-        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7801-illustration-box-vol7-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Illustration Box Vol.7 (Anglais) - One Piece Card Game",
-            "price": "38,90 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7801-illustration-box-vol7-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/23507-home_default/illustration-box-vol7-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "OTHER",
-            "priority_target": "",
-            "priority": 3,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Oupi"
-        },
         "https://oupi.eu/fr/case-scelle-de-display/7602-case-scellee-de-12-display-l-heure-de-la-bataille-decisive-op-16-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case Scellée de 12 Display L'Heure de la Bataille Décisive OP-16 (Français) - One Piece Card Game",
@@ -2807,23 +2835,6 @@
             "category": "CASE",
             "priority_target": "",
             "priority": 2
-        },
-        "https://oupi.eu/fr/display-one-piece/7369-display-op-17-boite-de-booster-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Display The World's Strongest Warriors OP-17 Boite de Booster (Anglais) - One Piece Card Game",
-            "price": "289,90 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/display-one-piece/7369-display-op-17-boite-de-booster-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/23501-home_default/display-op-17-boite-de-booster-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": true,
-            "category": "DISPLAY",
-            "priority_target": "OP17",
-            "priority": 1008,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Oupi"
         },
         "https://oupi.eu/fr/case-scelle-de-display/7349-case-scellee-de-12-display-xxxxxxxxxxxxxxxx-op-xx-francais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -2898,26 +2909,7 @@
             "notify_when_referenced": false,
             "category": "DOUBLE_PACK",
             "priority_target": "",
-            "priority": 6,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Oupi"
-        },
-        "https://oupi.eu/fr/display-one-piece/7210-display-op-16-boite-de-booster-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Display The Time of Battle OP-16 Boite de Booster (Anglais) - One Piece Card Game",
-            "price": "171,50 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/display-one-piece/7210-display-op-16-boite-de-booster-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/22909-home_default/display-op-16-boite-de-booster-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "DISPLAY",
-            "priority_target": "",
-            "priority": 8,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Oupi"
+            "priority": 6
         },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8103-heroines-special-set-anglais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -2993,6 +2985,21 @@
             "category": "DOUBLE_PACK",
             "priority_target": "",
             "priority": 6
+        },
+        "https://oupi.eu/fr/one-piece/7913-double-pack-set-vol12-dp-12-francais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Double Pack Set Vol.12 [DP-12] (Français) - One Piece Card Game",
+            "price": "19,99 €",
+            "status": "SOLD OUT",
+            "availability": "",
+            "link": "https://oupi.eu/fr/one-piece/7913-double-pack-set-vol12-dp-12-francais-one-piece-card-game.html",
+            "image": "https://oupi.eu/23768-home_default/double-pack-set-vol12-dp-12-francais-one-piece-card-game.jpg",
+            "language": "VF",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "DOUBLE_PACK",
+            "priority_target": "",
+            "priority": 4
         },
         "https://oupi.eu/fr/case-scelle-de-display/7909-case-scellee-de-12-display-eb-06-francais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -3263,21 +3270,6 @@
             "category": "PROMO",
             "priority_target": "",
             "priority": 7
-        },
-        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7802-illustration-box-vol8-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Illustration Box Vol.8 (Anglais) - One Piece Card Game",
-            "price": "38,90 €",
-            "status": "SOLD OUT",
-            "availability": "",
-            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7802-illustration-box-vol8-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/23510-home_default/illustration-box-vol8-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "OTHER",
-            "priority_target": "",
-            "priority": 3
         },
         "https://oupi.eu/fr/one-piece/7674-booster-blister-lheritage-du-maitre-op-12-francais-one-piece-card-game.html": {
             "site": "Oupi",
