@@ -17,9 +17,39 @@
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
   },
+  "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7801-illustration-box-vol7-anglais-one-piece-card-game.html": {
+    "fingerprint": "96ffc391ff5a83688c376bcfc91809cc97ad3b158309a31876715bf55845f165",
+    "name": "Illustration Box Vol.7 (Anglais) - One Piece Card Game",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
   "https://oupi.eu/fr/display-one-piece/6999-display-op-14-boite-de-booster-anglais-one-piece-card-game.html": {
     "fingerprint": "d34a1059d816084d65e4794b39e3dd474b3e8d1b6910f423d5152ae0abc040e3",
     "name": "Display The Azure Sea’s Seven OP-14 & EB-04 Boite de Booster (Anglais) - One Piece Card Game",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://oupi.eu/fr/display-one-piece/7210-display-op-16-boite-de-booster-anglais-one-piece-card-game.html": {
+    "fingerprint": "eec3ca316a2f7fcb830378f23e389891948ee62bed689f3d7a0af4d66829f2a9",
+    "name": "Display The Time of Battle OP-16 Boite de Booster (Anglais) - One Piece Card Game",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://oupi.eu/fr/display-one-piece/7369-display-op-17-boite-de-booster-anglais-one-piece-card-game.html": {
+    "fingerprint": "d7230bc86f742e1323fb09f0b8e25b56fe6d79dee12fe78b153cba7281b4d96b",
+    "name": "Display The World's Strongest Warriors OP-17 Boite de Booster (Anglais) - One Piece Card Game",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://oupi.eu/fr/one-piece/7669-double-pack-set-vol11-dp-11-the-time-of-battle-anglais-one-piece-card-game.html": {
+    "fingerprint": "8550e676975a9ceb61d87a4d194164029ead86443c75c2c93a0e7170da185283",
+    "name": "Double Pack Set Vol.11 [DP-11] The Time of Battle (Anglais) - One Piece Card Game",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://oupi.eu/fr/one-piece/7913-double-pack-set-vol12-dp-12-francais-one-piece-card-game.html": {
+    "fingerprint": "198ce0d0a6d45374356bc13396d2d1711dfde6e55f2523b4c60f6dc9b4a2b471",
+    "name": "Double Pack Set Vol.12 [DP-12] (Français) - One Piece Card Game",
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
   },
