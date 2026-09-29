@@ -1676,9 +1676,7 @@
             "category": "PROMO",
             "language": "JP",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 4
         },
         "https://p-bandai.com/us/item/N2904549003": {
             "site": "Premium Bandai US",
@@ -1692,9 +1690,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2903432005": {
             "site": "Premium Bandai US",
@@ -1708,9 +1704,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2881648002": {
             "site": "Premium Bandai US",
@@ -1724,9 +1718,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2904549002": {
             "site": "Premium Bandai US",
@@ -1740,9 +1732,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2903432004": {
             "site": "Premium Bandai US",
@@ -1756,9 +1746,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2903432003": {
             "site": "Premium Bandai US",
@@ -1772,9 +1760,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2903432001": {
             "site": "Premium Bandai US",
@@ -1788,9 +1774,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2863373001": {
             "site": "Premium Bandai US",
@@ -1804,9 +1788,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2863372001": {
             "site": "Premium Bandai US",
@@ -1820,9 +1802,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2856354006": {
             "site": "Premium Bandai US",
@@ -1836,9 +1816,7 @@
             "category": "PROMO",
             "language": "EN",
             "priority_target": "",
-            "priority": 7,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 7
         },
         "https://p-bandai.com/us/item/N9061360004": {
             "site": "Premium Bandai US",
@@ -1852,9 +1830,7 @@
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 4
         },
         "https://p-bandai.com/us/item/N9061361004": {
             "site": "Premium Bandai US",
@@ -1868,9 +1844,7 @@
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 4
         },
         "https://p-bandai.com/us/item/N2835216004": {
             "site": "Premium Bandai US",
@@ -1884,9 +1858,7 @@
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": "",
-            "priority": -1,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": -1
         },
         "https://p-bandai.com/us/item/N9062600002": {
             "site": "Premium Bandai US",
@@ -1900,9 +1872,7 @@
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 4
         },
         "https://p-bandai.com/us/item/N2883032002": {
             "site": "Premium Bandai US",
@@ -1916,9 +1886,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2863455002": {
             "site": "Premium Bandai US",
@@ -1932,9 +1900,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N9062600001": {
             "site": "Premium Bandai US",
@@ -1948,9 +1914,7 @@
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 4
         },
         "https://p-bandai.com/us/item/N2883032001": {
             "site": "Premium Bandai US",
@@ -1964,9 +1928,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2863455001": {
             "site": "Premium Bandai US",
@@ -1980,9 +1942,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2835216003": {
             "site": "Premium Bandai US",
@@ -1996,9 +1956,7 @@
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": "",
-            "priority": -1,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": -1
         },
         "https://p-bandai.com/us/item/N2856354003": {
             "site": "Premium Bandai US",
@@ -2012,9 +1970,7 @@
             "category": "PROMO",
             "language": "EN",
             "priority_target": "",
-            "priority": 7,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 7
         },
         "https://p-bandai.com/us/item/N9061360002": {
             "site": "Premium Bandai US",
@@ -2028,9 +1984,7 @@
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 4
         },
         "https://p-bandai.com/us/item/N9061361002": {
             "site": "Premium Bandai US",
@@ -2044,9 +1998,7 @@
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 4
         },
         "https://p-bandai.com/us/item/N2835216001": {
             "site": "Premium Bandai US",
@@ -2060,9 +2012,7 @@
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": "",
-            "priority": -1,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": -1
         },
         "https://p-bandai.com/us/item/N9061360001": {
             "site": "Premium Bandai US",
@@ -2076,9 +2026,7 @@
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 4
         },
         "https://p-bandai.com/us/item/N9061361001": {
             "site": "Premium Bandai US",
@@ -2092,9 +2040,7 @@
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 4
         },
         "https://p-bandai.com/us/item/N2856354002": {
             "site": "Premium Bandai US",
@@ -2108,9 +2054,7 @@
             "category": "PROMO",
             "language": "EN",
             "priority_target": "",
-            "priority": 7,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 7
         },
         "https://p-bandai.com/us/item/N2863371002": {
             "site": "Premium Bandai US",
@@ -2124,9 +2068,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2863371001": {
             "site": "Premium Bandai US",
@@ -2140,9 +2082,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2860266001": {
             "site": "Premium Bandai US",
@@ -2156,9 +2096,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2856354001": {
             "site": "Premium Bandai US",
@@ -2172,9 +2110,7 @@
             "category": "PROMO",
             "language": "EN",
             "priority_target": "",
-            "priority": 7,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 7
         },
         "https://p-bandai.com/us/item/N2829516005": {
             "site": "Premium Bandai US",
@@ -2188,9 +2124,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2810874002": {
             "site": "Premium Bandai US",
@@ -2204,9 +2138,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2835217001": {
             "site": "Premium Bandai US",
@@ -2220,9 +2152,7 @@
             "category": "PROMO",
             "language": "JP",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 4
         },
         "https://p-bandai.com/us/item/N2829516001": {
             "site": "Premium Bandai US",
@@ -2236,9 +2166,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2829153001": {
             "site": "Premium Bandai US",
@@ -2252,9 +2180,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2741813002": {
             "site": "Premium Bandai US",
@@ -2268,9 +2194,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2763859002": {
             "site": "Premium Bandai US",
@@ -2284,9 +2208,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2810874001": {
             "site": "Premium Bandai US",
@@ -2300,9 +2222,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2806574001": {
             "site": "Premium Bandai US",
@@ -2316,9 +2236,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2804037001": {
             "site": "Premium Bandai US",
@@ -2332,9 +2250,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2766698004": {
             "site": "Premium Bandai US",
@@ -2348,9 +2264,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2767076003": {
             "site": "Premium Bandai US",
@@ -2364,9 +2278,7 @@
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": "",
-            "priority": -1,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": -1
         },
         "https://p-bandai.com/us/item/N2804289002": {
             "site": "Premium Bandai US",
@@ -2380,9 +2292,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2804289001": {
             "site": "Premium Bandai US",
@@ -2396,9 +2306,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2773432001": {
             "site": "Premium Bandai US",
@@ -2412,9 +2320,7 @@
             "category": "PROMO",
             "language": "EN",
             "priority_target": "",
-            "priority": 7,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 7
         },
         "https://p-bandai.com/us/item/N2767077001": {
             "site": "Premium Bandai US",
@@ -2428,9 +2334,7 @@
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": "",
-            "priority": -1,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": -1
         },
         "https://p-bandai.com/us/item/N2767076001": {
             "site": "Premium Bandai US",
@@ -2444,9 +2348,7 @@
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": "",
-            "priority": -1,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": -1
         },
         "https://p-bandai.com/us/item/N2766698001": {
             "site": "Premium Bandai US",
@@ -2460,9 +2362,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2773431001": {
             "site": "Premium Bandai US",
@@ -2476,9 +2376,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2763859001": {
             "site": "Premium Bandai US",
@@ -2492,9 +2390,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2770674001": {
             "site": "Premium Bandai US",
@@ -2508,9 +2404,7 @@
             "category": "PROMO",
             "language": "JP",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 4
         },
         "https://p-bandai.com/us/item/N2746330001": {
             "site": "Premium Bandai US",
@@ -2524,9 +2418,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2748330002": {
             "site": "Premium Bandai US",
@@ -2540,9 +2432,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2693412005": {
             "site": "Premium Bandai US",
@@ -2556,9 +2446,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2693410005": {
             "site": "Premium Bandai US",
@@ -2572,9 +2460,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2693409005": {
             "site": "Premium Bandai US",
@@ -2588,9 +2474,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2693408005": {
             "site": "Premium Bandai US",
@@ -2604,9 +2488,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2741813001": {
             "site": "Premium Bandai US",
@@ -2620,9 +2502,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2748330001": {
             "site": "Premium Bandai US",
@@ -2636,9 +2516,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2730801002": {
             "site": "Premium Bandai US",
@@ -2652,9 +2530,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2693412004": {
             "site": "Premium Bandai US",
@@ -2668,9 +2544,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2693411004": {
             "site": "Premium Bandai US",
@@ -2684,9 +2558,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2693410004": {
             "site": "Premium Bandai US",
@@ -2700,9 +2572,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2693409004": {
             "site": "Premium Bandai US",
@@ -2716,9 +2586,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2693408004": {
             "site": "Premium Bandai US",
@@ -2732,9 +2600,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2741330001": {
             "site": "Premium Bandai US",
@@ -2748,9 +2614,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2729460001": {
             "site": "Premium Bandai US",
@@ -2764,9 +2628,7 @@
             "category": "PROMO",
             "language": "EN",
             "priority_target": "",
-            "priority": 7,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 7
         },
         "https://p-bandai.com/us/item/N2726330001": {
             "site": "Premium Bandai US",
@@ -2780,9 +2642,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2716225001": {
             "site": "Premium Bandai US",
@@ -2796,9 +2656,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2716224001": {
             "site": "Premium Bandai US",
@@ -2812,9 +2670,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N9042294002": {
             "site": "Premium Bandai US",
@@ -2828,9 +2684,7 @@
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 4
         },
         "https://p-bandai.com/us/item/N9042293002": {
             "site": "Premium Bandai US",
@@ -2844,9 +2698,7 @@
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 4
         },
         "https://p-bandai.com/us/item/N9042292002": {
             "site": "Premium Bandai US",
@@ -2860,9 +2712,7 @@
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 4
         },
         "https://p-bandai.com/us/item/N9042291002": {
             "site": "Premium Bandai US",
@@ -2876,9 +2726,7 @@
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 4
         },
         "https://p-bandai.com/us/item/N9042290002": {
             "site": "Premium Bandai US",
@@ -2892,9 +2740,7 @@
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 4
         },
         "https://p-bandai.com/us/item/N2693412002": {
             "site": "Premium Bandai US",
@@ -2908,9 +2754,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2693411002": {
             "site": "Premium Bandai US",
@@ -2924,9 +2768,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2693410002": {
             "site": "Premium Bandai US",
@@ -2940,9 +2782,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2693409002": {
             "site": "Premium Bandai US",
@@ -2956,9 +2796,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2693408002": {
             "site": "Premium Bandai US",
@@ -2972,9 +2810,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2693412001": {
             "site": "Premium Bandai US",
@@ -2988,9 +2824,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2693411001": {
             "site": "Premium Bandai US",
@@ -3004,9 +2838,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2693410001": {
             "site": "Premium Bandai US",
@@ -3020,9 +2852,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2693409001": {
             "site": "Premium Bandai US",
@@ -3036,9 +2866,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2693408001": {
             "site": "Premium Bandai US",
@@ -3052,9 +2880,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N9042292001": {
             "site": "Premium Bandai US",
@@ -3068,9 +2894,7 @@
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 4
         },
         "https://p-bandai.com/us/item/N9042294001": {
             "site": "Premium Bandai US",
@@ -3084,9 +2908,7 @@
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 4
         },
         "https://p-bandai.com/us/item/N9042293001": {
             "site": "Premium Bandai US",
@@ -3100,9 +2922,7 @@
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 4
         },
         "https://p-bandai.com/us/item/N9042291001": {
             "site": "Premium Bandai US",
@@ -3116,9 +2936,7 @@
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 4
         },
         "https://p-bandai.com/us/item/N9042290001": {
             "site": "Premium Bandai US",
@@ -3132,9 +2950,7 @@
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 4
         },
         "https://p-bandai.com/us/item/N2705247001": {
             "site": "Premium Bandai US",
@@ -3148,9 +2964,7 @@
             "category": "PROMO",
             "language": "JP",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 4
         },
         "https://p-bandai.com/us/item/N2696011001": {
             "site": "Premium Bandai US",
@@ -3164,9 +2978,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2696012001": {
             "site": "Premium Bandai US",
@@ -3180,9 +2992,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2677478001": {
             "site": "Premium Bandai US",
@@ -3196,9 +3006,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2677477001": {
             "site": "Premium Bandai US",
@@ -3212,9 +3020,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2672688001": {
             "site": "Premium Bandai US",
@@ -3228,9 +3034,7 @@
             "category": "CASE",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 0,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 0
         },
         "https://p-bandai.com/us/item/N2672687001": {
             "site": "Premium Bandai US",
@@ -3244,9 +3048,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2652498001": {
             "site": "Premium Bandai US",
@@ -3260,9 +3062,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2652499001": {
             "site": "Premium Bandai US",
@@ -3276,9 +3076,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         },
         "https://p-bandai.com/us/item/N2652497001": {
             "site": "Premium Bandai US",
@@ -3292,9 +3090,7 @@
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 3
         }
     },
     "Parkage": {
