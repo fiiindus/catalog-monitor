@@ -1,8 +1,13 @@
+import json
+import os
+import tempfile
 import unittest
-from unittest.mock import Mock
+from pathlib import Path
+from unittest.mock import Mock, patch
 
 import notifier
-from comparateur import alerte_disponibilite_autorisee
+from comparateur import alerte_disponibilite_autorisee, comparer
+from deduplication import filtrer_alertes, mettre_a_jour_etat
 from scanners import premium_bandai
 
 
@@ -63,8 +68,8 @@ class PremiumBandaiNotificationTests(unittest.TestCase):
             )
         )
 
-    def test_ordinary_playmats_are_excluded(self):
-        self.assertFalse(
+    def test_all_card_game_references_are_monitored(self):
+        self.assertTrue(
             premium_bandai.produit_surveille(
                 "ONE PIECE CARD GAME Official Playmat Limited Edition vol.6"
             )
@@ -84,8 +89,8 @@ class PremiumBandaiNotificationTests(unittest.TestCase):
             )
         )
 
-    def test_single_chinese_card_stays_excluded(self):
-        self.assertFalse(
+    def test_single_chinese_card_is_monitored(self):
+        self.assertTrue(
             premium_bandai.produit_surveille(
                 "ONE PIECE CARD GAME Chinese Single Card OP17-001"
             )
@@ -165,6 +170,106 @@ class PremiumBandaiNotificationTests(unittest.TestCase):
 
     def test_email_sender_is_removed(self):
         self.assertFalse(hasattr(notifier, "send_email"))
+
+    def test_broad_sources_do_not_filter_shop_series_or_status(self):
+        self.assertEqual(3, len(premium_bandai.URL_TEMPLATES))
+        self.assertTrue(any("/us/search?keyword=" in url
+                            for url in premium_bandai.URL_TEMPLATES))
+        for url in premium_bandai.URL_TEMPLATES:
+            self.assertIn("_f_productStatuses=Waiting,On,End", url)
+            self.assertNotIn("_f_shops", url)
+            self.assertNotIn("_f_series", url)
+
+    def test_japanese_4th_anniversary_discovery_and_transition_once(self):
+        lien = "https://p-bandai.com/us/item/N2873815002"
+        nom = "ONE PIECE CARD GAME Japanese 4th Anniversary Set"
+        original_cwd = Path.cwd()
+        with tempfile.TemporaryDirectory() as temp:
+            try:
+                os.chdir(temp)
+                Path("ancien_stock.json").write_text(
+                    json.dumps({"Premium Bandai US": {}}), encoding="utf-8"
+                )
+                etat = {}
+                for wording, expected, expected_type in (
+                    ("COMING SOON", "COMING_SOON", "NOUVEAU PRODUIT RÉFÉRENCÉ"),
+                    ("PRE-ORDERS OPEN", "PREORDER", "NOUVELLE PRÉCOMMANDE"),
+                    ("PRE-ORDERS OPEN", "PREORDER", None),
+                ):
+                    html = f"""
+                    <div class="o-search-product"><a class="c-product__link"
+                        href="/us/item/N2873815002">
+                      <span class="c-product__title">{nom}</span>
+                      <span>{wording}</span>
+                    </a></div>"""
+                    produits = {}
+                    premium_bandai.extraire_page(html, produits)
+                    self.assertEqual(expected, produits[lien]["status"])
+                    alertes = filtrer_alertes(
+                        comparer({"Premium Bandai US": produits}), etat
+                    )
+                    self.assertEqual(
+                        [expected_type] if expected_type else [],
+                        [alerte["type_alerte"] for alerte in alertes],
+                    )
+                    stock = {"Premium Bandai US": produits}
+                    etat = mettre_a_jour_etat(etat, alertes, stock)
+                    Path("ancien_stock.json").write_text(
+                        json.dumps(stock), encoding="utf-8"
+                    )
+            finally:
+                os.chdir(original_cwd)
+
+    def test_new_anniversary_reference_alerts_for_unknown_and_sold_out(self):
+        original_cwd = Path.cwd()
+        with tempfile.TemporaryDirectory() as temp:
+            try:
+                os.chdir(temp)
+                Path("ancien_stock.json").write_text(
+                    json.dumps({"Premium Bandai US": {}}), encoding="utf-8"
+                )
+                for status in ("UNKNOWN", "SOLD OUT"):
+                    with self.subTest(status=status):
+                        link = "https://p-bandai.com/us/item/N2873815002"
+                        product = {
+                            "site": "Premium Bandai US",
+                            "name": "ONE PIECE CARD GAME Japanese 4th Anniversary Set",
+                            "link": link,
+                            "status": status,
+                            "orderable": False,
+                            "notify_when_referenced": True,
+                        }
+                        alerts = comparer({"Premium Bandai US": {link: product}})
+                        self.assertEqual(
+                            ["NOUVEAU PRODUIT RÉFÉRENCÉ"],
+                            [alert["type_alerte"] for alert in alerts],
+                        )
+            finally:
+                os.chdir(original_cwd)
+
+    def test_scanner_finds_japanese_4th_anniversary_from_unfiltered_page(self):
+        html = """<div class="o-search-product">
+          <a class="c-product__link" href="/us/item/N2873815002">
+            <p class="c-product__title">ONE PIECE CARD GAME Japanese 4th Anniversary Set</p>
+            <span>OUT OF STOCK</span>
+          </a></div>"""
+        browser = Mock()
+        context = Mock()
+        context.__enter__ = Mock(return_value=Mock(chromium=Mock(
+            launch=Mock(return_value=browser))))
+        context.__exit__ = Mock(return_value=False)
+
+        with patch.object(premium_bandai, "sync_playwright", return_value=context), \
+             patch.object(premium_bandai, "charger_page_catalogue",
+                          side_effect=[html, html, html]) as charger:
+            produits = premium_bandai.scan()
+
+        produit = produits["https://p-bandai.com/us/item/N2873815002"]
+        self.assertEqual("SOLD OUT", produit["status"])
+        self.assertTrue(produit["notify_when_referenced"])
+        self.assertEqual(3, charger.call_count)
+        for call in charger.call_args_list:
+            self.assertIn("_f_productStatuses=Waiting,On,End", call.args[1])
 
 
 if __name__ == "__main__":
