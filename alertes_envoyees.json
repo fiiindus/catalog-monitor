@@ -11,6 +11,12 @@
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
   },
+  "https://oupi.eu/fr/case-scelle-de-display/8106-case-scellee-de-12-display-successeurs-op-13-francais-one-piece-card-game.html": {
+    "fingerprint": "bc23fdacedcb27282ecfe7820c7a2006c981a8f5c9693daa3216cbc098260563",
+    "name": "Case Scellée de 12 Display Successeurs OP-13 (Français) - One Piece Card Game",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
   "https://oupi.eu/fr/collection-pack-speciaux-one-piece/6473-premium-card-collection-best-selection-vol3-anglais-one-piece-card-game.html": {
     "fingerprint": "1b3d4ef775166b8fdafaeafb2cd62f3659923c4262e06ec17b758b94db9ac231",
     "name": "Premium Card Collection Best Selection Vol.3 (Anglais) - One Piece Card Game",
@@ -26,6 +32,18 @@
   "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7802-illustration-box-vol8-anglais-one-piece-card-game.html": {
     "fingerprint": "5ac33f0e6cc6a9ce5b0165b6c00c8a5f644c1d297bb260d982b59f2b9498e742",
     "name": "Illustration Box Vol.8 (Anglais) - One Piece Card Game",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://oupi.eu/fr/display-one-piece/6516-display-successeurs-op-13-boite-de-booster-francais-one-piece-card-game.html": {
+    "fingerprint": "55fce2ae6fab98d19131e95e73308cf151af86fc4f522b03df0d8110801c9c1d",
+    "name": "Display Successeurs OP-13 Boite de Booster (Français) - One Piece Card Game",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://oupi.eu/fr/display-one-piece/7369-display-op-17-boite-de-booster-anglais-one-piece-card-game.html": {
+    "fingerprint": "d7230bc86f742e1323fb09f0b8e25b56fe6d79dee12fe78b153cba7281b4d96b",
+    "name": "Display The World's Strongest Warriors OP-17 Boite de Booster (Anglais) - One Piece Card Game",
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
   },
@@ -790,6 +808,12 @@
     "name": "One Piece Card Game Display (x24 Booster Packs) - OP-17 : The world's strongest warriors ***Limited to 1 display per household***",
     "status": "REMOVED",
     "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
+  },
+  "https://www.parkage.com/fr/1123145-boite-de-24-boosters-one-piece-card-game-op-17-les-guerriers-les-plus-puissants-au-monde-limite-a-1-display-par-foyer": {
+    "fingerprint": "5d68cbefd8346694ac600e11522dc3e31b1398358c934855743fd5517b8818d6",
+    "name": "Boîte de 24 Boosters One Piece Card Game - OP-17 : Les guerriers les plus puissants au monde ***Limité à 1 display par foyer***",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
   },
   "https://www.parkage.com/fr/1123151-double-pack-set-one-piece-card-game-dp-12-vol-12": {
     "fingerprint": "a4333c90e4ca55f7b2e795d86f6e474f036d35837a7660ab61e7fc37e672ef99",
