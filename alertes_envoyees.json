@@ -29,18 +29,6 @@
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
   },
-  "https://oupi.eu/fr/display-one-piece/7210-display-op-16-boite-de-booster-anglais-one-piece-card-game.html": {
-    "fingerprint": "eec3ca316a2f7fcb830378f23e389891948ee62bed689f3d7a0af4d66829f2a9",
-    "name": "Display The Time of Battle OP-16 Boite de Booster (Anglais) - One Piece Card Game",
-    "status": "AVAILABLE",
-    "type": "RETOUR EN STOCK"
-  },
-  "https://oupi.eu/fr/display-one-piece/7369-display-op-17-boite-de-booster-anglais-one-piece-card-game.html": {
-    "fingerprint": "d7230bc86f742e1323fb09f0b8e25b56fe6d79dee12fe78b153cba7281b4d96b",
-    "name": "Display The World's Strongest Warriors OP-17 Boite de Booster (Anglais) - One Piece Card Game",
-    "status": "AVAILABLE",
-    "type": "RETOUR EN STOCK"
-  },
   "https://oupi.eu/fr/one-piece/7669-double-pack-set-vol11-dp-11-the-time-of-battle-anglais-one-piece-card-game.html": {
     "fingerprint": "8550e676975a9ceb61d87a4d194164029ead86443c75c2c93a0e7170da185283",
     "name": "Double Pack Set Vol.11 [DP-11] The Time of Battle (Anglais) - One Piece Card Game",
@@ -874,6 +862,12 @@
     "name": "Deck pour débutant Jaune Eustass \"Captain\" Kidd ST-36 - One Piece FR",
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.play-in.com/fr/produit/663248/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-fr": {
+    "fingerprint": "79bf3480adf45943b30155904e476596843ae1e174a98793509a3865dda0281a",
+    "name": "Booster One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - FR",
+    "status": "REMOVED",
+    "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
   },
   "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr": {
     "fingerprint": "02c0b5008ace949adc27e834f04a4ee74a20a0ef802822472336f4037578e447",
