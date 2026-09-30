@@ -29,12 +29,6 @@
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
   },
-  "https://oupi.eu/fr/display-one-piece/6999-display-op-14-boite-de-booster-anglais-one-piece-card-game.html": {
-    "fingerprint": "d34a1059d816084d65e4794b39e3dd474b3e8d1b6910f423d5152ae0abc040e3",
-    "name": "Display The Azure Sea’s Seven OP-14 & EB-04 Boite de Booster (Anglais) - One Piece Card Game",
-    "status": "AVAILABLE",
-    "type": "RETOUR EN STOCK"
-  },
   "https://oupi.eu/fr/display-one-piece/7210-display-op-16-boite-de-booster-anglais-one-piece-card-game.html": {
     "fingerprint": "eec3ca316a2f7fcb830378f23e389891948ee62bed689f3d7a0af4d66829f2a9",
     "name": "Display The Time of Battle OP-16 Boite de Booster (Anglais) - One Piece Card Game",
@@ -50,6 +44,12 @@
   "https://oupi.eu/fr/one-piece/7669-double-pack-set-vol11-dp-11-the-time-of-battle-anglais-one-piece-card-game.html": {
     "fingerprint": "8550e676975a9ceb61d87a4d194164029ead86443c75c2c93a0e7170da185283",
     "name": "Double Pack Set Vol.11 [DP-11] The Time of Battle (Anglais) - One Piece Card Game",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://oupi.eu/fr/one-piece/7913-double-pack-set-vol12-dp-12-francais-one-piece-card-game.html": {
+    "fingerprint": "198ce0d0a6d45374356bc13396d2d1711dfde6e55f2523b4c60f6dc9b4a2b471",
+    "name": "Double Pack Set Vol.12 [DP-12] (Français) - One Piece Card Game",
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
   },
@@ -676,18 +676,6 @@
     "name": "ONE PIECE CARD GAME -ADVENTURE ON KAMI’S ISLAND- [OP15-EB04] Booster Box [September 2026 Delivery]",
     "status": "SOLD OUT",
     "type": "NOUVEAU PRODUIT RÉFÉRENCÉ"
-  },
-  "https://p-bandai.com/us/item/N9065180001": {
-    "fingerprint": "54aa8dce2e573b881bdf3cabf8e7b4f5deafb47d59a4c18658f4a0c1385528b8",
-    "name": "ONE PIECE CARD GAME -THE TIME OF BATTLE- [OP-16] Booster Box",
-    "status": "PREORDER",
-    "type": "NOUVELLE PRÉCOMMANDE"
-  },
-  "https://p-bandai.com/us/item/N9065181001": {
-    "fingerprint": "2cb1bdc30f253fb44f4953bfb4c4e3463d8f7dd40b0726c1326d98f9cb178a20",
-    "name": "ONE PIECE CARD GAME -THE WORLD’S STRONGEST WARRIORS- [OP-17] Booster Box",
-    "status": "PREORDER",
-    "type": "NOUVELLE PRÉCOMMANDE"
   },
   "https://www.parkage.com/fr/1069318-one-piece-card-game-starter-deck-st-23-red-shanks": {
     "fingerprint": "40439b29af61a6f2f977503cb7c49aac1059a77ca69f544a332ebb18fe49a091",
