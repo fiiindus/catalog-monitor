@@ -3157,9 +3157,7 @@
             "product_types": [],
             "category": "DISPLAY",
             "priority_target": "OP17",
-            "priority": 1006,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Parkage"
+            "priority": 1006
         },
         "https://www.parkage.com/fr/1123144-booster-one-piece-card-game-op-17-les-guerriers-les-plus-puissants-au-monde": {
             "site": "Parkage",
@@ -4173,9 +4171,7 @@
             "notify_when_referenced": true,
             "category": "DISPLAY",
             "priority_target": "OP17",
-            "priority": 1008,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Oupi"
+            "priority": 1008
         },
         "https://oupi.eu/fr/case-scelle-de-display/7000-case-scellee-de-12-display-op-14-anglais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -4235,9 +4231,7 @@
             "notify_when_referenced": false,
             "category": "CASE",
             "priority_target": "",
-            "priority": 2,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Oupi"
+            "priority": 2
         },
         "https://oupi.eu/fr/starter-deck-one-piece/7811-roronoa-zoro-deck-de-demarrage-st-32-vert-francais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -4372,9 +4366,7 @@
             "notify_when_referenced": false,
             "category": "DISPLAY",
             "priority_target": "",
-            "priority": 6,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Oupi"
+            "priority": 6
         },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8103-heroines-special-set-anglais-one-piece-card-game.html": {
             "site": "Oupi",
