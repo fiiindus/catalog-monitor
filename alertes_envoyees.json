@@ -659,6 +659,12 @@
     "status": "SOLD OUT",
     "type": "NOUVEAU PRODUIT RÉFÉRENCÉ"
   },
+  "https://www.parkage.com/fr/1053653-one-piece-card-game-booster-pack-op-10-royal-blood": {
+    "fingerprint": "8d48f741002aa357935d68bdb339f407b6c0d5675815cf6f6a4fc1c4692fd8ec",
+    "name": "One Piece Card Game Booster Pack - OP-10 : Royal Blood",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
   "https://www.parkage.com/fr/1069318-one-piece-card-game-starter-deck-st-23-red-shanks": {
     "fingerprint": "40439b29af61a6f2f977503cb7c49aac1059a77ca69f544a332ebb18fe49a091",
     "name": "One Piece Card Game Starter Deck - ST-23 : Red Shanks",
@@ -737,6 +743,18 @@
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
+  "https://www.parkage.com/fr/1107050-booster-one-piece-card-game-op-13-successeurs": {
+    "fingerprint": "13d3a3b1a2d5079c17928bb4d7370dd68bd36db4c714de962e0afa8773971555",
+    "name": "Booster One Piece Card Game - OP-13 : Successeurs",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1107053-boite-de-24-boosters-one-piece-card-game-op-13-successeurs": {
+    "fingerprint": "afebaf39884e02a975d07a4e525ab5f6567905622e26aa3f185eab67dae25636",
+    "name": "Boîte de 24 Boosters One Piece Card Game - OP-13 : Successeurs",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
   "https://www.parkage.com/fr/1107099-deck-de-demarrage-one-piece-card-game-st-22-ace-et-newgate": {
     "fingerprint": "53a9757dd29c30158be0173526331261cc763fb3896f96f8d1c2158fce180e15",
     "name": "Deck de Démarrage One Piece Card Game - ST-22 : Ace et Newgate",
@@ -767,6 +785,18 @@
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
+  "https://www.parkage.com/fr/1120115-one-piece-card-game-box-ib-07-illustration-box-vol-7": {
+    "fingerprint": "8a04b7c88d0dd8cd1cd0b46f380a65613609144a557d5a7544246a268feaddf4",
+    "name": "One Piece Card Game Box - IB-07 : Illustration Box Vol.7",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://www.parkage.com/fr/1120116-one-piece-card-game-box-ib-08-illustration-box-vol-8": {
+    "fingerprint": "352d3bf5a7cff434c6110c8728a617899dc24ac23d314ba0c7cabb1152f1f37e",
+    "name": "One Piece Card Game Box - IB-08 : Illustration Box Vol.8",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
   "https://www.parkage.com/fr/1121400-one-piece-card-game-box-english-version-3rd-anniversary-set": {
     "fingerprint": "2607f17f6a8c1a6a8c096267e3b749b129a39ce357fcd7ad7ba0b0ee185b8d82",
     "name": "One Piece Card Game Box - English Version 3rd Anniversary Set",
@@ -774,16 +804,28 @@
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
   "https://www.parkage.com/fr/1123139-one-piece-card-game-booster-pack-op-17-the-world-s-strongest-warriors": {
-    "fingerprint": "07603aacc89f6404cc01946bea799ababf7c4f9af1bd2ae06883654aee64b742",
+    "fingerprint": "68255f017911d10f59a56bf2bca4eca46b282231f45769c3c9b5376bc6a37534",
     "name": "One Piece Card Game Booster Pack - OP-17 : The world's strongest warriors",
-    "status": "REMOVED",
-    "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1123140-one-piece-card-game-display-x24-booster-packs-op-17-the-world-s-strongest-warriors": {
+    "fingerprint": "a9259cb3e9b7ac3ed4ac89242909e5585ab4c24abcafcf34bccd08f5ad56d1c5",
+    "name": "One Piece Card Game Display (x24 Booster Packs) - OP-17 : The world's strongest warriors",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
   "https://www.parkage.com/fr/1123140-one-piece-card-game-display-x24-booster-packs-op-17-the-world-s-strongest-warriors-limited-to-1-display-per-household": {
     "fingerprint": "045f0437496d9309a598917903232e23823d26492c1323095bf5d888f993a2e4",
     "name": "One Piece Card Game Display (x24 Booster Packs) - OP-17 : The world's strongest warriors ***Limited to 1 display per household***",
     "status": "REMOVED",
     "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
+  },
+  "https://www.parkage.com/fr/1123145-boite-de-24-boosters-one-piece-card-game-op-17-les-guerriers-les-plus-puissants-au-monde": {
+    "fingerprint": "0ff0bc011ee7b771465fa4e058dcbb9f57ef073b41706590588b64a7f5937dba",
+    "name": "Boîte de 24 Boosters One Piece Card Game - OP-17 : Les guerriers les plus puissants au monde",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
   "https://www.parkage.com/fr/1123145-boite-de-24-boosters-one-piece-card-game-op-17-les-guerriers-les-plus-puissants-au-monde-limite-a-1-display-par-foyer": {
     "fingerprint": "5d68cbefd8346694ac600e11522dc3e31b1398358c934855743fd5517b8818d6",
@@ -916,6 +958,12 @@
     "name": "Double Pack Set One Piece Tcg : 12 Les Guerriers Les Plus Puissants Au Monde [OP-17] - EN",
     "status": "REMOVED",
     "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
+  },
+  "https://www.ultrajeux.com/produit-31373-display-op13-successeurs-4582769865596.html": {
+    "fingerprint": "14b6e1062d857408838aab5bcb0d491c4fc27b1207c72c48a5c85ec71b3dff02",
+    "name": "Display OP13 - Successeurs",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
   "https://www.ultrajeux.com/produit-31374-op13-successeurs-4582769865589.html": {
     "fingerprint": "09a1a1172200a8f73eee9243fc38c8bc208b57814ab5836d684eb86e9c600437",
