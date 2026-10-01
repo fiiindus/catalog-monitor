@@ -288,8 +288,8 @@
       "priority_target": "OP17",
       "priority": 1004
     },
-    "compteur": 1,
-    "alerte_envoyee": false
+    "compteur": 2,
+    "alerte_envoyee": true
   },
   "Parkage|https://www.parkage.com/fr/1123145-boite-de-24-boosters-one-piece-card-game-op-17-les-guerriers-les-plus-puissants-au-monde-limite-a-1-display-par-foyer": {
     "boutique": "Parkage",
@@ -306,7 +306,7 @@
       "priority_target": "OP17",
       "priority": 1006
     },
-    "compteur": 1,
-    "alerte_envoyee": false
+    "compteur": 2,
+    "alerte_envoyee": true
   }
 }

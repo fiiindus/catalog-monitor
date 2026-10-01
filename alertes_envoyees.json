@@ -659,6 +659,12 @@
     "status": "SOLD OUT",
     "type": "NOUVEAU PRODUIT RÉFÉRENCÉ"
   },
+  "https://p-bandai.com/us/item/N9065181001": {
+    "fingerprint": "6b1fdce632168033dfda669f6f0b5f445bf42aaaa6e2fe6c156efaac858ca79d",
+    "name": "ONE PIECE CARD GAME -THE WORLD’S STRONGEST WARRIORS- [OP-17] Booster Box",
+    "status": "REMOVED",
+    "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
+  },
   "https://www.parkage.com/fr/1053653-one-piece-card-game-booster-pack-op-10-royal-blood": {
     "fingerprint": "8d48f741002aa357935d68bdb339f407b6c0d5675815cf6f6a4fc1c4692fd8ec",
     "name": "One Piece Card Game Booster Pack - OP-10 : Royal Blood",
@@ -828,10 +834,10 @@
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
   "https://www.parkage.com/fr/1123145-boite-de-24-boosters-one-piece-card-game-op-17-les-guerriers-les-plus-puissants-au-monde-limite-a-1-display-par-foyer": {
-    "fingerprint": "5d68cbefd8346694ac600e11522dc3e31b1398358c934855743fd5517b8818d6",
+    "fingerprint": "d3a0359613b39ae4b1ca93e972897809325e3f92ea350ba9a4e0b225431673be",
     "name": "Boîte de 24 Boosters One Piece Card Game - OP-17 : Les guerriers les plus puissants au monde ***Limité à 1 display par foyer***",
-    "status": "AVAILABLE",
-    "type": "RETOUR EN STOCK"
+    "status": "REMOVED",
+    "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
   },
   "https://www.parkage.com/fr/1123151-double-pack-set-one-piece-card-game-dp-12-vol-12": {
     "fingerprint": "a4333c90e4ca55f7b2e795d86f6e474f036d35837a7660ab61e7fc37e672ef99",
@@ -998,12 +1004,6 @@
   "https://www.ultrajeux.com/produit-32845-st36-eustass-captain-kid-0810199501079.html": {
     "fingerprint": "12f84ab458988f6bc74cdd38c27cc9ad44cb49a0c1c9e5b2e93008a84fc3d783",
     "name": "ST36 : Eustass \"Captain\" Kid",
-    "status": "AVAILABLE",
-    "type": "RETOUR EN STOCK"
-  },
-  "https://www.ultrajeux.com/produit-32957-op17-the-world-s-strongest-warriors-0810199501963.html": {
-    "fingerprint": "4a25afc068cfdd2b512f38080f7b97e08311f3081cfcef35ddc634ec658c375d",
-    "name": "OP17 - The World's Strongest Warriors",
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
   },
