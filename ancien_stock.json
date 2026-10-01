@@ -3098,14 +3098,16 @@
             "site": "Parkage",
             "name": "One Piece Card Game Box - Heroines Special Set",
             "price": "199,90 €",
-            "status": "SOLD OUT",
+            "status": "AVAILABLE",
             "link": "https://www.parkage.com/fr/1128120-one-piece-card-game-box-heroines-special-set",
             "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/one_piece_card_game_logo.jpg",
             "language": "VF",
             "product_types": [],
             "category": "OTHER",
             "priority_target": "",
-            "priority": 1
+            "priority": 1,
+            "type_alerte": "RETOUR EN STOCK",
+            "boutique": "Parkage"
         },
         "https://www.parkage.com/fr/1130713-one-piece-card-game-deck-sd-01-set-sail-deck-set": {
             "site": "Parkage",
@@ -4143,36 +4145,6 @@
             "priority_target": "",
             "priority": -1
         },
-        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7802-illustration-box-vol8-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Illustration Box Vol.8 (Anglais) - One Piece Card Game",
-            "price": "37,90 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7802-illustration-box-vol8-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/23510-home_default/illustration-box-vol8-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "OTHER",
-            "priority_target": "",
-            "priority": 3
-        },
-        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7801-illustration-box-vol7-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Illustration Box Vol.7 (Anglais) - One Piece Card Game",
-            "price": "37,90 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7801-illustration-box-vol7-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/23507-home_default/illustration-box-vol7-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "OTHER",
-            "priority_target": "",
-            "priority": 3
-        },
         "https://oupi.eu/fr/display-one-piece/7369-display-op-17-boite-de-booster-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Display The World's Strongest Warriors OP-17 Boite de Booster (Anglais) - One Piece Card Game",
@@ -4337,21 +4309,6 @@
             "category": "CASE",
             "priority_target": "",
             "priority": 4
-        },
-        "https://oupi.eu/fr/one-piece/7669-double-pack-set-vol11-dp-11-the-time-of-battle-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Double Pack Set Vol.11 [DP-11] The Time of Battle (Anglais) - One Piece Card Game",
-            "price": "19,99 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/one-piece/7669-double-pack-set-vol11-dp-11-the-time-of-battle-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/23125-home_default/double-pack-set-vol11-dp-11-the-time-of-battle-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "DOUBLE_PACK",
-            "priority_target": "",
-            "priority": 6
         },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8103-heroines-special-set-anglais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -4713,6 +4670,36 @@
             "priority_target": "",
             "priority": 7
         },
+        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7802-illustration-box-vol8-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Illustration Box Vol.8 (Anglais) - One Piece Card Game",
+            "price": "37,90 €",
+            "status": "SOLD OUT",
+            "availability": "",
+            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7802-illustration-box-vol8-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/23510-home_default/illustration-box-vol8-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "OTHER",
+            "priority_target": "",
+            "priority": 3
+        },
+        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7801-illustration-box-vol7-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Illustration Box Vol.7 (Anglais) - One Piece Card Game",
+            "price": "37,90 €",
+            "status": "SOLD OUT",
+            "availability": "",
+            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7801-illustration-box-vol7-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/23507-home_default/illustration-box-vol7-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "OTHER",
+            "priority_target": "",
+            "priority": 3
+        },
         "https://oupi.eu/fr/one-piece/7674-booster-blister-lheritage-du-maitre-op-12-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Booster Blister L’Héritage du Maître OP-12 (Français) - One Piece Card Game",
@@ -4727,6 +4714,21 @@
             "category": "BOOSTER_CARTON",
             "priority_target": "",
             "priority": 5
+        },
+        "https://oupi.eu/fr/one-piece/7669-double-pack-set-vol11-dp-11-the-time-of-battle-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Double Pack Set Vol.11 [DP-11] The Time of Battle (Anglais) - One Piece Card Game",
+            "price": "19,99 €",
+            "status": "SOLD OUT",
+            "availability": "",
+            "link": "https://oupi.eu/fr/one-piece/7669-double-pack-set-vol11-dp-11-the-time-of-battle-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/23125-home_default/double-pack-set-vol11-dp-11-the-time-of-battle-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "DOUBLE_PACK",
+            "priority_target": "",
+            "priority": 6
         },
         "https://oupi.eu/fr/starter-deck-one-piece/7626-deck-de-demarrage-ex-luffy-ace-st-30-francais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -6502,22 +6504,6 @@
             "priority_target": "OP17",
             "priority": 1004
         },
-        "https://www.play-in.com/fr/produit/662632/deck-pour-debutant-one-piece-tcg-violet-charlotte-katakuri-st-34-fr": {
-            "site": "Playin",
-            "name": "Deck pour débutant One Piece Tcg : Violet Charlotte Katakuri [ST-34] - FR",
-            "price": "19,90 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://www.play-in.com/fr/produit/662632/deck-pour-debutant-one-piece-tcg-violet-charlotte-katakuri-st-34-fr",
-            "image": "https://media.play-in.com/media/medias/6a676581b9bb6809115868.jpg",
-            "language": "OTHER",
-            "source": "catalogue",
-            "delivery": "SHIPPING_OR_ANNOUNCED",
-            "notify_when_referenced": false,
-            "category": "STARTER",
-            "priority_target": "",
-            "priority": 1
-        },
         "https://www.play-in.com/fr/produit/611687/deck-de-demarrage-one-piece-tcg-bleu-ace-newgate-st-22-fr": {
             "site": "Playin",
             "name": "Deck de démarrage One Piece Tcg : Bleu Ace & Newgate [ST-22] - FR",
@@ -6534,14 +6520,14 @@
             "priority_target": "",
             "priority": 1
         },
-        "https://www.play-in.com/fr/produit/662638/deck-pour-debutant-one-piece-tcg-jaune-eustass-captain-kidd-st-36-fr": {
+        "https://www.play-in.com/fr/produit/662632/deck-pour-debutant-one-piece-tcg-violet-charlotte-katakuri-st-34-fr": {
             "site": "Playin",
-            "name": "Deck pour débutant One Piece Tcg : Jaune Eustass Captain Kidd [ST-36] - FR",
+            "name": "Deck pour débutant One Piece Tcg : Violet Charlotte Katakuri [ST-34] - FR",
             "price": "19,90 €",
             "status": "AVAILABLE",
             "availability": "",
-            "link": "https://www.play-in.com/fr/produit/662638/deck-pour-debutant-one-piece-tcg-jaune-eustass-captain-kidd-st-36-fr",
-            "image": "https://media.play-in.com/media/medias/6a676bbf2ea18531175428.jpg",
+            "link": "https://www.play-in.com/fr/produit/662632/deck-pour-debutant-one-piece-tcg-violet-charlotte-katakuri-st-34-fr",
+            "image": "https://media.play-in.com/media/medias/6a676581b9bb6809115868.jpg",
             "language": "OTHER",
             "source": "catalogue",
             "delivery": "SHIPPING_OR_ANNOUNCED",
@@ -6550,14 +6536,14 @@
             "priority_target": "",
             "priority": 1
         },
-        "https://www.play-in.com/fr/produit/662631/deck-pour-debutant-one-piece-tcg-bleu-kuzan-st-33-fr": {
+        "https://www.play-in.com/fr/produit/662638/deck-pour-debutant-one-piece-tcg-jaune-eustass-captain-kidd-st-36-fr": {
             "site": "Playin",
-            "name": "Deck pour débutant One Piece Tcg : Bleu Kuzan [ST-33] - FR",
-            "price": "24,90 €",
+            "name": "Deck pour débutant One Piece Tcg : Jaune Eustass Captain Kidd [ST-36] - FR",
+            "price": "19,90 €",
             "status": "AVAILABLE",
             "availability": "",
-            "link": "https://www.play-in.com/fr/produit/662631/deck-pour-debutant-one-piece-tcg-bleu-kuzan-st-33-fr",
-            "image": "https://media.play-in.com/media/medias/6a6763c78e118880702275.jpg",
+            "link": "https://www.play-in.com/fr/produit/662638/deck-pour-debutant-one-piece-tcg-jaune-eustass-captain-kidd-st-36-fr",
+            "image": "https://media.play-in.com/media/medias/6a676bbf2ea18531175428.jpg",
             "language": "OTHER",
             "source": "catalogue",
             "delivery": "SHIPPING_OR_ANNOUNCED",
