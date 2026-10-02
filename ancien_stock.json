@@ -3611,9 +3611,7 @@
             "product_types": [],
             "category": "STARTER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage"
+            "priority": 3
         },
         "https://www.parkage.com/fr/1092444-one-piece-card-game-display-x24-booster-packs-op-14-the-azure-sea-s-seven": {
             "site": "Parkage",
