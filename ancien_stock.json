@@ -1660,9 +1660,7 @@
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "OP17",
-            "priority": 1004,
-            "type_alerte": "NOUVELLE PRÉCOMMANDE",
-            "boutique": "Premium Bandai US"
+            "priority": 1004
         },
         "https://p-bandai.com/us/item/N9065180001": {
             "site": "Premium Bandai US",
@@ -1676,9 +1674,7 @@
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVELLE PRÉCOMMANDE",
-            "boutique": "Premium Bandai US"
+            "priority": 4
         },
         "https://p-bandai.com/us/item/N2873815002": {
             "site": "Premium Bandai US",
