@@ -42,6 +42,17 @@ class ScanIncomplet(RuntimeError):
     pass
 
 
+class PageIndisponible(ScanIncomplet):
+    pass
+
+
+def verifier_page_disponible(page):
+    # The site serves its own error page with HTTP 200 on some runner requests.
+    # Waiting for product elements cannot make that response a valid catalogue.
+    if str(page.title()).upper().startswith("PAGE NOT AVAILABLE"):
+        raise PageIndisponible("Premium Bandai renvoie Page indisponible")
+
+
 def diagnostic_page(page):
     """Public page diagnostics for failed unattended loads (no cookies/headers)."""
     try:
@@ -341,6 +352,7 @@ def charger_page_catalogue(
         wait_until="domcontentloaded",
         timeout=60000,
     )
+    verifier_page_disponible(page)
 
     if exiger_produits:
         page.wait_for_selector(
@@ -384,6 +396,8 @@ def scan_avec_diagnostic(connus=None):
                                     exiger_produits=(numero_page == 0),
                                     liens_precedents=liens_page_precedente)
                                 break
+                            except PageIndisponible:
+                                raise
                             except Exception:
                                 if tentative == 1:
                                     raise
@@ -426,6 +440,7 @@ def scan_avec_diagnostic(connus=None):
                     reponse = page.goto(lien, wait_until="domcontentloaded", timeout=60000)
                     if reponse is not None and reponse.status >= 400:
                         raise ScanIncomplet(f"HTTP {reponse.status}")
+                    verifier_page_disponible(page)
                     page.wait_for_selector("h1.o-items__sidebar-title", state="attached",
                                            timeout=PRODUCT_WAIT_TIMEOUT_MS)
                     page.wait_for_timeout(DETAIL_PAGE_SETTLE_MS)
