@@ -14,6 +14,28 @@ uniquement l'acceptation de la demande, pas l'achèvement du scan.
   `X-GitHub-Api-Version: 2022-11-28`, et l'authentification existante.
 - Programmation : `*/5 * * * *`.
 
+## Renfort quotidien de 16 h à 19 h, heure de Papeete
+
+La plage critique est 16:00 inclus à 19:00 exclus dans `Pacific/Tahiti` (UTC−10).
+La tâche de base conserve ses passages toutes les cinq minutes. Une tâche de
+renfort ajoute les quatre minutes intermédiaires, sans doublonner ces passages.
+Les deux tâches réunies demandent donc un scan chaque minute de 16:00 à 18:59,
+puis reviennent à cinq minutes à 19:00.
+
+- Tâche de renfort cron-job.org : `8568470`, titre
+  `Premium Bandai US — renfort 16h–19h Papeete`.
+- Même URL, méthode, corps et authentification que la tâche de scan.
+- Fuseau conservé : `Atlantic/Reykjavik` (UTC). La plage correspond à
+  02:00–05:00 UTC le lendemain, chaque jour.
+- Programmation :
+  `1-4,6-9,11-14,16-19,21-24,26-29,31-34,36-39,41-44,46-49,51-54,56-59 2-4 * * *`.
+- État préparé : désactivé, comme la tâche de base.
+
+Cette cadence concerne les demandes de déclenchement. Le scan réel observé
+dure environ trois minutes et le verrou partagé limite les exécutions simultanées.
+Il faut résoudre les délais des recherches et de la fiche anniversaire, puis
+mesurer les intervalles réels, avant de promettre une vérification chaque minute.
+
 ## Tâche de fraîcheur, toutes les cinq minutes avec décalage
 
 - URL : `https://api.github.com/repos/fiiindus/catalog-monitor/actions/workflows/premium-bandai-health.yml/dispatches`
