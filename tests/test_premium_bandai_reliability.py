@@ -24,6 +24,24 @@ def card(link='/us/item/N2873815002', status='OUT OF STOCK'):
 
 
 class ScannerReliabilityTests(unittest.TestCase):
+    def test_site_error_page_fails_without_waiting_for_product_elements(self):
+        page = Mock()
+        page.title.return_value = 'PAGE NOT AVAILABLE｜PREMIUM BANDAI'
+        with self.assertRaises(pb.PageIndisponible):
+            pb.charger_page_catalogue(page, LINK, exiger_produits=True)
+        page.wait_for_selector.assert_not_called()
+        page.wait_for_timeout.assert_not_called()
+
+    def test_site_error_page_is_not_retried_or_treated_as_empty_catalogue(self):
+        context, browser = self.browser_context()
+        with patch.object(pb, 'sync_playwright', return_value=context), \
+                patch.object(pb, 'charger_page_catalogue', side_effect=[pb.PageIndisponible(), card(), card()]) as load:
+            produits, errors = pb.scan_avec_diagnostic()
+        self.assertEqual(3, load.call_count)
+        self.assertEqual(1, len(errors))
+        self.assertIn('PageIndisponible', errors[0])
+        self.assertEqual('SOLD OUT', produits[LINK]['status'])
+
     def browser_context(self):
         browser = Mock()
         page = browser.new_page.return_value
