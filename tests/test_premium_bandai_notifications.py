@@ -254,12 +254,17 @@ class PremiumBandaiNotificationTests(unittest.TestCase):
             <span>OUT OF STOCK</span>
           </a></div>"""
         browser = Mock()
+        browser.new_page.return_value.content.return_value = (
+            '<h1>ONE PIECE CARD GAME Japanese 4th Anniversary Set</h1>'
+            '<button>OUT OF STOCK</button>')
+        browser.new_page.return_value.goto.return_value = None
         context = Mock()
         context.__enter__ = Mock(return_value=Mock(chromium=Mock(
             launch=Mock(return_value=browser))))
         context.__exit__ = Mock(return_value=False)
 
         with patch.object(premium_bandai, "sync_playwright", return_value=context), \
+             patch('integrite.charger_stock_precedent', return_value={}), \
              patch.object(premium_bandai, "charger_page_catalogue",
                           side_effect=[html, html, html]) as charger:
             produits = premium_bandai.scan()
