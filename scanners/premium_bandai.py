@@ -53,6 +53,14 @@ def verifier_page_disponible(page):
         raise PageIndisponible("Premium Bandai renvoie Page indisponible")
 
 
+def attendre_produit_ou_erreur(page, selector):
+    # The error can appear after DOMContentLoaded; race it against useful content.
+    page.wait_for_function(
+        "selector => document.title.toUpperCase().startsWith('PAGE NOT AVAILABLE') || document.querySelector(selector)",
+        arg=selector, timeout=PRODUCT_WAIT_TIMEOUT_MS)
+    verifier_page_disponible(page)
+
+
 def diagnostic_page(page):
     """Public page diagnostics for failed unattended loads (no cookies/headers)."""
     try:
@@ -355,6 +363,7 @@ def charger_page_catalogue(
     verifier_page_disponible(page)
 
     if exiger_produits:
+        attendre_produit_ou_erreur(page, PRODUCT_SELECTOR)
         page.wait_for_selector(
             PRODUCT_SELECTOR,
             state="attached",
@@ -441,6 +450,7 @@ def scan_avec_diagnostic(connus=None):
                     if reponse is not None and reponse.status >= 400:
                         raise ScanIncomplet(f"HTTP {reponse.status}")
                     verifier_page_disponible(page)
+                    attendre_produit_ou_erreur(page, "h1.o-items__sidebar-title")
                     page.wait_for_selector("h1.o-items__sidebar-title", state="attached",
                                            timeout=PRODUCT_WAIT_TIMEOUT_MS)
                     page.wait_for_timeout(DETAIL_PAGE_SETTLE_MS)
