@@ -1,5 +1,11 @@
 # One Piece Stock Tracker
 
+Le raccordement externe et le contrôle de fraîcheur Premium Bandai sont décrits
+dans [le guide de planification](docs/premium-bandai-scheduling.md). Le scan dédié
+signale les résultats incomplets, conserve les références connues et contrôle la
+fiche du coffret anniversaire à chaque passage. Les alertes déjà remises sont
+enregistrées même si un envoi suivant échoue.
+
 Surveillance automatisée de produits scellés One Piece Card Game sur huit boutiques : Figurines Goodies, UltraJeux, Premium Bandai US, Parkage, Philibert, Carte One Piece, Oupi et Playin.
 
 Le contrôle principal est déclenché toutes les 30 minutes par un scheduler externe. Le workflow GitHub `Stock Tracker` reste volontairement en `workflow_dispatch` afin d'éviter les doubles passages. Un watchdog GitHub vérifie ensuite qu'un contrôle récent a bien eu lieu et relance le tracker si nécessaire. Chaque boutique commence avec un petit décalage aléatoire : la fréquence ne change pas et aucune requête supplémentaire n'est ajoutée, mais les accès sont moins mécaniques.
