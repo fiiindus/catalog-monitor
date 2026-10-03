@@ -42,6 +42,18 @@ class ScanIncomplet(RuntimeError):
     pass
 
 
+def diagnostic_page(page):
+    """Public page diagnostics for failed unattended loads (no cookies/headers)."""
+    try:
+        soup = BeautifulSoup(page.content(), "lxml")
+        titre = nettoyer_texte(soup.title.get_text() if soup.title else "")[:160]
+        h1 = [nettoyer_texte(node.get_text())[:160] for node in soup.find_all("h1")]
+        print("Diagnostic page :", {"titre": titre, "h1": h1[:3],
+                                     "liens_catalogue": len(soup.select(PRODUCT_SELECTOR))})
+    except Exception:
+        print("Diagnostic page indisponible")
+
+
 def lien_produit(href):
     parties = urlsplit(urljoin(BASE_URL, href))
     if (parties.scheme != "https" or parties.netloc != "p-bandai.com"
@@ -377,6 +389,7 @@ def scan_avec_diagnostic(connus=None):
                                     raise
                                 print("🔁 Nouvelle tentative sur la même page")
                     except Exception as erreur:
+                        diagnostic_page(page)
                         # Never jump over a failed first page: newest references
                         # live there. Preserve the other sources and report degradation.
                         erreurs.append(f"{source.split('&offset=')[0]} page {numero_page + 1}: {type(erreur).__name__}")
@@ -419,6 +432,7 @@ def scan_avec_diagnostic(connus=None):
                     products[lien] = extraire_detail(page.content(), lien,
                                                     products.get(lien) or connus.get(lien))
                 except Exception as erreur:
+                    diagnostic_page(page)
                     erreurs.append(f"Fiche {lien}: {type(erreur).__name__}")
         finally:
             browser.close()
