@@ -32,6 +32,15 @@ class ScannerReliabilityTests(unittest.TestCase):
         page.wait_for_selector.assert_not_called()
         page.wait_for_timeout.assert_not_called()
 
+    def test_error_rendered_after_navigation_ends_the_product_wait(self):
+        page = Mock()
+        page.title.side_effect = ['PREMIUM BANDAI', 'PAGE NOT AVAILABLE｜PREMIUM BANDAI']
+        with self.assertRaises(pb.PageIndisponible):
+            pb.charger_page_catalogue(page, LINK, exiger_produits=True)
+        page.wait_for_function.assert_called_once()
+        page.wait_for_selector.assert_not_called()
+        page.wait_for_timeout.assert_not_called()
+
     def test_site_error_page_is_not_retried_or_treated_as_empty_catalogue(self):
         context, browser = self.browser_context()
         with patch.object(pb, 'sync_playwright', return_value=context), \
