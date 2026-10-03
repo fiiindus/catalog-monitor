@@ -23,6 +23,12 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Load latest shared history after waiting for the lock
+        if: github.ref_name == 'main'
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+
       - name: Setup Python
         uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:

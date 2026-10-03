@@ -1,8 +1,9 @@
 import re
+import time
 
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlsplit, urlunsplit
 
 from observabilite import noter_requete
 
@@ -24,7 +25,8 @@ URL_TEMPLATES = (
 )
 
 PAGE_SIZE = 40
-MAX_PAGES = 10
+MAX_PAGES = 50
+WATCHED_ITEMS = ("https://p-bandai.com/us/item/N2873815002",)
 
 PRODUCT_SELECTOR = ".o-search-product .c-product__link"
 PRODUCT_WAIT_TIMEOUT_MS = 30000
@@ -34,6 +36,49 @@ NEXT_PAGE_CHANGE_TIMEOUT_MS = 15000
 NEXT_PAGE_POLL_MS = 500
 EMPTY_PAGE_CONFIRM_MS = 2000
 DETAIL_PAGE_SETTLE_MS = 1500
+
+
+class ScanIncomplet(RuntimeError):
+    pass
+
+
+class PageIndisponible(ScanIncomplet):
+    pass
+
+
+def verifier_page_disponible(page):
+    # The site serves its own error page with HTTP 200 on some runner requests.
+    # Waiting for product elements cannot make that response a valid catalogue.
+    if str(page.title()).upper().startswith("PAGE NOT AVAILABLE"):
+        raise PageIndisponible("Premium Bandai renvoie Page indisponible")
+
+
+def attendre_produit_ou_erreur(page, selector):
+    # The error can appear after DOMContentLoaded; race it against useful content.
+    page.wait_for_function(
+        "selector => document.title.toUpperCase().startsWith('PAGE NOT AVAILABLE') || document.querySelector(selector)",
+        arg=selector, timeout=PRODUCT_WAIT_TIMEOUT_MS)
+    verifier_page_disponible(page)
+
+
+def diagnostic_page(page):
+    """Public page diagnostics for failed unattended loads (no cookies/headers)."""
+    try:
+        soup = BeautifulSoup(page.content(), "lxml")
+        titre = nettoyer_texte(soup.title.get_text() if soup.title else "")[:160]
+        h1 = [nettoyer_texte(node.get_text())[:160] for node in soup.find_all("h1")]
+        print("Diagnostic page :", {"titre": titre, "h1": h1[:3],
+                                     "liens_catalogue": len(soup.select(PRODUCT_SELECTOR))})
+    except Exception:
+        print("Diagnostic page indisponible")
+
+
+def lien_produit(href):
+    parties = urlsplit(urljoin(BASE_URL, href))
+    if (parties.scheme != "https" or parties.netloc != "p-bandai.com"
+            or not re.fullmatch(r"/us/item/[A-Za-z0-9]+/?", parties.path)):
+        return ""
+    return urlunsplit(("https", "p-bandai.com", parties.path.rstrip("/"), "", ""))
 
 STATUTS_FERMES = (
     "PRE-ORDER CLOSED",
@@ -162,8 +207,26 @@ def detecter_statut_detail(html):
     boutons = " ".join(
         bouton.get_text(" ", strip=True)
         for bouton in soup.select("button")
+        if not bouton.has_attr("disabled")
+        and bouton.get("aria-disabled") != "true"
     )
     return detecter_statut(boutons)
+
+
+def extraire_detail(html, lien, precedent=None):
+    soup = BeautifulSoup(html, "lxml")
+    titre = soup.select_one("h1")
+    nom = nettoyer_texte(titre.get_text(" ", strip=True) if titre else "")
+    if not produit_surveille(nom):
+        raise ScanIncomplet("Fiche absente ou titre produit non reconnu")
+    statut = detecter_statut_detail(html)
+    if statut == "UNKNOWN":
+        raise ScanIncomplet("État d'achat non reconnu sur la fiche")
+    produit = dict(precedent or {})
+    produit.update(site="Premium Bandai US", name=nom, link=lien,
+                   status=statut, orderable=est_commandable(statut),
+                   notify_when_referenced=True)
+    return produit
 
 
 def confirmer_disponibilite(produit):
@@ -198,7 +261,7 @@ def extraire_page(html, products):
     liens_bruts = set()
 
     for link in links:
-        href = urljoin(BASE_URL, link.get("href", ""))
+        href = lien_produit(link.get("href", ""))
         if href:
             liens_bruts.add(href)
 
@@ -297,8 +360,10 @@ def charger_page_catalogue(
         wait_until="domcontentloaded",
         timeout=60000,
     )
+    verifier_page_disponible(page)
 
     if exiger_produits:
+        attendre_produit_ou_erreur(page, PRODUCT_SELECTOR)
         page.wait_for_selector(
             PRODUCT_SELECTOR,
             state="attached",
@@ -314,8 +379,10 @@ def charger_page_catalogue(
     return page.content()
 
 
-def scan():
+def scan_avec_diagnostic(connus=None):
     products = {}
+    erreurs = []
+    connus = connus or {}
 
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=True)
@@ -331,21 +398,33 @@ def scan():
                     print("🔎 Premium Bandai :", url_page)
 
                     try:
-                        html = charger_page_catalogue(
-                            page,
-                            url_page,
-                            exiger_produits=(numero_page == 0),
-                            liens_precedents=liens_page_precedente,
-                        )
+                        for tentative in range(2):
+                            try:
+                                html = charger_page_catalogue(
+                                    page, url_page,
+                                    exiger_produits=(numero_page == 0),
+                                    liens_precedents=liens_page_precedente)
+                                break
+                            except PageIndisponible:
+                                raise
+                            except Exception:
+                                if tentative == 1:
+                                    raise
+                                print("🔁 Nouvelle tentative sur la même page")
                     except Exception as erreur:
-                        if numero_page == 0:
-                            print("⚠️ Premium Bandai source indisponible :", erreur)
-                            continue
-                        raise
+                        diagnostic_page(page)
+                        # Never jump over a failed first page: newest references
+                        # live there. Preserve the other sources and report degradation.
+                        erreurs.append(f"{source.split('&offset=')[0]} page {numero_page + 1}: {type(erreur).__name__}")
+                        print("⚠️ Premium Bandai source incomplète :", erreurs[-1])
+                        break
                     liens_bruts_page = extraire_page(html, products)
                     nouveaux_liens = liens_bruts_page - liens_bruts_vus
 
-                    if not liens_bruts_page or not nouveaux_liens:
+                    if not liens_bruts_page:
+                        break
+                    if not nouveaux_liens:
+                        erreurs.append(f"Pagination répétée : {url_page}")
                         break
 
                     liens_bruts_vus.update(liens_bruts_page)
@@ -353,6 +432,33 @@ def scan():
 
                     if len(liens_bruts_page) < PAGE_SIZE:
                         break
+                else:
+                    erreurs.append(f"Limite de pagination atteinte : {source}")
+
+            # Always check the anniversary item, and recent known references
+            # absent from all listings. Limit detail traffic on each pass.
+            manquants = [lien for lien in reversed(list(connus))
+                         if lien not in products and lien_produit(lien)]
+            if manquants:
+                debut = int(time.time() // 300) % len(manquants)
+                manquants = manquants[debut:] + manquants[:debut]
+            cibles = list(dict.fromkeys([*WATCHED_ITEMS, *manquants[:3]]))
+            for lien in cibles:
+                try:
+                    noter_requete()
+                    reponse = page.goto(lien, wait_until="domcontentloaded", timeout=60000)
+                    if reponse is not None and reponse.status >= 400:
+                        raise ScanIncomplet(f"HTTP {reponse.status}")
+                    verifier_page_disponible(page)
+                    attendre_produit_ou_erreur(page, "h1.o-items__sidebar-title")
+                    page.wait_for_selector("h1.o-items__sidebar-title", state="attached",
+                                           timeout=PRODUCT_WAIT_TIMEOUT_MS)
+                    page.wait_for_timeout(DETAIL_PAGE_SETTLE_MS)
+                    products[lien] = extraire_detail(page.content(), lien,
+                                                    products.get(lien) or connus.get(lien))
+                except Exception as erreur:
+                    diagnostic_page(page)
+                    erreurs.append(f"Fiche {lien}: {type(erreur).__name__}")
         finally:
             browser.close()
 
@@ -361,4 +467,20 @@ def scan():
             "Aucun produit One Piece Card Game détecté sur Premium Bandai"
         )
 
-    return products
+    # Absence and UNKNOWN cannot rearm a stock notification.
+    conserves = {lien: dict(produit) for lien, produit in connus.items()}
+    for lien, produit in products.items():
+        if produit["status"] == "UNKNOWN" and lien in conserves:
+            produit = {**produit, "status": conserves[lien]["status"],
+                       "orderable": conserves[lien].get("orderable", False)}
+        conserves[lien] = produit
+    return conserves, erreurs
+
+
+def scan():
+    from integrite import charger_stock_precedent
+    produits, erreurs = scan_avec_diagnostic(
+        charger_stock_precedent().get("Premium Bandai US", {}))
+    if erreurs:
+        raise ScanIncomplet("; ".join(erreurs))
+    return produits
