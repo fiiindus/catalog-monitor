@@ -9,6 +9,13 @@ from observabilite import noter_requete
 
 
 BASE_URL = "https://p-bandai.com"
+HOME_URL = "https://p-bandai.com/us"
+
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/141.0.0.0 Safari/537.36"
+)
 
 URL_TEMPLATES = (
     # Search across all shops and series, including closed and upcoming items.
@@ -36,6 +43,7 @@ NEXT_PAGE_CHANGE_TIMEOUT_MS = 15000
 NEXT_PAGE_POLL_MS = 500
 EMPTY_PAGE_CONFIRM_MS = 2000
 DETAIL_PAGE_SETTLE_MS = 1500
+SESSION_WARMUP_TIMEOUT_MS = 30000
 
 
 class ScanIncomplet(RuntimeError):
@@ -51,6 +59,38 @@ def verifier_page_disponible(page):
     # Waiting for product elements cannot make that response a valid catalogue.
     if str(page.title()).upper().startswith("PAGE NOT AVAILABLE"):
         raise PageIndisponible("Premium Bandai renvoie Page indisponible")
+
+
+def nouvelle_page(browser):
+    """Crée un contexte cohérent avec un visiteur américain ordinaire."""
+    return browser.new_page(
+        locale="en-US",
+        timezone_id="America/New_York",
+        user_agent=USER_AGENT,
+        viewport={"width": 1920, "height": 1080},
+        extra_http_headers={
+            "Accept-Language": "en-US,en;q=0.9",
+            "Cache-Control": "no-cache",
+            "Pragma": "no-cache",
+        },
+    )
+
+
+def preparer_session(page):
+    """Initialise les cookies avant toute recherche ou fiche produit.
+
+    Premium Bandai sert actuellement sa page ``PAGE NOT AVAILABLE`` lorsqu'une
+    session neuve arrive directement sur la recherche. Passer d'abord par
+    l'accueil laisse le site établir ses cookies puis autorise les mêmes URL.
+    """
+    noter_requete()
+    page.goto(HOME_URL, wait_until="domcontentloaded", timeout=60000)
+    page.wait_for_function(
+        "() => Boolean(document.title)",
+        timeout=SESSION_WARMUP_TIMEOUT_MS,
+    )
+    verifier_page_disponible(page)
+    print("✅ Session Premium Bandai initialisée")
 
 
 def attendre_produit_ou_erreur(page, selector):
@@ -232,8 +272,9 @@ def extraire_detail(html, lien, precedent=None):
 def confirmer_disponibilite(produit):
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=True)
-        page = browser.new_page(locale="en-US")
+        page = nouvelle_page(browser)
         try:
+            preparer_session(page)
             noter_requete()
             page.goto(
                 produit["link"],
@@ -386,9 +427,10 @@ def scan_avec_diagnostic(connus=None):
 
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=True)
-        page = browser.new_page(locale="en-US")
+        page = nouvelle_page(browser)
 
         try:
+            preparer_session(page)
             for source in URL_TEMPLATES:
                 liens_bruts_vus = set()
                 liens_page_precedente = None
