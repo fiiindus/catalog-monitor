@@ -17,23 +17,29 @@ USER_AGENT = (
     "Chrome/141.0.0.0 Safari/537.36"
 )
 
+SOURCE_SERIE = (
+    "https://p-bandai.com/us/series/onepiece-series"
+    "?offset={offset}&limit={limit}&sortType=NewArrival"
+    "&_f_productStatuses=Waiting,On,End"
+)
+
 URL_TEMPLATES = (
-    # Search across all shops and series, including closed and upcoming items.
+    # These broad searches provide extra coverage when Premium Bandai accepts
+    # them. Their failure must not invalidate the authoritative series listing.
     "https://p-bandai.com/us/search?keyword=ONE%20PIECE%20CARD%20GAME"
     "&offset={offset}&limit={limit}&sortType=NewArrival"
     "&_f_productStatuses=Waiting,On,End",
     "https://p-bandai.com/us/search?keyword=ONE%20PIECE%20CARD%20GAME"
     "&offset={offset}&limit={limit}&sortType=Relevance"
     "&_f_productStatuses=Waiting,On,End",
-    # The series listing catches items omitted by the site's text index.
-    "https://p-bandai.com/us/series/onepiece-series"
-    "?offset={offset}&limit={limit}&sortType=NewArrival"
-    "&_f_productStatuses=Waiting,On,End",
+    SOURCE_SERIE,
 )
 
 PAGE_SIZE = 40
 MAX_PAGES = 50
-WATCHED_ITEMS = ("https://p-bandai.com/us/item/N2873815002",)
+# Direct checks are reserved for future exceptional references. New products
+# are discovered on the NewArrival catalogue above, including COMING SOON.
+WATCHED_ITEMS = ()
 
 PRODUCT_SELECTOR = ".o-search-product .c-product__link"
 PRODUCT_WAIT_TIMEOUT_MS = 30000
@@ -457,8 +463,12 @@ def scan_avec_diagnostic(connus=None):
                         diagnostic_page(page)
                         # Never jump over a failed first page: newest references
                         # live there. Preserve the other sources and report degradation.
-                        erreurs.append(f"{source.split('&offset=')[0]} page {numero_page + 1}: {type(erreur).__name__}")
-                        print("⚠️ Premium Bandai source incomplète :", erreurs[-1])
+                        message = f"{source.split('&offset=')[0]} page {numero_page + 1}: {type(erreur).__name__}"
+                        if source == SOURCE_SERIE:
+                            erreurs.append(message)
+                            print("⚠️ Premium Bandai source principale incomplète :", message)
+                        else:
+                            print("ℹ️ Premium Bandai source complémentaire indisponible :", message)
                         break
                     liens_bruts_page = extraire_page(html, products)
                     nouveaux_liens = liens_bruts_page - liens_bruts_vus
@@ -466,7 +476,8 @@ def scan_avec_diagnostic(connus=None):
                     if not liens_bruts_page:
                         break
                     if not nouveaux_liens:
-                        erreurs.append(f"Pagination répétée : {url_page}")
+                        if source == SOURCE_SERIE:
+                            erreurs.append(f"Pagination répétée : {url_page}")
                         break
 
                     liens_bruts_vus.update(liens_bruts_page)
@@ -475,7 +486,8 @@ def scan_avec_diagnostic(connus=None):
                     if len(liens_bruts_page) < PAGE_SIZE:
                         break
                 else:
-                    erreurs.append(f"Limite de pagination atteinte : {source}")
+                    if source == SOURCE_SERIE:
+                        erreurs.append(f"Limite de pagination atteinte : {source}")
 
             # Always check the anniversary item, and recent known references
             # absent from all listings. Limit detail traffic on each pass.
@@ -500,7 +512,14 @@ def scan_avec_diagnostic(connus=None):
                                                     products.get(lien) or connus.get(lien))
                 except Exception as erreur:
                     diagnostic_page(page)
-                    erreurs.append(f"Fiche {lien}: {type(erreur).__name__}")
+                    # A complete catalogue remains authoritative. Detail pages
+                    # for old references can be retired or temporarily blocked;
+                    # keep their last known state without degrading discovery.
+                    print(
+                        "⚠️ Premium Bandai fiche secondaire indisponible :",
+                        lien,
+                        type(erreur).__name__,
+                    )
         finally:
             browser.close()
 
