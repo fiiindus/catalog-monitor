@@ -24,6 +24,29 @@ def card(link='/us/item/N2873815002', status='OUT OF STOCK'):
 
 
 class ScannerReliabilityTests(unittest.TestCase):
+    def test_session_is_warmed_on_home_page_before_catalogue_access(self):
+        page = Mock()
+        page.title.return_value = 'PREMIUM BANDAI USA [Official]'
+
+        pb.preparer_session(page)
+
+        page.goto.assert_called_once_with(
+            pb.HOME_URL,
+            wait_until='domcontentloaded',
+            timeout=60000,
+        )
+        page.wait_for_function.assert_called_once_with(
+            '() => Boolean(document.title)',
+            timeout=pb.SESSION_WARMUP_TIMEOUT_MS,
+        )
+
+    def test_session_warmup_rejects_site_error_page(self):
+        page = Mock()
+        page.title.return_value = 'PAGE NOT AVAILABLE｜PREMIUM BANDAI'
+
+        with self.assertRaises(pb.PageIndisponible):
+            pb.preparer_session(page)
+
     def test_site_error_page_fails_without_waiting_for_product_elements(self):
         page = Mock()
         page.title.return_value = 'PAGE NOT AVAILABLE｜PREMIUM BANDAI'
