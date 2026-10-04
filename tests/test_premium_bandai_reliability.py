@@ -67,12 +67,11 @@ class ScannerReliabilityTests(unittest.TestCase):
     def test_site_error_page_is_not_retried_or_treated_as_empty_catalogue(self):
         context, browser = self.browser_context()
         with patch.object(pb, 'sync_playwright', return_value=context), \
-                patch.object(pb, 'charger_page_catalogue', side_effect=[pb.PageIndisponible(), card(), card()]) as load:
-            produits, errors = pb.scan_avec_diagnostic()
-        self.assertEqual(3, load.call_count)
-        self.assertEqual(1, len(errors))
-        self.assertIn('PageIndisponible', errors[0])
-        self.assertEqual('SOLD OUT', produits[LINK]['status'])
+                patch.object(pb, 'URL_TEMPLATES', (pb.SOURCE_SERIE,)), \
+                patch.object(pb, 'charger_page_catalogue', side_effect=pb.PageIndisponible()) as load:
+            with self.assertRaises(RuntimeError):
+                pb.scan_avec_diagnostic()
+        self.assertEqual(1, load.call_count)
 
     def browser_context(self):
         browser = Mock()
@@ -87,36 +86,40 @@ class ScannerReliabilityTests(unittest.TestCase):
     def test_failed_first_page_never_skips_newest_items(self):
         context, browser = self.browser_context()
         with patch.object(pb, 'sync_playwright', return_value=context), \
-                patch.object(pb, 'charger_page_catalogue', side_effect=[TimeoutError(), TimeoutError(), card(), card()]) as load:
+                patch.object(pb, 'URL_TEMPLATES', (pb.SOURCE_SERIE,)), \
+                patch.object(pb, 'charger_page_catalogue', side_effect=[TimeoutError(), card()]) as load:
             produits, errors = pb.scan_avec_diagnostic()
-        self.assertEqual(4, load.call_count)
+        self.assertEqual(2, load.call_count)
         self.assertTrue(all('offset=0' in call.args[1] for call in load.call_args_list))
         self.assertEqual('SOLD OUT', produits[LINK]['status'])
-        self.assertEqual(1, len(errors))
+        self.assertEqual([], errors)
         browser.close.assert_called_once()
 
-    def test_partial_catalogue_keeps_absent_history_and_checks_anniversary(self):
+    def test_complete_catalogue_keeps_absent_history_when_detail_is_blocked(self):
         context, browser = self.browser_context()
         old_link = 'https://p-bandai.com/us/item/N123'
         old = {old_link: product('PREORDER', old_link)}
         with patch.object(pb, 'sync_playwright', return_value=context), \
-                patch.object(pb, 'charger_page_catalogue', side_effect=[TimeoutError(), TimeoutError(), card(), card()]), \
-                patch.object(pb, 'extraire_detail', side_effect=[product('PREORDER'), RuntimeError()]):
+                patch.object(pb, 'URL_TEMPLATES', (pb.SOURCE_SERIE,)), \
+                patch.object(pb, 'charger_page_catalogue', return_value=card()), \
+                patch.object(pb, 'extraire_detail', side_effect=RuntimeError()):
             produits, errors = pb.scan_avec_diagnostic(old)
-        self.assertEqual('PREORDER', produits[LINK]['status'])
+        self.assertEqual('SOLD OUT', produits[LINK]['status'])
         self.assertEqual(old[old_link], produits[old_link])
-        self.assertEqual(2, len(errors))
+        self.assertEqual([], errors)
 
     def test_repeated_and_truncated_pagination_are_degraded(self):
         context, _ = self.browser_context()
         with patch.object(pb, 'sync_playwright', return_value=context), \
+                patch.object(pb, 'URL_TEMPLATES', (pb.SOURCE_SERIE,)), \
                 patch.object(pb, 'PAGE_SIZE', 1), \
                 patch.object(pb, 'MAX_PAGES', 2), \
                 patch.object(pb, 'charger_page_catalogue', return_value=card()):
             _, errors = pb.scan_avec_diagnostic()
-        self.assertEqual(3, len(errors))
+        self.assertEqual(1, len(errors))
         self.assertTrue(all('Pagination répétée' in error for error in errors))
         with patch.object(pb, 'sync_playwright', return_value=context), \
+                patch.object(pb, 'URL_TEMPLATES', (pb.SOURCE_SERIE,)), \
                 patch.object(pb, 'PAGE_SIZE', 1), \
                 patch.object(pb, 'MAX_PAGES', 1), \
                 patch.object(pb, 'charger_page_catalogue', return_value=card()):
@@ -146,12 +149,13 @@ class ScannerReliabilityTests(unittest.TestCase):
     def test_unknown_listing_does_not_rearm_known_preorder(self):
         context, _ = self.browser_context()
         with patch.object(pb, 'sync_playwright', return_value=context), \
+                patch.object(pb, 'URL_TEMPLATES', (pb.SOURCE_SERIE,)), \
                 patch.object(pb, 'charger_page_catalogue', return_value=card(status='')), \
                 patch.object(pb, 'extraire_detail', side_effect=pb.ScanIncomplet('unknown')):
             produits, errors = pb.scan_avec_diagnostic({LINK: product('PREORDER')})
         self.assertEqual('PREORDER', produits[LINK]['status'])
         self.assertTrue(produits[LINK]['orderable'])
-        self.assertTrue(errors)
+        self.assertEqual([], errors)
 
 
 class FreshnessTests(unittest.TestCase):
