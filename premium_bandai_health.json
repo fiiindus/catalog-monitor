@@ -3,11 +3,8 @@
   "errors": [
     "https://p-bandai.com/us/search?keyword=ONE%20PIECE%20CARD%20GAME page 1: PageIndisponible",
     "https://p-bandai.com/us/search?keyword=ONE%20PIECE%20CARD%20GAME page 1: PageIndisponible",
-    "Fiche https://p-bandai.com/us/item/N2873815002: PageIndisponible",
-    "Fiche https://p-bandai.com/us/item/N9042292002: PageIndisponible",
-    "Fiche https://p-bandai.com/us/item/N9042293002: PageIndisponible",
-    "Fiche https://p-bandai.com/us/item/N9042294002: PageIndisponible"
+    "Fiche https://p-bandai.com/us/item/N2873815002: PageIndisponible"
   ],
-  "last_attempt_at": "2026-10-04T10:16:10.687435+00:00",
+  "last_attempt_at": "2026-10-04T10:21:02.547047+00:00",
   "stale_notified": true
 }
