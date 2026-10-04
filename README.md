@@ -2,9 +2,10 @@
 
 Le raccordement externe et le contrôle de fraîcheur Premium Bandai sont décrits
 dans [le guide de planification](docs/premium-bandai-scheduling.md). Le scan dédié
-signale les résultats incomplets, conserve les références connues et contrôle la
-fiche du coffret anniversaire à chaque passage. Les alertes déjà remises sont
-enregistrées même si un envoi suivant échoue.
+utilise le catalogue officiel One Piece comme source principale, conserve les
+références connues et traite les recherches génériques comme des compléments non
+bloquants. Les alertes déjà remises sont enregistrées même si un envoi suivant
+échoue.
 
 Surveillance automatisée de produits scellés One Piece Card Game sur huit boutiques : Figurines Goodies, UltraJeux, Premium Bandai US, Parkage, Philibert, Carte One Piece, Oupi et Playin.
 
