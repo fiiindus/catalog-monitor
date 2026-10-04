@@ -1,10 +1,7 @@
 {
-  "degraded_notified": true,
-  "errors": [
-    "https://p-bandai.com/us/search?keyword=ONE%20PIECE%20CARD%20GAME page 1: PageIndisponible",
-    "https://p-bandai.com/us/search?keyword=ONE%20PIECE%20CARD%20GAME page 1: PageIndisponible",
-    "Fiche https://p-bandai.com/us/item/N2873815002: PageIndisponible"
-  ],
-  "last_attempt_at": "2026-10-04T20:06:04.808665+00:00",
+  "degraded_notified": false,
+  "errors": [],
+  "last_attempt_at": "2026-10-04T20:11:07.785589+00:00",
+  "last_complete_at": "2026-10-04T20:11:07.785589+00:00",
   "stale_notified": true
 }
