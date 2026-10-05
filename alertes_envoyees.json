@@ -11,6 +11,12 @@
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
   },
+  "https://oupi.eu/fr/case-scelle-de-display/7370-case-scellee-de-12-display-op-17-anglais-one-piece-card-game.html": {
+    "fingerprint": "241f180a09fbf58b969bdb9667dc99b0bd9bfc3eb8bc86f526a51e18fb4f87dd",
+    "name": "Case Scellée de 12 Display The World's Strongest Warriors OP-17 (Anglais) - One Piece Card Game",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
   "https://oupi.eu/fr/case-scelle-de-display/8106-case-scellee-de-12-display-successeurs-op-13-francais-one-piece-card-game.html": {
     "fingerprint": "bc23fdacedcb27282ecfe7820c7a2006c981a8f5c9693daa3216cbc098260563",
     "name": "Case Scellée de 12 Display Successeurs OP-13 (Français) - One Piece Card Game",
@@ -23,9 +29,39 @@
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
   },
+  "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7395-premium-card-collection-best-selection-vol5-anglais-one-piece-card-game.html": {
+    "fingerprint": "a2301b6305ba4dd41596bea002e79ccd8d5d6706e41f8e16d3e1882c464a3108",
+    "name": "Premium Card Collection Best Selection Vol.5 (Anglais) - One Piece Card Game",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7397-premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.html": {
+    "fingerprint": "185b127dfd83a27c4dc3e38b169855ca2d38ea6cdd35d45714e6401f96545f59",
+    "name": "Premium Card Collection Best Selection Vol.6 (Anglais) - One Piece Card Game",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7801-illustration-box-vol7-anglais-one-piece-card-game.html": {
+    "fingerprint": "96ffc391ff5a83688c376bcfc91809cc97ad3b158309a31876715bf55845f165",
+    "name": "Illustration Box Vol.7 (Anglais) - One Piece Card Game",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7802-illustration-box-vol8-anglais-one-piece-card-game.html": {
+    "fingerprint": "5ac33f0e6cc6a9ce5b0165b6c00c8a5f644c1d297bb260d982b59f2b9498e742",
+    "name": "Illustration Box Vol.8 (Anglais) - One Piece Card Game",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
   "https://oupi.eu/fr/display-one-piece/6516-display-successeurs-op-13-boite-de-booster-francais-one-piece-card-game.html": {
     "fingerprint": "55fce2ae6fab98d19131e95e73308cf151af86fc4f522b03df0d8110801c9c1d",
     "name": "Display Successeurs OP-13 Boite de Booster (Français) - One Piece Card Game",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://oupi.eu/fr/display-one-piece/6999-display-op-14-boite-de-booster-anglais-one-piece-card-game.html": {
+    "fingerprint": "d34a1059d816084d65e4794b39e3dd474b3e8d1b6910f423d5152ae0abc040e3",
+    "name": "Display The Azure Sea’s Seven OP-14 & EB-04 Boite de Booster (Anglais) - One Piece Card Game",
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
   },
@@ -731,12 +767,6 @@
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
   },
-  "https://www.parkage.com/fr/1069729-deck-pour-debutant-one-piece-card-game-st-19-noir-smoker": {
-    "fingerprint": "50a2bdaf394eee4bd2e72781c9f4be88d683f1f3ff6e9872df0935daa8dce1c0",
-    "name": "Deck pour débutant One Piece Card Game - ST-19 : Noir Smoker",
-    "status": "AVAILABLE",
-    "type": "NOUVEAU PRODUIT DISPONIBLE"
-  },
   "https://www.parkage.com/fr/1069730-deck-pour-debutant-one-piece-card-game-st-20-jaune-charlotte-katakuri": {
     "fingerprint": "d5b1bc2a0e099b18ecb0d665f103c90aa4bdf989633bea582eddf0fcec1151a3",
     "name": "Deck pour débutant One Piece Card Game - ST-20 : Jaune Charlotte Katakuri",
@@ -758,12 +788,6 @@
   "https://www.parkage.com/fr/1089779-one-piece-card-game-tin-pack-set-ts-02-vol-2-random-type": {
     "fingerprint": "bf7eaa6bec91d356576c76259f5746ef767cb106e692cef0cb26880ebb7ad085",
     "name": "One Piece Card Game Tin Pack Set - TS-02 : Vol.2 (Random Type)",
-    "status": "AVAILABLE",
-    "type": "NOUVEAU PRODUIT DISPONIBLE"
-  },
-  "https://www.parkage.com/fr/1092915-deck-de-demarrage-one-piece-card-game-st-24-green-jewelry-bonney": {
-    "fingerprint": "a042e3836371a55e9787ae6e2a29074f40bcc2061d5219ff9423544f9ad32648",
-    "name": "Deck de Démarrage One Piece Card Game - ST-24 : Green Jewelry Bonney",
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
