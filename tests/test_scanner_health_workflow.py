@@ -8,6 +8,7 @@ from boutiques import configurations_boutiques
 class ScannerHealthWorkflowTests(unittest.TestCase):
     def setUp(self):
         repository = Path(__file__).resolve().parents[1]
+        self.repository = repository
         self.workflow = (
             repository / ".github" / "workflows" / "scanner-health.yml"
         ).read_text(encoding="utf-8")
@@ -43,6 +44,24 @@ class ScannerHealthWorkflowTests(unittest.TestCase):
         )
         self.assertNotIn("statut inconnu", messages)
         self.assertNotIn("lien incohérent", messages)
+
+    def test_vpn_only_store_is_not_scheduled(self):
+        self.assertNotIn("- figurines_goodies", self.workflow)
+        self.assertNotIn(
+            "figurines_goodies",
+            {
+                boutique["scanner"]
+                for boutique in configurations_boutiques()
+            },
+        )
+
+    def test_stock_tracker_uses_external_scheduler_only(self):
+        stock_workflow = (
+            self.repository / ".github" / "workflows" / "check.yml"
+        ).read_text(encoding="utf-8")
+        trigger_block = stock_workflow.split("permissions:", 1)[0]
+        self.assertIn("workflow_dispatch:", trigger_block)
+        self.assertNotIn("schedule:", trigger_block)
 
 
 if __name__ == "__main__":

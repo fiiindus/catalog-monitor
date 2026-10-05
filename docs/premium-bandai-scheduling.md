@@ -29,12 +29,13 @@ puis reviennent à cinq minutes à 19:00.
   02:00–05:00 UTC le lendemain, chaque jour.
 - Programmation :
   `1-4,6-9,11-14,16-19,21-24,26-29,31-34,36-39,41-44,46-49,51-54,56-59 2-4 * * *`.
-- État préparé : désactivé, comme la tâche de base.
+- État vérifié le 4 octobre 2026 : actif. Avec la tâche de base, les demandes de
+  déclenchement couvrent chaque minute de 16:00 à 18:59, heure de Papeete.
 
-Cette cadence concerne les demandes de déclenchement. Le scan réel observé
-dure environ trois minutes et le verrou partagé limite les exécutions simultanées.
-Il faut résoudre les délais des recherches et de la fiche anniversaire, puis
-mesurer les intervalles réels, avant de promettre une vérification chaque minute.
+Cette cadence concerne les demandes de déclenchement. Après initialisation de la
+session Premium Bandai, le scan réel validé le 4 octobre 2026 a analysé 104
+références en environ 29 secondes ; le workflow complet a duré environ 51
+secondes. Le verrou partagé continue de limiter les exécutions simultanées.
 
 ## Tâche de fraîcheur, toutes les cinq minutes avec décalage
 
@@ -63,11 +64,12 @@ une alerte technique Discord, une seule fois par incident, puis un rétablisseme
 ## Diagnostic sans notifications
 
 `python premium_bandai_watch.py --dry-run` ne remet aucune notification et n'écrit
-aucun historique. Les recherches en échec, paginations répétées et limites atteintes
-sont signalées. La fiche du Japanese 4th Anniversary Set est vérifiée à chaque
-passage ; trois références connues absentes des catalogues sont contrôlées par
-rotation. Les références absentes et les états temporairement inconnus restent
-mémorisés pour éviter un nouveau référencement ou une fausse réouverture.
+aucun historique. La page officielle de la série One Piece est la source
+principale ; les recherches génériques restent des compléments et leur blocage ne
+rend pas le passage incomplet. Jusqu'à trois références connues absentes du
+catalogue sont contrôlées par rotation lorsque leur fiche reste accessible. Les
+références absentes et les états temporairement inconnus restent mémorisés pour
+éviter un nouveau référencement ou une fausse réouverture.
 
 En production, les références récupérées continuent à déclencher leurs alertes
 même lors d'un scan incomplet. Le passage est alors marqué en échec après

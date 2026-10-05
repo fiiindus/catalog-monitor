@@ -7,7 +7,7 @@ références connues et traite les recherches génériques comme des complément
 bloquants. Les alertes déjà remises sont enregistrées même si un envoi suivant
 échoue.
 
-Surveillance automatisée de produits scellés One Piece Card Game sur huit boutiques : Figurines Goodies, UltraJeux, Premium Bandai US, Parkage, Philibert, Carte One Piece, Oupi et Playin.
+Surveillance automatisée de produits scellés One Piece Card Game sur sept boutiques : UltraJeux, Premium Bandai US, Parkage, Philibert, Carte One Piece, Oupi et Playin. Figurines Goodies est conservé dans le code à titre historique, mais exclu des scans actifs car le site nécessite désormais un VPN.
 
 Le contrôle principal est déclenché toutes les 30 minutes par un scheduler externe. Le workflow GitHub `Stock Tracker` reste volontairement en `workflow_dispatch` afin d'éviter les doubles passages. Un watchdog GitHub vérifie ensuite qu'un contrôle récent a bien eu lieu et relance le tracker si nécessaire. Chaque boutique commence avec un petit décalage aléatoire : la fréquence ne change pas et aucune requête supplémentaire n'est ajoutée, mais les accès sont moins mécaniques.
 
@@ -44,7 +44,7 @@ python diagnostics/scan_store.py premium_bandai
 python diagnostics/scan_store.py philibert
 ```
 
-Le diagnostic applique ensuite les mêmes règles d'intégrité que le tracker de production. Des extraits HTML représentatifs des huit boutiques, stockés dans `tests/fixtures/`, protègent les règles de lecture essentielles contre les régressions.
+Le diagnostic applique ensuite les mêmes règles d'intégrité que le tracker de production. Les extraits HTML stockés dans `tests/fixtures/`, y compris ceux des scanners historiques désactivés, protègent les règles de lecture essentielles contre les régressions.
 
 ## Exécution locale
 
