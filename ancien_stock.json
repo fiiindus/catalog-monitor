@@ -2928,9 +2928,7 @@
             "notify_when_referenced": false,
             "category": "PROMO",
             "priority_target": "",
-            "priority": 7,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Oupi"
+            "priority": 7
         },
         "https://oupi.eu/fr/starter-deck-one-piece/6975-ace-newgate-st-22-deck-de-demarrage-anglais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -2990,9 +2988,7 @@
             "notify_when_referenced": false,
             "category": "PROMO",
             "priority_target": "",
-            "priority": 7,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Oupi"
+            "priority": 7
         },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/6473-premium-card-collection-best-selection-vol3-anglais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -3067,9 +3063,7 @@
             "notify_when_referenced": false,
             "category": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Oupi"
+            "priority": 3
         },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7801-illustration-box-vol7-anglais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -3084,9 +3078,7 @@
             "notify_when_referenced": false,
             "category": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Oupi"
+            "priority": 3
         },
         "https://oupi.eu/fr/starter-deck-one-piece/7330-lot-de-decks-apprenez-ensemble-avec-carte-promo-francais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -3281,9 +3273,7 @@
             "notify_when_referenced": true,
             "category": "CASE",
             "priority_target": "OP17",
-            "priority": 1004,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Oupi"
+            "priority": 1004
         },
         "https://oupi.eu/fr/display-one-piece/6516-display-successeurs-op-13-boite-de-booster-francais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -3328,9 +3318,7 @@
             "notify_when_referenced": false,
             "category": "DISPLAY",
             "priority_target": "",
-            "priority": 8,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Oupi"
+            "priority": 8
         },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8103-heroines-special-set-anglais-one-piece-card-game.html": {
             "site": "Oupi",
