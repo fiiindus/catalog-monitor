@@ -289,5 +289,39 @@
     },
     "compteur": 2,
     "alerte_envoyee": true
+  },
+  "Figurines Goodies|https://www.figurines-goodies.com/11906-bundle-case-de-24-boosters-sous-blisters-one-piece-op17-vf-monkey-d-luffy-super-oversized.html": {
+    "boutique": "Figurines Goodies",
+    "produit": {
+      "site": "Figurines Goodies",
+      "name": "précommande Nouveau Disponible le 28/08/2026 BUNDLE CARTON DE 24 BOOSTERS SOUS BLISTERS ONE PIECE OP17 VF + MONKEY D LUFFY SUPER OVERSIZED",
+      "price": "249,90 €",
+      "status": "SOLD OUT",
+      "priority": 1005,
+      "link": "https://www.figurines-goodies.com/11906-bundle-case-de-24-boosters-sous-blisters-one-piece-op17-vf-monkey-d-luffy-super-oversized.html",
+      "image": "https://www.figurines-goodies.com/21197-home_default/bundle-case-de-24-boosters-sous-blisters-one-piece-op17-vf-monkey-d-luffy-super-oversized.webp?v=1786787702",
+      "category": "BOOSTER_CARTON",
+      "language": "VF",
+      "priority_target": "OP17"
+    },
+    "compteur": 1,
+    "alerte_envoyee": false
+  },
+  "Figurines Goodies|https://www.figurines-goodies.com/11907-bundle-carton-de-24-boosters-sous-blisters-one-piece-op17-vf-special-goods-set-former-four-emperors.html": {
+    "boutique": "Figurines Goodies",
+    "produit": {
+      "site": "Figurines Goodies",
+      "name": "précommande Nouveau Disponible le 28/08/2026 BUNDLE CARTON DE 24 BOOSTERS SOUS BLISTERS ONE PIECE OP17 VF + SPECIAL GOODS SET FORMER FOUR EMPERORS",
+      "price": "259,90 €",
+      "status": "SOLD OUT",
+      "priority": 1005,
+      "link": "https://www.figurines-goodies.com/11907-bundle-carton-de-24-boosters-sous-blisters-one-piece-op17-vf-special-goods-set-former-four-emperors.html",
+      "image": "https://www.figurines-goodies.com/21198-home_default/bundle-carton-de-24-boosters-sous-blisters-one-piece-op17-vf-special-goods-set-former-four-emperors.webp?v=1786787696",
+      "category": "PROMO",
+      "language": "VF",
+      "priority_target": "OP17"
+    },
+    "compteur": 1,
+    "alerte_envoyee": false
   }
 }
