@@ -304,8 +304,8 @@
       "language": "VF",
       "priority_target": "OP17"
     },
-    "compteur": 1,
-    "alerte_envoyee": false
+    "compteur": 2,
+    "alerte_envoyee": true
   },
   "Figurines Goodies|https://www.figurines-goodies.com/11907-bundle-carton-de-24-boosters-sous-blisters-one-piece-op17-vf-special-goods-set-former-four-emperors.html": {
     "boutique": "Figurines Goodies",
@@ -321,7 +321,7 @@
       "language": "VF",
       "priority_target": "OP17"
     },
-    "compteur": 1,
-    "alerte_envoyee": false
+    "compteur": 2,
+    "alerte_envoyee": true
   }
 }
