@@ -3005,21 +3005,6 @@
             "priority_target": "",
             "priority": 3
         },
-        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7802-illustration-box-vol8-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Illustration Box Vol.8 (Anglais) - One Piece Card Game",
-            "price": "37,90 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7802-illustration-box-vol8-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/23510-home_default/illustration-box-vol8-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "OTHER",
-            "priority_target": "",
-            "priority": 3
-        },
         "https://oupi.eu/fr/starter-deck-one-piece/7330-lot-de-decks-apprenez-ensemble-avec-carte-promo-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Lot de decks Apprenez Ensemble avec carte Promo LD-01 (Français) - One Piece Card Game",
@@ -3050,20 +3035,20 @@
             "priority_target": "",
             "priority": 3
         },
-        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7397-premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.html": {
+        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7802-illustration-box-vol8-anglais-one-piece-card-game.html": {
             "site": "Oupi",
-            "name": "Premium Card Collection Best Selection Vol.6 (Anglais) - One Piece Card Game",
-            "price": "49,99 €",
+            "name": "Illustration Box Vol.8 (Anglais) - One Piece Card Game",
+            "price": "37,90 €",
             "status": "AVAILABLE",
             "availability": "",
-            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7397-premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/22210-home_default/premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.jpg",
+            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7802-illustration-box-vol8-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/23510-home_default/illustration-box-vol8-anglais-one-piece-card-game.jpg",
             "language": "EN",
             "source": "catalogue",
             "notify_when_referenced": false,
-            "category": "PROMO",
+            "category": "OTHER",
             "priority_target": "",
-            "priority": 7
+            "priority": 3
         },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/4924-special-goods-set-acesaboluffy-one-piece-card-game.html": {
             "site": "Oupi",
@@ -3095,21 +3080,6 @@
             "priority_target": "",
             "priority": -1
         },
-        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/6473-premium-card-collection-best-selection-vol3-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Premium Card Collection Best Selection Vol.3 (Anglais) - One Piece Card Game",
-            "price": "49,50 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/6473-premium-card-collection-best-selection-vol3-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/19110-home_default/premium-card-collection-best-selection-vol3-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "PROMO",
-            "priority_target": "",
-            "priority": 7
-        },
         "https://oupi.eu/fr/case-scelle-de-display/7293-case-scellee-de-12-display-sang-royal-op-10-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case Scellée de 12 Display Sang Royal OP-10 (Français) - One Piece Card Game",
@@ -3124,6 +3094,21 @@
             "category": "CASE",
             "priority_target": "",
             "priority": 2
+        },
+        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/6473-premium-card-collection-best-selection-vol3-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Premium Card Collection Best Selection Vol.3 (Anglais) - One Piece Card Game",
+            "price": "49,50 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/6473-premium-card-collection-best-selection-vol3-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/19110-home_default/premium-card-collection-best-selection-vol3-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "PROMO",
+            "priority_target": "",
+            "priority": 7
         },
         "https://oupi.eu/fr/case-scelle-de-display/8106-case-scellee-de-12-display-successeurs-op-13-francais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -3814,6 +3799,21 @@
             "category": "CASE",
             "priority_target": "",
             "priority": 2
+        },
+        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7397-premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Premium Card Collection Best Selection Vol.6 (Anglais) - One Piece Card Game",
+            "price": "49,99 €",
+            "status": "SOLD OUT",
+            "availability": "",
+            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7397-premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/22210-home_default/premium-card-collection-best-selection-vol6-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "PROMO",
+            "priority_target": "",
+            "priority": 7
         },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7395-premium-card-collection-best-selection-vol5-anglais-one-piece-card-game.html": {
             "site": "Oupi",
