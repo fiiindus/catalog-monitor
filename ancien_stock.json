@@ -5438,6 +5438,24 @@
             "priority_target": "OP17",
             "priority": 999
         },
+        "https://www.play-in.com/fr/produit/617685/booster-one-piece-tcg-successeurs-op-13-fr": {
+            "site": "Playin",
+            "name": "Booster One Piece Tcg : Successeurs [OP-13] - FR",
+            "price": "9,90 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://www.play-in.com/fr/produit/617685/booster-one-piece-tcg-successeurs-op-13-fr",
+            "image": "https://media.play-in.com/img/product/successeurs-op-13-booster.jpg",
+            "language": "OTHER",
+            "source": "catalogue",
+            "delivery": "SHIPPING_OR_ANNOUNCED",
+            "notify_when_referenced": false,
+            "category": "OTHER",
+            "priority_target": "",
+            "priority": -1,
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "Playin"
+        },
         "https://www.play-in.com/fr/produit/662638/deck-pour-debutant-one-piece-tcg-jaune-eustass-captain-kidd-st-36-fr": {
             "site": "Playin",
             "name": "Deck pour débutant One Piece Tcg : Jaune Eustass Captain Kidd [ST-36] - FR",
@@ -5470,21 +5488,23 @@
             "priority_target": "",
             "priority": 1
         },
-        "https://www.play-in.com/fr/produit/663265/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en": {
+        "https://www.play-in.com/fr/produit/617686/display-de-24-boosters-one-piece-tcg-successeurs-op-13-fr": {
             "site": "Playin",
-            "name": "Display de 24 boosters One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - EN",
-            "price": "349,90 €",
+            "name": "Display de 24 boosters One Piece Tcg : Successeurs [OP-13] - FR",
+            "price": "229,90 €",
             "status": "AVAILABLE",
-            "availability": "28/08/2026",
-            "link": "https://www.play-in.com/fr/produit/663265/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en",
-            "image": "https://media.play-in.com/media/medias/6a69d5e69fe69479001294.jpg",
+            "availability": "",
+            "link": "https://www.play-in.com/fr/produit/617686/display-de-24-boosters-one-piece-tcg-successeurs-op-13-fr",
+            "image": "https://media.play-in.com/img/product/op-13-successeurs-display.jpg",
             "language": "OTHER",
             "source": "catalogue",
             "delivery": "SHIPPING_OR_ANNOUNCED",
-            "notify_when_referenced": true,
+            "notify_when_referenced": false,
             "category": "DISPLAY",
-            "priority_target": "OP17",
-            "priority": 1004
+            "priority_target": "",
+            "priority": 4,
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "Playin"
         },
         "https://www.play-in.com/fr/produit/662629/deck-pour-debutant-one-piece-tcg-rouge-monkey-d-luffy-st-31-fr": {
             "site": "Playin",
@@ -5501,6 +5521,22 @@
             "category": "STARTER",
             "priority_target": "",
             "priority": 1
+        },
+        "https://www.play-in.com/fr/produit/663265/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en": {
+            "site": "Playin",
+            "name": "Display de 24 boosters One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - EN",
+            "price": "349,90 €",
+            "status": "AVAILABLE",
+            "availability": "28/08/2026",
+            "link": "https://www.play-in.com/fr/produit/663265/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en",
+            "image": "https://media.play-in.com/media/medias/6a69d5e69fe69479001294.jpg",
+            "language": "OTHER",
+            "source": "catalogue",
+            "delivery": "SHIPPING_OR_ANNOUNCED",
+            "notify_when_referenced": true,
+            "category": "DISPLAY",
+            "priority_target": "OP17",
+            "priority": 1004
         }
     }
 }
