@@ -2990,21 +2990,6 @@
             "priority_target": "",
             "priority": 7
         },
-        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/6473-premium-card-collection-best-selection-vol3-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Premium Card Collection Best Selection Vol.3 (Anglais) - One Piece Card Game",
-            "price": "49,50 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/6473-premium-card-collection-best-selection-vol3-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/19110-home_default/premium-card-collection-best-selection-vol3-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "PROMO",
-            "priority_target": "",
-            "priority": 7
-        },
         "https://oupi.eu/fr/starter-deck-one-piece/7815-eustass-captain-kidd-deck-de-demarrage-st-36-jaune-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Eustass \"Captain\" Kidd Deck de Démarrage ST-36 Jaune (Français) - One Piece Card Game",
@@ -3139,6 +3124,21 @@
             "category": "OTHER",
             "priority_target": "",
             "priority": -1
+        },
+        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/6473-premium-card-collection-best-selection-vol3-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Premium Card Collection Best Selection Vol.3 (Anglais) - One Piece Card Game",
+            "price": "49,50 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/6473-premium-card-collection-best-selection-vol3-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/19110-home_default/premium-card-collection-best-selection-vol3-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "PROMO",
+            "priority_target": "",
+            "priority": 7
         },
         "https://oupi.eu/fr/case-scelle-de-display/7293-case-scellee-de-12-display-sang-royal-op-10-francais-one-piece-card-game.html": {
             "site": "Oupi",
