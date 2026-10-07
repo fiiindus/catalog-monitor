@@ -5438,22 +5438,6 @@
             "priority_target": "OP17",
             "priority": 999
         },
-        "https://www.play-in.com/fr/produit/617685/booster-one-piece-tcg-successeurs-op-13-fr": {
-            "site": "Playin",
-            "name": "Booster One Piece Tcg : Successeurs [OP-13] - FR",
-            "price": "9,90 €",
-            "status": "STORE_ONLY",
-            "availability": "",
-            "link": "https://www.play-in.com/fr/produit/617685/booster-one-piece-tcg-successeurs-op-13-fr",
-            "image": "https://media.play-in.com/img/product/successeurs-op-13-booster.jpg",
-            "language": "OTHER",
-            "source": "catalogue",
-            "delivery": "STORE_ONLY",
-            "notify_when_referenced": false,
-            "category": "OTHER",
-            "priority_target": "",
-            "priority": -1
-        },
         "https://www.play-in.com/fr/produit/662638/deck-pour-debutant-one-piece-tcg-jaune-eustass-captain-kidd-st-36-fr": {
             "site": "Playin",
             "name": "Deck pour débutant One Piece Tcg : Jaune Eustass Captain Kidd [ST-36] - FR",
@@ -5485,22 +5469,6 @@
             "category": "STARTER",
             "priority_target": "",
             "priority": 1
-        },
-        "https://www.play-in.com/fr/produit/617686/display-de-24-boosters-one-piece-tcg-successeurs-op-13-fr": {
-            "site": "Playin",
-            "name": "Display de 24 boosters One Piece Tcg : Successeurs [OP-13] - FR",
-            "price": "229,90 €",
-            "status": "SOLD OUT",
-            "availability": "",
-            "link": "https://www.play-in.com/fr/produit/617686/display-de-24-boosters-one-piece-tcg-successeurs-op-13-fr",
-            "image": "https://media.play-in.com/img/product/op-13-successeurs-display.jpg",
-            "language": "OTHER",
-            "source": "catalogue",
-            "delivery": "SHIPPING_OR_ANNOUNCED",
-            "notify_when_referenced": false,
-            "category": "DISPLAY",
-            "priority_target": "",
-            "priority": 4
         },
         "https://www.play-in.com/fr/produit/662629/deck-pour-debutant-one-piece-tcg-rouge-monkey-d-luffy-st-31-fr": {
             "site": "Playin",
