@@ -3065,21 +3065,6 @@
             "priority_target": "",
             "priority": -1
         },
-        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7802-illustration-box-vol8-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Illustration Box Vol.8 (Anglais) - One Piece Card Game",
-            "price": "37,90 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7802-illustration-box-vol8-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/23510-home_default/illustration-box-vol8-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "OTHER",
-            "priority_target": "",
-            "priority": 3
-        },
         "https://oupi.eu/fr/case-scelle-de-display/7293-case-scellee-de-12-display-sang-royal-op-10-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case Scellée de 12 Display Sang Royal OP-10 (Français) - One Piece Card Game",
@@ -3604,6 +3589,21 @@
             "category": "PROMO",
             "priority_target": "",
             "priority": 7
+        },
+        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7802-illustration-box-vol8-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Illustration Box Vol.8 (Anglais) - One Piece Card Game",
+            "price": "37,90 €",
+            "status": "SOLD OUT",
+            "availability": "",
+            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7802-illustration-box-vol8-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/23510-home_default/illustration-box-vol8-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "OTHER",
+            "priority_target": "",
+            "priority": 3
         },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7801-illustration-box-vol7-anglais-one-piece-card-game.html": {
             "site": "Oupi",
