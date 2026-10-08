@@ -3211,9 +3211,7 @@
             "notify_when_referenced": true,
             "category": "CASE",
             "priority_target": "OP17",
-            "priority": 1004,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Oupi"
+            "priority": 1004
         },
         "https://oupi.eu/fr/display-one-piece/6516-display-successeurs-op-13-boite-de-booster-francais-one-piece-card-game.html": {
             "site": "Oupi",
