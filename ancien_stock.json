@@ -2149,9 +2149,7 @@
             "product_types": [],
             "category": "OTHER",
             "priority_target": "OP17",
-            "priority": 1001,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Parkage"
+            "priority": 1001
         },
         "https://www.parkage.com/fr/1123140-one-piece-card-game-display-x24-booster-packs-op-17-the-world-s-strongest-warriors": {
             "site": "Parkage",
