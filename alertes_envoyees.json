@@ -833,9 +833,21 @@
     "status": "REMOVED",
     "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
   },
+  "https://www.parkage.com/fr/1123150-lot-of-8-one-piece-card-game-double-pack-set-dp-12-vol-12": {
+    "fingerprint": "6cc084c8c989c868dd4fa3d3b67048382c499c44487b0c97fe1c61536acdf887",
+    "name": "Lot of 8 One Piece Card Game Double Pack Set - DP-12 : Vol.12",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
   "https://www.parkage.com/fr/1123151-double-pack-set-one-piece-card-game-dp-12-vol-12": {
     "fingerprint": "a4333c90e4ca55f7b2e795d86f6e474f036d35837a7660ab61e7fc37e672ef99",
     "name": "Double Pack Set One Piece Card Game - DP-12 : Vol.12",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1123152-lot-de-8-double-pack-set-one-piece-card-game-dp-12-vol-12": {
+    "fingerprint": "70ab3d348532c70f9490f65789421ff1c0161b57210b569cbe62dd700510af50",
+    "name": "Lot de 8 Double Pack Set One Piece Card Game - DP-12 : Vol.12",
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },

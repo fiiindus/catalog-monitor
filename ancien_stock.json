@@ -2086,6 +2086,21 @@
             "priority_target": "",
             "priority": 3
         },
+        "https://www.parkage.com/fr/1123152-lot-de-8-double-pack-set-one-piece-card-game-dp-12-vol-12": {
+            "site": "Parkage",
+            "name": "Lot de 8 Double Pack Set One Piece Card Game - DP-12 : Vol.12",
+            "price": "199,00 €",
+            "status": "AVAILABLE",
+            "link": "https://www.parkage.com/fr/1123152-lot-de-8-double-pack-set-one-piece-card-game-dp-12-vol-12",
+            "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/op-17/dp12_fr_x8.jpg",
+            "language": "VF",
+            "product_types": [],
+            "category": "DOUBLE_PACK",
+            "priority_target": "",
+            "priority": 4,
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "Parkage"
+        },
         "https://www.parkage.com/fr/1123151-double-pack-set-one-piece-card-game-dp-12-vol-12": {
             "site": "Parkage",
             "name": "Double Pack Set One Piece Card Game - DP-12 : Vol.12",
@@ -2098,6 +2113,21 @@
             "category": "DOUBLE_PACK",
             "priority_target": "",
             "priority": 4
+        },
+        "https://www.parkage.com/fr/1123150-lot-of-8-one-piece-card-game-double-pack-set-dp-12-vol-12": {
+            "site": "Parkage",
+            "name": "Lot of 8 One Piece Card Game Double Pack Set - DP-12 : Vol.12",
+            "price": "239,00 €",
+            "status": "AVAILABLE",
+            "link": "https://www.parkage.com/fr/1123150-lot-of-8-one-piece-card-game-double-pack-set-dp-12-vol-12",
+            "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/op-17/dp12_en_x8.jpg",
+            "language": "VF",
+            "product_types": [],
+            "category": "DOUBLE_PACK",
+            "priority_target": "",
+            "priority": 4,
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "Parkage"
         },
         "https://www.parkage.com/fr/1123149-one-piece-card-game-double-pack-set-dp-12-vol-12": {
             "site": "Parkage",
@@ -2115,7 +2145,7 @@
         "https://www.parkage.com/fr/1123145-boite-de-24-boosters-one-piece-card-game-op-17-les-guerriers-les-plus-puissants-au-monde": {
             "site": "Parkage",
             "name": "Boîte de 24 Boosters One Piece Card Game - OP-17 : Les guerriers les plus puissants au monde",
-            "price": "279,90 €",
+            "price": "239,90 €",
             "status": "AVAILABLE",
             "link": "https://www.parkage.com/fr/1123145-boite-de-24-boosters-one-piece-card-game-op-17-les-guerriers-les-plus-puissants-au-monde",
             "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/op-17/box_fr_x1.jpg",
@@ -2128,7 +2158,7 @@
         "https://www.parkage.com/fr/1123144-booster-one-piece-card-game-op-17-les-guerriers-les-plus-puissants-au-monde": {
             "site": "Parkage",
             "name": "Booster One Piece Card Game - OP-17 : Les guerriers les plus puissants au monde",
-            "price": "12,00 €",
+            "price": "10,00 €",
             "status": "STORE_ONLY",
             "link": "https://www.parkage.com/fr/1123144-booster-one-piece-card-game-op-17-les-guerriers-les-plus-puissants-au-monde",
             "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/op-17/booster_fr.jpg",
@@ -2141,7 +2171,7 @@
         "https://www.parkage.com/fr/1123140-one-piece-card-game-display-x24-booster-packs-op-17-the-world-s-strongest-warriors": {
             "site": "Parkage",
             "name": "One Piece Card Game Display (x24 Booster Packs) - OP-17 : The world's strongest warriors",
-            "price": "279,90 €",
+            "price": "259,90 €",
             "status": "AVAILABLE",
             "link": "https://www.parkage.com/fr/1123140-one-piece-card-game-display-x24-booster-packs-op-17-the-world-s-strongest-warriors",
             "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/op-17/box_en_x1.jpg",
@@ -2154,7 +2184,7 @@
         "https://www.parkage.com/fr/1123139-one-piece-card-game-booster-pack-op-17-the-world-s-strongest-warriors": {
             "site": "Parkage",
             "name": "One Piece Card Game Booster Pack - OP-17 : The world's strongest warriors",
-            "price": "12,00 €",
+            "price": "11,00 €",
             "status": "AVAILABLE",
             "link": "https://www.parkage.com/fr/1123139-one-piece-card-game-booster-pack-op-17-the-world-s-strongest-warriors",
             "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/op-17/booster_en.jpg",
