@@ -2097,9 +2097,7 @@
             "product_types": [],
             "category": "DOUBLE_PACK",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage"
+            "priority": 4
         },
         "https://www.parkage.com/fr/1123151-double-pack-set-one-piece-card-game-dp-12-vol-12": {
             "site": "Parkage",
@@ -2125,9 +2123,7 @@
             "product_types": [],
             "category": "DOUBLE_PACK",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage"
+            "priority": 4
         },
         "https://www.parkage.com/fr/1123149-one-piece-card-game-double-pack-set-dp-12-vol-12": {
             "site": "Parkage",
