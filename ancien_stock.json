@@ -2112,19 +2112,6 @@
             "priority_target": "",
             "priority": 4
         },
-        "https://www.parkage.com/fr/1123150-lot-of-8-one-piece-card-game-double-pack-set-dp-12-vol-12": {
-            "site": "Parkage",
-            "name": "Lot of 8 One Piece Card Game Double Pack Set - DP-12 : Vol.12",
-            "price": "239,00 €",
-            "status": "AVAILABLE",
-            "link": "https://www.parkage.com/fr/1123150-lot-of-8-one-piece-card-game-double-pack-set-dp-12-vol-12",
-            "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/op-17/dp12_en_x8.jpg",
-            "language": "VF",
-            "product_types": [],
-            "category": "DOUBLE_PACK",
-            "priority_target": "",
-            "priority": 4
-        },
         "https://www.parkage.com/fr/1123149-one-piece-card-game-double-pack-set-dp-12-vol-12": {
             "site": "Parkage",
             "name": "One Piece Card Game Double Pack Set - DP-12 : Vol.12",
