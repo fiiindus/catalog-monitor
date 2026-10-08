@@ -1,5 +1,1 @@
-{
-  "Parkage": {
-    "error": "Page.goto: net::ERR_CONNECTION_REFUSED at https://www.parkage.com/fr/recherche?text=OP17\nCall log:\n  - navigating to \"https://www.parkage.com/fr/recherche?text=OP17\", waiting until \"domcontentloaded\"\n"
-  }
-}
+{}
