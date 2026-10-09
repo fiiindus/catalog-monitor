@@ -5481,9 +5481,7 @@
             "notify_when_referenced": false,
             "category": "STARTER",
             "priority_target": "",
-            "priority": 1,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Playin"
+            "priority": 1
         },
         "https://www.play-in.com/fr/produit/662638/deck-pour-debutant-one-piece-tcg-jaune-eustass-captain-kidd-st-36-fr": {
             "site": "Playin",
