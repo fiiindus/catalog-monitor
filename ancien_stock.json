@@ -3150,21 +3150,6 @@
             "priority_target": "OP17",
             "priority": 1004
         },
-        "https://oupi.eu/fr/display-one-piece/6516-display-successeurs-op-13-boite-de-booster-francais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Display Successeurs OP-13 Boite de Booster (Français) - One Piece Card Game",
-            "price": "299,95 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/display-one-piece/6516-display-successeurs-op-13-boite-de-booster-francais-one-piece-card-game.html",
-            "image": "https://oupi.eu/20810-home_default/display-successeurs-op-13-boite-de-booster-francais-one-piece-card-game.jpg",
-            "language": "VF",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "DISPLAY",
-            "priority_target": "",
-            "priority": 6
-        },
         "https://oupi.eu/fr/starter-deck-one-piece/7811-roronoa-zoro-deck-de-demarrage-st-32-vert-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Roronoa Zoro Deck de Démarrage ST-32 Vert (Français) - One Piece Card Game",
@@ -4418,6 +4403,21 @@
             "availability": "",
             "link": "https://oupi.eu/fr/display-one-piece/6517-display-premium-booster-the-best-vol2-prb-02-boite-de-booster-francais-one-piece-card-game.html",
             "image": "https://oupi.eu/20820-home_default/display-premium-booster-the-best-vol2-prb-02-boite-de-booster-francais-one-piece-card-game.jpg",
+            "language": "VF",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "DISPLAY",
+            "priority_target": "",
+            "priority": 6
+        },
+        "https://oupi.eu/fr/display-one-piece/6516-display-successeurs-op-13-boite-de-booster-francais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Display Successeurs OP-13 Boite de Booster (Français) - One Piece Card Game",
+            "price": "299,95 €",
+            "status": "SOLD OUT",
+            "availability": "",
+            "link": "https://oupi.eu/fr/display-one-piece/6516-display-successeurs-op-13-boite-de-booster-francais-one-piece-card-game.html",
+            "image": "https://oupi.eu/20810-home_default/display-successeurs-op-13-boite-de-booster-francais-one-piece-card-game.jpg",
             "language": "VF",
             "source": "catalogue",
             "notify_when_referenced": false,
