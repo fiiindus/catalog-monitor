@@ -3150,21 +3150,6 @@
             "priority_target": "OP17",
             "priority": 1004
         },
-        "https://oupi.eu/fr/starter-deck-one-piece/7811-roronoa-zoro-deck-de-demarrage-st-32-vert-francais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Roronoa Zoro Deck de Démarrage ST-32 Vert (Français) - One Piece Card Game",
-            "price": "19,90 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/starter-deck-one-piece/7811-roronoa-zoro-deck-de-demarrage-st-32-vert-francais-one-piece-card-game.html",
-            "image": "https://oupi.eu/23529-home_default/roronoa-zoro-deck-de-demarrage-st-32-vert-francais-one-piece-card-game.jpg",
-            "language": "VF",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "STARTER",
-            "priority_target": "",
-            "priority": 3
-        },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/7802-illustration-box-vol8-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Illustration Box Vol.8 (Anglais) - One Piece Card Game",
@@ -3509,6 +3494,21 @@
             "category": "DISPLAY",
             "priority_target": "",
             "priority": 6
+        },
+        "https://oupi.eu/fr/starter-deck-one-piece/7811-roronoa-zoro-deck-de-demarrage-st-32-vert-francais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Roronoa Zoro Deck de Démarrage ST-32 Vert (Français) - One Piece Card Game",
+            "price": "19,90 €",
+            "status": "SOLD OUT",
+            "availability": "",
+            "link": "https://oupi.eu/fr/starter-deck-one-piece/7811-roronoa-zoro-deck-de-demarrage-st-32-vert-francais-one-piece-card-game.html",
+            "image": "https://oupi.eu/23529-home_default/roronoa-zoro-deck-de-demarrage-st-32-vert-francais-one-piece-card-game.jpg",
+            "language": "VF",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "STARTER",
+            "priority_target": "",
+            "priority": 3
         },
         "https://oupi.eu/fr/starter-deck-one-piece/7810-monkey-d-luffy-deck-de-demarrage-st-31-rouge-francais-one-piece-card-game.html": {
             "site": "Oupi",
