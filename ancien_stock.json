@@ -2487,9 +2487,7 @@
             "product_types": [],
             "category": "DISPLAY",
             "priority_target": "",
-            "priority": 6,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Parkage"
+            "priority": 6
         },
         "https://www.parkage.com/fr/1092443-one-piece-card-game-booster-pack-op-14-the-azure-sea-s-seven": {
             "site": "Parkage",
