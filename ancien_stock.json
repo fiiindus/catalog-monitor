@@ -2070,9 +2070,7 @@
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "OP17",
-            "priority": 1004,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 1004
         },
         "https://p-bandai.com/us/item/N9065180002": {
             "site": "Premium Bandai US",
@@ -2086,9 +2084,7 @@
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 4
         }
     },
     "Parkage": {
