@@ -2084,9 +2084,7 @@
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVELLE PRÉCOMMANDE",
-            "boutique": "Premium Bandai US"
+            "priority": 4
         }
     },
     "Parkage": {
