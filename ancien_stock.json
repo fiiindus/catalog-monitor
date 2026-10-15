@@ -2076,15 +2076,17 @@
             "site": "Premium Bandai US",
             "name": "ONE PIECE CARD GAME -THE TIME OF BATTLE- [OP-16] Booster Box",
             "price": "US$120.00",
-            "status": "SOLD OUT",
-            "orderable": false,
+            "status": "PREORDER",
+            "orderable": true,
             "notify_when_referenced": true,
             "link": "https://p-bandai.com/us/item/N9065180002",
             "image": "https://p-bandai.com/files/seller-products/NSP0471943001/pQBsfJRMojI2ceUCqIF7.jpg?w=300&h=300",
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 4
+            "priority": 4,
+            "type_alerte": "NOUVELLE PRÉCOMMANDE",
+            "boutique": "Premium Bandai US"
         }
     },
     "Parkage": {
