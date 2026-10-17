@@ -2286,7 +2286,7 @@
         "https://www.parkage.com/fr/1116910-deck-pour-debutant-one-piece-card-game-st-32-vert-roronoa-zoro": {
             "site": "Parkage",
             "name": "Deck pour débutant One Piece Card Game - ST-32 : Vert - Roronoa Zoro",
-            "price": "24,00 €",
+            "price": "22,00 €",
             "status": "SOLD OUT",
             "link": "https://www.parkage.com/fr/1116910-deck-pour-debutant-one-piece-card-game-st-32-vert-roronoa-zoro",
             "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/deck/opbd003_box3dbis2_20260708.png",
@@ -2299,7 +2299,7 @@
         "https://www.parkage.com/fr/1116909-deck-pour-debutant-one-piece-card-game-st-31-rouge-monkey-d-luffy": {
             "site": "Parkage",
             "name": "Deck pour débutant One Piece Card Game - ST-31 : Rouge - Monkey D. Luffy",
-            "price": "24,00 €",
+            "price": "22,00 €",
             "status": "STORE_ONLY",
             "link": "https://www.parkage.com/fr/1116909-deck-pour-debutant-one-piece-card-game-st-31-rouge-monkey-d-luffy",
             "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/deck/opbd003_box3dbis1_20260708.png",
@@ -2338,7 +2338,7 @@
         "https://www.parkage.com/fr/1116906-one-piece-card-game-starter-deck-st-34-purple-charlotte-katakuri": {
             "site": "Parkage",
             "name": "One Piece Card Game Starter Deck - ST-34 : Purple - Charlotte Katakuri",
-            "price": "20,00 €",
+            "price": "18,00 €",
             "status": "STORE_ONLY",
             "link": "https://www.parkage.com/fr/1116906-one-piece-card-game-starter-deck-st-34-purple-charlotte-katakuri",
             "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/deck/st-34_en.jpg",
@@ -3000,9 +3000,7 @@
             "notify_when_referenced": false,
             "category": "DOUBLE_PACK",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Oupi"
+            "priority": 4
         },
         "https://oupi.eu/fr/display-one-piece/7369-display-op-17-boite-de-booster-anglais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -3033,23 +3031,6 @@
             "category": "CASE",
             "priority_target": "",
             "priority": 2
-        },
-        "https://oupi.eu/fr/one-piece/7914-xxxxxxxxxxx-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Double Pack Set Vol.12 [DP-12] (Anglais) - One Piece Card Game",
-            "price": "19,99 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/one-piece/7914-xxxxxxxxxxx-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/23772-home_default/xxxxxxxxxxx-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "DOUBLE_PACK",
-            "priority_target": "",
-            "priority": 6,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Oupi"
         },
         "https://oupi.eu/fr/display-one-piece/6516-display-successeurs-op-13-boite-de-booster-francais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -5345,6 +5326,21 @@
             "category": "STARTER",
             "priority_target": "",
             "priority": 1
+        },
+        "https://oupi.eu/fr/one-piece/7914-xxxxxxxxxxx-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Double Pack Set Vol.12 [DP-12] (Anglais) - One Piece Card Game",
+            "price": "19,99 €",
+            "status": "SOLD OUT",
+            "availability": "",
+            "link": "https://oupi.eu/fr/one-piece/7914-xxxxxxxxxxx-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/23772-home_default/xxxxxxxxxxx-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "DOUBLE_PACK",
+            "priority_target": "",
+            "priority": 6
         },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/5649-premium-card-collection-live-action-edition-one-piece-card-game.html": {
             "site": "Oupi",
