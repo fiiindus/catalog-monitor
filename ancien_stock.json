@@ -3026,9 +3026,7 @@
             "notify_when_referenced": true,
             "category": "DISPLAY",
             "priority_target": "OP17",
-            "priority": 1008,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Oupi"
+            "priority": 1008
         },
         "https://oupi.eu/fr/case-scelle-de-display/7293-case-scellee-de-12-display-sang-royal-op-10-francais-one-piece-card-game.html": {
             "site": "Oupi",
