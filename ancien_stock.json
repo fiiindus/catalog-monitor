@@ -2325,7 +2325,7 @@
         "https://www.parkage.com/fr/1116907-one-piece-card-game-starter-deck-st-35-red-black-sabo": {
             "site": "Parkage",
             "name": "One Piece Card Game Starter Deck - ST-35 : Red/Black - Sabo",
-            "price": "20,00 €",
+            "price": "18,00 €",
             "status": "STORE_ONLY",
             "link": "https://www.parkage.com/fr/1116907-one-piece-card-game-starter-deck-st-35-red-black-sabo",
             "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/deck/st-35_en.jpg",
@@ -2351,7 +2351,7 @@
         "https://www.parkage.com/fr/1116905-one-piece-card-game-starter-deck-st-33-blue-kuzan": {
             "site": "Parkage",
             "name": "One Piece Card Game Starter Deck - ST-33 : Blue - Kuzan",
-            "price": "20,00 €",
+            "price": "18,00 €",
             "status": "STORE_ONLY",
             "link": "https://www.parkage.com/fr/1116905-one-piece-card-game-starter-deck-st-33-blue-kuzan",
             "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/deck/st-33_en.jpg",
@@ -2364,7 +2364,7 @@
         "https://www.parkage.com/fr/1116903-one-piece-card-game-starter-deck-st-31-red-monkey-d-luffy": {
             "site": "Parkage",
             "name": "One Piece Card Game Starter Deck - ST-31 : Red - Monkey.D.Luffy",
-            "price": "20,00 €",
+            "price": "18,00 €",
             "status": "STORE_ONLY",
             "link": "https://www.parkage.com/fr/1116903-one-piece-card-game-starter-deck-st-31-red-monkey-d-luffy",
             "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/deck/st-31_en.jpg",
@@ -2377,7 +2377,7 @@
         "https://www.parkage.com/fr/1108956-one-piece-card-game-display-x24-booster-packs-op-15-adventure-on-kami-s-island": {
             "site": "Parkage",
             "name": "One Piece Card Game Display (x24 Booster Packs) - OP-15 : Adventure on Kami's island",
-            "price": "239,90 €",
+            "price": "229,90 €",
             "status": "AVAILABLE",
             "link": "https://www.parkage.com/fr/1108956-one-piece-card-game-display-x24-booster-packs-op-15-adventure-on-kami-s-island",
             "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/op-15/box_en_x1.jpg",
@@ -2987,21 +2987,6 @@
             "priority_target": "",
             "priority": 3
         },
-        "https://oupi.eu/fr/one-piece/7913-double-pack-set-vol12-dp-12-francais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Double Pack Set Vol.12 [DP-12] (Français) - One Piece Card Game",
-            "price": "19,99 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/one-piece/7913-double-pack-set-vol12-dp-12-francais-one-piece-card-game.html",
-            "image": "https://oupi.eu/23768-home_default/double-pack-set-vol12-dp-12-francais-one-piece-card-game.jpg",
-            "language": "VF",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "DOUBLE_PACK",
-            "priority_target": "",
-            "priority": 4
-        },
         "https://oupi.eu/fr/display-one-piece/7369-display-op-17-boite-de-booster-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Display The World's Strongest Warriors OP-17 Boite de Booster (Anglais) - One Piece Card Game",
@@ -3211,6 +3196,21 @@
             "category": "PROMO",
             "priority_target": "",
             "priority": 7
+        },
+        "https://oupi.eu/fr/one-piece/7913-double-pack-set-vol12-dp-12-francais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Double Pack Set Vol.12 [DP-12] (Français) - One Piece Card Game",
+            "price": "19,99 €",
+            "status": "SOLD OUT",
+            "availability": "",
+            "link": "https://oupi.eu/fr/one-piece/7913-double-pack-set-vol12-dp-12-francais-one-piece-card-game.html",
+            "image": "https://oupi.eu/23768-home_default/double-pack-set-vol12-dp-12-francais-one-piece-card-game.jpg",
+            "language": "VF",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "DOUBLE_PACK",
+            "priority_target": "",
+            "priority": 4
         },
         "https://oupi.eu/fr/case-scelle-de-display/7909-case-scellee-de-12-display-eb-06-francais-one-piece-card-game.html": {
             "site": "Oupi",
