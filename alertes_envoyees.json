@@ -107,6 +107,12 @@
     "status": "SOLD OUT",
     "type": "NOUVEAU PRODUIT RÉFÉRENCÉ"
   },
+  "https://p-bandai.com/us/item/N2665892001": {
+    "fingerprint": "e97c0ec4a7e85e3d42127a67239c89093e890912088a31986ddb06917e3e0801",
+    "name": "ONE PIECE CARD GAME DEMO DECK SET",
+    "status": "SOLD OUT",
+    "type": "NOUVEAU PRODUIT RÉFÉRENCÉ"
+  },
   "https://p-bandai.com/us/item/N2672687001": {
     "fingerprint": "b2247cd9f14f5c91b12f39e2408d006caa368297e2737422fc990d178b374055",
     "name": "ONE PIECE CARD GAME Premium Card Collection -25th Edition-",
@@ -116,6 +122,18 @@
   "https://p-bandai.com/us/item/N2672688001": {
     "fingerprint": "92a4baee621bd75745c34d1d216e40a24903585c08ebf3bfc34198ad8a402a8f",
     "name": "ONE PIECE CARD GAME Playmat and Card Case Set -25th Edition-",
+    "status": "SOLD OUT",
+    "type": "NOUVEAU PRODUIT RÉFÉRENCÉ"
+  },
+  "https://p-bandai.com/us/item/N2674418001": {
+    "fingerprint": "8e9e14c726adf984e084d09cdfa8b910ea1604340f8787aed2d50a387802c9ec",
+    "name": "ONE PIECE CARD GAME Promotion Sleeve Roronoa Zoro",
+    "status": "SOLD OUT",
+    "type": "NOUVEAU PRODUIT RÉFÉRENCÉ"
+  },
+  "https://p-bandai.com/us/item/N2674419001": {
+    "fingerprint": "d29ec22f8a1341e842e446cc3daccd1daf3bbd0833b33608f3d7a36f1e83081e",
+    "name": "ONE PIECE CARD GAME Promotion Sleeve Nami",
     "status": "SOLD OUT",
     "type": "NOUVEAU PRODUIT RÉFÉRENCÉ"
   },
