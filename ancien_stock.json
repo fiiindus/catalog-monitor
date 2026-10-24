@@ -3094,21 +3094,6 @@
             "priority_target": "OP17",
             "priority": 1008
         },
-        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8061-english-3rd-anniversary-set-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "English 3rd Anniversary Set (Anglais) - One Piece Card Game",
-            "price": "599,99 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8061-english-3rd-anniversary-set-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/24171-home_default/english-3rd-anniversary-set-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "PROMO",
-            "priority_target": "",
-            "priority": 7
-        },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8103-heroines-special-set-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Heroines Special Set (Anglais) - One Piece Card Game",
@@ -3138,6 +3123,21 @@
             "category": "STARTER",
             "priority_target": "",
             "priority": 5
+        },
+        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8061-english-3rd-anniversary-set-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "English 3rd Anniversary Set (Anglais) - One Piece Card Game",
+            "price": "599,99 €",
+            "status": "SOLD OUT",
+            "availability": "",
+            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8061-english-3rd-anniversary-set-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/24171-home_default/english-3rd-anniversary-set-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "PROMO",
+            "priority_target": "",
+            "priority": 7
         },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8060-monkey-d-luffy-official-playmat-limited-edition-vol5-anglais-one-piece-card-game.html": {
             "site": "Oupi",
