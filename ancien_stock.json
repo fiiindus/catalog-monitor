@@ -2485,9 +2485,7 @@
             "product_types": [],
             "category": "OTHER",
             "priority_target": "",
-            "priority": 1,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage"
+            "priority": 1
         },
         "https://www.parkage.com/fr/1107053-boite-de-24-boosters-one-piece-card-game-op-13-successeurs": {
             "site": "Parkage",
@@ -2500,9 +2498,7 @@
             "product_types": [],
             "category": "DISPLAY",
             "priority_target": "",
-            "priority": 6,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage"
+            "priority": 6
         },
         "https://www.parkage.com/fr/1107050-booster-one-piece-card-game-op-13-successeurs": {
             "site": "Parkage",
@@ -2515,9 +2511,7 @@
             "product_types": [],
             "category": "OTHER",
             "priority_target": "",
-            "priority": 1,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage"
+            "priority": 1
         },
         "https://www.parkage.com/fr/1088439-one-piece-card-game-display-x24-booster-packs-op-13-carrying-on-his-will": {
             "site": "Parkage",
@@ -2556,9 +2550,7 @@
             "product_types": [],
             "category": "STARTER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage"
+            "priority": 3
         },
         "https://www.parkage.com/fr/1107099-deck-de-demarrage-one-piece-card-game-st-22-ace-et-newgate": {
             "site": "Parkage",
@@ -2571,9 +2563,7 @@
             "product_types": [],
             "category": "STARTER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage"
+            "priority": 3
         },
         "https://www.parkage.com/fr/1088436-one-piece-card-game-starter-deck-st-22-ace-newgate": {
             "site": "Parkage",
@@ -2586,9 +2576,7 @@
             "product_types": [],
             "category": "STARTER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage"
+            "priority": 3
         }
     },
     "Philibert": {
