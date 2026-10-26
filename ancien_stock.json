@@ -2592,9 +2592,7 @@
             "description": "La Mini Tin [TS-03] contient 2 boosters OP-17 et une carte promotionnelle exclusive. Un coffret collector idéal pour retrouver Luffy, Shanks et Hancock. Visuel aléatoire.",
             "category": "OTHER",
             "priority_target": "",
-            "priority": 1,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Philibert"
+            "priority": 1
         },
         "https://www.philibertnet.com/fr/one-piece-le-jeu-de-cartes/179784-bundle-one-piece-le-jeu-de-cartes-6-decks-pour-debutant-31-a-36-4582770058918.html": {
             "site": "Philibert",
