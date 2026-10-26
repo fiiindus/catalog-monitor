@@ -2422,32 +2422,6 @@
             "priority_target": "",
             "priority": 6
         },
-        "https://www.parkage.com/fr/1123401-one-piece-card-game-display-x10-booster-packs-special-card-set-vol-1": {
-            "site": "Parkage",
-            "name": "Boîte de 10 booster One Piece Card Game - Special Card Set Vol.1",
-            "price": "2 499,00 €",
-            "status": "AVAILABLE",
-            "link": "https://www.parkage.com/fr/1123401-one-piece-card-game-display-x10-booster-packs-special-card-set-vol-1",
-            "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/japonais/sp01/sp01_box.jpg",
-            "language": "VF",
-            "product_types": [],
-            "category": "DISPLAY",
-            "priority_target": "",
-            "priority": 6
-        },
-        "https://www.parkage.com/fr/1123176-one-piece-card-game-booster-special-card-set-vol-1": {
-            "site": "Parkage",
-            "name": "Booster One Piece Card Game - Special Card Set Vol.1",
-            "price": "1 289,00 €",
-            "status": "AVAILABLE",
-            "link": "https://www.parkage.com/fr/1123176-one-piece-card-game-booster-special-card-set-vol-1",
-            "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/japonais/sp01/sp01_booster.jpg",
-            "language": "VF",
-            "product_types": [],
-            "category": "OTHER",
-            "priority_target": "",
-            "priority": 1
-        },
         "https://www.parkage.com/fr/1118302-one-piece-card-game-box-ac-01-admirable-collection-vol-1-vinsmoke-reiju": {
             "site": "Parkage",
             "name": "Coffret One Piece Card Game - AC-01 : Admirable Collection Vol.1 - Vinsmoke Reiju",
