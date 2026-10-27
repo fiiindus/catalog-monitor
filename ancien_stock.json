@@ -2098,9 +2098,7 @@
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": "",
-            "priority": -1,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": -1
         },
         "https://p-bandai.com/us/item/N2674419001": {
             "site": "Premium Bandai US",
@@ -2114,9 +2112,7 @@
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": "",
-            "priority": -1,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": -1
         },
         "https://p-bandai.com/us/item/N2665892001": {
             "site": "Premium Bandai US",
@@ -2130,9 +2126,7 @@
             "category": "STARTER",
             "language": "OTHER",
             "priority_target": "",
-            "priority": 1,
-            "type_alerte": "NOUVEAU PRODUIT RÉFÉRENCÉ",
-            "boutique": "Premium Bandai US"
+            "priority": 1
         }
     },
     "Parkage": {
