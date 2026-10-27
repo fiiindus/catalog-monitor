@@ -2882,21 +2882,6 @@
             "priority_target": "",
             "priority": -1
         },
-        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/4924-special-goods-set-acesaboluffy-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Special Goods Set - Ace/Sabo/Luffy - One Piece Card Game",
-            "price": "53,50 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/4924-special-goods-set-acesaboluffy-one-piece-card-game.html",
-            "image": "https://oupi.eu/14062-home_default/special-goods-set-acesaboluffy-one-piece-card-game.jpg",
-            "language": "OTHER",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "PROMO",
-            "priority_target": "",
-            "priority": 3
-        },
         "https://oupi.eu/fr/starter-deck-one-piece/7813-charlotte-katakuri-deck-de-demarrage-st-34-violet-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Charlotte Katakuri Deck de Démarrage ST-34 Violet (Français) - One Piece Card Game",
@@ -2909,6 +2894,21 @@
             "source": "catalogue",
             "notify_when_referenced": false,
             "category": "STARTER",
+            "priority_target": "",
+            "priority": 3
+        },
+        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/4924-special-goods-set-acesaboluffy-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Special Goods Set - Ace/Sabo/Luffy - One Piece Card Game",
+            "price": "53,50 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/4924-special-goods-set-acesaboluffy-one-piece-card-game.html",
+            "image": "https://oupi.eu/14062-home_default/special-goods-set-acesaboluffy-one-piece-card-game.jpg",
+            "language": "OTHER",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "PROMO",
             "priority_target": "",
             "priority": 3
         },
