@@ -212,28 +212,20 @@ def can_order(parent):
 
 
 def extract_image(link, parent):
-
-    image_element = link.find("img")
-
-    if image_element is None:
-        image_element = parent.find("img")
-
-    if image_element is None:
-        return ""
-
-    image_url = (
-        image_element.get("data-src")
-        or image_element.get("src")
-        or ""
+    # The language flag precedes the product photo in UltraJeux cards.
+    candidates = (
+        parent.select("img.produit_scan, .image img")
+        + link.find_all("img")
+        + parent.find_all("img")
     )
-
-    if not image_url:
-        return ""
-
-    return urljoin(
-        BASE_URL,
-        image_url
-    )
+    for image_element in candidates:
+        image_url = image_element.get("data-src") or image_element.get("src") or ""
+        if not image_url:
+            continue
+        if any(marker in image_url.lower() for marker in ("/pays/", "icon_")):
+            continue
+        return urljoin(BASE_URL, image_url)
+    return ""
 
 
 def scan():
