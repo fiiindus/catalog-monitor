@@ -3370,21 +3370,6 @@
             "priority_target": "",
             "priority": 2
         },
-        "https://oupi.eu/fr/display-one-piece/7901-display-heroine-edition-vol2-eb-05-boite-de-booster-francais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Display Heroine Edition Vol.2 EB-05 Boite de Booster (Français) - One Piece Card Game",
-            "price": "199,95 €",
-            "status": "SOLD OUT",
-            "availability": "30 Octobre 2026",
-            "link": "https://oupi.eu/fr/display-one-piece/7901-display-heroine-edition-vol2-eb-05-boite-de-booster-francais-one-piece-card-game.html",
-            "image": "https://oupi.eu/24910-home_default/display-heroine-edition-vol2-eb-05-boite-de-booster-francais-one-piece-card-game.jpg",
-            "language": "VF",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "DISPLAY",
-            "priority_target": "",
-            "priority": 6
-        },
         "https://oupi.eu/fr/case-scelle-de-display/7899-case-scellee-de-12-display-op-19-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case Scellée de 12 Display OP-19 (Anglais) - One Piece Card Game",
@@ -5392,6 +5377,21 @@
             "source": "catalogue",
             "notify_when_referenced": false,
             "category": "DOUBLE_PACK",
+            "priority_target": "",
+            "priority": 6
+        },
+        "https://oupi.eu/fr/display-one-piece/7901-display-heroine-edition-vol2-eb-05-boite-de-booster-francais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Display Heroine Edition Vol.2 EB-05 Boite de Booster (Français) - One Piece Card Game",
+            "price": "199,95 €",
+            "status": "SOLD OUT",
+            "availability": "30 Octobre 2026",
+            "link": "https://oupi.eu/fr/display-one-piece/7901-display-heroine-edition-vol2-eb-05-boite-de-booster-francais-one-piece-card-game.html",
+            "image": "https://oupi.eu/24910-home_default/display-heroine-edition-vol2-eb-05-boite-de-booster-francais-one-piece-card-game.jpg",
+            "language": "VF",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "DISPLAY",
             "priority_target": "",
             "priority": 6
         },
