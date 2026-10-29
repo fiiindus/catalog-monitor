@@ -1,9 +1,7 @@
 {
-  "degraded_notified": true,
-  "errors": [
-    "TimeoutError"
-  ],
-  "last_attempt_at": "2026-10-29T18:16:12.307782+00:00",
-  "last_complete_at": "2026-10-29T18:11:05.277930+00:00",
+  "degraded_notified": false,
+  "errors": [],
+  "last_attempt_at": "2026-10-29T18:21:19.321456+00:00",
+  "last_complete_at": "2026-10-29T18:21:19.321456+00:00",
   "stale_notified": false
 }
