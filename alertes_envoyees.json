@@ -863,6 +863,12 @@
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
+  "https://www.parkage.com/fr/1144380-one-piece-card-game-tin-pack-set-ts-03-vol-3-random-type": {
+    "fingerprint": "881d106adf73ad52a9ddbad3b0c44ad9d845a63879a45058d022c53caf0111da",
+    "name": "One Piece Card Game Tin Pack Set - TS-03 : Vol.3 (Random Type)",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
   "https://www.philibertnet.com/fr/one-piece-le-jeu-de-cartes/179735-one-piece-le-jeu-de-cartes-op17-les-guerriers-les-plus-puissants-au-monde-boite-de-24-boosters-2100001380243.html": {
     "fingerprint": "f05ba9a7a864b703cab36891b468e8dc00b4a2606de2e039080cad1753d29823",
     "name": "One Piece Le Jeu de Cartes - OP17 - Les Guerriers les plus puissants au Monde - Boite de 24 Boosters",
@@ -1060,5 +1066,17 @@
     "name": "OP17 - The World's Strongest Warriors",
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
+  },
+  "https://www.ultrajeux.com/produit-33532-display-eb05-one-piece-heroines-edition-vol2-4582770059168.html": {
+    "fingerprint": "17edebffa7cefea7b806ed0acf293fd12178233af8af48f3cbb222066e6c11cb",
+    "name": "Display EB05 : One Piece Héroïnes Édition Vol.2",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.ultrajeux.com/produit-33533-eb05-one-piece-heroines-edition-vol2-4582770059151.html": {
+    "fingerprint": "0865139c0edbceca04da7ca18090a94a4062f1e1fe20ea401eeff95779f7e430",
+    "name": "EB05 - One Piece Héroïnes Édition Vol.2",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
   }
 }
