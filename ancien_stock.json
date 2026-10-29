@@ -3040,36 +3040,6 @@
             "priority_target": "OP17",
             "priority": 1008
         },
-        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8372-mini-case-boa-hancock-v1-ts-03-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Mini Case Boa Hancock V.1 TS-03 (Anglais) - One Piece Card Game",
-            "price": "19,99 €",
-            "status": "SOLD OUT",
-            "availability": "",
-            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8372-mini-case-boa-hancock-v1-ts-03-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/24972-home_default/mini-case-boa-hancock-v1-ts-03-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "CASE",
-            "priority_target": "",
-            "priority": 4
-        },
-        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8370-mini-case-shanks-v1-ts-03-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Mini Case Shanks V.1 TS-03 (Anglais) - One Piece Card Game",
-            "price": "19,99 €",
-            "status": "SOLD OUT",
-            "availability": "",
-            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8370-mini-case-shanks-v1-ts-03-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/24968-home_default/mini-case-shanks-v1-ts-03-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "CASE",
-            "priority_target": "",
-            "priority": 4
-        },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8379-mini-case-boa-hancock-v2-ts-03-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Mini Case Boa Hancock V.2 TS-03 (Français) - One Piece Card Game",
@@ -3175,6 +3145,21 @@
             "priority_target": "",
             "priority": 4
         },
+        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8372-mini-case-boa-hancock-v1-ts-03-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Mini Case Boa Hancock V.1 TS-03 (Anglais) - One Piece Card Game",
+            "price": "19,99 €",
+            "status": "SOLD OUT",
+            "availability": "",
+            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8372-mini-case-boa-hancock-v1-ts-03-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/24972-home_default/mini-case-boa-hancock-v1-ts-03-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "CASE",
+            "priority_target": "",
+            "priority": 4
+        },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8371-mini-case-shanks-v2-ts-03-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Mini Case Shanks V.2 TS-03 (Anglais) - One Piece Card Game",
@@ -3190,14 +3175,14 @@
             "priority_target": "",
             "priority": 4
         },
-        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8369-mini-case-monkeydluffy-v2-ts-03-anglais-one-piece-card-game.html": {
+        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8370-mini-case-shanks-v1-ts-03-anglais-one-piece-card-game.html": {
             "site": "Oupi",
-            "name": "Mini Case Monkey.D.Luffy V.2 TS-03 (Anglais) - One Piece Card Game",
+            "name": "Mini Case Shanks V.1 TS-03 (Anglais) - One Piece Card Game",
             "price": "19,99 €",
             "status": "SOLD OUT",
             "availability": "",
-            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8369-mini-case-monkeydluffy-v2-ts-03-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/24966-home_default/mini-case-monkeydluffy-v2-ts-03-anglais-one-piece-card-game.jpg",
+            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8370-mini-case-shanks-v1-ts-03-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/24968-home_default/mini-case-shanks-v1-ts-03-anglais-one-piece-card-game.jpg",
             "language": "EN",
             "source": "catalogue",
             "notify_when_referenced": false,
@@ -5394,6 +5379,21 @@
             "category": "DOUBLE_PACK",
             "priority_target": "",
             "priority": 6
+        },
+        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8369-mini-case-monkeydluffy-v2-ts-03-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Mini Case Monkey.D.Luffy V.2 TS-03 (Anglais) - One Piece Card Game",
+            "price": "19,99 €",
+            "status": "SOLD OUT",
+            "availability": "",
+            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8369-mini-case-monkeydluffy-v2-ts-03-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/24966-home_default/mini-case-monkeydluffy-v2-ts-03-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "CASE",
+            "priority_target": "",
+            "priority": 4
         },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/5649-premium-card-collection-live-action-edition-one-piece-card-game.html": {
             "site": "Oupi",
