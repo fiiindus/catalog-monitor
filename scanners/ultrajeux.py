@@ -1,4 +1,6 @@
 from urllib.parse import urljoin
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
@@ -89,7 +91,10 @@ def is_tcg_product(name):
         "DISPLAY",
         "PREMIUM CARD COLLECTION",
         "PREMIUM BOOSTER",
-        "DEVIL FRUITS COLLECTION"
+        "DEVIL FRUITS COLLECTION",
+        "TIN PACK",
+        "MINI-TIN",
+        "MINI TIN",
     ]
 
     if any(
@@ -100,7 +105,7 @@ def is_tcg_product(name):
         return True
 
     product_code = re.search(
-        r"\b(?:OP|EB|ST|PRB|DF|DP)-?\d{2}\b",
+        r"\b(?:OP|EB|ST|PRB|DF|DP|TS)\s*-?\s*\d{2}\b",
         name
     )
 
@@ -151,7 +156,7 @@ def extract_price(text):
     return "Non trouvé"
 
 
-def detect_status(text):
+def detect_status(text, orderable=False, today=None):
 
     text = text.upper()
 
@@ -173,7 +178,37 @@ def detect_status(text):
     if "DISPONIBLE" in text:
         return "AVAILABLE"
 
+    release = re.search(r"SORTIE\s+LE\s+(\d{2}/\d{2}/\d{4})", text)
+    if release:
+        if not orderable:
+            return "COMING_SOON"
+        try:
+            release_date = datetime.strptime(release.group(1), "%d/%m/%Y").date()
+        except ValueError:
+            return "UNKNOWN"
+        today = today or datetime.now(ZoneInfo("Europe/Paris")).date()
+        return "PREORDER" if release_date > today else "AVAILABLE"
+
+    if orderable:
+        return "AVAILABLE"
+
     return "UNKNOWN"
+
+
+def can_order(parent):
+    """Only a live add-to-cart control is evidence of an online order."""
+    for control in parent.select('input[type="submit"], button'):
+        label = control.get("value", "") + " " + control.get_text(" ", strip=True)
+        form = control.find_parent("form")
+        if (
+            "AJOUTER" in label.upper()
+            and not control.has_attr("disabled")
+            and control.get("aria-disabled") != "true"
+            and form is not None
+            and form.select_one('input[name="op"][value="danspanier"]')
+        ):
+            return True
+    return False
 
 
 def extract_image(link, parent):
@@ -289,7 +324,8 @@ def scan():
                 )
 
                 status = detect_status(
-                    product_text
+                    product_text,
+                    orderable=can_order(parent),
                 )
 
                 price = extract_price(
