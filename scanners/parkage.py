@@ -173,7 +173,10 @@ def trouver_carte_produit(lien):
             return None
         texte = nettoyer_texte(parent.get_text(" ", strip=True))
         if (
-            "STOCK BOUTIQUES" in texte.upper()
+            any(
+                marqueur in texte.upper()
+                for marqueur in ("STOCK BOUTIQUES", "PRÉCOMMANDE", "PRECOMMANDE")
+            )
             and extraire_prix(texte) != "Non trouvé"
         ):
             return parent
