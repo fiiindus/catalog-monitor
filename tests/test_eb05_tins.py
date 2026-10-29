@@ -6,6 +6,7 @@ from unittest.mock import MagicMock, patch
 from bs4 import BeautifulSoup
 
 from integrite import valider_scan
+from notifier import construire_embed
 from scanners import parkage, ultrajeux
 
 
@@ -60,7 +61,27 @@ class UltraJeuxReleaseTests(unittest.TestCase):
         self.assertEqual(6, sum("TS03" in p["name"] for p in products.values()))
         self.assertTrue(all(p["status"] in {"PREORDER", "AVAILABLE"}
                             for p in products.values()))
+        for product in products.values():
+            self.assertIn("static.ultrajeux.com/images/produits/", product["image"])
+            self.assertEqual(
+                {"url": product["image"]},
+                construire_embed(product)["thumbnail"],
+            )
         self.assertIs(products, valider_scan({"nom": "UltraJeux"}, products, {}))
+
+    def test_photo_is_preferred_over_flag_even_inside_product_link(self):
+        soup = BeautifulSoup('''<div><a><img src="/images/pays/fr.png"></a>
+            <p class="image"><img class="produit_scan" src="/placeholder.gif"
+                data-src="/images/produits/normal/33535.jpg"></p></div>''', "lxml")
+        self.assertEqual(
+            "https://www.ultrajeux.com/images/produits/normal/33535.jpg",
+            ultrajeux.extract_image(soup.find("a"), soup),
+        )
+
+    def test_flags_and_badges_are_not_used_when_photo_is_missing(self):
+        soup = BeautifulSoup('''<div><a><img src="/images/pays/fr.png"></a>
+            <img src="/images/icon_new_orange.png"></div>''', "lxml")
+        self.assertEqual("", ultrajeux.extract_image(soup.find("a"), soup))
 
     def test_tin_code_variants_and_language_filters(self):
         for name in ("TS03 Tin Pack : Luffy", "TS-03 : Hancock", "TS 03 : Shanks"):
