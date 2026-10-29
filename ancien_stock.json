@@ -10,9 +10,7 @@
             "image": "https://www.ultrajeux.com/images/pays/fr.png",
             "category": "OTHER",
             "language": "OTHER",
-            "priority_target": "",
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "UltraJeux"
+            "priority_target": ""
         },
         "https://www.ultrajeux.com/produit-33532-display-eb05-one-piece-heroines-edition-vol2-4582770059168.html": {
             "site": "UltraJeux",
@@ -24,9 +22,7 @@
             "image": "https://www.ultrajeux.com/images/pays/fr.png",
             "category": "DISPLAY",
             "language": "OTHER",
-            "priority_target": "",
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "UltraJeux"
+            "priority_target": ""
         },
         "https://www.ultrajeux.com/produit-32977-op17-the-world-s-strongest-warriors-0810199502014.html": {
             "site": "UltraJeux",
@@ -2169,9 +2165,7 @@
             "product_types": [],
             "category": "OTHER",
             "priority_target": "",
-            "priority": 1,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage"
+            "priority": 1
         },
         "https://www.parkage.com/fr/1130517-boite-de-24-extra-boosters-one-piece-card-game-eb-05-heroines-edition-vol-2": {
             "site": "Parkage",
@@ -2989,21 +2983,6 @@
             "priority_target": "",
             "priority": 2
         },
-        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8061-english-3rd-anniversary-set-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "English 3rd Anniversary Set (Anglais) - One Piece Card Game",
-            "price": "599,99 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8061-english-3rd-anniversary-set-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/24171-home_default/english-3rd-anniversary-set-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "PROMO",
-            "priority_target": "",
-            "priority": 7
-        },
         "https://oupi.eu/fr/case-scelle-de-display/7602-case-scellee-de-12-display-l-heure-de-la-bataille-decisive-op-16-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case Scellée de 12 Display L'Heure de la Bataille Décisive OP-16 (Français) - One Piece Card Game",
@@ -3093,6 +3072,21 @@
             "category": "DOUBLE_PACK",
             "priority_target": "",
             "priority": 4
+        },
+        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8061-english-3rd-anniversary-set-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "English 3rd Anniversary Set (Anglais) - One Piece Card Game",
+            "price": "599,99 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8061-english-3rd-anniversary-set-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/24171-home_default/english-3rd-anniversary-set-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "PROMO",
+            "priority_target": "",
+            "priority": 7
         },
         "https://oupi.eu/fr/display-one-piece/7369-display-op-17-boite-de-booster-anglais-one-piece-card-game.html": {
             "site": "Oupi",
