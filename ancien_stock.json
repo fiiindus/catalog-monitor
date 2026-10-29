@@ -3173,6 +3173,21 @@
             "priority_target": "",
             "priority": 4
         },
+        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8369-mini-case-monkeydluffy-v2-ts-03-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Mini Case Monkey.D.Luffy V.2 TS-03 (Anglais) - One Piece Card Game",
+            "price": "19,99 €",
+            "status": "SOLD OUT",
+            "availability": "",
+            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8369-mini-case-monkeydluffy-v2-ts-03-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/24966-home_default/mini-case-monkeydluffy-v2-ts-03-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "CASE",
+            "priority_target": "",
+            "priority": 4
+        },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8368-mini-case-monkeydluffy-v1-ts-03-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Mini Case Monkey.D.Luffy V.1 TS-03 (Anglais) - One Piece Card Game",
@@ -5392,21 +5407,6 @@
             "category": "DOUBLE_PACK",
             "priority_target": "",
             "priority": 6
-        },
-        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8369-mini-case-monkeydluffy-v2-ts-03-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Mini Case Monkey.D.Luffy V.2 TS-03 (Anglais) - One Piece Card Game",
-            "price": "19,99 €",
-            "status": "SOLD OUT",
-            "availability": "",
-            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8369-mini-case-monkeydluffy-v2-ts-03-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/24966-home_default/mini-case-monkeydluffy-v2-ts-03-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "CASE",
-            "priority_target": "",
-            "priority": 4
         },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/5649-premium-card-collection-live-action-edition-one-piece-card-game.html": {
             "site": "Oupi",
