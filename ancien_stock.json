@@ -7,12 +7,10 @@
             "status": "AVAILABLE",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-33540-ts03-tin-pack-boa-hancock-v1-4582770066807.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/33540.jpg?v=2",
             "category": "OTHER",
             "language": "OTHER",
-            "priority_target": "",
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "UltraJeux"
+            "priority_target": ""
         },
         "https://www.ultrajeux.com/produit-33539-ts03-tin-pack-boa-hancock-v2-4582770066807.html": {
             "site": "UltraJeux",
@@ -21,12 +19,10 @@
             "status": "AVAILABLE",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-33539-ts03-tin-pack-boa-hancock-v2-4582770066807.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/33539.jpg?v=3",
             "category": "OTHER",
             "language": "OTHER",
-            "priority_target": "",
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "UltraJeux"
+            "priority_target": ""
         },
         "https://www.ultrajeux.com/produit-33538-ts03-tin-pack-shanks-v2-4582770066807.html": {
             "site": "UltraJeux",
@@ -35,12 +31,10 @@
             "status": "AVAILABLE",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-33538-ts03-tin-pack-shanks-v2-4582770066807.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/33538.jpg?v=2",
             "category": "OTHER",
             "language": "OTHER",
-            "priority_target": "",
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "UltraJeux"
+            "priority_target": ""
         },
         "https://www.ultrajeux.com/produit-33537-ts03-tin-pack-shanks-v1-4582770066807.html": {
             "site": "UltraJeux",
@@ -49,12 +43,10 @@
             "status": "AVAILABLE",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-33537-ts03-tin-pack-shanks-v1-4582770066807.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/33537.jpg?v=2",
             "category": "OTHER",
             "language": "OTHER",
-            "priority_target": "",
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "UltraJeux"
+            "priority_target": ""
         },
         "https://www.ultrajeux.com/produit-33536-ts03-tin-pack-monkey-d-luffy-v2-4582770066807.html": {
             "site": "UltraJeux",
@@ -63,12 +55,10 @@
             "status": "AVAILABLE",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-33536-ts03-tin-pack-monkey-d-luffy-v2-4582770066807.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/33536.jpg?v=2",
             "category": "OTHER",
             "language": "OTHER",
-            "priority_target": "",
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "UltraJeux"
+            "priority_target": ""
         },
         "https://www.ultrajeux.com/produit-33535-ts03-tin-pack-monkey-d-luffy-v1-4582770066807.html": {
             "site": "UltraJeux",
@@ -77,12 +67,10 @@
             "status": "AVAILABLE",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-33535-ts03-tin-pack-monkey-d-luffy-v1-4582770066807.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/33535.jpg?v=2",
             "category": "OTHER",
             "language": "OTHER",
-            "priority_target": "",
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "UltraJeux"
+            "priority_target": ""
         },
         "https://www.ultrajeux.com/produit-33533-eb05-one-piece-heroines-edition-vol2-4582770059151.html": {
             "site": "UltraJeux",
@@ -91,7 +79,7 @@
             "status": "AVAILABLE",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-33533-eb05-one-piece-heroines-edition-vol2-4582770059151.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/33533.jpg?v=2",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -103,7 +91,7 @@
             "status": "AVAILABLE",
             "priority": 4,
             "link": "https://www.ultrajeux.com/produit-33532-display-eb05-one-piece-heroines-edition-vol2-4582770059168.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/33532.jpg?v=4",
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": ""
@@ -115,7 +103,7 @@
             "status": "AVAILABLE",
             "priority": 999,
             "link": "https://www.ultrajeux.com/produit-32977-op17-the-world-s-strongest-warriors-0810199502014.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/32977.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": "OP17"
@@ -127,7 +115,7 @@
             "status": "AVAILABLE",
             "priority": 1002,
             "link": "https://www.ultrajeux.com/produit-32976-double-pack-op17-les-guerriers-les-plus-puissants-au-monde-4582770058741.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/32976.jpg?v=1",
             "category": "DOUBLE_PACK",
             "language": "OTHER",
             "priority_target": "OP17"
@@ -139,7 +127,7 @@
             "status": "AVAILABLE",
             "priority": 999,
             "link": "https://www.ultrajeux.com/produit-32959-op17-les-guerriers-les-plus-puissants-au-monde-4582770058710.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/32959.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": "OP17"
@@ -151,7 +139,7 @@
             "status": "AVAILABLE",
             "priority": 1004,
             "link": "https://www.ultrajeux.com/produit-32958-display-op17-les-guerriers-les-plus-puissants-au-monde-4582770058833.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/32958.jpg?v=1",
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "OP17"
@@ -163,7 +151,7 @@
             "status": "SOLD OUT",
             "priority": 999,
             "link": "https://www.ultrajeux.com/produit-32957-op17-the-world-s-strongest-warriors-0810199501963.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/32957.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": "OP17"
@@ -175,7 +163,7 @@
             "status": "SOLD OUT",
             "priority": 1004,
             "link": "https://www.ultrajeux.com/produit-32956-display-op17-the-world-s-strongest-warriors-0810199501970.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/32956.jpg?v=1",
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": "OP17"
@@ -187,7 +175,7 @@
             "status": "SOLD OUT",
             "priority": 3,
             "link": "https://www.ultrajeux.com/produit-32968-premium-card-collection-best-selection-vol06-0810199502229.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/32968.jpg?v=1",
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": ""
@@ -199,7 +187,7 @@
             "status": "AVAILABLE",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-32907-st36-eustass-captain-kid-4582770058758.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/32907.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -211,7 +199,7 @@
             "status": "AVAILABLE",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-32906-st35-sabo-4582770058758.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/32906.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -223,7 +211,7 @@
             "status": "AVAILABLE",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-32905-st34-charlotte-katakuri-4582770058758.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/32905.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -235,7 +223,7 @@
             "status": "AVAILABLE",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-32904-st33-kuzan-4582770058758.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/32904.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -247,7 +235,7 @@
             "status": "AVAILABLE",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-32902-st31-monkey-d-luffy-4582770058758.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/32902.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -259,7 +247,7 @@
             "status": "STORE_ONLY",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-32903-st32-roronoa-zoro-4582770058758.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/32903.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -271,7 +259,7 @@
             "status": "AVAILABLE",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-32845-st36-eustass-captain-kid-0810199501079.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/32845.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -283,7 +271,7 @@
             "status": "AVAILABLE",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-32844-st35-sabo-0810199501048.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/32844.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -295,7 +283,7 @@
             "status": "AVAILABLE",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-32843-st34-charlotte-katakuri-0810199501017.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/32843.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -307,7 +295,7 @@
             "status": "AVAILABLE",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-32842-st33-kuzan-0810199500980.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/32842.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -319,7 +307,7 @@
             "status": "SOLD OUT",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-32841-st32-roronoa-zoro-0810199500959.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/32841.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -331,7 +319,7 @@
             "status": "SOLD OUT",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-32840-st31-monkey-d-luffy-0810199500928.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/32840.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -343,7 +331,7 @@
             "status": "SOLD OUT",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-32641-op16-the-time-of-battle-0810199500348.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/32641.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -355,7 +343,7 @@
             "status": "SOLD OUT",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-32612-st30-luffy-ace-4582769982606.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/32612.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -367,7 +355,7 @@
             "status": "SOLD OUT",
             "priority": 2,
             "link": "https://www.ultrajeux.com/produit-32610-double-pack-op16-l-heure-de-la-bataille-decisive-4582770058734.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/32610.jpg?v=1",
             "category": "DOUBLE_PACK",
             "language": "OTHER",
             "priority_target": ""
@@ -379,7 +367,7 @@
             "status": "SOLD OUT",
             "priority": 2,
             "link": "https://www.ultrajeux.com/produit-32341-op15-dp-10-adventure-on-kami-s-island-0810158838482.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/32341.jpg?v=1",
             "category": "DOUBLE_PACK",
             "language": "OTHER",
             "priority_target": ""
@@ -391,7 +379,7 @@
             "status": "AVAILABLE",
             "priority": 1,
             "link": "https://www.ultrajeux.com/produit-31964-coffret-decouverte-one-piece-learn-together-deck-set-0810158835658.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/31964.jpg?v=1",
             "category": "STARTER",
             "language": "OTHER",
             "priority_target": ""
@@ -403,7 +391,7 @@
             "status": "SOLD OUT",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-31939-ts02-tin-pack-sabo-4582769865640.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/31939.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -415,7 +403,7 @@
             "status": "SOLD OUT",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-31938-ts02-tin-pack-portgas-dace-4582769865640.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/31938.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -427,7 +415,7 @@
             "status": "SOLD OUT",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-31936-ts02-tin-pack-monkey-d-luffy-4582769865640.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/31936.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -439,7 +427,7 @@
             "status": "AVAILABLE",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-31875-st29-egghead-4582769937262.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/31875.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -451,7 +439,7 @@
             "status": "SOLD OUT",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-31830-op14-the-azure-sea-s-seven-0810158836433.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/31830.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -463,7 +451,7 @@
             "status": "SOLD OUT",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-31735-op14-les-sept-de-la-mer-d-azur-4582769923159.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/31735.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -475,7 +463,7 @@
             "status": "SOLD OUT",
             "priority": 3,
             "link": "https://www.ultrajeux.com/produit-31831-st29-egghead-anglais-0810158837171.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/31831.jpg?v=1",
             "category": "OTHER",
             "language": "EN",
             "priority_target": ""
@@ -487,7 +475,7 @@
             "status": "AVAILABLE",
             "priority": 3,
             "link": "https://www.ultrajeux.com/produit-31704-st22-ace-et-newgate-bleu-anglais-0810158834958.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/31704.jpg?v=1",
             "category": "OTHER",
             "language": "EN",
             "priority_target": ""
@@ -499,7 +487,7 @@
             "status": "AVAILABLE",
             "priority": 5,
             "link": "https://www.ultrajeux.com/produit-31559-df03-devil-fruits-collection-vol3-en-francais-4582769912160.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/31559.jpg?v=1",
             "category": "PROMO",
             "language": "VF",
             "priority_target": ""
@@ -511,7 +499,7 @@
             "status": "AVAILABLE",
             "priority": 3,
             "link": "https://www.ultrajeux.com/produit-31528-df03-devil-fruits-collection-vol3-0810158834804.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/31528.jpg?v=1",
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": ""
@@ -523,7 +511,7 @@
             "status": "SOLD OUT",
             "priority": 3,
             "link": "https://www.ultrajeux.com/produit-32578-op13-successeurs-blister-4582769865619.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/32578.jpg?v=1",
             "category": "BOOSTER_CARTON",
             "language": "OTHER",
             "priority_target": ""
@@ -535,7 +523,7 @@
             "status": "SOLD OUT",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-31376-op13-carrying-on-his-will-0810158833517.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/31376.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -547,7 +535,7 @@
             "status": "SOLD OUT",
             "priority": 4,
             "link": "https://www.ultrajeux.com/produit-31375-display-op13-carrying-on-his-will-0810158833524.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/31375.jpg?v=1",
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": ""
@@ -559,7 +547,7 @@
             "status": "AVAILABLE",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-31374-op13-successeurs-4582769865589.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/31374.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -571,7 +559,7 @@
             "status": "AVAILABLE",
             "priority": 4,
             "link": "https://www.ultrajeux.com/produit-31373-display-op13-successeurs-4582769865596.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/31373.jpg?v=1",
             "category": "DISPLAY",
             "language": "OTHER",
             "priority_target": ""
@@ -583,7 +571,7 @@
             "status": "SOLD OUT",
             "priority": 1,
             "link": "https://www.ultrajeux.com/produit-30930-st22-bleu-ace-et-newgate-francais-4582769894619.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/30930.jpg?v=1",
             "category": "OTHER",
             "language": "VF",
             "priority_target": ""
@@ -595,7 +583,7 @@
             "status": "SOLD OUT",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-30361-st26-violet-noir-monkeydluffy-4582769843310.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/30361.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -607,7 +595,7 @@
             "status": "SOLD OUT",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-30360-st25-bleu-baggy-4582769843310.html",
-            "image": "https://www.ultrajeux.com/images/pays/fr.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/30360.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -619,7 +607,7 @@
             "status": "SOLD OUT",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-28770-st15-red-edwardnewgate-0810059787094.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/28770.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -631,7 +619,7 @@
             "status": "SOLD OUT",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-28769-st16-green-uta-0810059787131.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/28769.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -643,7 +631,7 @@
             "status": "SOLD OUT",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-28764-st19-black-smoker-0810059787216.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/28764.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -655,7 +643,7 @@
             "status": "SOLD OUT",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-28763-st20-yellow-charlotte-katakuri-0810059787247.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/28763.jpg?v=1",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": ""
@@ -667,7 +655,7 @@
             "status": "AVAILABLE",
             "priority": 1,
             "link": "https://www.ultrajeux.com/produit-27864-3d2y-starter-deck-st14-0810059786998.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/27864.jpg?v=1",
             "category": "STARTER",
             "language": "OTHER",
             "priority_target": ""
@@ -679,7 +667,7 @@
             "status": "AVAILABLE",
             "priority": 2,
             "link": "https://www.ultrajeux.com/produit-27612-op07-double-pack-set-4-500-years-in-the-future-0810059785120.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/27612.jpg?v=1",
             "category": "DOUBLE_PACK",
             "language": "OTHER",
             "priority_target": ""
@@ -691,7 +679,7 @@
             "status": "AVAILABLE",
             "priority": 1,
             "link": "https://www.ultrajeux.com/produit-28509-animal-kingdom-pirates-starter-deck-st04-1ere-edition-0811039038335.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/28509.jpg?v=1",
             "category": "STARTER",
             "language": "OTHER",
             "priority_target": ""
@@ -703,7 +691,7 @@
             "status": "AVAILABLE",
             "priority": 1,
             "link": "https://www.ultrajeux.com/produit-28508-the-seven-warlords-of-the-sea-starter-deck-st03-1ere-edition-0811039038304.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/28508.jpg?v=1",
             "category": "STARTER",
             "language": "OTHER",
             "priority_target": ""
@@ -715,7 +703,7 @@
             "status": "AVAILABLE",
             "priority": 1,
             "link": "https://www.ultrajeux.com/produit-28510-worst-generation-starter-deck-st02-1ere-edition-0811039038274.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/28510.jpg?v=1",
             "category": "STARTER",
             "language": "OTHER",
             "priority_target": ""
@@ -727,7 +715,7 @@
             "status": "AVAILABLE",
             "priority": 3,
             "link": "https://www.ultrajeux.com/produit-25200-one-piece-card-game-premium-card-collection-0810059782433.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/25200.jpg?v=1",
             "category": "PROMO",
             "language": "OTHER",
             "priority_target": ""
@@ -739,7 +727,7 @@
             "status": "SOLD OUT",
             "priority": 1,
             "link": "https://www.ultrajeux.com/produit-23064-one-piece-card-game-monkeydluffy-deck-st08-0810059781559.html",
-            "image": "https://www.ultrajeux.com/images/pays/gb.png",
+            "image": "https://static.ultrajeux.com/images/produits/normal/23064.jpg?v=1",
             "category": "STARTER",
             "language": "OTHER",
             "priority_target": ""
