@@ -4,25 +4,29 @@
             "site": "UltraJeux",
             "name": "TS03 Tin Pack : Boa Hancock V1",
             "price": "29,90 €",
-            "status": "SOLD OUT",
+            "status": "AVAILABLE",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-33540-ts03-tin-pack-boa-hancock-v1-4582770066807.html",
             "image": "https://static.ultrajeux.com/images/produits/normal/33540.jpg?v=2",
             "category": "OTHER",
             "language": "OTHER",
-            "priority_target": ""
+            "priority_target": "",
+            "type_alerte": "RETOUR EN STOCK",
+            "boutique": "UltraJeux"
         },
         "https://www.ultrajeux.com/produit-33539-ts03-tin-pack-boa-hancock-v2-4582770066807.html": {
             "site": "UltraJeux",
             "name": "TS03 Tin Pack : Boa Hancock V2",
             "price": "29,90 €",
-            "status": "SOLD OUT",
+            "status": "AVAILABLE",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-33539-ts03-tin-pack-boa-hancock-v2-4582770066807.html",
             "image": "https://static.ultrajeux.com/images/produits/normal/33539.jpg?v=3",
             "category": "OTHER",
             "language": "OTHER",
-            "priority_target": ""
+            "priority_target": "",
+            "type_alerte": "RETOUR EN STOCK",
+            "boutique": "UltraJeux"
         },
         "https://www.ultrajeux.com/produit-33538-ts03-tin-pack-shanks-v2-4582770066807.html": {
             "site": "UltraJeux",
@@ -40,37 +44,43 @@
             "site": "UltraJeux",
             "name": "TS03 Tin Pack : Shanks V1",
             "price": "29,90 €",
-            "status": "SOLD OUT",
+            "status": "AVAILABLE",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-33537-ts03-tin-pack-shanks-v1-4582770066807.html",
             "image": "https://static.ultrajeux.com/images/produits/normal/33537.jpg?v=2",
             "category": "OTHER",
             "language": "OTHER",
-            "priority_target": ""
+            "priority_target": "",
+            "type_alerte": "RETOUR EN STOCK",
+            "boutique": "UltraJeux"
         },
         "https://www.ultrajeux.com/produit-33536-ts03-tin-pack-monkey-d-luffy-v2-4582770066807.html": {
             "site": "UltraJeux",
             "name": "TS03 Tin Pack : Monkey D. Luffy V2",
             "price": "29,90 €",
-            "status": "SOLD OUT",
+            "status": "AVAILABLE",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-33536-ts03-tin-pack-monkey-d-luffy-v2-4582770066807.html",
             "image": "https://static.ultrajeux.com/images/produits/normal/33536.jpg?v=2",
             "category": "OTHER",
             "language": "OTHER",
-            "priority_target": ""
+            "priority_target": "",
+            "type_alerte": "RETOUR EN STOCK",
+            "boutique": "UltraJeux"
         },
         "https://www.ultrajeux.com/produit-33535-ts03-tin-pack-monkey-d-luffy-v1-4582770066807.html": {
             "site": "UltraJeux",
             "name": "TS03 Tin Pack : Monkey D. Luffy V1",
             "price": "29,90 €",
-            "status": "SOLD OUT",
+            "status": "AVAILABLE",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-33535-ts03-tin-pack-monkey-d-luffy-v1-4582770066807.html",
             "image": "https://static.ultrajeux.com/images/produits/normal/33535.jpg?v=2",
             "category": "OTHER",
             "language": "OTHER",
-            "priority_target": ""
+            "priority_target": "",
+            "type_alerte": "RETOUR EN STOCK",
+            "boutique": "UltraJeux"
         },
         "https://www.ultrajeux.com/produit-33533-eb05-one-piece-heroines-edition-vol2-4582770059151.html": {
             "site": "UltraJeux",

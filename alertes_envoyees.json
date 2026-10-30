@@ -1073,10 +1073,40 @@
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
+  "https://www.ultrajeux.com/produit-33535-ts03-tin-pack-monkey-d-luffy-v1-4582770066807.html": {
+    "fingerprint": "a7eec0c4af06475890cf170abe28cbe24eb31db456eee8ee7736231cd6c30fd3",
+    "name": "TS03 Tin Pack : Monkey D. Luffy V1",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://www.ultrajeux.com/produit-33536-ts03-tin-pack-monkey-d-luffy-v2-4582770066807.html": {
+    "fingerprint": "7b006d0c0c34b7092d29e22c98e7e8ac64b6ac6dc7c37c3b9af40b17c119e6d1",
+    "name": "TS03 Tin Pack : Monkey D. Luffy V2",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://www.ultrajeux.com/produit-33537-ts03-tin-pack-shanks-v1-4582770066807.html": {
+    "fingerprint": "9ff76897a6c6fa4270c2e14724ef18ef114519af648fa83f46ad7bdfe64f508f",
+    "name": "TS03 Tin Pack : Shanks V1",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
   "https://www.ultrajeux.com/produit-33538-ts03-tin-pack-shanks-v2-4582770066807.html": {
     "fingerprint": "d3261eed20e7ad580225ddcac147a097ed5c7ccc4d0c9d5ff8cbd27d833c4aae",
     "name": "TS03 Tin Pack : Shanks V2",
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.ultrajeux.com/produit-33539-ts03-tin-pack-boa-hancock-v2-4582770066807.html": {
+    "fingerprint": "c44fd0d6d3c5470d3e69039c1d2257216207f900cbfd7eeb0a2d0474d70a8e98",
+    "name": "TS03 Tin Pack : Boa Hancock V2",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://www.ultrajeux.com/produit-33540-ts03-tin-pack-boa-hancock-v1-4582770066807.html": {
+    "fingerprint": "3b81b9112fb7b4c1867d7d1c87ea81cc6b617c971dc79dd2ed7278bd40c5e918",
+    "name": "TS03 Tin Pack : Boa Hancock V1",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
   }
 }
