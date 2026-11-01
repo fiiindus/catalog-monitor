@@ -134,27 +134,6 @@
     "compteur": 2,
     "alerte_envoyee": true
   },
-  "Playin|https://www.play-in.com/fr/produit/663249/display-de-24-boosters-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr": {
-    "boutique": "Playin",
-    "produit": {
-      "site": "Playin",
-      "name": "Display de 24 boosters OP-17 Les Guerriers Les Plus Puissants Au Monde - One Piece FR",
-      "price": "349,90 €",
-      "status": "AVAILABLE",
-      "availability": "28/08/2026",
-      "link": "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr",
-      "image": "https://media.play-in.com/media/medias/6a69b243646a5032661065.jpg",
-      "language": "VF",
-      "source": "catalogue",
-      "delivery": "SHIPPING_OR_ANNOUNCED",
-      "notify_when_referenced": true,
-      "category": "DISPLAY",
-      "priority_target": "OP17",
-      "priority": 1006
-    },
-    "compteur": 2,
-    "alerte_envoyee": true
-  },
   "UltraJeux|https://www.ultrajeux.com/produit-32976-double-pack-op17-les-guerriers-les-plus-puissants-au-monde-en-francais-4582770058741.html": {
     "boutique": "UltraJeux",
     "produit": {
