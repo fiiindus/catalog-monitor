@@ -5570,22 +5570,6 @@
         }
     },
     "Playin": {
-        "https://www.play-in.com/fr/produit/663264/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en": {
-            "site": "Playin",
-            "name": "Booster One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - EN",
-            "price": "14,90 €",
-            "status": "AVAILABLE",
-            "availability": "28/08/2026",
-            "link": "https://www.play-in.com/fr/produit/663264/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en",
-            "image": "https://media.play-in.com/media/medias/6a69d0c415f47492681988.jpg",
-            "language": "OTHER",
-            "source": "catalogue",
-            "delivery": "SHIPPING_OR_ANNOUNCED",
-            "notify_when_referenced": true,
-            "category": "OTHER",
-            "priority_target": "OP17",
-            "priority": 999
-        },
         "https://www.play-in.com/fr/produit/663248/booster-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr": {
             "site": "Playin",
             "name": "Booster One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - FR",
@@ -5594,6 +5578,22 @@
             "availability": "28/08/2026",
             "link": "https://www.play-in.com/fr/produit/663248/booster-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr",
             "image": "https://media.play-in.com/media/medias/6a69b0e848975867805898.jpg",
+            "language": "OTHER",
+            "source": "catalogue",
+            "delivery": "SHIPPING_OR_ANNOUNCED",
+            "notify_when_referenced": true,
+            "category": "OTHER",
+            "priority_target": "OP17",
+            "priority": 999
+        },
+        "https://www.play-in.com/fr/produit/663264/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en": {
+            "site": "Playin",
+            "name": "Booster One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - EN",
+            "price": "14,90 €",
+            "status": "AVAILABLE",
+            "availability": "28/08/2026",
+            "link": "https://www.play-in.com/fr/produit/663264/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en",
+            "image": "https://media.play-in.com/media/medias/6a69d0c415f47492681988.jpg",
             "language": "OTHER",
             "source": "catalogue",
             "delivery": "SHIPPING_OR_ANNOUNCED",
@@ -5634,22 +5634,6 @@
             "priority_target": "",
             "priority": 1
         },
-        "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr": {
-            "site": "Playin",
-            "name": "Display de 24 boosters One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - FR",
-            "price": "229,90 €",
-            "status": "AVAILABLE",
-            "availability": "28/08/2026",
-            "link": "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr",
-            "image": "https://media.play-in.com/media/medias/6a69b243646a5032661065.jpg",
-            "language": "OTHER",
-            "source": "catalogue",
-            "delivery": "SHIPPING_OR_ANNOUNCED",
-            "notify_when_referenced": true,
-            "category": "DISPLAY",
-            "priority_target": "OP17",
-            "priority": 1004
-        },
         "https://www.play-in.com/fr/produit/617903/coffret-lot-de-decks-apprenez-ensemble-one-piece-tcg-fr": {
             "site": "Playin",
             "name": "Coffret Lot de decks Apprenez Ensemble One Piece Tcg - FR",
@@ -5666,21 +5650,21 @@
             "priority_target": "",
             "priority": 1
         },
-        "https://www.play-in.com/fr/produit/662629/deck-pour-debutant-one-piece-tcg-rouge-monkey-d-luffy-st-31-fr": {
+        "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr": {
             "site": "Playin",
-            "name": "Deck pour débutant One Piece Tcg : Rouge Monkey D. Luffy [ST-31] - FR",
-            "price": "29,90 €",
+            "name": "Display de 24 boosters One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - FR",
+            "price": "229,90 €",
             "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://www.play-in.com/fr/produit/662629/deck-pour-debutant-one-piece-tcg-rouge-monkey-d-luffy-st-31-fr",
-            "image": "https://media.play-in.com/media/medias/6a675dc20f9a1216167001.jpg",
+            "availability": "28/08/2026",
+            "link": "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr",
+            "image": "https://media.play-in.com/media/medias/6a69b243646a5032661065.jpg",
             "language": "OTHER",
             "source": "catalogue",
             "delivery": "SHIPPING_OR_ANNOUNCED",
-            "notify_when_referenced": false,
-            "category": "STARTER",
-            "priority_target": "",
-            "priority": 1
+            "notify_when_referenced": true,
+            "category": "DISPLAY",
+            "priority_target": "OP17",
+            "priority": 1004
         }
     }
 }
