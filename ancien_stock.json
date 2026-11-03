@@ -5689,9 +5689,7 @@
             "notify_when_referenced": false,
             "category": "OTHER",
             "priority_target": "",
-            "priority": -1,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Playin"
+            "priority": -1
         },
         "https://www.play-in.com/fr/produit/663248/booster-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr": {
             "site": "Playin",
