@@ -1,5 +1,29 @@
 {
     "UltraJeux": {
+        "https://www.ultrajeux.com/produit-33540-ts03-tin-pack-boa-hancock-v1-4582770066807.html": {
+            "site": "UltraJeux",
+            "name": "TS03 Tin Pack : Boa Hancock V1",
+            "price": "39,90 €",
+            "status": "SOLD OUT",
+            "priority": -1,
+            "link": "https://www.ultrajeux.com/produit-33540-ts03-tin-pack-boa-hancock-v1-4582770066807.html",
+            "image": "https://static.ultrajeux.com/images/produits/normal/33540.jpg?v=3",
+            "category": "OTHER",
+            "language": "OTHER",
+            "priority_target": ""
+        },
+        "https://www.ultrajeux.com/produit-33539-ts03-tin-pack-boa-hancock-v2-4582770066807.html": {
+            "site": "UltraJeux",
+            "name": "TS03 Tin Pack : Boa Hancock V2",
+            "price": "39,90 €",
+            "status": "SOLD OUT",
+            "priority": -1,
+            "link": "https://www.ultrajeux.com/produit-33539-ts03-tin-pack-boa-hancock-v2-4582770066807.html",
+            "image": "https://static.ultrajeux.com/images/produits/normal/33539.jpg?v=4",
+            "category": "OTHER",
+            "language": "OTHER",
+            "priority_target": ""
+        },
         "https://www.ultrajeux.com/produit-33538-ts03-tin-pack-shanks-v2-4582770066807.html": {
             "site": "UltraJeux",
             "name": "TS03 Tin Pack : Shanks V2",
@@ -2258,7 +2282,7 @@
             "site": "Parkage",
             "name": "One Piece Card Game Display (x24 Extra Booster Packs) - EB-05 : Heroines Edition Vol.2",
             "price": "2 199,90 €",
-            "status": "STORE_ONLY",
+            "status": "SOLD OUT",
             "link": "https://www.parkage.com/fr/1130512-one-piece-card-game-display-x24-extra-booster-packs-eb-05-heroines-edition-vol-2",
             "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/eb-05/box_en_x1.jpg",
             "language": "VF",
