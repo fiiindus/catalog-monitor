@@ -2666,9 +2666,7 @@
             "product_types": [],
             "category": "STARTER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Parkage"
+            "priority": 3
         },
         "https://www.parkage.com/fr/1107099-deck-de-demarrage-one-piece-card-game-st-22-ace-et-newgate": {
             "site": "Parkage",
