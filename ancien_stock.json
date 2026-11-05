@@ -5765,9 +5765,7 @@
             "notify_when_referenced": false,
             "category": "OTHER",
             "priority_target": "",
-            "priority": -1,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Playin"
+            "priority": -1
         },
         "https://www.play-in.com/fr/produit/617685/booster-one-piece-tcg-successeurs-op-13-fr": {
             "site": "Playin",
@@ -5783,9 +5781,7 @@
             "notify_when_referenced": false,
             "category": "OTHER",
             "priority_target": "",
-            "priority": -1,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Playin"
+            "priority": -1
         },
         "https://www.play-in.com/fr/produit/663248/booster-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr": {
             "site": "Playin",
@@ -5897,9 +5893,7 @@
             "notify_when_referenced": true,
             "category": "DISPLAY",
             "priority_target": "OP17",
-            "priority": 1004,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Playin"
+            "priority": 1004
         }
     }
 }
