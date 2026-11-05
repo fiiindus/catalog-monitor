@@ -5751,6 +5751,42 @@
         }
     },
     "Playin": {
+        "https://www.play-in.com/fr/produit/674769/extra-booster-one-piece-tcg-heroines-edition-vol-2-eb-05-fr": {
+            "site": "Playin",
+            "name": "Extra Booster One Piece Tcg : Heroines Edition vol.2 [EB-05] - FR",
+            "price": "9,90 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://www.play-in.com/fr/produit/674769/extra-booster-one-piece-tcg-heroines-edition-vol-2-eb-05-fr",
+            "image": "https://media.play-in.com/media/medias/6ac351014a584263383888.jpg",
+            "language": "OTHER",
+            "source": "catalogue",
+            "delivery": "SHIPPING_OR_ANNOUNCED",
+            "notify_when_referenced": false,
+            "category": "OTHER",
+            "priority_target": "",
+            "priority": -1,
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "Playin"
+        },
+        "https://www.play-in.com/fr/produit/617685/booster-one-piece-tcg-successeurs-op-13-fr": {
+            "site": "Playin",
+            "name": "Booster One Piece Tcg : Successeurs [OP-13] - FR",
+            "price": "9,90 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://www.play-in.com/fr/produit/617685/booster-one-piece-tcg-successeurs-op-13-fr",
+            "image": "https://media.play-in.com/img/product/successeurs-op-13-booster.jpg",
+            "language": "OTHER",
+            "source": "catalogue",
+            "delivery": "SHIPPING_OR_ANNOUNCED",
+            "notify_when_referenced": false,
+            "category": "OTHER",
+            "priority_target": "",
+            "priority": -1,
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "Playin"
+        },
         "https://www.play-in.com/fr/produit/663248/booster-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr": {
             "site": "Playin",
             "name": "Booster One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - FR",
@@ -5782,6 +5818,22 @@
             "category": "OTHER",
             "priority_target": "OP17",
             "priority": 999
+        },
+        "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr": {
+            "site": "Playin",
+            "name": "Display de 24 boosters One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - FR",
+            "price": "229,90 €",
+            "status": "AVAILABLE",
+            "availability": "28/08/2026",
+            "link": "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr",
+            "image": "https://media.play-in.com/media/medias/6a69b243646a5032661065.jpg",
+            "language": "OTHER",
+            "source": "catalogue",
+            "delivery": "SHIPPING_OR_ANNOUNCED",
+            "notify_when_referenced": true,
+            "category": "DISPLAY",
+            "priority_target": "OP17",
+            "priority": 1004
         },
         "https://www.play-in.com/fr/produit/662638/deck-pour-debutant-one-piece-tcg-jaune-eustass-captain-kidd-st-36-fr": {
             "site": "Playin",
@@ -5831,21 +5883,23 @@
             "priority_target": "",
             "priority": 1
         },
-        "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr": {
+        "https://www.play-in.com/fr/produit/663265/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en": {
             "site": "Playin",
-            "name": "Display de 24 boosters One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - FR",
-            "price": "229,90 €",
+            "name": "Display de 24 boosters One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - EN",
+            "price": "349,90 €",
             "status": "AVAILABLE",
             "availability": "28/08/2026",
-            "link": "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr",
-            "image": "https://media.play-in.com/media/medias/6a69b243646a5032661065.jpg",
+            "link": "https://www.play-in.com/fr/produit/663265/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en",
+            "image": "https://media.play-in.com/media/medias/6a69d5e69fe69479001294.jpg",
             "language": "OTHER",
             "source": "catalogue",
             "delivery": "SHIPPING_OR_ANNOUNCED",
             "notify_when_referenced": true,
             "category": "DISPLAY",
             "priority_target": "OP17",
-            "priority": 1004
+            "priority": 1004,
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "Playin"
         }
     }
 }

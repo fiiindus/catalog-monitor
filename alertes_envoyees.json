@@ -905,6 +905,12 @@
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
+  "https://www.play-in.com/fr/produit/617685/booster-one-piece-tcg-successeurs-op-13-fr": {
+    "fingerprint": "7386ee6edd8a9cc76457f1026667659a46382cdf2bdfd11a72de4065557f5f8f",
+    "name": "Booster One Piece Tcg : Successeurs [OP-13] - FR",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
   "https://www.play-in.com/fr/produit/617903/coffret-lot-de-decks-apprenez-ensemble-one-piece-tcg-fr": {
     "fingerprint": "cde194991f125be81c7464e30cff87be5c1e8bb487d2914cae4e224ddedfe5d6",
     "name": "Coffret Lot de decks Apprenez Ensemble One Piece Tcg - FR",
@@ -978,16 +984,22 @@
     "type": "PRODUIT ANNONCÉ MAINTENANT DISPONIBLE"
   },
   "https://www.play-in.com/fr/produit/663265/display-de-24-boosters-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en": {
-    "fingerprint": "b19f187361034a1e69f9ef5c655ad70396a8ec722e987e6d0e4a9485652d136b",
+    "fingerprint": "86845530c997bad22910ff1ea27bc4b1598761950bc448d2ee3e9b110bfad0a4",
     "name": "Display de 24 boosters One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - EN",
-    "status": "REMOVED",
-    "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
   "https://www.play-in.com/fr/produit/663266/double-pack-set-one-piece-tcg-12-les-guerriers-les-plus-puissants-au-monde-op-17-en": {
     "fingerprint": "ce803083014a59c1e775d5aa16595dd2862b996e7bf444db5e892ff4e7397a69",
     "name": "Double Pack Set One Piece Tcg : 12 Les Guerriers Les Plus Puissants Au Monde [OP-17] - EN",
     "status": "REMOVED",
     "type": "PRODUIT OP17 RETIRÉ DU CATALOGUE"
+  },
+  "https://www.play-in.com/fr/produit/674769/extra-booster-one-piece-tcg-heroines-edition-vol-2-eb-05-fr": {
+    "fingerprint": "fb7e7cb8da775d9a64455124bc353c59ef2fe496f3717e25906f59bdfd9de17a",
+    "name": "Extra Booster One Piece Tcg : Heroines Edition vol.2 [EB-05] - FR",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
   "https://www.ultrajeux.com/produit-31373-display-op13-successeurs-4582769865596.html": {
     "fingerprint": "14b6e1062d857408838aab5bcb0d491c4fc27b1207c72c48a5c85ec71b3dff02",
