@@ -3,6 +3,7 @@ import json
 import re
 from urllib.parse import urljoin
 
+import requests
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
@@ -18,6 +19,12 @@ CATEGORY_URL_TEMPLATE = (
 )
 
 MAX_PAGES = 10
+PRODUCT_SELECTOR = ".product-card[data-pid]"
+HTTP_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (compatible; onepiece-stock-tracker/1.0)",
+    "Accept-Language": "fr-FR",
+}
+CATEGORY_SELECTOR = '#filtersWrapper[data-category-id="17214"]'
 
 EXCLUDED_PRODUCT_MARKERS = (
     "CARTE À L'UNITÉ",
@@ -352,6 +359,43 @@ def extraire_image(carte):
     )
 
 
+def charger_page(page, url, autoriser_vide=False):
+    noter_requete()
+    try:
+        reponse = requests.get(url, headers=HTTP_HEADERS, timeout=30)
+        reponse.raise_for_status()
+        soup = BeautifulSoup(reponse.content, "lxml")
+        identifiants = list(dict.fromkeys(
+            bloc["data-pid"]
+            for bloc in soup.select(".stock-block[data-pid]")
+            if bloc["data-pid"].isdigit()
+        ))
+        if soup.select_one(PRODUCT_SELECTOR):
+            stocks = {}
+            if identifiants:
+                noter_requete()
+                reponse_stock = requests.get(
+                    f"{BASE_URL}/fr/ajax/stock/{','.join(identifiants)}",
+                    headers=HTTP_HEADERS,
+                    timeout=30,
+                )
+                reponse_stock.raise_for_status()
+                stocks = reponse_stock.json()["stocks"]
+                if not isinstance(stocks, dict):
+                    raise ValueError("Réponse de stock invalide")
+            return soup, stocks
+
+        if autoriser_vide and soup.select_one(CATEGORY_SELECTOR):
+            return soup, {}
+    except (requests.RequestException, ValueError, KeyError, TypeError) as erreur:
+        print(f"⚠️ Philibert : accès HTTP direct indisponible ({erreur})")
+
+    noter_requete()
+    page.goto(url, wait_until="domcontentloaded", timeout=60000)
+    page.wait_for_timeout(2500)
+    return BeautifulSoup(page.content(), "lxml"), {}
+
+
 def scan():
 
     produits = {}
@@ -383,25 +427,12 @@ def scan():
                     numero_page
                 )
 
-                noter_requete()
-                page.goto(
+                soup, stocks = charger_page(
+                    page,
                     url_page,
-                    wait_until="domcontentloaded",
-                    timeout=60000
+                    autoriser_vide=numero_page > 1,
                 )
-
-                page.wait_for_timeout(
-                    2500
-                )
-
-                soup = BeautifulSoup(
-                    page.content(),
-                    "lxml"
-                )
-
-                cartes_page = soup.select(
-                    ".product-card[data-pid]"
-                )
+                cartes_page = soup.select(PRODUCT_SELECTOR)
 
                 identifiants_page = {
                     carte.get("data-pid", "")
@@ -515,6 +546,10 @@ def scan():
                         texte_labels,
                         texte_stock
                     )
+
+                    stock = stocks.get(carte["data-pid"])
+                    if statut == "UNKNOWN" and isinstance(stock, int):
+                        statut = "AVAILABLE" if stock > 0 else "SOLD OUT"
 
                     disponibilite = extraire_disponibilite(
                         texte_labels
