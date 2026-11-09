@@ -1,11 +1,14 @@
+import json
 import re
 from urllib.parse import urljoin
 
+import requests
 from bs4 import BeautifulSoup
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import Error as PlaywrightError, sync_playwright
 
 from cible import CIBLE_PRIORITAIRE
 from observabilite import noter_requete
+from scanners.next_flight import extraire_chunks_flight
 from scanners.politique import est_op17, produit_autorise
 
 
@@ -25,6 +28,10 @@ PRIORITY_SEARCH_URL = (
     f"?text={CIBLE_PRIORITAIRE}"
 )
 
+TIN_PACK_TS03 = {
+    1144382: "/fr/1144382-tin-pack-set-one-piece-card-game-ts-03-vol-3-modele-aleatoire",
+    1144380: "/fr/1144380-one-piece-card-game-tin-pack-set-ts-03-vol-3-random-type",
+}
 PRODUCT_PATH_PATTERN = re.compile(r"^/fr/\d+-")
 
 EXCLUDED_TYPE_MARKERS = (
@@ -191,6 +198,73 @@ def extraire_image(carte):
     return urljoin(BASE_URL, source)
 
 
+
+def extraire_tin(html_page, identifiant, url):
+    for chunk in extraire_chunks_flight(html_page):
+        for ligne in chunk.splitlines():
+            _, _, valeur = ligne.partition(":")
+            if not valeur.startswith("{") or '"canSelling"' not in valeur:
+                continue
+            try:
+                donnees = json.loads(valeur)
+            except json.JSONDecodeError:
+                continue
+            if donnees.get("id") != identifiant:
+                continue
+
+            nom = donnees.get("name", "")
+            image = donnees.get("image_url_1", "")
+            prix = donnees.get("price")
+            en_vente = donnees.get("canSelling")
+            precommande = donnees.get("isPreorder")
+            if (
+                not nom
+                or not isinstance(prix, (int, float))
+                or not isinstance(en_vente, bool)
+                or not isinstance(precommande, bool)
+                or not isinstance(donnees.get("isPreorderWithStock"), bool)
+                or not isinstance(donnees.get("isStock"), bool)
+            ):
+                continue
+
+            if en_vente and donnees.get("isPreorderWithStock") is True:
+                statut = "PREORDER"
+            elif en_vente and not precommande and donnees.get("isStock") is True:
+                statut = "AVAILABLE"
+            else:
+                statut = "SOLD OUT"
+
+            return {
+                "site": "Parkage",
+                "name": nom,
+                "price": f"{prix:.2f}".replace(".", ",") + " €",
+                "status": statut,
+                "link": url,
+                "image": (
+                    urljoin("https://embedded.parkage.com/files/img/", image)
+                    if image else ""
+                ),
+                "language": "EN" if donnees.get("lang") == "en" else "VF",
+            }
+
+    raise ValueError(f"Fiche Parkage {identifiant} sans données produit vérifiables")
+
+
+def ajouter_tins_manquants(produits):
+    for identifiant, chemin in TIN_PACK_TS03.items():
+        url = urljoin(BASE_URL, chemin)
+        if url in produits:
+            continue
+        try:
+            noter_requete()
+            reponse = requests.get(url, timeout=15)
+            reponse.raise_for_status()
+            produits[url] = extraire_tin(reponse.text, identifiant, url)
+            print(f"🔍 Parkage TS-03 hors catalogue : {identifiant} | {produits[url]['status']}")
+        except (requests.RequestException, ValueError) as erreur:
+            print(f"⚠️ Parkage TS-03 : fiche {identifiant} indisponible ({erreur})")
+
+
 def scan():
     produits = {}
     liens_bruts_vus = set()
@@ -214,12 +288,18 @@ def scan():
             for etiquette_page, url_page, sonde_prioritaire in pages_a_scanner:
                 print("🔎 Parkage page :", etiquette_page)
                 noter_requete()
-                page.goto(
-                    url_page,
-                    wait_until="domcontentloaded",
-                    timeout=60000
-                )
-                page.wait_for_timeout(3500)
+                try:
+                    page.goto(
+                        url_page,
+                        wait_until="domcontentloaded",
+                        timeout=60000,
+                    )
+                    page.wait_for_timeout(3500)
+                except PlaywrightError as erreur:
+                    if not sonde_prioritaire:
+                        raise
+                    print(f"⚠️ Parkage : recherche {etiquette_page} indisponible ({erreur})")
+                    continue
 
                 soup = BeautifulSoup(page.content(), "lxml")
                 liens_page = soup.find_all("a", href=PRODUCT_PATH_PATTERN)
@@ -275,10 +355,10 @@ def scan():
                     f"{nouveaux_sur_la_page} produit(s)"
                 )
 
+                if sonde_prioritaire:
+                    continue
                 liens_bruts_vus.update(liens_bruts_page)
                 if not nouveaux_liens_bruts:
-                    if sonde_prioritaire:
-                        continue
                     break
         finally:
             browser.close()
@@ -288,4 +368,5 @@ def scan():
             "Aucun produit One Piece Card Game surveillable détecté sur Parkage"
         )
 
+    ajouter_tins_manquants(produits)
     return produits

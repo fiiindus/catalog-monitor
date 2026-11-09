@@ -1,4 +1,4 @@
-from urllib.parse import urljoin
+from urllib.parse import parse_qs, urljoin, urlsplit
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -228,6 +228,21 @@ def extract_image(link, parent):
     return ""
 
 
+def has_next_page(soup, page_number):
+    for link in soup.select('a[href*="page="]'):
+        url = urlsplit(urljoin(BASE_URL, link["href"]))
+        if url.netloc != urlsplit(BASE_URL).netloc or url.path != "/cat.php":
+            continue
+        params = parse_qs(url.query)
+        if (
+            params.get("cat") == ["0"]
+            and params.get("jeu") == ["1031"]
+            and params.get("page") == [str(page_number + 1)]
+        ):
+            return True
+    return False
+
+
 def scan():
 
     products = {}
@@ -240,7 +255,7 @@ def scan():
 
         page = browser.new_page()
 
-        for page_number in range(1, 6):
+        for page_number in range(1, 51):
 
             page_url = URL_TEMPLATE.format(
                 page_number
@@ -359,6 +374,11 @@ def scan():
                 f"📦 Page {page_number} : "
                 f"{page_count} produit(s)"
             )
+
+            if not has_next_page(soup, page_number):
+                break
+        else:
+            raise RuntimeError("La pagination UltraJeux dépasse la limite de sécurité")
 
         browser.close()
 
