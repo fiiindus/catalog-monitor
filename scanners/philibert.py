@@ -3,6 +3,7 @@ import json
 import re
 from urllib.parse import urljoin
 
+import requests
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
@@ -18,6 +19,8 @@ CATEGORY_URL_TEMPLATE = (
 )
 
 MAX_PAGES = 10
+PRODUCT_SELECTOR = ".product-card[data-pid]"
+CATEGORY_SELECTOR = '#filtersWrapper[data-category-id="17214"]'
 
 EXCLUDED_PRODUCT_MARKERS = (
     "CARTE À L'UNITÉ",
@@ -352,6 +355,34 @@ def extraire_image(carte):
     )
 
 
+
+def charger_page(page, url, autoriser_vide=False):
+    noter_requete()
+    try:
+        reponse = requests.get(
+            url,
+            headers={
+                "User-Agent": "Mozilla/5.0 (compatible; onepiece-stock-tracker/1.0)",
+                "Accept-Language": "fr-FR",
+            },
+            timeout=30,
+        )
+        reponse.raise_for_status()
+    except requests.RequestException as erreur:
+        print(f"⚠️ Philibert : accès HTTP direct indisponible ({erreur})")
+    else:
+        soup = BeautifulSoup(reponse.content, "lxml")
+        if soup.select_one(PRODUCT_SELECTOR) or (
+            autoriser_vide and soup.select_one(CATEGORY_SELECTOR)
+        ):
+            return soup
+
+    noter_requete()
+    page.goto(url, wait_until="domcontentloaded", timeout=60000)
+    page.wait_for_timeout(2500)
+    return BeautifulSoup(page.content(), "lxml")
+
+
 def scan():
 
     produits = {}
@@ -383,25 +414,12 @@ def scan():
                     numero_page
                 )
 
-                noter_requete()
-                page.goto(
+                soup = charger_page(
+                    page,
                     url_page,
-                    wait_until="domcontentloaded",
-                    timeout=60000
+                    autoriser_vide=numero_page > 1,
                 )
-
-                page.wait_for_timeout(
-                    2500
-                )
-
-                soup = BeautifulSoup(
-                    page.content(),
-                    "lxml"
-                )
-
-                cartes_page = soup.select(
-                    ".product-card[data-pid]"
-                )
+                cartes_page = soup.select(PRODUCT_SELECTOR)
 
                 identifiants_page = {
                     carte.get("data-pid", "")

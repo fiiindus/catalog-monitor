@@ -1,5 +1,8 @@
 from pathlib import Path
 import unittest
+from unittest.mock import Mock, patch
+
+import requests
 
 from bs4 import BeautifulSoup
 
@@ -54,6 +57,24 @@ class HtmlFixtureTests(unittest.TestCase):
             "lxml",
         ).get_text(" ", strip=True)
         self.assertEqual("STORE_ONLY", parkage.detecter_statut(texte))
+
+    def test_philibert_prefers_direct_catalogue_over_browser(self):
+        page = Mock()
+        html = b'<article class="product-card" data-pid="123"></article>'
+        with patch.object(philibert.requests, "get", return_value=Mock(content=html)):
+            soup = philibert.charger_page(page, philibert.CATEGORY_URL_TEMPLATE.format(1))
+
+        self.assertEqual("123", soup.select_one(philibert.PRODUCT_SELECTOR)["data-pid"])
+        page.goto.assert_not_called()
+
+    def test_philibert_uses_browser_if_direct_catalogue_is_unavailable(self):
+        page = Mock()
+        page.content.return_value = '<article class="product-card" data-pid="456"></article>'
+        with patch.object(philibert.requests, "get", side_effect=requests.HTTPError):
+            soup = philibert.charger_page(page, philibert.CATEGORY_URL_TEMPLATE.format(1))
+
+        self.assertEqual("456", soup.select_one(philibert.PRODUCT_SELECTOR)["data-pid"])
+        page.goto.assert_called_once()
 
     def test_philibert_coming_soon_fixture(self):
         soup = BeautifulSoup(
