@@ -709,8 +709,8 @@
             "image": "https://p-bandai.com/files/seller-products/NSP0471944001/VU3AsdTioCMilMKnZBfi.jpg?w=300&h=300",
             "category": "DISPLAY",
             "language": "OTHER",
-            "priority_target": "OP17",
-            "priority": 1004
+            "priority_target": "",
+            "priority": 4
         },
         "https://p-bandai.com/us/item/N9065180001": {
             "site": "Premium Bandai US",
@@ -2165,8 +2165,8 @@
             "image": "https://p-bandai.com/files/seller-products/NSP0471944001/VU3AsdTioCMilMKnZBfi.jpg?w=300&h=300",
             "category": "DISPLAY",
             "language": "OTHER",
-            "priority_target": "OP17",
-            "priority": 1004
+            "priority_target": "",
+            "priority": 4
         },
         "https://p-bandai.com/us/item/N9065180002": {
             "site": "Premium Bandai US",
