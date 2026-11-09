@@ -2263,9 +2263,7 @@
             "product_types": [],
             "category": "OTHER",
             "priority_target": "",
-            "priority": 1,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage"
+            "priority": 1
         },
         "https://www.parkage.com/fr/1130713-one-piece-card-game-deck-sd-01-set-sail-deck-set": {
             "site": "Parkage",
@@ -2278,9 +2276,7 @@
             "product_types": [],
             "category": "STARTER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage"
+            "priority": 3
         },
         "https://www.parkage.com/fr/1123149-one-piece-card-game-double-pack-set-dp-12-vol-12": {
             "site": "Parkage",
@@ -2293,9 +2289,7 @@
             "product_types": [],
             "category": "DOUBLE_PACK",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage"
+            "priority": 4
         },
         "https://www.parkage.com/fr/1123146-lot-de-3-boites-de-24-boosters-one-piece-card-game-op-17-les-guerriers-les-plus-puissants-au-monde": {
             "site": "Parkage",
