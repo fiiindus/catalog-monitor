@@ -3,7 +3,7 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 
 import requests
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import Error as PlaywrightError, sync_playwright
 from bs4 import BeautifulSoup
 
 import re
@@ -267,7 +267,7 @@ def extract_tin_detail(html, url):
     }
 
 
-def add_missing_tins(products):
+def add_missing_tins(products, page):
     listed_ids = {
         match.group(1)
         for url in products
@@ -278,16 +278,23 @@ def add_missing_tins(products):
             continue
         url = urljoin(
             BASE_URL,
-            f"produit-{product_id}-ts03-tin-pack-{variant}-4582770066807.html",
+            f"produit-{product_id}-mini-tin-one-piece-card-game-"
+            f"ts03-tin-pack-{variant}-4582770066807.html",
         )
         try:
             noter_requete()
             response = requests.get(url, timeout=15)
             response.raise_for_status()
             products[url] = extract_tin_detail(response.content, url)
-            print(f"🔍 UltraJeux TS-03 hors catalogue : {product_id} | {products[url]['status']}")
-        except (requests.RequestException, ValueError) as error:
-            print(f"⚠️ UltraJeux TS-03 : fiche {product_id} indisponible ({error})")
+        except (requests.RequestException, ValueError):
+            try:
+                noter_requete()
+                page.goto(url, wait_until="domcontentloaded", timeout=15000)
+                products[url] = extract_tin_detail(page.content(), url)
+            except (PlaywrightError, ValueError) as error:
+                print(f"⚠️ UltraJeux TS-03 : fiche {product_id} indisponible ({error})")
+                continue
+        print(f"🔍 UltraJeux TS-03 hors catalogue : {product_id} | {products[url]['status']}")
 
 
 def has_next_page(soup, page_number):
@@ -442,8 +449,8 @@ def scan():
         else:
             raise RuntimeError("La pagination UltraJeux dépasse la limite de sécurité")
 
+        if products:
+            add_missing_tins(products, page)
         browser.close()
 
-    if products:
-        add_missing_tins(products)
     return products

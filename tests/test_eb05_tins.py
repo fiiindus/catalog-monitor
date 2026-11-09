@@ -96,12 +96,16 @@ class UltraJeuxReleaseTests(unittest.TestCase):
             f"https://www.ultrajeux.com/produit-{product_id}-existing.html": {}
             for product_id in ultrajeux.TIN_PACK_TS03 if product_id != 33537
         }
+        page = MagicMock()
+        page.content.return_value = html
         with patch.object(ultrajeux.requests, "get") as get:
-            get.return_value.content = html
-            ultrajeux.add_missing_tins(products)
+            get.return_value.content = b"Unexpected response"
+            ultrajeux.add_missing_tins(products, page)
 
-        url = "https://www.ultrajeux.com/produit-33537-ts03-tin-pack-shanks-v1-4582770066807.html"
+        url = ("https://www.ultrajeux.com/produit-33537-mini-tin-one-piece-card-game-"
+               "ts03-tin-pack-shanks-v1-4582770066807.html")
         get.assert_called_once_with(url, timeout=15)
+        page.goto.assert_called_once_with(url, wait_until="domcontentloaded", timeout=15000)
         self.assertEqual("SOLD OUT", products[url]["status"])
         self.assertEqual("39,90 €", products[url]["price"])
         self.assertEqual(
