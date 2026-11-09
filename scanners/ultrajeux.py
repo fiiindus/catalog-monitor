@@ -1,12 +1,14 @@
-from urllib.parse import urljoin
+from urllib.parse import parse_qs, urljoin, urlsplit
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-from playwright.sync_api import sync_playwright
+import requests
+from playwright.sync_api import Error as PlaywrightError, sync_playwright
 from bs4 import BeautifulSoup
 
 import re
 
+from confirmation import normaliser_statut_schema
 from observabilite import noter_requete
 from scanners.politique import produit_autorise
 
@@ -18,6 +20,16 @@ URL_TEMPLATE = (
     "https://www.ultrajeux.com/"
     "cat.php?cat=0&jeu=1031&page={}"
 )
+
+
+TIN_PACK_TS03 = {
+    33535: "monkey-d-luffy-v1",
+    33536: "monkey-d-luffy-v2",
+    33537: "shanks-v1",
+    33538: "shanks-v2",
+    33539: "boa-hancock-v2",
+    33540: "boa-hancock-v1",
+}
 
 
 def is_valid_language(name):
@@ -228,6 +240,78 @@ def extract_image(link, parent):
     return ""
 
 
+def extract_tin_detail(html, url):
+    soup = BeautifulSoup(html, "lxml")
+    name_element = soup.select_one('h1[itemprop="name"]')
+    offer = soup.select_one('form[itemprop="offers"]')
+    if name_element is None or offer is None:
+        raise ValueError("Fiche produit UltraJeux incomplète")
+
+    name = name_element.get_text(" ", strip=True)
+    availability = offer.select_one('[itemprop="availability"][content]')
+    status = normaliser_statut_schema(availability["content"]) if availability else None
+    if not status or not re.search(r"\bTS[- ]?03\b", name, re.I):
+        raise ValueError("Identité ou disponibilité TS-03 non vérifiable")
+    if status in {"AVAILABLE", "PREORDER"} and not can_order(offer):
+        status = "STORE_ONLY" if status == "AVAILABLE" else "COMING_SOON"
+
+    image = soup.select_one('meta[itemprop="image"][content]')
+    return {
+        "site": "UltraJeux",
+        "name": name,
+        "price": extract_price(offer.get_text(" ", strip=True)),
+        "status": status,
+        "priority": get_priority(name),
+        "link": url,
+        "image": urljoin(BASE_URL, image["content"]) if image else "",
+    }
+
+
+def add_missing_tins(products, page):
+    listed_ids = {
+        match.group(1)
+        for url in products
+        if (match := re.search(r"/produit-(\d+)", urlsplit(url).path))
+    }
+    for product_id, variant in TIN_PACK_TS03.items():
+        if str(product_id) in listed_ids:
+            continue
+        url = urljoin(
+            BASE_URL,
+            f"produit-{product_id}-mini-tin-one-piece-card-game-"
+            f"ts03-tin-pack-{variant}-4582770066807.html",
+        )
+        try:
+            noter_requete()
+            response = requests.get(url, timeout=15)
+            response.raise_for_status()
+            products[url] = extract_tin_detail(response.content, url)
+        except (requests.RequestException, ValueError):
+            try:
+                noter_requete()
+                page.goto(url, wait_until="domcontentloaded", timeout=15000)
+                products[url] = extract_tin_detail(page.content(), url)
+            except (PlaywrightError, ValueError) as error:
+                print(f"⚠️ UltraJeux TS-03 : fiche {product_id} indisponible ({error})")
+                continue
+        print(f"🔍 UltraJeux TS-03 hors catalogue : {product_id} | {products[url]['status']}")
+
+
+def has_next_page(soup, page_number):
+    for link in soup.select('a[href*="page="]'):
+        url = urlsplit(urljoin(BASE_URL, link["href"]))
+        if url.netloc != urlsplit(BASE_URL).netloc or url.path != "/cat.php":
+            continue
+        params = parse_qs(url.query)
+        if (
+            params.get("cat") == ["0"]
+            and params.get("jeu") == ["1031"]
+            and params.get("page") == [str(page_number + 1)]
+        ):
+            return True
+    return False
+
+
 def scan():
 
     products = {}
@@ -240,7 +324,7 @@ def scan():
 
         page = browser.new_page()
 
-        for page_number in range(1, 6):
+        for page_number in range(1, 51):
 
             page_url = URL_TEMPLATE.format(
                 page_number
@@ -360,6 +444,13 @@ def scan():
                 f"{page_count} produit(s)"
             )
 
+            if not has_next_page(soup, page_number):
+                break
+        else:
+            raise RuntimeError("La pagination UltraJeux dépasse la limite de sécurité")
+
+        if products:
+            add_missing_tins(products, page)
         browser.close()
 
     return products

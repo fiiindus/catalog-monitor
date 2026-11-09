@@ -1,3 +1,4 @@
+import json
 from datetime import date
 from pathlib import Path
 import unittest
@@ -69,6 +70,49 @@ class UltraJeuxReleaseTests(unittest.TestCase):
             )
         self.assertIs(products, valider_scan({"nom": "UltraJeux"}, products, {}))
 
+    def test_catalogue_follows_pagination_past_five_pages(self):
+        playwright = MagicMock()
+        page = playwright.chromium.launch.return_value.new_page.return_value
+        page.content.side_effect = [
+            f'<a href="cat.php?cat=0&amp;jeu=1031&amp;page={number}">&gt;</a>'
+            for number in range(2, 7)
+        ] + [""]
+        with patch.object(ultrajeux, "sync_playwright") as factory:
+            factory.return_value.__enter__.return_value = playwright
+            ultrajeux.scan()
+
+        self.assertEqual(6, page.goto.call_count)
+        self.assertEqual(ultrajeux.URL_TEMPLATE.format(6), page.goto.call_args.args[0])
+
+    def test_tin_outside_listing_reads_the_official_offer_and_photo(self):
+        html = b"""
+            <h1 itemprop="name">TS03 Tin Pack : Shanks V1</h1>
+            <meta itemprop="image" content="/images/produits/33537.jpg">
+            <form itemprop="offers">
+              <meta itemprop="availability" content="OutOfStock">
+              <div>39,90 &euro;</div>
+            </form>"""
+        products = {
+            f"https://www.ultrajeux.com/produit-{product_id}-existing.html": {}
+            for product_id in ultrajeux.TIN_PACK_TS03 if product_id != 33537
+        }
+        page = MagicMock()
+        page.content.return_value = html
+        with patch.object(ultrajeux.requests, "get") as get:
+            get.return_value.content = b"Unexpected response"
+            ultrajeux.add_missing_tins(products, page)
+
+        url = ("https://www.ultrajeux.com/produit-33537-mini-tin-one-piece-card-game-"
+               "ts03-tin-pack-shanks-v1-4582770066807.html")
+        get.assert_called_once_with(url, timeout=15)
+        page.goto.assert_called_once_with(url, wait_until="domcontentloaded", timeout=15000)
+        self.assertEqual("SOLD OUT", products[url]["status"])
+        self.assertEqual("39,90 €", products[url]["price"])
+        self.assertEqual(
+            "https://www.ultrajeux.com/images/produits/33537.jpg",
+            products[url]["image"],
+        )
+
     def test_photo_is_preferred_over_flag_even_inside_product_link(self):
         soup = BeautifulSoup('''<div><a><img src="/images/pays/fr.png"></a>
             <p class="image"><img class="produit_scan" src="/placeholder.gif"
@@ -105,7 +149,10 @@ class ParkagePreorderCardTests(unittest.TestCase):
         playwright = MagicMock()
         page = playwright.chromium.launch.return_value.new_page.return_value
         page.content.side_effect = ["", html, ""]
-        with patch.object(parkage, "sync_playwright") as factory:
+        with (
+            patch.object(parkage, "sync_playwright") as factory,
+            patch.object(parkage, "ajouter_tins_manquants"),
+        ):
             factory.return_value.__enter__.return_value = playwright
             products = parkage.scan()
         product = products[parkage.BASE_URL + path]
@@ -113,6 +160,39 @@ class ParkagePreorderCardTests(unittest.TestCase):
         self.assertEqual("EN", product["language"])
         self.assertEqual("22,90 €", product["price"])
         self.assertIs(products, valider_scan({"nom": "Parkage"}, products, {}))
+
+
+    def test_tin_outside_listing_uses_product_sheet_and_keeps_online_status(self):
+        product_id = 1144380
+        url = parkage.BASE_URL + parkage.TIN_PACK_TS03[product_id]
+        products = {parkage.BASE_URL + parkage.TIN_PACK_TS03[1144382]: {}}
+        data = {
+            "id": product_id,
+            "name": "One Piece Card Game Tin Pack Set - TS-03 : Vol.3 (Random Type)",
+            "lang": "en",
+            "price": 22.9,
+            "canSelling": True,
+            "isPreorder": True,
+            "isPreorderWithStock": True,
+            "isStock": True,
+        }
+
+        for changes, expected in (
+            ({}, "PREORDER"),
+            ({"isPreorder": False, "isPreorderWithStock": False}, "AVAILABLE"),
+            ({"canSelling": False}, "SOLD OUT"),
+        ):
+            with self.subTest(expected=expected):
+                flight = json.dumps([1, "1:" + json.dumps({**data, **changes})])
+                html = f"<script>self.__next_f.push({flight})</script>"
+                with patch.object(parkage.requests, "get") as get:
+                    get.return_value.text = html
+                    current = dict(products)
+                    parkage.ajouter_tins_manquants(current)
+
+                get.assert_called_once_with(url, timeout=15)
+                self.assertEqual(expected, current[url]["status"])
+                self.assertEqual("EN", current[url]["language"])
 
 
 if __name__ == "__main__":
