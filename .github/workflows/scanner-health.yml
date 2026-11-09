@@ -23,6 +23,7 @@ jobs:
           - ultrajeux
           - premium_bandai
           - parkage
+          - parkage_cartes
           - philibert
           - carte_one_piece
           - oupi

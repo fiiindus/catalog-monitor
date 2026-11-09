@@ -41,6 +41,15 @@ _BOUTIQUES_CONFIG = [
     },
 
     {
+        "nom": "Parkage — Cartes à l’unité",
+        "url": "https://www.parkage.com/fr/recherche?category_id=9883&product_type_id=10419",
+        "scanner": "parkage_cartes",
+        "allow_empty": True,
+        "minimum_count_ratio": 0,
+        "minimum_overlap_ratio": 0,
+    },
+
+    {
         "nom": "Philibert",
         "url": "https://www.philibertnet.com/fr/17214-one-piece-le-jeu-de-cartes",
         "scanner": "philibert"

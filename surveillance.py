@@ -194,8 +194,11 @@ if not resultats and len(erreurs_bloquantes) > MAX_BOUTIQUES_EN_ERREUR:
 
 for boutique, erreur in erreurs_finales:
     nom = boutique["nom"]
-    ancien_boutique = stock_precedent.get(nom)
+    if nom not in stock_precedent:
+        print(f"⚠️ {nom} : première initialisation reportée")
+        continue
 
+    ancien_boutique = stock_precedent[nom]
     if not isinstance(ancien_boutique, dict):
         raise RuntimeError(
             f"Impossible de conserver l'historique de {nom} après échec du scan"
@@ -222,6 +225,7 @@ nouvel_etat_pannes, nouvelles_pannes, retablissements = mettre_a_jour_pannes(
 nouveau_stock = {
     boutique["nom"]: resultats[boutique["nom"]]
     for boutique in BOUTIQUES
+    if boutique["nom"] in resultats
 }
 
 confirmer_transitions(
