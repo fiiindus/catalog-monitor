@@ -308,6 +308,50 @@ class SurveillanceRetryTests(unittest.TestCase):
         self.assertNotIn("Known outage", technical_alerts[0])
         self.assertIn("Temporary outage", technical_alerts[0])
 
+    def test_two_failed_stores_do_not_block_stock_alerts_from_a_healthy_store(self):
+        compared = []
+        saved = []
+        technical_alerts = []
+        stock_alerts = []
+        link = "https://example.com/healthy"
+        product = {"name": "New product", "link": link, "status": "AVAILABLE"}
+        old_stock = {"Boutique A": {}, "Boutique B": {}, "Boutique C": {}}
+
+        failed_scanner = types.ModuleType("scanners.failed")
+
+        def fail():
+            raise RuntimeError("catalogue unavailable")
+
+        failed_scanner.scan = fail
+        healthy_scanner = types.ModuleType("scanners.healthy")
+        healthy_scanner.scan = lambda: {link: product}
+        fake_modules = self.construire_modules(
+            [
+                {"nom": "Boutique A", "scanner": "failed"},
+                {"nom": "Boutique B", "scanner": "failed"},
+                {"nom": "Boutique C", "scanner": "healthy"},
+            ],
+            {"scanners.failed": failed_scanner, "scanners.healthy": healthy_scanner},
+            old_stock,
+            compared,
+            saved,
+            [],
+            technical_alerts,
+        )
+        fake_modules["comparateur"].comparer = lambda stock: compared.append(stock) or [product]
+        fake_modules["notifier"].send_discord = stock_alerts.extend
+
+        with patch.dict(sys.modules, fake_modules), patch("time.sleep", return_value=None):
+            runpy.run_module("surveillance", run_name="__main__")
+
+        expected_stock = {**old_stock, "Boutique C": {link: product}}
+        self.assertEqual(compared, [expected_stock])
+        self.assertEqual(saved, [expected_stock])
+        self.assertEqual(stock_alerts, [product])
+        self.assertEqual(len(technical_alerts), 1)
+        self.assertIn("Boutique A", technical_alerts[0])
+        self.assertIn("Boutique B", technical_alerts[0])
+
     def test_two_failed_stores_still_abort_global_scan(self):
         compared = []
         saved = []

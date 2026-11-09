@@ -182,7 +182,7 @@ erreurs_bloquantes = [
     if boutique.get("counts_toward_global_failure", True)
 ]
 
-if len(erreurs_bloquantes) > MAX_BOUTIQUES_EN_ERREUR:
+if not resultats and len(erreurs_bloquantes) > MAX_BOUTIQUES_EN_ERREUR:
     boutiques_en_erreur = ", ".join(
         boutique["nom"]
         for boutique, _ in erreurs_bloquantes
