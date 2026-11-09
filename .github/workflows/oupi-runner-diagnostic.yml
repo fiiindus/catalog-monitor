@@ -1,0 +1,26 @@
+name: Oupi hosted runner diagnostic
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - ".github/workflows/oupi-runner-diagnostic.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  oupi:
+    strategy:
+      fail-fast: false
+      matrix:
+        runner: [ubuntu-24.04-arm, ubuntu-slim]
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 3
+    steps:
+      - name: Check public catalogue
+        run: |
+          curl --fail --silent --show-error --max-time 20 \
+            -A 'Mozilla/5.0 (compatible; onepiece-stock-tracker/1.0)' \
+            https://oupi.eu/fr/382-one-piece -o "${RUNNER_TEMP}/oupi.html"
+          python3 -c 'import pathlib, sys; content = pathlib.Path(sys.argv[1]).read_text(); assert "product-miniature" in content; print("Oupi catalogue returned product cards")' "${RUNNER_TEMP}/oupi.html"
