@@ -302,5 +302,47 @@
     },
     "compteur": 2,
     "alerte_envoyee": true
+  },
+  "Playin|https://www.play-in.com/fr/produit/663248/booster-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr": {
+    "boutique": "Playin",
+    "produit": {
+      "site": "Playin",
+      "name": "Booster One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - FR",
+      "price": "9,90 €",
+      "status": "AVAILABLE",
+      "availability": "28/08/2026",
+      "link": "https://www.play-in.com/fr/produit/663248/booster-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr",
+      "image": "https://media.play-in.com/media/medias/6a69b0e848975867805898.jpg",
+      "language": "OTHER",
+      "source": "catalogue",
+      "delivery": "SHIPPING_OR_ANNOUNCED",
+      "notify_when_referenced": true,
+      "category": "OTHER",
+      "priority_target": "OP17",
+      "priority": 999
+    },
+    "compteur": 1,
+    "alerte_envoyee": false
+  },
+  "Playin|https://www.play-in.com/fr/produit/663249/display-de-24-boosters-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr": {
+    "boutique": "Playin",
+    "produit": {
+      "site": "Playin",
+      "name": "Display de 24 boosters One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - FR",
+      "price": "229,90 €",
+      "status": "AVAILABLE",
+      "availability": "28/08/2026",
+      "link": "https://www.play-in.com/fr/produit/663249/display-de-24-boosters-one-piece-tcg-les-guerriers-les-plus-puissants-au-monde-op-17-fr",
+      "image": "https://media.play-in.com/media/medias/6a69b243646a5032661065.jpg",
+      "language": "OTHER",
+      "source": "catalogue",
+      "delivery": "SHIPPING_OR_ANNOUNCED",
+      "notify_when_referenced": true,
+      "category": "DISPLAY",
+      "priority_target": "OP17",
+      "priority": 1004
+    },
+    "compteur": 1,
+    "alerte_envoyee": false
   }
 }
