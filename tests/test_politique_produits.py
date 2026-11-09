@@ -1,4 +1,5 @@
 import unittest
+from unittest.mock import patch
 
 from scanners.politique import est_op17, produit_autorise
 
@@ -31,7 +32,7 @@ class PolitiqueProduitsTests(unittest.TestCase):
 
     def test_op17_variants_are_recognized(self):
         for valeur in ("OP17", "OP-17", "OP 17", "op-17 display"):
-            with self.subTest(valeur=valeur):
+            with self.subTest(valeur=valeur), patch("cible.CIBLE_PRIORITAIRE", "OP17"):
                 self.assertTrue(est_op17(valeur))
 
 

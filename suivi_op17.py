@@ -92,6 +92,9 @@ def indexer_op17(stock):
 
 
 def analyser_disparitions(ancien, nouveau, etat=None):
+    if CIBLE_PRIORITAIRE is None:
+        return [], {}
+
     etat = charger_etat() if etat is None else etat
     ancien_cible = indexer_op17(ancien)
     nouveau_cible = indexer_op17(nouveau)

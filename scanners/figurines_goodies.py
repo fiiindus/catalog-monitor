@@ -229,8 +229,6 @@ def scan():
 
         try:
             pages_a_scanner = [
-                (CIBLE_PRIORITAIRE, PRIORITY_SEARCH_URL, True)
-            ] + [
                 (
                     str(numero_page),
                     URL if numero_page == 1 else f"{URL}?page={numero_page}",
@@ -238,6 +236,8 @@ def scan():
                 )
                 for numero_page in range(1, MAX_PAGES + 1)
             ]
+            if CIBLE_PRIORITAIRE:
+                pages_a_scanner.insert(0, (CIBLE_PRIORITAIRE, PRIORITY_SEARCH_URL, True))
 
             for etiquette_page, url_page, sonde_prioritaire in pages_a_scanner:
                 print("🔎 Figurines Goodies page :", etiquette_page)

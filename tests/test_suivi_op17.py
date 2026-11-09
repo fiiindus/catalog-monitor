@@ -1,9 +1,10 @@
 import unittest
+from unittest.mock import patch
 
-from cible import CIBLE_PRIORITAIRE
 from suivi_op17 import analyser_disparitions
 
 
+CIBLE_PRIORITAIRE = "OP17"
 LIEN = "https://example.com/priority-display"
 PRODUIT = {
     "site": "Boutique test",
@@ -16,6 +17,10 @@ PRODUIT = {
 
 
 class SuiviPrioritaireTests(unittest.TestCase):
+    def setUp(self):
+        self.enterContext(patch("cible.CIBLE_PRIORITAIRE", CIBLE_PRIORITAIRE))
+        self.enterContext(patch("suivi_op17.CIBLE_PRIORITAIRE", CIBLE_PRIORITAIRE))
+
     def test_disappearance_alerts_only_after_two_scans(self):
         ancien = {"Boutique test": {LIEN: PRODUIT}}
         nouveau = {"Boutique test": {}}
@@ -88,6 +93,13 @@ class SuiviPrioritaireTests(unittest.TestCase):
         )
         self.assertEqual(alertes, [])
         self.assertEqual(nouvel_etat, {})
+
+    def test_disabling_priority_clears_previous_disappearance_state(self):
+        ancien = {"Boutique test": {LIEN: PRODUIT}}
+        _, etat = analyser_disparitions(ancien, {}, etat={})
+
+        with patch("suivi_op17.CIBLE_PRIORITAIRE", None):
+            self.assertEqual(([], {}), analyser_disparitions(ancien, {}, etat=etat))
 
     def test_non_priority_products_are_ignored(self):
         produit = {**PRODUIT, "name": "One Piece OP01 Display"}

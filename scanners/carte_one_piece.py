@@ -15,7 +15,7 @@ BASE_URL = "https://carteonepiece.fr"
 PREORDER_URL = "https://carteonepiece.fr/pages/articles-en-precommandes"
 PRIORITY_SEARCH_URL = (
     "https://carteonepiece.fr/search"
-    f"?q={quote('title:' + CIBLE_PRIORITAIRE)}&type=product"
+    f"?q={quote('title:' + (CIBLE_PRIORITAIRE or ''))}&type=product"
 )
 
 EMPTY_PREORDER_MARKERS = (
@@ -351,30 +351,31 @@ def scan():
 
             candidats = {lien: True for lien in liens_precommandes}
 
-            print(
-                f"🔥 Carte One Piece : recherche directe {CIBLE_PRIORITAIRE}"
-            )
-            noter_requete()
-            page.goto(
-                PRIORITY_SEARCH_URL,
-                wait_until="domcontentloaded",
-                timeout=60000,
-            )
-            page.wait_for_timeout(1400)
-            html_prioritaire = page.content()
-            liens_prioritaires = extraire_liens_produits(html_prioritaire)
-
-            if (
-                not liens_prioritaires
-                and not recherche_sans_resultat(html_prioritaire)
-            ):
-                raise RuntimeError(
-                    f"La recherche {CIBLE_PRIORITAIRE} ne contient ni résultat "
-                    "ni message d'absence de résultat"
+            if CIBLE_PRIORITAIRE:
+                print(
+                    f"🔥 Carte One Piece : recherche directe {CIBLE_PRIORITAIRE}"
                 )
+                noter_requete()
+                page.goto(
+                    PRIORITY_SEARCH_URL,
+                    wait_until="domcontentloaded",
+                    timeout=60000,
+                )
+                page.wait_for_timeout(1400)
+                html_prioritaire = page.content()
+                liens_prioritaires = extraire_liens_produits(html_prioritaire)
 
-            for lien in liens_prioritaires:
-                candidats.setdefault(lien, False)
+                if (
+                    not liens_prioritaires
+                    and not recherche_sans_resultat(html_prioritaire)
+                ):
+                    raise RuntimeError(
+                        f"La recherche {CIBLE_PRIORITAIRE} ne contient ni résultat "
+                        "ni message d'absence de résultat"
+                    )
+
+                for lien in liens_prioritaires:
+                    candidats.setdefault(lien, False)
 
             for lien, source_precommandes in candidats.items():
                 produit = charger_produit(page, lien, source_precommandes)

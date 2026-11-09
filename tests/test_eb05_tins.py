@@ -148,7 +148,7 @@ class ParkagePreorderCardTests(unittest.TestCase):
         self.assertEqual("PREORDER", parkage.detecter_statut(card.get_text(" ")))
         playwright = MagicMock()
         page = playwright.chromium.launch.return_value.new_page.return_value
-        page.content.side_effect = ["", html, ""]
+        page.content.side_effect = [html, ""]
         with (
             patch.object(parkage, "sync_playwright") as factory,
             patch.object(parkage, "ajouter_tins_manquants"),
