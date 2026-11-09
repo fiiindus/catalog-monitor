@@ -27,6 +27,8 @@ class LivePrimaryShops(unittest.TestCase):
                 tins = [p for p in results.values() if re.search(r"\bTS[- ]?03\b", p["name"], re.I)]
                 self.assertTrue(eb05)
                 self.assertTrue(tins)
+                if slug == "ultrajeux":
+                    self.assertEqual(6, len(tins))
                 if slug == "parkage":
                     self.assertTrue(all(module.BASE_URL + url in results for url in module.TIN_PACK_TS03.values()))
                 for p in eb05 + tins:

@@ -84,6 +84,31 @@ class UltraJeuxReleaseTests(unittest.TestCase):
         self.assertEqual(6, page.goto.call_count)
         self.assertEqual(ultrajeux.URL_TEMPLATE.format(6), page.goto.call_args.args[0])
 
+    def test_tin_outside_listing_reads_the_official_offer_and_photo(self):
+        html = b"""
+            <h1 itemprop="name">TS03 Tin Pack : Shanks V1</h1>
+            <meta itemprop="image" content="/images/produits/33537.jpg">
+            <form itemprop="offers">
+              <meta itemprop="availability" content="OutOfStock">
+              <div>39,90 &euro;</div>
+            </form>"""
+        products = {
+            f"https://www.ultrajeux.com/produit-{product_id}-existing.html": {}
+            for product_id in ultrajeux.TIN_PACK_TS03 if product_id != 33537
+        }
+        with patch.object(ultrajeux.requests, "get") as get:
+            get.return_value.content = html
+            ultrajeux.add_missing_tins(products)
+
+        url = "https://www.ultrajeux.com/produit-33537-ts03-tin-pack-shanks-v1-4582770066807.html"
+        get.assert_called_once_with(url, timeout=15)
+        self.assertEqual("SOLD OUT", products[url]["status"])
+        self.assertEqual("39,90 €", products[url]["price"])
+        self.assertEqual(
+            "https://www.ultrajeux.com/images/produits/33537.jpg",
+            products[url]["image"],
+        )
+
     def test_photo_is_preferred_over_flag_even_inside_product_link(self):
         soup = BeautifulSoup('''<div><a><img src="/images/pays/fr.png"></a>
             <p class="image"><img class="produit_scan" src="/placeholder.gif"
