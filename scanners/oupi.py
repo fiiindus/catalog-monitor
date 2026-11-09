@@ -377,19 +377,17 @@ def scan():
     if not produits:
         raise RuntimeError("Aucun produit Oupi surveillé détecté dans le catalogue principal")
 
-    print(f"Recherche directe {CIBLE_PRIORITAIRE} Oupi")
-    ajouter_source_optionnelle(
-        produits,
-        PRIORITY_SEARCH_URL,
-        source="priority_search",
-        autoriser_vide=True,
-        seulement_cible=True,
-    )
+    if CIBLE_PRIORITAIRE:
+        print(f"Recherche directe {CIBLE_PRIORITAIRE} Oupi")
+        ajouter_source_optionnelle(
+            produits,
+            PRIORITY_SEARCH_URL,
+            source="priority_search",
+            autoriser_vide=True,
+            seulement_cible=True,
+        )
 
-    print(
-        f"🔥 Oupi : contrôle complémentaire des précommandes et "
-        f"de {CIBLE_PRIORITAIRE}"
-    )
+    print("🔥 Oupi : contrôle complémentaire des précommandes")
     ajouter_source_optionnelle(
         produits,
         PREORDER_URL,

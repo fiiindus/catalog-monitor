@@ -13,7 +13,7 @@ Le contrôle principal est déclenché toutes les 30 minutes par un scheduler ex
 
 ## Produits surveillés
 
-La cible prioritaire est définie dans `config.json` par `priority_set` (actuellement `OP17`). Les produits de cette extension passent avant les autres alertes, quel que soit leur statut pertinent : référencement, annonce, précommande, disponibilité ou retour en stock. Une disparition de la cible prioritaire n'est signalée qu'après deux scans consécutifs afin d'éviter les faux positifs liés à une page momentanément incomplète.
+Le réglage `priority_set` dans `config.json` permet de donner la priorité à une extension. Il est actuellement désactivé (`null`). Les alertes de référencement, de précommande et de stock suivent les règles habituelles. Lorsqu'une extension est configurée, sa disparition du catalogue n'est signalée qu'après deux scans consécutifs.
 
 Les cartes à l'unité, versions japonaises, coréennes et chinoises, tapis, protège-cartes et autres accessoires ordinaires sont exclus. Un accessoire reste surveillé uniquement lorsque sa fiche indique explicitement qu'il contient une carte promotionnelle ou exclusive. Premium Bandai US constitue une exception contrôlée pour les produits officiels scellés asiatiques.
 

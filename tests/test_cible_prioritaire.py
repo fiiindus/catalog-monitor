@@ -2,9 +2,9 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
-from cible import CIBLE_PRIORITAIRE, charger_cible_prioritaire, est_cible_prioritaire
-from scanners import carte_one_piece, figurines_goodies, oupi, parkage, playin
+from cible import charger_cible_prioritaire, est_cible_prioritaire
 
 
 class PriorityTargetTests(unittest.TestCase):
@@ -32,12 +32,17 @@ class PriorityTargetTests(unittest.TestCase):
             with self.assertRaisesRegex(RuntimeError, "Cible prioritaire invalide"):
                 charger_cible_prioritaire(str(chemin))
 
-    def test_priority_search_urls_use_configured_target(self):
-        self.assertIn(CIBLE_PRIORITAIRE, figurines_goodies.PRIORITY_SEARCH_URL)
-        self.assertIn(CIBLE_PRIORITAIRE, parkage.PRIORITY_SEARCH_URL)
-        self.assertIn(CIBLE_PRIORITAIRE, oupi.PRIORITY_SEARCH_URL)
-        self.assertIn(CIBLE_PRIORITAIRE, carte_one_piece.PRIORITY_SEARCH_URL)
-        self.assertTrue(playin.est_op17(f"Display {CIBLE_PRIORITAIRE} VF"))
+    def test_priority_can_be_disabled_explicitly_or_by_omission(self):
+        with tempfile.TemporaryDirectory() as repertoire:
+            chemin = Path(repertoire) / "config.json"
+            for config in ({"priority_set": None}, {}):
+                chemin.write_text(json.dumps(config), encoding="utf-8")
+                self.assertIsNone(charger_cible_prioritaire(chemin))
+
+    def test_disabled_target_does_not_match_an_extension(self):
+        with patch("cible.CIBLE_PRIORITAIRE", None):
+            self.assertFalse(est_cible_prioritaire("Display OP17 VF"))
+            self.assertTrue(est_cible_prioritaire("Display OP17 VF", "OP17"))
 
 
 if __name__ == "__main__":

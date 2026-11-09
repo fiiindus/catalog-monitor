@@ -3,7 +3,6 @@ import re
 
 
 CONFIG_FILE = "config.json"
-DEFAULT_PRIORITY_SET = "OP17"
 
 
 def charger_cible_prioritaire(chemin=CONFIG_FILE):
@@ -11,9 +10,13 @@ def charger_cible_prioritaire(chemin=CONFIG_FILE):
         with open(chemin, "r", encoding="utf-8") as fichier:
             config = json.load(fichier)
     except FileNotFoundError:
-        return DEFAULT_PRIORITY_SET
+        return None
 
-    cible = str(config.get("priority_set", DEFAULT_PRIORITY_SET)).strip().upper()
+    valeur = config.get("priority_set")
+    if valeur is None:
+        return None
+
+    cible = str(valeur).strip().upper()
     if not re.fullmatch(r"[A-Z]{1,4}\s*-?\s*\d{2}", cible):
         raise RuntimeError(f"Cible prioritaire invalide dans {chemin}: {cible}")
 
@@ -24,7 +27,10 @@ CIBLE_PRIORITAIRE = charger_cible_prioritaire()
 
 
 def motif_cible(cible=None):
-    cible = str(cible or CIBLE_PRIORITAIRE).strip().upper()
+    cible = CIBLE_PRIORITAIRE if cible is None else cible
+    if cible is None:
+        return None
+    cible = str(cible).strip().upper()
     correspondance = re.fullmatch(r"([A-Z]{1,4})\s*-?\s*(\d{2})", cible)
     if correspondance is None:
         raise RuntimeError(f"Cible prioritaire invalide: {cible}")
@@ -34,8 +40,9 @@ def motif_cible(cible=None):
 
 
 def est_cible_prioritaire(texte, cible=None):
-    return re.search(
-        motif_cible(cible),
+    motif = motif_cible(cible)
+    return motif is not None and re.search(
+        motif,
         str(texte or ""),
         flags=re.IGNORECASE,
     ) is not None

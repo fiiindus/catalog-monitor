@@ -275,8 +275,6 @@ def scan():
 
         try:
             pages_a_scanner = [
-                (CIBLE_PRIORITAIRE, PRIORITY_SEARCH_URL, True)
-            ] + [
                 (
                     str(numero_page),
                     SEARCH_URL_TEMPLATE.format(numero_page),
@@ -284,6 +282,8 @@ def scan():
                 )
                 for numero_page in range(1, MAX_PAGES + 1)
             ]
+            if CIBLE_PRIORITAIRE:
+                pages_a_scanner.insert(0, (CIBLE_PRIORITAIRE, PRIORITY_SEARCH_URL, True))
 
             for etiquette_page, url_page, sonde_prioritaire in pages_a_scanner:
                 print("🔎 Parkage page :", etiquette_page)

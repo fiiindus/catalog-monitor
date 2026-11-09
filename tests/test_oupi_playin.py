@@ -3,11 +3,16 @@ import unittest
 from datetime import date, timedelta
 from unittest.mock import patch
 
-from cible import CIBLE_PRIORITAIRE
 from scanners import oupi, playin
 
 
+CIBLE_PRIORITAIRE = "OP17"
+
+
 class OupiScannerTests(unittest.TestCase):
+    def setUp(self):
+        self.enterContext(patch("cible.CIBLE_PRIORITAIRE", CIBLE_PRIORITAIRE))
+
     def test_parses_priority_case_even_when_sold_out(self):
         html = f"""
         <article class="product-miniature">
@@ -129,6 +134,9 @@ class OupiScannerTests(unittest.TestCase):
 
 
 class PlayinScannerTests(unittest.TestCase):
+    def setUp(self):
+        self.enterContext(patch("cible.CIBLE_PRIORITAIRE", CIBLE_PRIORITAIRE))
+
     def test_parses_priority_from_server_item_list(self):
         item_list = {
             "@context": "https://schema.org",

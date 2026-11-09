@@ -2,12 +2,13 @@ import json
 import os
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 
-from cible import CIBLE_PRIORITAIRE
 from comparateur import comparer, enrichir_produit
 
 
+CIBLE_PRIORITAIRE = "OP17"
 LIEN = "https://example.com/produit-test"
 LIEN_CIBLE = "https://example.com/priority-target"
 
@@ -33,6 +34,8 @@ def creer_produit(
 
 class ComparatorTests(unittest.TestCase):
     def setUp(self):
+        self.enterContext(patch("cible.CIBLE_PRIORITAIRE", CIBLE_PRIORITAIRE))
+        self.enterContext(patch("comparateur.CIBLE_PRIORITAIRE", CIBLE_PRIORITAIRE))
         self.tempdir = tempfile.TemporaryDirectory()
         self.addCleanup(self.tempdir.cleanup)
         self.old_cwd = Path.cwd()
@@ -69,6 +72,26 @@ class ComparatorTests(unittest.TestCase):
         self.assertEqual(1, len(alertes))
         self.assertEqual("NOUVEAU PRODUIT RÉFÉRENCÉ", alertes[0]["type_alerte"])
         self.assertEqual(CIBLE_PRIORITAIRE, alertes[0]["priority_target"])
+
+    def test_op17_restock_is_reported_without_an_absolute_priority(self):
+        name = "Display OP17 VF"
+        old_product = creer_produit("SOLD OUT", name)
+        Path("ancien_stock.json").write_text(
+            json.dumps({"Boutique Test": {LIEN_CIBLE: old_product}}),
+            encoding="utf-8",
+        )
+        new_product = creer_produit("AVAILABLE", name)
+
+        with (
+            patch("cible.CIBLE_PRIORITAIRE", None),
+            patch("comparateur.CIBLE_PRIORITAIRE", None),
+        ):
+            alertes = comparer({"Boutique Test": {LIEN_CIBLE: new_product}})
+
+        self.assertEqual(1, len(alertes))
+        self.assertEqual("RETOUR EN STOCK", alertes[0]["type_alerte"])
+        self.assertEqual("", alertes[0]["priority_target"])
+        self.assertEqual(6, alertes[0]["priority"])
 
     def test_restock_is_reported(self):
         Path("ancien_stock.json").write_text(
