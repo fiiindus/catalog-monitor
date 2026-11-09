@@ -132,7 +132,7 @@ def construire_embed(alert):
 
 🏪 **Boutique :** {alert.get('boutique', alert.get('site', 'Inconnu'))}
 
-🏷️ **Catégorie :** {alert.get('category', 'AUTRE')}
+🏷️ **Catégorie :** {alert.get('card_details') or alert.get('category', 'AUTRE')}
 
 🌍 **Langue :** {alert.get('language', 'AUTRE')}
 

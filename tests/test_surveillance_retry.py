@@ -352,6 +352,35 @@ class SurveillanceRetryTests(unittest.TestCase):
         self.assertIn("Boutique A", technical_alerts[0])
         self.assertIn("Boutique B", technical_alerts[0])
 
+    def test_failed_first_scan_leaves_new_store_uninitialized(self):
+        compared = []
+        saved = []
+        technical_alerts = []
+        catalogue = {"https://example.com/card": {"status": "AVAILABLE"}}
+        active = types.ModuleType("scanners.existing_store")
+        active.scan = lambda: catalogue
+        pending = types.ModuleType("scanners.new_store")
+
+        def fail():
+            raise RuntimeError("Catalogue indisponible")
+
+        pending.scan = fail
+        old_stock = {"Boutique existante": catalogue}
+        fake_modules = self.construire_modules(
+            [
+                {"nom": "Boutique existante", "scanner": "existing_store"},
+                {"nom": "Nouvelle boutique", "scanner": "new_store"},
+            ],
+            {"scanners.existing_store": active, "scanners.new_store": pending},
+            old_stock, compared, saved, [], technical_alerts,
+        )
+        with patch.dict(sys.modules, fake_modules), patch("time.sleep", return_value=None):
+            runpy.run_module("surveillance", run_name="__main__")
+
+        self.assertEqual([old_stock], compared)
+        self.assertEqual([old_stock], saved)
+        self.assertIn("Nouvelle boutique", technical_alerts[0])
+
     def test_two_failed_stores_still_abort_global_scan(self):
         compared = []
         saved = []
