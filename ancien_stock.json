@@ -2782,6 +2782,21 @@
             "priority_target": "",
             "priority": 1
         },
+        "https://www.parkage.com/fr/1134772": {
+            "site": "Parkage — Cartes à l’unité",
+            "name": "OP16-060 Sengoku",
+            "price": "30,00 €",
+            "status": "AVAILABLE",
+            "link": "https://www.parkage.com/fr/1134772",
+            "image": "https://embedded.parkage.com/files/img/products/autres_tcg/one_piece/cu/op16/fr/060a.jpg",
+            "language": "VF",
+            "card_details": "Leader alternatif · OP16 · Near mint",
+            "category": "OTHER",
+            "priority_target": "",
+            "priority": 1,
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "Parkage — Cartes à l’unité"
+        },
         "https://www.parkage.com/fr/1134618": {
             "site": "Parkage — Cartes à l’unité",
             "name": "OP16-080 Marshall.D.Teach",
