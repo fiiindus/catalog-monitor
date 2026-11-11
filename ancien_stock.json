@@ -2279,7 +2279,7 @@
             "site": "Parkage",
             "name": "One Piece Card Game Extra Booster Pack - EB-05 : Heroines Edition Vol.2",
             "price": "8,50 €",
-            "status": "STORE_ONLY",
+            "status": "SOLD OUT",
             "link": "https://www.parkage.com/fr/1130511-one-piece-card-game-extra-booster-pack-eb-05-heroines-edition-vol-2",
             "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/eb-05/booster_en.jpg",
             "language": "VF",
@@ -4407,19 +4407,6 @@
             "priority_target": "",
             "priority": 3
         },
-        "https://www.parkage.com/fr/1063750": {
-            "site": "Parkage — Cartes à l’unité",
-            "name": "OP08-023 Carrot",
-            "price": "1,10 €",
-            "status": "AVAILABLE",
-            "link": "https://www.parkage.com/fr/1063750",
-            "image": "https://embedded.parkage.com/files/img/products/autres_tcg/one_piece/cu/op08/en/023.jpg",
-            "language": "EN",
-            "card_details": "Super Rare · OP08 · Near mint",
-            "category": "OTHER",
-            "priority_target": "",
-            "priority": 3
-        },
         "https://www.parkage.com/fr/1059934": {
             "site": "Parkage — Cartes à l’unité",
             "name": "ST14-003 Sanji",
@@ -4520,19 +4507,6 @@
             "image": "https://embedded.parkage.com/files/img/products/autres_tcg/one_piece/cu/op3_pillars_of_strength/013.jpg",
             "language": "EN",
             "card_details": "Super Rare · OP03 · Near mint",
-            "category": "OTHER",
-            "priority_target": "",
-            "priority": 3
-        },
-        "https://www.parkage.com/fr/984756": {
-            "site": "Parkage — Cartes à l’unité",
-            "name": "OP02-085 Magellan",
-            "price": "6,50 €",
-            "status": "AVAILABLE",
-            "link": "https://www.parkage.com/fr/984756",
-            "image": "https://embedded.parkage.com/files/img/products/autres_tcg/one_piece/cu/op2_paramount_war/085.jpg",
-            "language": "EN",
-            "card_details": "Super Rare · OP02 · Near mint",
             "category": "OTHER",
             "priority_target": "",
             "priority": 3
