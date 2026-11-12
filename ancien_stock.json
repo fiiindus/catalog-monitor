@@ -3081,6 +3081,21 @@
             "priority_target": "",
             "priority": 3
         },
+        "https://www.parkage.com/fr/1134529": {
+            "site": "Parkage — Cartes à l’unité",
+            "name": "OP16-056 Mr.3(Galdino)",
+            "price": "8,90 €",
+            "status": "AVAILABLE",
+            "link": "https://www.parkage.com/fr/1134529",
+            "image": "https://embedded.parkage.com/files/img/products/autres_tcg/one_piece/cu/op16/en/056.jpg",
+            "language": "EN",
+            "card_details": "Super Rare · OP16 · Near mint",
+            "category": "OTHER",
+            "priority_target": "",
+            "priority": 3,
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "Parkage — Cartes à l’unité"
+        },
         "https://www.parkage.com/fr/1134521": {
             "site": "Parkage — Cartes à l’unité",
             "name": "OP16-048 Buggy",
