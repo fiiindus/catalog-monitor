@@ -2743,19 +2743,6 @@
             "priority_target": "",
             "priority": 1
         },
-        "https://www.parkage.com/fr/1142511": {
-            "site": "Parkage — Cartes à l’unité",
-            "name": "OP17-039 Rocks D. Xebec",
-            "price": "38,00 €",
-            "status": "AVAILABLE",
-            "link": "https://www.parkage.com/fr/1142511",
-            "image": "https://embedded.parkage.com/files/img/products/autres_tcg/one_piece/cu/op17/fr/039a.jpg",
-            "language": "VF",
-            "card_details": "Leader alternatif · OP17 · Near mint",
-            "category": "OTHER",
-            "priority_target": "",
-            "priority": 1
-        },
         "https://www.parkage.com/fr/1136382": {
             "site": "Parkage — Cartes à l’unité",
             "name": "ST13-002 Portgas.D.Ace",
