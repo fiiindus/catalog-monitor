@@ -7581,6 +7581,24 @@
         }
     },
     "Playin": {
+        "https://www.play-in.com/fr/produit/685639/booster-one-piece-tcg-la-domination-de-dieu-op-18-fr": {
+            "site": "Playin",
+            "name": "Booster One Piece Tcg : La Domination de Dieu [OP-18] - FR",
+            "price": "9,90 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://www.play-in.com/fr/produit/685639/booster-one-piece-tcg-la-domination-de-dieu-op-18-fr",
+            "image": "https://media.play-in.com/media/medias/6af194e7dd2ce922251149.jpg",
+            "language": "OTHER",
+            "source": "catalogue",
+            "delivery": "SHIPPING_OR_ANNOUNCED",
+            "notify_when_referenced": false,
+            "category": "OTHER",
+            "priority_target": "",
+            "priority": -1,
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "Playin"
+        },
         "https://www.play-in.com/fr/produit/663264/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en": {
             "site": "Playin",
             "name": "Booster One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - EN",
