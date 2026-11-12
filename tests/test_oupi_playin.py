@@ -251,13 +251,22 @@ class PlayinScannerTests(unittest.TestCase):
         <li class="tile--type_catalogItem"
             title="Deck de démarrage ST-33 - One Piece EN">
           <a href="/fr/produit/1/deck-st-33-one-piece-en">Deck ST-33</a>
-          <span>Retrait magasin uniquement</span><span>24,90 €</span>
+          <span>Précommande</span><span>Retrait magasin uniquement</span><span>24,90 €</span>
         </li></ul>
         """
 
         produit = next(iter(playin.extraire_produits(html).values()))
         self.assertEqual("STORE_ONLY", produit["status"])
         self.assertEqual("STORE_ONLY", produit["delivery"])
+
+    def test_store_only_before_release_in_structured_data(self):
+        donnees = {
+            "sellable": False,
+            "inStore": True,
+            "inWarehouse": False,
+            "releasedAt": (date.today() + timedelta(days=30)).isoformat(),
+        }
+        self.assertEqual("STORE_ONLY", playin.detecter_statut_donnees(donnees))
 
     def test_excludes_korean_products_and_ordinary_playmats(self):
         self.assertFalse(

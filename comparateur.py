@@ -142,6 +142,10 @@ def est_alerte_statut(status):
     return status in ["AVAILABLE", "PREORDER", "COMING_SOON"]
 
 
+def retrait_magasin_uniquement(produit):
+    return "STORE_ONLY" in (produit.get("status"), produit.get("delivery"))
+
+
 def normaliser_lien(lien):
     if not lien:
         return ""
@@ -212,6 +216,9 @@ def comparer(nouveau):
 
         for lien, produit in produits.items():
             produit = enrichir_produit(produit, config)
+            if retrait_magasin_uniquement(produit):
+                continue
+
             ancien_produit = ancien_boutique.get(lien)
 
             if ancien_produit is None:
@@ -290,6 +297,8 @@ def comparer(nouveau):
                 continue
 
             ancien_status = ancien_produit.get("status")
+            if retrait_magasin_uniquement(ancien_produit):
+                ancien_status = "STORE_ONLY"
 
             if ancien_status == "COMING_SOON" and nouveau_status == "AVAILABLE":
                 ajouter_alerte(

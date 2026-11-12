@@ -140,12 +140,12 @@ def extraire_prix(texte):
 
 def detecter_statut(texte):
     texte = nettoyer_texte(texte).upper()
+    if "RETRAIT MAGASIN UNIQUEMENT" in texte:
+        return "STORE_ONLY"
     if "À VENIR" in texte or "A VENIR" in texte or "BIENTÔT DISPONIBLE" in texte:
         return "COMING_SOON"
     if "PRÉCOMMANDE" in texte or "PRECOMMANDE" in texte or "PREORDER" in texte:
         return "PREORDER"
-    if "RETRAIT MAGASIN UNIQUEMENT" in texte:
-        return "STORE_ONLY"
     if "RUPTURE DE STOCK" in texte or "ÉPUISÉ" in texte or "EPUISE" in texte:
         return "SOLD OUT"
     if re.search(r"\d[\d\s.,]*\s*€", texte):
@@ -203,10 +203,10 @@ def extraire_date_sortie(valeur):
 
 
 def detecter_statut_donnees(produit):
+    if produit.get("inStore") and produit.get("inWarehouse") is False:
+        return "STORE_ONLY"
     date_sortie = extraire_date_sortie(produit.get("releasedAt"))
     if produit.get("sellable"):
-        if produit.get("inStore") and produit.get("inWarehouse") is False:
-            return "STORE_ONLY"
         return "AVAILABLE"
     if date_sortie and date_sortie >= date.today():
         return "COMING_SOON"

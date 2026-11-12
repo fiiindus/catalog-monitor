@@ -4,6 +4,7 @@ import re
 from urllib.parse import urlsplit, urlunsplit
 
 from cible import CIBLE_PRIORITAIRE, est_cible_prioritaire
+from comparateur import retrait_magasin_uniquement
 from scanners.politique import normaliser
 
 
@@ -133,7 +134,7 @@ def analyser_disparitions(ancien, nouveau, etat=None):
     nouvel_etat = {}
 
     for cle, entree in candidats.items():
-        if cle in nouveau_cible:
+        if cle in nouveau_cible or retrait_magasin_uniquement(entree["produit"]):
             continue
 
         alerte_envoyee = entree["alerte_envoyee"]

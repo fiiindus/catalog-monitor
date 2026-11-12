@@ -73,6 +73,20 @@ class ComparatorTests(unittest.TestCase):
         self.assertEqual("NOUVEAU PRODUIT RÉFÉRENCÉ", alertes[0]["type_alerte"])
         self.assertEqual(CIBLE_PRIORITAIRE, alertes[0]["priority_target"])
 
+    def test_store_only_is_silent_even_for_priority_preorders(self):
+        name = f"{CIBLE_PRIORITAIRE} - Boite de 24 Boosters"
+        produit = creer_produit("STORE_ONLY", name, notify_when_referenced=True)
+        stock = {"Boutique Test": {LIEN_CIBLE: produit}}
+        self.assertEqual([], comparer(stock))
+
+        produit.update(status="PREORDER", delivery="STORE_ONLY")
+        self.assertEqual([], comparer(stock))
+
+        Path("ancien_stock.json").write_text(json.dumps(stock), encoding="utf-8")
+        produit["delivery"] = "SHIPPING_OR_ANNOUNCED"
+        alertes = comparer(stock)
+        self.assertEqual(["NOUVELLE PRÉCOMMANDE"], [a["type_alerte"] for a in alertes])
+
     def test_op17_restock_is_reported_without_an_absolute_priority(self):
         name = "Display OP17 VF"
         old_product = creer_produit("SOLD OUT", name)
