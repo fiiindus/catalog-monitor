@@ -1019,9 +1019,27 @@
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
+  "https://www.play-in.com/fr/produit/685638/display-de-24-boosters-one-piece-tcg-la-domination-de-dieu-op-18-fr": {
+    "fingerprint": "12a370f4fb389b34f08efab33b23547209aa90cdb27c569ec490b7630e55b529",
+    "name": "Display de 24 boosters One Piece Tcg : La Domination de Dieu [OP-18] - FR",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
   "https://www.play-in.com/fr/produit/685639/booster-one-piece-tcg-la-domination-de-dieu-op-18-fr": {
     "fingerprint": "0b6fe44b2270e6144309882c1c462ff2fa1fc402de9bbd44b17a842668cd041d",
     "name": "Booster One Piece Tcg : La Domination de Dieu [OP-18] - FR",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.play-in.com/fr/produit/685642/double-pack-set-one-piece-tcg-13-la-domination-de-dieu-op-18-fr": {
+    "fingerprint": "b17e1156e8b901a51acd33b96333a425895e76c3acb0f307e6bd8649d55a38bb",
+    "name": "Double Pack Set One Piece Tcg : 13 La Domination de Dieu [OP-18] - FR",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.play-in.com/fr/produit/685643/double-pack-set-one-piece-tcg-13-la-domination-de-dieu-op-18-en": {
+    "fingerprint": "5e3059ebc58407cd634409d59255f1ca3bb79dd5292f167a38d701ca79e29f1c",
+    "name": "Double Pack Set One Piece Tcg : 13 La Domination de Dieu [OP-18] - EN",
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
