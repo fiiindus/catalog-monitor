@@ -7627,9 +7627,7 @@
             "notify_when_referenced": false,
             "category": "DISPLAY",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Playin"
+            "priority": 4
         },
         "https://www.play-in.com/fr/produit/685642/double-pack-set-one-piece-tcg-13-la-domination-de-dieu-op-18-fr": {
             "site": "Playin",
@@ -7645,9 +7643,7 @@
             "notify_when_referenced": false,
             "category": "DOUBLE_PACK",
             "priority_target": "",
-            "priority": 2,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Playin"
+            "priority": 2
         },
         "https://www.play-in.com/fr/produit/685643/double-pack-set-one-piece-tcg-13-la-domination-de-dieu-op-18-en": {
             "site": "Playin",
@@ -7663,9 +7659,7 @@
             "notify_when_referenced": false,
             "category": "DOUBLE_PACK",
             "priority_target": "",
-            "priority": 2,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Playin"
+            "priority": 2
         },
         "https://www.play-in.com/fr/produit/617903/coffret-lot-de-decks-apprenez-ensemble-one-piece-tcg-fr": {
             "site": "Playin",
