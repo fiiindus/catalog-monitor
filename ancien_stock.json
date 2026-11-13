@@ -7558,22 +7558,6 @@
             "priority_target": "",
             "priority": -1
         },
-        "https://www.play-in.com/fr/produit/663264/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en": {
-            "site": "Playin",
-            "name": "Booster One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - EN",
-            "price": "14,90 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://www.play-in.com/fr/produit/663264/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en",
-            "image": "https://media.play-in.com/media/medias/6a69d0c415f47492681988.jpg",
-            "language": "OTHER",
-            "source": "catalogue",
-            "delivery": "SHIPPING_OR_ANNOUNCED",
-            "notify_when_referenced": false,
-            "category": "OTHER",
-            "priority_target": "",
-            "priority": -1
-        },
         "https://www.play-in.com/fr/produit/685638/display-de-24-boosters-one-piece-tcg-la-domination-de-dieu-op-18-fr": {
             "site": "Playin",
             "name": "Display de 24 boosters One Piece Tcg : La Domination de Dieu [OP-18] - FR",
@@ -7589,6 +7573,22 @@
             "category": "DISPLAY",
             "priority_target": "",
             "priority": 4
+        },
+        "https://www.play-in.com/fr/produit/663264/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en": {
+            "site": "Playin",
+            "name": "Booster One Piece Tcg : Les Guerriers Les Plus Puissants Au Monde [OP-17] - EN",
+            "price": "14,90 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://www.play-in.com/fr/produit/663264/booster-op-17-les-guerriers-les-plus-puissants-au-monde-one-piece-en",
+            "image": "https://media.play-in.com/media/medias/6a69d0c415f47492681988.jpg",
+            "language": "OTHER",
+            "source": "catalogue",
+            "delivery": "SHIPPING_OR_ANNOUNCED",
+            "notify_when_referenced": false,
+            "category": "OTHER",
+            "priority_target": "",
+            "priority": -1
         },
         "https://www.play-in.com/fr/produit/685642/double-pack-set-one-piece-tcg-13-la-domination-de-dieu-op-18-fr": {
             "site": "Playin",
@@ -7622,22 +7622,6 @@
             "priority_target": "",
             "priority": 2
         },
-        "https://www.play-in.com/fr/produit/617903/coffret-lot-de-decks-apprenez-ensemble-one-piece-tcg-fr": {
-            "site": "Playin",
-            "name": "Coffret Lot de decks Apprenez Ensemble One Piece Tcg - FR",
-            "price": "39,90 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://www.play-in.com/fr/produit/617903/coffret-lot-de-decks-apprenez-ensemble-one-piece-tcg-fr",
-            "image": "https://media.play-in.com/img/product/lot-de-decks-apprenez-ensemble-one-piece-fr.jpg",
-            "language": "OTHER",
-            "source": "catalogue",
-            "delivery": "SHIPPING_OR_ANNOUNCED",
-            "notify_when_referenced": false,
-            "category": "STARTER",
-            "priority_target": "",
-            "priority": 1
-        },
         "https://www.play-in.com/fr/produit/662638/deck-pour-debutant-one-piece-tcg-jaune-eustass-captain-kidd-st-36-fr": {
             "site": "Playin",
             "name": "Deck pour débutant One Piece Tcg : Jaune Eustass Captain Kidd [ST-36] - FR",
@@ -7646,6 +7630,22 @@
             "availability": "",
             "link": "https://www.play-in.com/fr/produit/662638/deck-pour-debutant-one-piece-tcg-jaune-eustass-captain-kidd-st-36-fr",
             "image": "https://media.play-in.com/media/medias/6a676bbf2ea18531175428.jpg",
+            "language": "OTHER",
+            "source": "catalogue",
+            "delivery": "SHIPPING_OR_ANNOUNCED",
+            "notify_when_referenced": false,
+            "category": "STARTER",
+            "priority_target": "",
+            "priority": 1
+        },
+        "https://www.play-in.com/fr/produit/617903/coffret-lot-de-decks-apprenez-ensemble-one-piece-tcg-fr": {
+            "site": "Playin",
+            "name": "Coffret Lot de decks Apprenez Ensemble One Piece Tcg - FR",
+            "price": "39,90 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://www.play-in.com/fr/produit/617903/coffret-lot-de-decks-apprenez-ensemble-one-piece-tcg-fr",
+            "image": "https://media.play-in.com/img/product/lot-de-decks-apprenez-ensemble-one-piece-fr.jpg",
             "language": "OTHER",
             "source": "catalogue",
             "delivery": "SHIPPING_OR_ANNOUNCED",
@@ -7685,6 +7685,24 @@
             "category": "DISPLAY",
             "priority_target": "",
             "priority": 4
+        },
+        "https://www.play-in.com/fr/produit/662629/deck-pour-debutant-one-piece-tcg-rouge-monkey-d-luffy-st-31-fr": {
+            "site": "Playin",
+            "name": "Deck pour débutant One Piece Tcg : Rouge Monkey D. Luffy [ST-31] - FR",
+            "price": "29,90 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://www.play-in.com/fr/produit/662629/deck-pour-debutant-one-piece-tcg-rouge-monkey-d-luffy-st-31-fr",
+            "image": "https://media.play-in.com/media/medias/6a675dc20f9a1216167001.jpg",
+            "language": "OTHER",
+            "source": "catalogue",
+            "delivery": "SHIPPING_OR_ANNOUNCED",
+            "notify_when_referenced": false,
+            "category": "STARTER",
+            "priority_target": "",
+            "priority": 1,
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "Playin"
         }
     }
 }
