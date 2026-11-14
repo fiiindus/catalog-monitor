@@ -208,13 +208,15 @@
             "site": "UltraJeux",
             "name": "ST32 : Roronoa Zoro",
             "price": "19,90 €",
-            "status": "STORE_ONLY",
+            "status": "AVAILABLE",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-32903-st32-roronoa-zoro-4582770058758.html",
             "image": "https://static.ultrajeux.com/images/produits/normal/32903.jpg?v=2",
             "category": "OTHER",
             "language": "OTHER",
-            "priority_target": ""
+            "priority_target": "",
+            "type_alerte": "RETOUR EN STOCK",
+            "boutique": "UltraJeux"
         },
         "https://www.ultrajeux.com/produit-32845-st36-eustass-captain-kid-0810199501079.html": {
             "site": "UltraJeux",
