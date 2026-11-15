@@ -2379,6 +2379,19 @@
             "priority_target": "",
             "priority": 1
         },
+        "https://www.parkage.com/fr/1121400-one-piece-card-game-box-english-version-3rd-anniversary-set": {
+            "site": "Parkage",
+            "name": "One Piece Card Game Box - English Version 3rd Anniversary Set",
+            "price": "499,00 €",
+            "status": "SOLD OUT",
+            "link": "https://www.parkage.com/fr/1121400-one-piece-card-game-box-english-version-3rd-anniversary-set",
+            "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/pack_speciaux/137646_0.jpg",
+            "language": "EN",
+            "product_types": [],
+            "category": "PROMO",
+            "priority_target": "",
+            "priority": 7
+        },
         "https://www.parkage.com/fr/1123719-one-piece-card-game-box-premium-card-collection-best-selection-vol-6": {
             "site": "Parkage",
             "name": "One Piece Card Game Box - Premium Card Collection - Best Selection Vol.6",
@@ -2882,19 +2895,6 @@
             "image": "https://embedded.parkage.com/files/img/products/autres_tcg/one_piece/cu/op09/fr/001a.jpg",
             "language": "VF",
             "card_details": "Leader alternatif · OP09 · Near mint",
-            "category": "OTHER",
-            "priority_target": "",
-            "priority": 1
-        },
-        "https://www.parkage.com/fr/1148621": {
-            "site": "Parkage — Cartes à l’unité",
-            "name": "OP17-118 Rocks D. Xebec",
-            "price": "11,70 €",
-            "status": "AVAILABLE",
-            "link": "https://www.parkage.com/fr/1148621",
-            "image": "https://embedded.parkage.com/files/img/products/autres_tcg/one_piece/cu/op17/fr/118.jpg",
-            "language": "VF",
-            "card_details": "Secret Rare · OP17 · Excellent",
             "category": "OTHER",
             "priority_target": "",
             "priority": 1
