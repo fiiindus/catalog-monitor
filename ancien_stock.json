@@ -2834,6 +2834,21 @@
             "priority_target": "",
             "priority": 3
         },
+        "https://www.parkage.com/fr/1134616": {
+            "site": "Parkage — Cartes à l’unité",
+            "name": "OP16-060 Sengoku",
+            "price": "25,00 €",
+            "status": "AVAILABLE",
+            "link": "https://www.parkage.com/fr/1134616",
+            "image": "https://embedded.parkage.com/files/img/products/autres_tcg/one_piece/cu/op16/en/060a.jpg",
+            "language": "EN",
+            "card_details": "Leader alternatif · OP16 · Near mint",
+            "category": "OTHER",
+            "priority_target": "",
+            "priority": 3,
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "Parkage — Cartes à l’unité"
+        },
         "https://www.parkage.com/fr/1134615": {
             "site": "Parkage — Cartes à l’unité",
             "name": "OP16-041 Buggy",
@@ -3027,9 +3042,7 @@
             "card_details": "Leader alternatif · OP09 · Near mint",
             "category": "OTHER",
             "priority_target": "",
-            "priority": 1,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage — Cartes à l’unité"
+            "priority": 1
         },
         "https://www.parkage.com/fr/1109949": {
             "site": "Parkage — Cartes à l’unité",
@@ -3081,9 +3094,7 @@
             "card_details": "Leader alternatif · OP12 · Near mint",
             "category": "OTHER",
             "priority_target": "",
-            "priority": 1,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage — Cartes à l’unité"
+            "priority": 1
         },
         "https://www.parkage.com/fr/1108078": {
             "site": "Parkage — Cartes à l’unité",
@@ -3135,9 +3146,7 @@
             "card_details": "Leader alternatif · OP11 · Near mint",
             "category": "OTHER",
             "priority_target": "",
-            "priority": 1,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage — Cartes à l’unité"
+            "priority": 1
         },
         "https://www.parkage.com/fr/1095546": {
             "site": "Parkage — Cartes à l’unité",
