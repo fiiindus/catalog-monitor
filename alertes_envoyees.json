@@ -773,9 +773,39 @@
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
+  "https://www.parkage.com/fr/1092970": {
+    "fingerprint": "0145429daa1df8261bd38caa7862863a1f54c2133c0f0119f6f0ec39310a5890",
+    "name": "OP09-061 Monkey D. Luffy",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1093110": {
+    "fingerprint": "f89784d34d788d782a3aaa211377c1ba76d03d09cb7662f358927c609ee86f22",
+    "name": "EB02-010 Monkey D. Luffy",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1093112": {
+    "fingerprint": "da28105a967e56347d8f1592147bf6a22c1b454f70b64e5be6e4b03483103928",
+    "name": "OP05-001 Sabo",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1095546": {
+    "fingerprint": "82e86db26809845506419710ac596f089cec51134a491566cb80b55e18296c22",
+    "name": "OP11-040 Monkey.D.Luffy",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
   "https://www.parkage.com/fr/1099032-one-piece-card-game-starter-deck-st-29-egghead": {
     "fingerprint": "693f507537f7c3206dc6bed54b63bf011e9ddb961c12250781862ca7751e3eda",
     "name": "One Piece Card Game Starter Deck - ST-29 : EggHead",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1105952": {
+    "fingerprint": "8381e0150b1c4a7e788a88a4bfec9b8d97c6d2e8cf9241e8bf55312a6071d971",
+    "name": "OP11-041 Nami",
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
@@ -803,6 +833,24 @@
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
+  "https://www.parkage.com/fr/1108077": {
+    "fingerprint": "ae19dba5c2843c84c864f17bf9792cabb04c37613f54e01f3d434bf4e529ca36",
+    "name": "OP12-020 Roronoa Zoro",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1108078": {
+    "fingerprint": "877eb9324dcd2027f8b04fd5c3f095769ee797af9e2f806ed3f1cf403f3aa2e4",
+    "name": "OP12-040 Kuzan",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1108080": {
+    "fingerprint": "5fe24e0175b67644ea4478405ffdfcdb9f962dc07d149c05b74f6e4d0be2a08f",
+    "name": "OP12-061 Don Quijote Rosinante",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
   "https://www.parkage.com/fr/1108955-one-piece-card-game-booster-pack-op-15-adventure-on-kami-s-island": {
     "fingerprint": "1499dea52334364e70c763fbefa48e7dcae5a5772028c56b488df708c2330fa6",
     "name": "One Piece Card Game Booster Pack - OP-15 : Adventure on Kami's island",
@@ -820,6 +868,36 @@
     "name": "Coffret One Piece Card Game - LD-01 : Lot de Decks Apprenez Ensemble",
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
+  },
+  "https://www.parkage.com/fr/1112777": {
+    "fingerprint": "bf1d72ba1aa5dd0364694e6ed333a1ae0e862da72b00be43dbc2589f1dc412c9",
+    "name": "OP13-002 Portgas D. Ace",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1112780": {
+    "fingerprint": "7bf5cf49917a81d8cbcbac33ec3785b9144c2c561bbfd1e29236949e54672a35",
+    "name": "OP13-079 Imu",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1112955": {
+    "fingerprint": "472289934ad4aa72ae720e3b4d1099cac9ae91752c403ef867f2c344d2e2ea78",
+    "name": "OP13-001 Monkey.D.Luffy",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1120887": {
+    "fingerprint": "6b7df6efbd749cef3d111a1d72cbb7d7d97e45c1c2ef1179105907ed286536ff",
+    "name": "OP14-020 Dracule Mihawk",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1122642": {
+    "fingerprint": "8d8f5b113270b933fa1e1add7d877e4627d3e15097cadd3a6ebdb613769a9a4c",
+    "name": "OP07-038 Boa Hancock",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
   "https://www.parkage.com/fr/1123140-one-piece-card-game-display-x24-booster-packs-op-17-the-world-s-strongest-warriors-limited-to-1-display-per-household": {
     "fingerprint": "045f0437496d9309a598917903232e23823d26492c1323095bf5d888f993a2e4",
@@ -863,15 +941,63 @@
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
+  "https://www.parkage.com/fr/1124644": {
+    "fingerprint": "b1ed8df8f903b652bd3ef14cffa78de1e327b1df134fc548aa5b4cc1691681da",
+    "name": "OP05-060 Monkey D. Luffy",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1124678": {
+    "fingerprint": "bb96b69e23c6af375af00b451ba00aa6d79c07e425ba6dde5411bc43980a657e",
+    "name": "PRB01-001 Sanji",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1128580": {
+    "fingerprint": "b4af9dd8258dfd0f0b80c65694b69539ac0c22dcc7a03243d1eef7692de1aa93",
+    "name": "OP15-002 Lucy",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1128584": {
+    "fingerprint": "6d114532e60b141bfeb819b10877d31765ee977308ab0afa38c93c6536dfcf0f",
+    "name": "OP15-098 Monkey D. Luffy",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
   "https://www.parkage.com/fr/1134529": {
     "fingerprint": "5ffc8264eb2e30a7171051649a9133085219d9d159a3f5ec69c72c0ea8ad7a50",
     "name": "OP16-056 Mr.3(Galdino)",
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
+  "https://www.parkage.com/fr/1134769": {
+    "fingerprint": "248129c8ec4b08f5a4938a321859714f0c926e90886661aeae6f672124d0ff00",
+    "name": "OP16-001 Portgas D. Ace",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
   "https://www.parkage.com/fr/1134772": {
     "fingerprint": "0e0123dc901f4029b6872401949fc0bef3031e4153bd1759760898e13cebcbe4",
     "name": "OP16-060 Sengoku",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1142511": {
+    "fingerprint": "47a9cbd7c172401197895f819d13f48d910e80242479cd1e760937d5c5d941bf",
+    "name": "OP17-039 Rocks D. Xebec",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1147754": {
+    "fingerprint": "ca1806a684975e7efd86a8a9b79a54ffcd795f439588b218e4b1093f7034efed",
+    "name": "EB03-001 Nefertari Vivi",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/984713": {
+    "fingerprint": "9af6803015eae92aa5bb1fccbc231a854912cf18736d69db1437331564fc2b78",
+    "name": "OP02-049 Emporio.Ivankov",
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
