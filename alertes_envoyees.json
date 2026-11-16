@@ -803,6 +803,12 @@
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
+  "https://www.parkage.com/fr/1105949": {
+    "fingerprint": "166b5471c5febd5ef47618a0f9b783d23812fdc6f3faa90f4e9e398fc8abb08f",
+    "name": "OP11-021 Jinbe",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
   "https://www.parkage.com/fr/1105952": {
     "fingerprint": "8381e0150b1c4a7e788a88a4bfec9b8d97c6d2e8cf9241e8bf55312a6071d971",
     "name": "OP11-041 Nami",
@@ -845,6 +851,12 @@
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
+  "https://www.parkage.com/fr/1108079": {
+    "fingerprint": "650b33cc2c21392f55fe2ce9475647b2abf9fdfa812f3dd7d497f57de8a87734",
+    "name": "OP12-041 Sanji",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
   "https://www.parkage.com/fr/1108080": {
     "fingerprint": "5fe24e0175b67644ea4478405ffdfcdb9f962dc07d149c05b74f6e4d0be2a08f",
     "name": "OP12-061 Don Quijote Rosinante",
@@ -860,6 +872,12 @@
   "https://www.parkage.com/fr/1108956-one-piece-card-game-display-x24-booster-packs-op-15-adventure-on-kami-s-island": {
     "fingerprint": "0fe26ece07416bcc7a28813e0af2c3694a81ba0b2b317ff4cb6408270ae17299",
     "name": "One Piece Card Game Display (x24 Booster Packs) - OP-15 : Adventure on Kami's island",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1109950": {
+    "fingerprint": "3274cf2a521c461bca5ca256c588e041c2cbe0e09549f7623912fa560ac9c445",
+    "name": "OP09-022 Lim",
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
