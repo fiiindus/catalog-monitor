@@ -3198,19 +3198,6 @@
             "priority_target": "",
             "priority": 3
         },
-        "https://www.parkage.com/fr/1148620": {
-            "site": "Parkage — Cartes à l’unité",
-            "name": "OP17-093 Monkey D. Luffy",
-            "price": "4,95 €",
-            "status": "AVAILABLE",
-            "link": "https://www.parkage.com/fr/1148620",
-            "image": "https://embedded.parkage.com/files/img/products/autres_tcg/one_piece/cu/op17/fr/093.jpg",
-            "language": "VF",
-            "card_details": "Super Rare · OP17 · Excellent",
-            "category": "OTHER",
-            "priority_target": "",
-            "priority": 1
-        },
         "https://www.parkage.com/fr/1142483": {
             "site": "Parkage — Cartes à l’unité",
             "name": "OP17-119 Loki",
@@ -4497,19 +4484,6 @@
             "category": "OTHER",
             "priority_target": "",
             "priority": 3
-        },
-        "https://www.parkage.com/fr/1093330": {
-            "site": "Parkage — Cartes à l’unité",
-            "name": "OP10-118 Monkey D. Luffy",
-            "price": "6,55 €",
-            "status": "AVAILABLE",
-            "link": "https://www.parkage.com/fr/1093330",
-            "image": "https://embedded.parkage.com/files/img/products/autres_tcg/one_piece/cu/op10/fr/118.jpg",
-            "language": "VF",
-            "card_details": "Secret Rare · OP10 · Near mint",
-            "category": "OTHER",
-            "priority_target": "",
-            "priority": 1
         },
         "https://www.parkage.com/fr/1086903": {
             "site": "Parkage — Cartes à l’unité",
