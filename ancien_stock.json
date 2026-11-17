@@ -4095,19 +4095,6 @@
             "priority_target": "",
             "priority": 0
         },
-        "https://www.parkage.com/fr/1109366": {
-            "site": "Parkage — Cartes à l’unité",
-            "name": "OP10-030 Smoker",
-            "price": "0,65 €",
-            "status": "AVAILABLE",
-            "link": "https://www.parkage.com/fr/1109366",
-            "image": "https://embedded.parkage.com/files/img/products/autres_tcg/one_piece/cu/op10/jp/030.jpg",
-            "language": "JP",
-            "card_details": "Super Rare · OP10-JP · Near mint",
-            "category": "OTHER",
-            "priority_target": "",
-            "priority": 0
-        },
         "https://www.parkage.com/fr/1109365": {
             "site": "Parkage — Cartes à l’unité",
             "name": "OP10-016 Monet",
@@ -4896,6 +4883,23 @@
             "priority_target": "",
             "priority": 5
         },
+        "https://oupi.eu/fr/one-piece/8391-double-pack-set-vol13-dp-13-francais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Double Pack Set Vol.13 DP-13 (Français) - One Piece Card Game",
+            "price": "21,95 €",
+            "status": "AVAILABLE",
+            "availability": "20 Novembre 2026",
+            "link": "https://oupi.eu/fr/one-piece/8391-double-pack-set-vol13-dp-13-francais-one-piece-card-game.html",
+            "image": "https://oupi.eu/25079-home_default/double-pack-set-vol13-dp-13-francais-one-piece-card-game.jpg",
+            "language": "VF",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "DOUBLE_PACK",
+            "priority_target": "",
+            "priority": 4,
+            "type_alerte": "RETOUR EN STOCK",
+            "boutique": "Oupi"
+        },
         "https://oupi.eu/fr/starter-deck-one-piece/7804-monkeydluffy-deck-de-demarrage-st-31-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Monkey.D.Luffy Deck de Démarrage ST-31 (Anglais) - One Piece Card Game",
@@ -4941,21 +4945,6 @@
             "priority_target": "",
             "priority": 5
         },
-        "https://oupi.eu/fr/starter-deck-one-piece/7330-lot-de-decks-apprenez-ensemble-avec-carte-promo-francais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Lot de decks Apprenez Ensemble avec carte Promo LD-01 (Français) - One Piece Card Game",
-            "price": "32,50 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/starter-deck-one-piece/7330-lot-de-decks-apprenez-ensemble-avec-carte-promo-francais-one-piece-card-game.html",
-            "image": "https://oupi.eu/22050-home_default/lot-de-decks-apprenez-ensemble-avec-carte-promo-francais-one-piece-card-game.jpg",
-            "language": "VF",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "PROMO",
-            "priority_target": "",
-            "priority": 5
-        },
         "https://oupi.eu/fr/starter-deck-one-piece/7814-sabo-deck-de-demarrage-st-35-rougenoir-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Sabo Deck de Démarrage ST-35 Rouge/Noir (Français) - One Piece Card Game",
@@ -4970,6 +4959,21 @@
             "category": "STARTER",
             "priority_target": "",
             "priority": 3
+        },
+        "https://oupi.eu/fr/starter-deck-one-piece/7330-lot-de-decks-apprenez-ensemble-avec-carte-promo-francais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Lot de decks Apprenez Ensemble avec carte Promo LD-01 (Français) - One Piece Card Game",
+            "price": "32,50 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://oupi.eu/fr/starter-deck-one-piece/7330-lot-de-decks-apprenez-ensemble-avec-carte-promo-francais-one-piece-card-game.html",
+            "image": "https://oupi.eu/22050-home_default/lot-de-decks-apprenez-ensemble-avec-carte-promo-francais-one-piece-card-game.jpg",
+            "language": "VF",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "PROMO",
+            "priority_target": "",
+            "priority": 5
         },
         "https://oupi.eu/fr/starter-deck-one-piece/7815-eustass-captain-kidd-deck-de-demarrage-st-36-jaune-francais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -5016,21 +5020,6 @@
             "priority_target": "",
             "priority": -1
         },
-        "https://oupi.eu/fr/starter-deck-one-piece/7813-charlotte-katakuri-deck-de-demarrage-st-34-violet-francais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Charlotte Katakuri Deck de Démarrage ST-34 Violet (Français) - One Piece Card Game",
-            "price": "17,90 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://oupi.eu/fr/starter-deck-one-piece/7813-charlotte-katakuri-deck-de-demarrage-st-34-violet-francais-one-piece-card-game.html",
-            "image": "https://oupi.eu/23533-home_default/charlotte-katakuri-deck-de-demarrage-st-34-violet-francais-one-piece-card-game.jpg",
-            "language": "VF",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "STARTER",
-            "priority_target": "",
-            "priority": 3
-        },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/4924-special-goods-set-acesaboluffy-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Special Goods Set - Ace/Sabo/Luffy - One Piece Card Game",
@@ -5076,20 +5065,20 @@
             "priority_target": "",
             "priority": 3
         },
-        "https://oupi.eu/fr/display-one-piece/6516-display-successeurs-op-13-boite-de-booster-francais-one-piece-card-game.html": {
+        "https://oupi.eu/fr/starter-deck-one-piece/7813-charlotte-katakuri-deck-de-demarrage-st-34-violet-francais-one-piece-card-game.html": {
             "site": "Oupi",
-            "name": "Display Successeurs OP-13 Boite de Booster (Français) - One Piece Card Game",
-            "price": "299,95 €",
+            "name": "Charlotte Katakuri Deck de Démarrage ST-34 Violet (Français) - One Piece Card Game",
+            "price": "17,90 €",
             "status": "AVAILABLE",
             "availability": "",
-            "link": "https://oupi.eu/fr/display-one-piece/6516-display-successeurs-op-13-boite-de-booster-francais-one-piece-card-game.html",
-            "image": "https://oupi.eu/20810-home_default/display-successeurs-op-13-boite-de-booster-francais-one-piece-card-game.jpg",
+            "link": "https://oupi.eu/fr/starter-deck-one-piece/7813-charlotte-katakuri-deck-de-demarrage-st-34-violet-francais-one-piece-card-game.html",
+            "image": "https://oupi.eu/23533-home_default/charlotte-katakuri-deck-de-demarrage-st-34-violet-francais-one-piece-card-game.jpg",
             "language": "VF",
             "source": "catalogue",
             "notify_when_referenced": false,
-            "category": "DISPLAY",
+            "category": "STARTER",
             "priority_target": "",
-            "priority": 6
+            "priority": 3
         },
         "https://oupi.eu/fr/case-scelle-de-display/8106-case-scellee-de-12-display-successeurs-op-13-francais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -5181,6 +5170,40 @@
             "priority_target": "",
             "priority": 4
         },
+        "https://oupi.eu/fr/case-scelle-de-display/7902-case-scellee-de-12-display-heroine-edition-vol2-eb-05-francais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Case Scellée de 12 Display Heroine Edition Vol.2 EB-05 (Français) - One Piece Card Game",
+            "price": "2 899,00 €",
+            "status": "AVAILABLE",
+            "availability": "30 Octobre 2026",
+            "link": "https://oupi.eu/fr/case-scelle-de-display/7902-case-scellee-de-12-display-heroine-edition-vol2-eb-05-francais-one-piece-card-game.html",
+            "image": "https://oupi.eu/23750-home_default/case-scellee-de-12-display-heroine-edition-vol2-eb-05-francais-one-piece-card-game.jpg",
+            "language": "VF",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "CASE",
+            "priority_target": "",
+            "priority": 2,
+            "type_alerte": "RETOUR EN STOCK",
+            "boutique": "Oupi"
+        },
+        "https://oupi.eu/fr/case-scelle-de-display/7894-case-scellee-de-12-display-op-18-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Case Scellée de 12 Display The Dominance of God OP-18 (Anglais) - One Piece Card Game",
+            "price": "2 495,95 €",
+            "status": "AVAILABLE",
+            "availability": "20 Novembre 2026",
+            "link": "https://oupi.eu/fr/case-scelle-de-display/7894-case-scellee-de-12-display-op-18-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/23737-home_default/case-scellee-de-12-display-op-18-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "CASE",
+            "priority_target": "",
+            "priority": 4,
+            "type_alerte": "RETOUR EN STOCK",
+            "boutique": "Oupi"
+        },
         "https://oupi.eu/fr/6779-double-pack-set-vol8-dp-08-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Double Pack Set Vol.8 [DP-08] (Français) - One Piece Card Game",
@@ -5196,20 +5219,54 @@
             "priority_target": "",
             "priority": 4
         },
-        "https://oupi.eu/fr/display-one-piece/7369-display-op-17-boite-de-booster-anglais-one-piece-card-game.html": {
+        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8374-mini-case-monkeydluffy-v1-ts-03-francais-one-piece-card-game.html": {
             "site": "Oupi",
-            "name": "Display The World's Strongest Warriors OP-17 Boite de Booster (Anglais) - One Piece Card Game",
-            "price": "265,00 €",
+            "name": "Mini Case Monkey.D.Luffy V.1 TS-03 (Français) - One Piece Card Game",
+            "price": "29,90 €",
             "status": "AVAILABLE",
             "availability": "",
-            "link": "https://oupi.eu/fr/display-one-piece/7369-display-op-17-boite-de-booster-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/23501-home_default/display-op-17-boite-de-booster-anglais-one-piece-card-game.jpg",
-            "language": "EN",
+            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8374-mini-case-monkeydluffy-v1-ts-03-francais-one-piece-card-game.html",
+            "image": "https://oupi.eu/24976-home_default/mini-case-monkeydluffy-v1-ts-03-francais-one-piece-card-game.jpg",
+            "language": "VF",
             "source": "catalogue",
-            "notify_when_referenced": true,
+            "notify_when_referenced": false,
+            "category": "CASE",
+            "priority_target": "",
+            "priority": 2,
+            "type_alerte": "RETOUR EN STOCK",
+            "boutique": "Oupi"
+        },
+        "https://oupi.eu/fr/display-one-piece/7901-display-heroine-edition-vol2-eb-05-boite-de-booster-francais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Display Heroine Edition Vol.2 EB-05 Boite de Booster (Français) - One Piece Card Game",
+            "price": "219,90 €",
+            "status": "PREORDER",
+            "availability": "30 Octobre 2026",
+            "link": "https://oupi.eu/fr/display-one-piece/7901-display-heroine-edition-vol2-eb-05-boite-de-booster-francais-one-piece-card-game.html",
+            "image": "https://oupi.eu/24910-home_default/display-heroine-edition-vol2-eb-05-boite-de-booster-francais-one-piece-card-game.jpg",
+            "language": "VF",
+            "source": "catalogue",
+            "notify_when_referenced": false,
             "category": "DISPLAY",
             "priority_target": "",
-            "priority": 8
+            "priority": 6,
+            "type_alerte": "NOUVELLE PRÉCOMMANDE",
+            "boutique": "Oupi"
+        },
+        "https://oupi.eu/fr/display-one-piece/6516-display-successeurs-op-13-boite-de-booster-francais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Display Successeurs OP-13 Boite de Booster (Français) - One Piece Card Game",
+            "price": "255,90 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://oupi.eu/fr/display-one-piece/6516-display-successeurs-op-13-boite-de-booster-francais-one-piece-card-game.html",
+            "image": "https://oupi.eu/20810-home_default/display-successeurs-op-13-boite-de-booster-francais-one-piece-card-game.jpg",
+            "language": "VF",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "DISPLAY",
+            "priority_target": "",
+            "priority": 6
         },
         "https://oupi.eu/fr/starter-deck-one-piece/8397-les-pirates-et-la-princesse-du-desert-st-37-deck-de-demarrage-francais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -5274,7 +5331,7 @@
         "https://oupi.eu/fr/one-piece/8392-double-pack-set-vol13-dp-13-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Double Pack Set Vol.13 DP-13 (Anglais) - One Piece Card Game",
-            "price": "19,99 €",
+            "price": "21,95 €",
             "status": "SOLD OUT",
             "availability": "20 Novembre 2026",
             "link": "https://oupi.eu/fr/one-piece/8392-double-pack-set-vol13-dp-13-anglais-one-piece-card-game.html",
@@ -5285,21 +5342,6 @@
             "category": "DOUBLE_PACK",
             "priority_target": "",
             "priority": 6
-        },
-        "https://oupi.eu/fr/one-piece/8391-double-pack-set-vol13-dp-13-francais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Double Pack Set Vol.13 DP-13 (Français) - One Piece Card Game",
-            "price": "19,99 €",
-            "status": "SOLD OUT",
-            "availability": "20 Novembre 2026",
-            "link": "https://oupi.eu/fr/one-piece/8391-double-pack-set-vol13-dp-13-francais-one-piece-card-game.html",
-            "image": "https://oupi.eu/25079-home_default/double-pack-set-vol13-dp-13-francais-one-piece-card-game.jpg",
-            "language": "VF",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "DOUBLE_PACK",
-            "priority_target": "",
-            "priority": 4
         },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8389-premium-card-collection-29th-anniversary-edition-anglais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -5379,7 +5421,7 @@
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8379-mini-case-boa-hancock-v2-ts-03-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Mini Case Boa Hancock V.2 TS-03 (Français) - One Piece Card Game",
-            "price": "19,99 €",
+            "price": "29,90 €",
             "status": "SOLD OUT",
             "availability": "",
             "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8379-mini-case-boa-hancock-v2-ts-03-francais-one-piece-card-game.html",
@@ -5394,7 +5436,7 @@
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8378-mini-case-boa-hancock-v1-ts-03-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Mini Case Boa Hancock V.1 TS-03 (Français) - One Piece Card Game",
-            "price": "19,99 €",
+            "price": "29,90 €",
             "status": "SOLD OUT",
             "availability": "",
             "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8378-mini-case-boa-hancock-v1-ts-03-francais-one-piece-card-game.html",
@@ -5409,7 +5451,7 @@
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8377-mini-case-shanks-v2-ts-03-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Mini Case Shanks V.2 TS-03 (Français) - One Piece Card Game",
-            "price": "19,99 €",
+            "price": "29,90 €",
             "status": "SOLD OUT",
             "availability": "",
             "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8377-mini-case-shanks-v2-ts-03-francais-one-piece-card-game.html",
@@ -5424,7 +5466,7 @@
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8376-mini-case-shanks-v1-ts-03-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Mini Case Shanks V.1 TS-03 (Français) - One Piece Card Game",
-            "price": "19,99 €",
+            "price": "29,90 €",
             "status": "SOLD OUT",
             "availability": "",
             "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8376-mini-case-shanks-v1-ts-03-francais-one-piece-card-game.html",
@@ -5439,7 +5481,7 @@
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8375-mini-case-monkeydluffy-v2-ts-03-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Mini Case Monkey.D.Luffy V.2 TS-03 (Français) - One Piece Card Game",
-            "price": "19,99 €",
+            "price": "29,90 €",
             "status": "SOLD OUT",
             "availability": "",
             "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8375-mini-case-monkeydluffy-v2-ts-03-francais-one-piece-card-game.html",
@@ -5451,25 +5493,10 @@
             "priority_target": "",
             "priority": 2
         },
-        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8374-mini-case-monkeydluffy-v1-ts-03-francais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Mini Case Monkey.D.Luffy V.1 TS-03 (Français) - One Piece Card Game",
-            "price": "19,99 €",
-            "status": "SOLD OUT",
-            "availability": "",
-            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8374-mini-case-monkeydluffy-v1-ts-03-francais-one-piece-card-game.html",
-            "image": "https://oupi.eu/24976-home_default/mini-case-monkeydluffy-v1-ts-03-francais-one-piece-card-game.jpg",
-            "language": "VF",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "CASE",
-            "priority_target": "",
-            "priority": 2
-        },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8373-mini-case-boa-hancock-v2-ts-03-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Mini Case Boa Hancock V.2 TS-03 (Anglais) - One Piece Card Game",
-            "price": "19,99 €",
+            "price": "24,90 €",
             "status": "SOLD OUT",
             "availability": "",
             "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8373-mini-case-boa-hancock-v2-ts-03-anglais-one-piece-card-game.html",
@@ -5484,7 +5511,7 @@
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8372-mini-case-boa-hancock-v1-ts-03-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Mini Case Boa Hancock V.1 TS-03 (Anglais) - One Piece Card Game",
-            "price": "19,99 €",
+            "price": "24,90 €",
             "status": "SOLD OUT",
             "availability": "",
             "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8372-mini-case-boa-hancock-v1-ts-03-anglais-one-piece-card-game.html",
@@ -5499,7 +5526,7 @@
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8371-mini-case-shanks-v2-ts-03-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Mini Case Shanks V.2 TS-03 (Anglais) - One Piece Card Game",
-            "price": "19,99 €",
+            "price": "24,90 €",
             "status": "SOLD OUT",
             "availability": "",
             "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8371-mini-case-shanks-v2-ts-03-anglais-one-piece-card-game.html",
@@ -5514,7 +5541,7 @@
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8370-mini-case-shanks-v1-ts-03-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Mini Case Shanks V.1 TS-03 (Anglais) - One Piece Card Game",
-            "price": "19,99 €",
+            "price": "24,90 €",
             "status": "SOLD OUT",
             "availability": "",
             "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8370-mini-case-shanks-v1-ts-03-anglais-one-piece-card-game.html",
@@ -5526,10 +5553,25 @@
             "priority_target": "",
             "priority": 4
         },
+        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8369-mini-case-monkeydluffy-v2-ts-03-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Mini Case Monkey.D.Luffy V.2 TS-03 (Anglais) - One Piece Card Game",
+            "price": "24,90 €",
+            "status": "SOLD OUT",
+            "availability": "",
+            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8369-mini-case-monkeydluffy-v2-ts-03-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/24966-home_default/mini-case-monkeydluffy-v2-ts-03-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "CASE",
+            "priority_target": "",
+            "priority": 4
+        },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8368-mini-case-monkeydluffy-v1-ts-03-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Mini Case Monkey.D.Luffy V.1 TS-03 (Anglais) - One Piece Card Game",
-            "price": "19,99 €",
+            "price": "24,90 €",
             "status": "SOLD OUT",
             "availability": "",
             "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8368-mini-case-monkeydluffy-v1-ts-03-anglais-one-piece-card-game.html",
@@ -5679,7 +5721,7 @@
         "https://oupi.eu/fr/display-one-piece/7903-display-heroine-edition-vol2-eb-05-boite-de-booster-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Display Heroine Edition Vol.2 EB-05 Boite de Booster (Anglais) - One Piece Card Game",
-            "price": "199,95 €",
+            "price": "219,90 €",
             "status": "SOLD OUT",
             "availability": "30 Octobre 2026",
             "link": "https://oupi.eu/fr/display-one-piece/7903-display-heroine-edition-vol2-eb-05-boite-de-booster-anglais-one-piece-card-game.html",
@@ -5690,36 +5732,6 @@
             "category": "DISPLAY",
             "priority_target": "",
             "priority": 8
-        },
-        "https://oupi.eu/fr/case-scelle-de-display/7902-case-scellee-de-12-display-heroine-edition-vol2-eb-05-francais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Case Scellée de 12 Display Heroine Edition Vol.2 EB-05 (Français) - One Piece Card Game",
-            "price": "1 668,90 €",
-            "status": "SOLD OUT",
-            "availability": "30 Octobre 2026",
-            "link": "https://oupi.eu/fr/case-scelle-de-display/7902-case-scellee-de-12-display-heroine-edition-vol2-eb-05-francais-one-piece-card-game.html",
-            "image": "https://oupi.eu/23750-home_default/case-scellee-de-12-display-heroine-edition-vol2-eb-05-francais-one-piece-card-game.jpg",
-            "language": "VF",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "CASE",
-            "priority_target": "",
-            "priority": 2
-        },
-        "https://oupi.eu/fr/display-one-piece/7901-display-heroine-edition-vol2-eb-05-boite-de-booster-francais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Display Heroine Edition Vol.2 EB-05 Boite de Booster (Français) - One Piece Card Game",
-            "price": "199,95 €",
-            "status": "SOLD OUT",
-            "availability": "30 Octobre 2026",
-            "link": "https://oupi.eu/fr/display-one-piece/7901-display-heroine-edition-vol2-eb-05-boite-de-booster-francais-one-piece-card-game.html",
-            "image": "https://oupi.eu/24910-home_default/display-heroine-edition-vol2-eb-05-boite-de-booster-francais-one-piece-card-game.jpg",
-            "language": "VF",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "DISPLAY",
-            "priority_target": "",
-            "priority": 6
         },
         "https://oupi.eu/fr/case-scelle-de-display/7899-case-scellee-de-12-display-op-19-anglais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -5781,25 +5793,10 @@
             "priority_target": "",
             "priority": 6
         },
-        "https://oupi.eu/fr/case-scelle-de-display/7894-case-scellee-de-12-display-op-18-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Case Scellée de 12 Display The Dominance of God OP-18 (Anglais) - One Piece Card Game",
-            "price": "1 428,90 €",
-            "status": "SOLD OUT",
-            "availability": "20 Novembre 2026",
-            "link": "https://oupi.eu/fr/case-scelle-de-display/7894-case-scellee-de-12-display-op-18-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/23737-home_default/case-scellee-de-12-display-op-18-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "CASE",
-            "priority_target": "",
-            "priority": 4
-        },
         "https://oupi.eu/fr/display-one-piece/7893-display-op-18-boite-de-booster-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Display The Dominance of God OP-18 Boite de Booster (Anglais) - One Piece Card Game",
-            "price": "119,76 €",
+            "price": "189,99 €",
             "status": "SOLD OUT",
             "availability": "20 Novembre 2026",
             "link": "https://oupi.eu/fr/display-one-piece/7893-display-op-18-boite-de-booster-anglais-one-piece-card-game.html",
@@ -5814,7 +5811,7 @@
         "https://oupi.eu/fr/case-scelle-de-display/7892-case-scellee-de-12-display-op-18-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case Scellée de 12 Display La Domination de Dieu OP-18 (Français) - One Piece Card Game",
-            "price": "1 668,90 €",
+            "price": "2 495,95 €",
             "status": "SOLD OUT",
             "availability": "20 Novembre 2026",
             "link": "https://oupi.eu/fr/case-scelle-de-display/7892-case-scellee-de-12-display-op-18-francais-one-piece-card-game.html",
@@ -5829,7 +5826,7 @@
         "https://oupi.eu/fr/display-one-piece/7891-display-op-18-boite-de-booster-francais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Display La Domination de Dieu OP-18 Boite de Booster (Français) - One Piece Card Game",
-            "price": "143,70 €",
+            "price": "189,99 €",
             "status": "SOLD OUT",
             "availability": "20 Novembre 2026",
             "link": "https://oupi.eu/fr/display-one-piece/7891-display-op-18-boite-de-booster-francais-one-piece-card-game.html",
@@ -6099,17 +6096,32 @@
         "https://oupi.eu/fr/case-scelle-de-display/7370-case-scellee-de-12-display-op-17-anglais-one-piece-card-game.html": {
             "site": "Oupi",
             "name": "Case Scellée de 12 Display The World's Strongest Warriors OP-17 (Anglais) - One Piece Card Game",
-            "price": "3 150,00 €",
+            "price": "2 899,90 €",
             "status": "SOLD OUT",
             "availability": "",
             "link": "https://oupi.eu/fr/case-scelle-de-display/7370-case-scellee-de-12-display-op-17-anglais-one-piece-card-game.html",
             "image": "https://oupi.eu/22136-home_default/case-scellee-de-12-display-op-17-anglais-one-piece-card-game.jpg",
             "language": "EN",
             "source": "catalogue",
-            "notify_when_referenced": true,
+            "notify_when_referenced": false,
             "category": "CASE",
             "priority_target": "",
             "priority": 4
+        },
+        "https://oupi.eu/fr/display-one-piece/7369-display-op-17-boite-de-booster-anglais-one-piece-card-game.html": {
+            "site": "Oupi",
+            "name": "Display The World's Strongest Warriors OP-17 Boite de Booster (Anglais) - One Piece Card Game",
+            "price": "255,90 €",
+            "status": "SOLD OUT",
+            "availability": "",
+            "link": "https://oupi.eu/fr/display-one-piece/7369-display-op-17-boite-de-booster-anglais-one-piece-card-game.html",
+            "image": "https://oupi.eu/23501-home_default/display-op-17-boite-de-booster-anglais-one-piece-card-game.jpg",
+            "language": "EN",
+            "source": "catalogue",
+            "notify_when_referenced": false,
+            "category": "DISPLAY",
+            "priority_target": "",
+            "priority": 8
         },
         "https://oupi.eu/fr/case-scelle-de-display/7368-case-scellee-de-12-display-op-17-francais-one-piece-card-game.html": {
             "site": "Oupi",
@@ -6121,7 +6133,7 @@
             "image": "https://oupi.eu/22132-home_default/case-scellee-de-12-display-op-17-francais-one-piece-card-game.jpg",
             "language": "VF",
             "source": "catalogue",
-            "notify_when_referenced": true,
+            "notify_when_referenced": false,
             "category": "CASE",
             "priority_target": "",
             "priority": 2
@@ -6136,7 +6148,7 @@
             "image": "https://oupi.eu/23505-home_default/display-op-17-boite-de-booster-francais-one-piece-card-game.jpg",
             "language": "VF",
             "source": "catalogue",
-            "notify_when_referenced": true,
+            "notify_when_referenced": false,
             "category": "DISPLAY",
             "priority_target": "",
             "priority": 6
@@ -7730,21 +7742,6 @@
             "category": "DOUBLE_PACK",
             "priority_target": "",
             "priority": 6
-        },
-        "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8369-mini-case-monkeydluffy-v2-ts-03-anglais-one-piece-card-game.html": {
-            "site": "Oupi",
-            "name": "Mini Case Monkey.D.Luffy V.2 TS-03 (Anglais) - One Piece Card Game",
-            "price": "19,99 €",
-            "status": "SOLD OUT",
-            "availability": "",
-            "link": "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8369-mini-case-monkeydluffy-v2-ts-03-anglais-one-piece-card-game.html",
-            "image": "https://oupi.eu/24966-home_default/mini-case-monkeydluffy-v2-ts-03-anglais-one-piece-card-game.jpg",
-            "language": "EN",
-            "source": "catalogue",
-            "notify_when_referenced": false,
-            "category": "CASE",
-            "priority_target": "",
-            "priority": 4
         },
         "https://oupi.eu/fr/collection-pack-speciaux-one-piece/5649-premium-card-collection-live-action-edition-one-piece-card-game.html": {
             "site": "Oupi",

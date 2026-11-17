@@ -18,16 +18,16 @@
     "type": "DATE DE DISPONIBILITÉ MISE À JOUR"
   },
   "https://oupi.eu/fr/case-scelle-de-display/7894-case-scellee-de-12-display-op-18-anglais-one-piece-card-game.html": {
-    "fingerprint": "8281560a48e9d07971167511c7e6d8039848ec4296bc695415d1aea5fa147aa6",
-    "name": "Case Scellée de 12 Display OP-18 (Anglais) - One Piece Card Game",
-    "status": "SOLD OUT",
-    "type": "DATE DE DISPONIBILITÉ MISE À JOUR"
+    "fingerprint": "1189a4590262c9988f569d668939659369f686889f4aab68c8b2daa748f23ea7",
+    "name": "Case Scellée de 12 Display The Dominance of God OP-18 (Anglais) - One Piece Card Game",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
   },
   "https://oupi.eu/fr/case-scelle-de-display/7902-case-scellee-de-12-display-heroine-edition-vol2-eb-05-francais-one-piece-card-game.html": {
-    "fingerprint": "65e8e315907d12034dbf771c8e14b78f0c0f2e8645a170d8a79a5f8954669218",
+    "fingerprint": "ff6efa9fcbef603bdff3738f249e4da585c13bee1d1f4be8517bca0d87e3f912",
     "name": "Case Scellée de 12 Display Heroine Edition Vol.2 EB-05 (Français) - One Piece Card Game",
-    "status": "SOLD OUT",
-    "type": "DATE DE DISPONIBILITÉ MISE À JOUR"
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
   },
   "https://oupi.eu/fr/case-scelle-de-display/7904-case-scellee-de-12-display-heroine-edition-vol2-eb-05-anglais-one-piece-card-game.html": {
     "fingerprint": "b78aff70b71d48ce02417f2a9551c0d9e527c55422a0d31a5152a324e1a2b0e9",
@@ -47,15 +47,15 @@
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
   },
-  "https://oupi.eu/fr/display-one-piece/6516-display-successeurs-op-13-boite-de-booster-francais-one-piece-card-game.html": {
-    "fingerprint": "55fce2ae6fab98d19131e95e73308cf151af86fc4f522b03df0d8110801c9c1d",
-    "name": "Display Successeurs OP-13 Boite de Booster (Français) - One Piece Card Game",
+  "https://oupi.eu/fr/collection-pack-speciaux-one-piece/8374-mini-case-monkeydluffy-v1-ts-03-francais-one-piece-card-game.html": {
+    "fingerprint": "4b380de2a5ca4ae5c35234653011085acaabad7294b714bd092303929a706336",
+    "name": "Mini Case Monkey.D.Luffy V.1 TS-03 (Français) - One Piece Card Game",
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
   },
-  "https://oupi.eu/fr/display-one-piece/7369-display-op-17-boite-de-booster-anglais-one-piece-card-game.html": {
-    "fingerprint": "d7230bc86f742e1323fb09f0b8e25b56fe6d79dee12fe78b153cba7281b4d96b",
-    "name": "Display The World's Strongest Warriors OP-17 Boite de Booster (Anglais) - One Piece Card Game",
+  "https://oupi.eu/fr/display-one-piece/6516-display-successeurs-op-13-boite-de-booster-francais-one-piece-card-game.html": {
+    "fingerprint": "55fce2ae6fab98d19131e95e73308cf151af86fc4f522b03df0d8110801c9c1d",
+    "name": "Display Successeurs OP-13 Boite de Booster (Français) - One Piece Card Game",
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
   },
@@ -72,16 +72,22 @@
     "type": "DATE DE DISPONIBILITÉ MISE À JOUR"
   },
   "https://oupi.eu/fr/display-one-piece/7901-display-heroine-edition-vol2-eb-05-boite-de-booster-francais-one-piece-card-game.html": {
-    "fingerprint": "f9db9a0a49e0f660a2c777a0a7eda7779b1e51804c8f95a856ddb91662c94753",
+    "fingerprint": "503bff4b09126ef75ff839f9b37bc10b11ab15bfe4473871c803ab56e3c83458",
     "name": "Display Heroine Edition Vol.2 EB-05 Boite de Booster (Français) - One Piece Card Game",
-    "status": "SOLD OUT",
-    "type": "DATE DE DISPONIBILITÉ MISE À JOUR"
+    "status": "PREORDER",
+    "type": "NOUVELLE PRÉCOMMANDE"
   },
   "https://oupi.eu/fr/display-one-piece/7903-display-heroine-edition-vol2-eb-05-boite-de-booster-anglais-one-piece-card-game.html": {
     "fingerprint": "3463d6f488d15b8937a72bd6c5b60ed86f19e948767b918aca5bc8473d02c679",
     "name": "Display Heroine Edition Vol.2 EB-05 Boite de Booster (Anglais) - One Piece Card Game",
     "status": "SOLD OUT",
     "type": "DATE DE DISPONIBILITÉ MISE À JOUR"
+  },
+  "https://oupi.eu/fr/one-piece/8391-double-pack-set-vol13-dp-13-francais-one-piece-card-game.html": {
+    "fingerprint": "1bc1212388c18638832338eb1cb5bfc7fcb24a520c2c0d6fe7fff4294de38450",
+    "name": "Double Pack Set Vol.13 DP-13 (Français) - One Piece Card Game",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
   },
   "https://oupi.eu/fr/starter-deck-one-piece/7330-lot-de-decks-apprenez-ensemble-avec-carte-promo-francais-one-piece-card-game.html": {
     "fingerprint": "66947f72a677d5801f4a243c02c96de0b9a76309bf7bd5e6c15eadfacf2f6807",
