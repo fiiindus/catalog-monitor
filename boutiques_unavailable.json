@@ -1,1 +1,5 @@
-{}
+{
+  "Oupi": {
+    "error": "Oupi ne fournit pas son catalogue rendu au tracker"
+  }
+}
