@@ -7764,9 +7764,7 @@
             "notify_when_referenced": false,
             "category": "OTHER",
             "priority_target": "",
-            "priority": -1,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Playin"
+            "priority": -1
         },
         "https://www.play-in.com/fr/produit/685642/double-pack-set-one-piece-tcg-13-la-domination-de-dieu-op-18-fr": {
             "site": "Playin",
