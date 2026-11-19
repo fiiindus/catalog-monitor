@@ -22,9 +22,7 @@
             "image": "https://static.ultrajeux.com/images/produits/normal/33539.jpg?v=4",
             "category": "OTHER",
             "language": "OTHER",
-            "priority_target": "",
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "UltraJeux"
+            "priority_target": ""
         },
         "https://www.ultrajeux.com/produit-33538-ts03-tin-pack-shanks-v2-4582770066807.html": {
             "site": "UltraJeux",
@@ -36,9 +34,7 @@
             "image": "https://static.ultrajeux.com/images/produits/normal/33538.jpg?v=3",
             "category": "OTHER",
             "language": "OTHER",
-            "priority_target": "",
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "UltraJeux"
+            "priority_target": ""
         },
         "https://www.ultrajeux.com/produit-33533-eb05-one-piece-heroines-edition-vol2-4582770059151.html": {
             "site": "UltraJeux",
@@ -710,9 +706,7 @@
             "image": "https://static.ultrajeux.com/images/produits/normal/33535-cartes-a-collectionner-one-piece-card-game-ts03-tin-pack-monkey-d-luffy-v1.jpg?v=3",
             "category": "OTHER",
             "language": "OTHER",
-            "priority_target": "",
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "UltraJeux"
+            "priority_target": ""
         },
         "https://www.ultrajeux.com/produit-33536-mini-tin-one-piece-card-game-ts03-tin-pack-monkey-d-luffy-v2-4582770066807.html": {
             "site": "UltraJeux",
@@ -724,9 +718,7 @@
             "image": "https://static.ultrajeux.com/images/produits/normal/33536-cartes-a-collectionner-one-piece-card-game-ts03-tin-pack-monkey-d-luffy-v2.jpg?v=3",
             "category": "OTHER",
             "language": "OTHER",
-            "priority_target": "",
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "UltraJeux"
+            "priority_target": ""
         },
         "https://www.ultrajeux.com/produit-33537-mini-tin-one-piece-card-game-ts03-tin-pack-shanks-v1-4582770066807.html": {
             "site": "UltraJeux",
@@ -738,9 +730,7 @@
             "image": "https://static.ultrajeux.com/images/produits/normal/33537-cartes-a-collectionner-one-piece-card-game-ts03-tin-pack-shanks-v1.jpg?v=3",
             "category": "OTHER",
             "language": "OTHER",
-            "priority_target": "",
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "UltraJeux"
+            "priority_target": ""
         }
     },
     "Premium Bandai US": {
