@@ -1270,5 +1270,35 @@
     "name": "EB05 - One Piece Héroïnes Édition Vol.2",
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.ultrajeux.com/produit-33535-mini-tin-one-piece-card-game-ts03-tin-pack-monkey-d-luffy-v1-4582770066807.html": {
+    "fingerprint": "c7d49394d81173e2a59efa040a154e4e45767fc8b52f0492a7d71664901b8a69",
+    "name": "One Piece Card Game - Mini-Tin - TS03 Tin Pack : Monkey D. Luffy V1",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://www.ultrajeux.com/produit-33536-mini-tin-one-piece-card-game-ts03-tin-pack-monkey-d-luffy-v2-4582770066807.html": {
+    "fingerprint": "bf9e1192dc16170e7065b485fc7d63a1acba913a8b1407e30974af01b07715f3",
+    "name": "One Piece Card Game - Mini-Tin - TS03 Tin Pack : Monkey D. Luffy V2",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://www.ultrajeux.com/produit-33537-mini-tin-one-piece-card-game-ts03-tin-pack-shanks-v1-4582770066807.html": {
+    "fingerprint": "026d6fde63261bf839ceb305023d778d15ea14e1c8d53e125266b6e672612f56",
+    "name": "One Piece Card Game - Mini-Tin - TS03 Tin Pack : Shanks V1",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://www.ultrajeux.com/produit-33538-ts03-tin-pack-shanks-v2-4582770066807.html": {
+    "fingerprint": "7bb44bef2f4f4265289539d80e5f27a31a4463f92317cd2ab6ee23602df0220f",
+    "name": "TS03 Tin Pack : Shanks V2",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
+  "https://www.ultrajeux.com/produit-33539-ts03-tin-pack-boa-hancock-v2-4582770066807.html": {
+    "fingerprint": "c44fd0d6d3c5470d3e69039c1d2257216207f900cbfd7eeb0a2d0474d70a8e98",
+    "name": "TS03 Tin Pack : Boa Hancock V2",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
   }
 }
