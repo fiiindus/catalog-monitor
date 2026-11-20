@@ -1325,6 +1325,12 @@
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
   },
+  "https://www.ultrajeux.com/produit-32956-display-op17-the-world-s-strongest-warriors-0810199501970.html": {
+    "fingerprint": "4ac1263bf1d3fdbee00eea8ad2d8a88859a28253af7f409ec6c25dbdf7ad6923",
+    "name": "Display OP17 - The World's Strongest Warriors",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
   "https://www.ultrajeux.com/produit-32958-display-op17-les-guerriers-les-plus-puissants-au-monde-4582770058710.html": {
     "fingerprint": "e2b0362bb32ceee8c2abc3781673cc34a6c0673200067c92342abc4ade55f71c",
     "name": "Display OP17 - Les Guerriers les Plus Puissants au Monde",
@@ -1394,12 +1400,6 @@
   "https://www.ultrajeux.com/produit-33538-ts03-tin-pack-shanks-v2-4582770066807.html": {
     "fingerprint": "7bb44bef2f4f4265289539d80e5f27a31a4463f92317cd2ab6ee23602df0220f",
     "name": "TS03 Tin Pack : Shanks V2",
-    "status": "AVAILABLE",
-    "type": "RETOUR EN STOCK"
-  },
-  "https://www.ultrajeux.com/produit-33539-ts03-tin-pack-boa-hancock-v2-4582770066807.html": {
-    "fingerprint": "c44fd0d6d3c5470d3e69039c1d2257216207f900cbfd7eeb0a2d0474d70a8e98",
-    "name": "TS03 Tin Pack : Boa Hancock V2",
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
   },

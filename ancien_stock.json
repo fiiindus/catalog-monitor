@@ -52,7 +52,7 @@
             "site": "UltraJeux",
             "name": "TS03 Tin Pack : Boa Hancock V2",
             "price": "39,90 €",
-            "status": "AVAILABLE",
+            "status": "SOLD OUT",
             "priority": -1,
             "link": "https://www.ultrajeux.com/produit-33539-ts03-tin-pack-boa-hancock-v2-4582770066807.html",
             "image": "https://static.ultrajeux.com/images/produits/normal/33539.jpg?v=4",
@@ -159,14 +159,16 @@
         "https://www.ultrajeux.com/produit-32956-display-op17-the-world-s-strongest-warriors-0810199501970.html": {
             "site": "UltraJeux",
             "name": "Display OP17 - The World's Strongest Warriors",
-            "price": "Non trouvé",
-            "status": "SOLD OUT",
+            "price": "333,90 €",
+            "status": "AVAILABLE",
             "priority": 4,
             "link": "https://www.ultrajeux.com/produit-32956-display-op17-the-world-s-strongest-warriors-0810199501970.html",
             "image": "https://static.ultrajeux.com/images/produits/normal/32956.jpg?v=2",
             "category": "DISPLAY",
             "language": "OTHER",
-            "priority_target": ""
+            "priority_target": "",
+            "type_alerte": "RETOUR EN STOCK",
+            "boutique": "UltraJeux"
         },
         "https://www.ultrajeux.com/produit-32968-premium-card-collection-best-selection-vol06-0810199502229.html": {
             "site": "UltraJeux",
