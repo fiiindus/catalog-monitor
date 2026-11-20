@@ -1,5 +1,19 @@
 {
     "UltraJeux": {
+        "https://www.ultrajeux.com/produit-33649-display-op18-la-domination-de-dieu-4582770067408.html": {
+            "site": "UltraJeux",
+            "name": "Display OP18 - La Domination de Dieu",
+            "price": "219,90 €",
+            "status": "AVAILABLE",
+            "priority": 4,
+            "link": "https://www.ultrajeux.com/produit-33649-display-op18-la-domination-de-dieu-4582770067408.html",
+            "image": "https://static.ultrajeux.com/images/produits/normal/33649.jpg?v=2",
+            "category": "DISPLAY",
+            "language": "OTHER",
+            "priority_target": "",
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "UltraJeux"
+        },
         "https://www.ultrajeux.com/produit-33540-ts03-tin-pack-boa-hancock-v1-4582770066807.html": {
             "site": "UltraJeux",
             "name": "TS03 Tin Pack : Boa Hancock V1",
