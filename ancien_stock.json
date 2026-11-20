@@ -2300,15 +2300,17 @@
             "site": "Premium Bandai US",
             "name": "ONE PIECE CARD GAME ONE PIECE Heroines Precious Set",
             "price": "US$70.00",
-            "status": "SOLD OUT",
-            "orderable": false,
+            "status": "PREORDER",
+            "orderable": true,
             "notify_when_referenced": true,
             "link": "https://p-bandai.com/us/item/N2897694002",
             "image": "https://p-bandai.com/files/seller-products/NSP0461237001/I2EwWy7wSbXiGkd0Xn9C.jpg?w=300&h=300",
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": "",
-            "priority": -1
+            "priority": -1,
+            "type_alerte": "NOUVELLE PRÉCOMMANDE",
+            "boutique": "Premium Bandai US"
         }
     },
     "Parkage": {
