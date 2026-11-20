@@ -2300,8 +2300,8 @@
             "site": "Premium Bandai US",
             "name": "ONE PIECE CARD GAME ONE PIECE Heroines Precious Set",
             "price": "US$70.00",
-            "status": "PREORDER",
-            "orderable": true,
+            "status": "SOLD OUT",
+            "orderable": false,
             "notify_when_referenced": true,
             "link": "https://p-bandai.com/us/item/N2897694002",
             "image": "https://p-bandai.com/files/seller-products/NSP0461237001/I2EwWy7wSbXiGkd0Xn9C.jpg?w=300&h=300",
@@ -2871,19 +2871,6 @@
             "priority_target": "",
             "priority": 1
         },
-        "https://www.parkage.com/fr/1151172": {
-            "site": "Parkage — Cartes à l’unité",
-            "name": "OP18-041 Miss Allsunday",
-            "price": "60,00 €",
-            "status": "AVAILABLE",
-            "link": "https://www.parkage.com/fr/1151172",
-            "image": "https://embedded.parkage.com/files/img/products/autres_tcg/one_piece/cu/op18/fr/041a.jpg",
-            "language": "VF",
-            "card_details": "Leader alternatif · OP18 · Near mint",
-            "category": "OTHER",
-            "priority_target": "",
-            "priority": 1
-        },
         "https://www.parkage.com/fr/1151171": {
             "site": "Parkage — Cartes à l’unité",
             "name": "OP18-022 Monkey D. Luffy",
@@ -3416,19 +3403,6 @@
             "category": "OTHER",
             "priority_target": "",
             "priority": 3
-        },
-        "https://www.parkage.com/fr/1151150": {
-            "site": "Parkage — Cartes à l’unité",
-            "name": "OP18-119 Saint Shamrock",
-            "price": "27,50 €",
-            "status": "AVAILABLE",
-            "link": "https://www.parkage.com/fr/1151150",
-            "image": "https://embedded.parkage.com/files/img/products/autres_tcg/one_piece/cu/op18/fr/119.jpg",
-            "language": "VF",
-            "card_details": "Secret Rare · OP18 · Near mint",
-            "category": "OTHER",
-            "priority_target": "",
-            "priority": 1
         },
         "https://www.parkage.com/fr/1151149": {
             "site": "Parkage — Cartes à l’unité",
