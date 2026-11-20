@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Bandai — panier assisté",
+  "version": "0.1.0",
+  "description": "Surveille une fiche choisie, retente après rupture explicite et laisse le paiement manuel.",
+  "permissions": ["storage", "activeTab", "notifications"],
+  "host_permissions": ["https://p-bandai.com/us/*"],
+  "background": {"service_worker": "background.js"},
+  "action": {"default_popup": "popup.html", "default_title": "Panier Bandai"},
+  "content_scripts": [{"matches": ["https://p-bandai.com/us/*"], "js": ["core.js", "content.js"], "run_at": "document_idle"}]
+}
