@@ -1,11 +1,5 @@
 {
   "Oupi": {
     "error": "Oupi ne fournit pas son catalogue rendu au tracker"
-  },
-  "Playin": {
-    "error": "Playin ne fournit pas son catalogue rendu au tracker"
-  },
-  "UltraJeux": {
-    "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.ultrajeux.com/cat.php?cat=0&jeu=1031&page=1\", waiting until \"networkidle\"\n"
   }
 }
