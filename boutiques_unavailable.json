@@ -3,6 +3,6 @@
     "error": "Oupi ne fournit pas son catalogue rendu au tracker"
   },
   "Playin": {
-    "error": "Playin ne fournit pas son catalogue rendu au tracker"
+    "error": "Playin a renvoyé un catalogue vide ou non chargé"
   }
 }
