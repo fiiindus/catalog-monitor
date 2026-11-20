@@ -3378,19 +3378,6 @@
             "priority_target": "",
             "priority": 3
         },
-        "https://www.parkage.com/fr/1151149": {
-            "site": "Parkage — Cartes à l’unité",
-            "name": "OP18-118 Monkey D. Luffy",
-            "price": "14,00 €",
-            "status": "AVAILABLE",
-            "link": "https://www.parkage.com/fr/1151149",
-            "image": "https://embedded.parkage.com/files/img/products/autres_tcg/one_piece/cu/op18/fr/118.jpg",
-            "language": "VF",
-            "card_details": "Secret Rare · OP18 · Near mint",
-            "category": "OTHER",
-            "priority_target": "",
-            "priority": 1
-        },
         "https://www.parkage.com/fr/1151144": {
             "site": "Parkage — Cartes à l’unité",
             "name": "OP18-113 Rob Lucci",
