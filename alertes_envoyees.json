@@ -989,12 +989,6 @@
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
-  "https://www.parkage.com/fr/1136140-coffret-one-piece-card-game-gc-2026-gift-collection-one-piece-heroines": {
-    "fingerprint": "2023093c478b53b8d160d44e8298fd77441e9c66d2db484a6aaf705644590fd8",
-    "name": "Coffret One Piece Card Game - GC-2026 : Gift Collection - ONE PIECE Heroines",
-    "status": "AVAILABLE",
-    "type": "NOUVEAU PRODUIT DISPONIBLE"
-  },
   "https://www.parkage.com/fr/1142511": {
     "fingerprint": "47a9cbd7c172401197895f819d13f48d910e80242479cd1e760937d5c5d941bf",
     "name": "OP17-039 Rocks D. Xebec",
@@ -1303,6 +1297,12 @@
   },
   "https://www.ultrajeux.com/produit-33649-display-op18-la-domination-de-dieu-4582770067408.html": {
     "fingerprint": "7764c6f6c7556004bbfdaf34a57ae482dfabaab39b8b8888af683c3593c8e3b8",
+    "name": "Display OP18 - La Domination de Dieu",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.ultrajeux.com/produit-33649-display-op18-la-domination-de-dieu-4582770067415.html": {
+    "fingerprint": "afbbe74fa1d04e539fad359245d92ef6813f230e95b451f9ab2fa0851b2ed457",
     "name": "Display OP18 - La Domination de Dieu",
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
