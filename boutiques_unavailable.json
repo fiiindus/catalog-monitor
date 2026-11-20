@@ -1,5 +1,8 @@
 {
   "Oupi": {
     "error": "Oupi ne fournit pas son catalogue rendu au tracker"
+  },
+  "Philibert": {
+    "error": "Aucun produit One Piece Card Game surveillable détecté sur Philibert"
   }
 }
