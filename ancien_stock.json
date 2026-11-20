@@ -2312,19 +2312,6 @@
         }
     },
     "Parkage": {
-        "https://www.parkage.com/fr/1136140-coffret-one-piece-card-game-gc-2026-gift-collection-one-piece-heroines": {
-            "site": "Parkage",
-            "name": "Coffret One Piece Card Game - GC-2026 : Gift Collection - ONE PIECE Heroines",
-            "price": "99,00 €",
-            "status": "SOLD OUT",
-            "link": "https://www.parkage.com/fr/1136140-coffret-one-piece-card-game-gc-2026-gift-collection-one-piece-heroines",
-            "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/pack_speciaux/gc-2026_01.jpg",
-            "language": "VF",
-            "product_types": [],
-            "category": "PROMO",
-            "priority_target": "",
-            "priority": 5
-        },
         "https://www.parkage.com/fr/1132243-double-pack-set-one-piece-card-game-dp-13-vol-13": {
             "site": "Parkage",
             "name": "Double Pack Set One Piece Card Game - DP-13 : Vol.13",
@@ -2865,19 +2852,6 @@
             "status": "AVAILABLE",
             "link": "https://www.parkage.com/fr/1151174",
             "image": "https://embedded.parkage.com/files/img/products/autres_tcg/one_piece/cu/op18/fr/079a.jpg",
-            "language": "VF",
-            "card_details": "Leader alternatif · OP18 · Near mint",
-            "category": "OTHER",
-            "priority_target": "",
-            "priority": 1
-        },
-        "https://www.parkage.com/fr/1151171": {
-            "site": "Parkage — Cartes à l’unité",
-            "name": "OP18-022 Monkey D. Luffy",
-            "price": "55,00 €",
-            "status": "AVAILABLE",
-            "link": "https://www.parkage.com/fr/1151171",
-            "image": "https://embedded.parkage.com/files/img/products/autres_tcg/one_piece/cu/op18/fr/022a.jpg",
             "language": "VF",
             "card_details": "Leader alternatif · OP18 · Near mint",
             "category": "OTHER",
