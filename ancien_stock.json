@@ -8072,9 +8072,7 @@
             "notify_when_referenced": false,
             "category": "DISPLAY",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "RETOUR EN STOCK",
-            "boutique": "Playin"
+            "priority": 4
         },
         "https://www.play-in.com/fr/produit/662632/deck-pour-debutant-one-piece-tcg-violet-charlotte-katakuri-st-34-fr": {
             "site": "Playin",
