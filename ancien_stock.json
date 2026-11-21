@@ -3092,6 +3092,21 @@
             "priority_target": "",
             "priority": 1
         },
+        "https://www.parkage.com/fr/1151295": {
+            "site": "Parkage — Cartes à l’unité",
+            "name": "OP13-001 Monkey D. Luffy",
+            "price": "35,00 €",
+            "status": "AVAILABLE",
+            "link": "https://www.parkage.com/fr/1151295",
+            "image": "https://embedded.parkage.com/files/img/products/autres_tcg/one_piece/cu/op13/fr/001_grevin.png",
+            "language": "VF",
+            "card_details": "Leader alternatif · OP13 · Near mint",
+            "category": "OTHER",
+            "priority_target": "",
+            "priority": 1,
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "Parkage — Cartes à l’unité"
+        },
         "https://www.parkage.com/fr/1144198": {
             "site": "Parkage — Cartes à l’unité",
             "name": "OP13-002 Portgas.D.Ace",
