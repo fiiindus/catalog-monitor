@@ -6,6 +6,6 @@
     "error": "Aucun produit One Piece Card Game surveillable détecté sur Philibert"
   },
   "Playin": {
-    "error": "Playin ne fournit pas son catalogue rendu au tracker"
+    "error": "Playin a renvoyé un catalogue vide ou non chargé"
   }
 }

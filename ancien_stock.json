@@ -1,5 +1,19 @@
 {
     "UltraJeux": {
+        "https://www.ultrajeux.com/produit-33665-display-eb05-one-piece-heroines-edition-vol2-.html": {
+            "site": "UltraJeux",
+            "name": "Display EB05 - One Piece Heroines Edition Vol.2",
+            "price": "199,90 €",
+            "status": "AVAILABLE",
+            "priority": 4,
+            "link": "https://www.ultrajeux.com/produit-33665-display-eb05-one-piece-heroines-edition-vol2-.html",
+            "image": "https://static.ultrajeux.com/images/produits/normal/33665.jpg?v=2",
+            "category": "DISPLAY",
+            "language": "OTHER",
+            "priority_target": "",
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "UltraJeux"
+        },
         "https://www.ultrajeux.com/produit-33651-double-pack-op18-la-domination-de-dieu-4582770067460.html": {
             "site": "UltraJeux",
             "name": "Double Pack - OP18 - La Domination de Dieu",
