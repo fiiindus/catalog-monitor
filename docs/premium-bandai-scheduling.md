@@ -51,10 +51,28 @@ Réutiliser les réglages du cron existant sans publier son jeton. Si GitHub ret
 `catalog-monitor`. Ne pas placer le jeton dans le code ni dans les journaux.
 Activer le contrôle de fraîcheur seulement après un premier scan du correctif.
 
-Les deux workflows partagent le verrou du tracker et rechargent les états les plus
-récents après l'attente. Un scan général long peut donc encore retarder un scan
-dédié ou le contrôle technique. Si ces retards persistent, exécuter directement le
-scanner sur un service permanent plutôt que promettre une cadence stricte sur Actions.
+## Concurrence et annulations (correctif du 23 novembre 2026)
+
+Les scans dédiés et généraux conservent le verrou `stock-tracker-${{ github.ref }}`
+et rechargent les états récents après l'attente. Ils écrivent les mêmes historiques :
+les exécuter en parallèle risquerait de perdre des changements ou de doubler les alertes.
+Le réglage `queue: max`, avec `cancel-in-progress: false`, conserve jusqu'à 100
+exécutions en attente au lieu de remplacer la seule demande en attente à chaque
+nouveau déclenchement. La file pleine peut encore provoquer des annulations.
+
+Le contrôle de fraîcheur dispose désormais du groupe indépendant
+`premium-bandai-freshness-${{ github.ref }}`, également avec `queue: max`.
+Il peut vérifier le dernier scan même si un scanner est long ou bloqué. Il lit
+`premium_bandai_health.json` sans l'écrire et sauvegarde uniquement son accusé
+d'incident dans `premium_bandai_freshness_incident.json`. Le scanner reste seul
+propriétaire des horodatages et des incidents de sources. À la première exécution,
+le contrôle reprend l'ancien accusé `stale_notified`, sans renvoyer une alerte déjà remise.
+
+Un scan général long peut encore retarder un scan dédié. Cette file ne garantit
+pas une priorité stricte de Bandai ni un départ exact chaque minute : vérifier les
+intervalles réels et l'absence d'accumulation en particulier sur 16 h–19 h. Si la
+charge dépasse durablement la capacité, exécuter directement le scanner sur un
+service permanent plutôt qu'allonger davantage la file sur Actions.
 
 ## Validation sur 24 heures
 
