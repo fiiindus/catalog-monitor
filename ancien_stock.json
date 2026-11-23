@@ -2332,9 +2332,7 @@
             "category": "OTHER",
             "language": "OTHER",
             "priority_target": "",
-            "priority": -1,
-            "type_alerte": "NOUVELLE PRÉCOMMANDE",
-            "boutique": "Premium Bandai US"
+            "priority": -1
         }
     },
     "Parkage": {
