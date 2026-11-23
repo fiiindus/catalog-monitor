@@ -5,22 +5,25 @@ cron-job.org distinctes. Les programmes GitHub restent des secours : leur cadenc
 réelle n'est pas garantie. Un succès HTTP 204 du service de planification confirme
 uniquement l'acceptation de la demande, pas l'achèvement du scan.
 
-## Tâche de scan, toutes les cinq minutes
+## Tâche de scan, toutes les trois minutes
 
 - URL : `https://api.github.com/repos/fiiindus/catalog-monitor/actions/workflows/premium-bandai.yml/dispatches`
 - Méthode : `POST`
 - Corps JSON : `{"ref":"main"}`
 - En-têtes : `Accept: application/vnd.github+json`, `Content-Type: application/json`,
   `X-GitHub-Api-Version: 2022-11-28`, et l'authentification existante.
-- Programmation : `*/5 * * * *`.
+- Tâche cron-job.org : `8568221`, titre `Premium Bandai US — toutes les 3 minutes`.
+- Programmation : `*/3 * * * *`.
+- Cadence enregistrée et vérifiée le 23 novembre 2026. Le secours GitHub conserve
+  sa programmation toutes les cinq minutes.
 
 ## Renfort quotidien de 16 h à 19 h, heure de Papeete
 
 La plage critique est 16:00 inclus à 19:00 exclus dans `Pacific/Tahiti` (UTC−10).
-La tâche de base conserve ses passages toutes les cinq minutes. Une tâche de
-renfort ajoute les quatre minutes intermédiaires, sans doublonner ces passages.
+La tâche de base conserve ses passages toutes les trois minutes. Une tâche de
+renfort ajoute les deux minutes intermédiaires, sans doublonner ces passages.
 Les deux tâches réunies demandent donc un scan chaque minute de 16:00 à 18:59,
-puis reviennent à cinq minutes à 19:00.
+puis reviennent à trois minutes à 19:00.
 
 - Tâche de renfort cron-job.org : `8568470`, titre
   `Premium Bandai US — renfort 16h–19h Papeete`.
@@ -28,8 +31,8 @@ puis reviennent à cinq minutes à 19:00.
 - Fuseau conservé : `Atlantic/Reykjavik` (UTC). La plage correspond à
   02:00–05:00 UTC le lendemain, chaque jour.
 - Programmation :
-  `1-4,6-9,11-14,16-19,21-24,26-29,31-34,36-39,41-44,46-49,51-54,56-59 2-4 * * *`.
-- État vérifié le 4 octobre 2026 : actif. Avec la tâche de base, les demandes de
+  `1-2,4-5,7-8,10-11,13-14,16-17,19-20,22-23,25-26,28-29,31-32,34-35,37-38,40-41,43-44,46-47,49-50,52-53,55-56,58-59 2-4 * * *`.
+- État enregistré et vérifié le 23 novembre 2026 : actif. Avec la tâche de base, les demandes de
   déclenchement couvrent chaque minute de 16:00 à 18:59, heure de Papeete.
 
 Cette cadence concerne les demandes de déclenchement. Après initialisation de la
