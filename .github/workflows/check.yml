@@ -9,6 +9,7 @@ permissions:
 concurrency:
   group: stock-tracker-${{ github.ref }}
   cancel-in-progress: false
+  queue: max
 
 jobs:
   surveillance:

@@ -1,11 +1,13 @@
 """Independent freshness check, callable by the external scheduler."""
 import argparse
+import os
 from datetime import datetime, timezone
 
 from deduplication import charger_etat, sauvegarder_etat
 from notifier import send_technical_alert
 
 STATE_FILE = "premium_bandai_health.json"
+INCIDENT_FILE = "premium_bandai_freshness_incident.json"
 MAX_AGE_SECONDS = 15 * 60
 
 
@@ -60,16 +62,33 @@ def enregistrer_scan(etat, erreurs, now, notifier=send_technical_alert):
     return etat
 
 
+def controler_fraicheur(dry_run=False):
+    """Read scan-owned timestamps; write only the checker's incident state.
+
+    Separate ownership lets this watchdog run while a scanner holds the stock
+    lock, without overwriting a newer completion timestamp during git rebase.
+    """
+    scan = charger_etat(STATE_FILE)
+    if os.path.exists(INCIDENT_FILE):
+        incident = charger_etat(INCIDENT_FILE)
+    else:
+        # Preserve an already acknowledged incident during the first migration.
+        incident = {"stale_notified": bool(scan.get("stale_notified"))}
+    ancien = {**scan, "stale_notified": bool(incident.get("stale_notified"))}
+    nouveau, retard = verifier(
+        ancien, maintenant(), notifier=print if dry_run else send_technical_alert
+    )
+    print("Premium Bandai : " + ("scan complet en retard" if retard else "scan complet récent"))
+    if not dry_run:
+        sauvegarder_etat({"stale_notified": nouveau["stale_notified"]}, INCIDENT_FILE)
+    return retard
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
-    ancien = charger_etat(STATE_FILE)
-    nouveau, retard = verifier(ancien, maintenant(),
-                               notifier=print if args.dry_run else send_technical_alert)
-    print("Premium Bandai : " + ("scan complet en retard" if retard else "scan complet récent"))
-    if not args.dry_run:
-        sauvegarder_etat(nouveau, STATE_FILE)
+    controler_fraicheur(args.dry_run)
 
 
 if __name__ == "__main__":
