@@ -7971,9 +7971,7 @@
             "notify_when_referenced": false,
             "category": "OTHER",
             "priority_target": "",
-            "priority": -1,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Playin"
+            "priority": -1
         },
         "https://www.play-in.com/fr/produit/685638/display-de-24-boosters-one-piece-tcg-la-domination-de-dieu-op-18-fr": {
             "site": "Playin",
@@ -7989,9 +7987,7 @@
             "notify_when_referenced": false,
             "category": "DISPLAY",
             "priority_target": "",
-            "priority": 4,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Playin"
+            "priority": 4
         },
         "https://www.play-in.com/fr/produit/685642/double-pack-set-one-piece-tcg-13-la-domination-de-dieu-op-18-fr": {
             "site": "Playin",
