@@ -899,6 +899,12 @@
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
+  "https://www.parkage.com/fr/1120886": {
+    "fingerprint": "e6b83ac4984e145170a08355bb7080e42ba292616b13303e7e9d4c0592235d0c",
+    "name": "OP14-001 Trafalgar Law",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
   "https://www.parkage.com/fr/1120887": {
     "fingerprint": "6b7df6efbd749cef3d111a1d72cbb7d7d97e45c1c2ef1179105907ed286536ff",
     "name": "OP14-020 Dracule Mihawk",
@@ -986,6 +992,12 @@
   "https://www.parkage.com/fr/1134772": {
     "fingerprint": "0e0123dc901f4029b6872401949fc0bef3031e4153bd1759760898e13cebcbe4",
     "name": "OP16-060 Sengoku",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.parkage.com/fr/1134774": {
+    "fingerprint": "ea7eab7b781f7ff86a7359cee6744df33afa4abbaf9050b8be2c2e58710a46c1",
+    "name": "OP16-080 Marshall D. Teach",
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   },
