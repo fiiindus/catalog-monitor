@@ -1,5 +1,33 @@
 {
     "UltraJeux": {
+        "https://www.ultrajeux.com/produit-33698-premium-card-collection-live-action-edition-vol2-straw-hat-crew-0810199502205.html": {
+            "site": "UltraJeux",
+            "name": "Premium Card Collection - Live Action Edition Vol.2 Straw Hat Crew",
+            "price": "34,90 €",
+            "status": "AVAILABLE",
+            "priority": 3,
+            "link": "https://www.ultrajeux.com/produit-33698-premium-card-collection-live-action-edition-vol2-straw-hat-crew-0810199502205.html",
+            "image": "https://static.ultrajeux.com/images/produits/normal/33698.jpg?v=2",
+            "category": "PROMO",
+            "language": "OTHER",
+            "priority_target": "",
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "UltraJeux"
+        },
+        "https://www.ultrajeux.com/produit-33697-premium-card-collection-live-action-edition-vol2-baroque-works-0810199504742.html": {
+            "site": "UltraJeux",
+            "name": "Premium Card Collection - Live Action Edition Vol.2 Baroque Works",
+            "price": "34,90 €",
+            "status": "AVAILABLE",
+            "priority": 3,
+            "link": "https://www.ultrajeux.com/produit-33697-premium-card-collection-live-action-edition-vol2-baroque-works-0810199504742.html",
+            "image": "https://static.ultrajeux.com/images/produits/normal/33697.jpg?v=2",
+            "category": "PROMO",
+            "language": "OTHER",
+            "priority_target": "",
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "UltraJeux"
+        },
         "https://www.ultrajeux.com/produit-33667-eb05-one-piece-heroines-edition-vol2-0810199502779.html": {
             "site": "UltraJeux",
             "name": "EB05 - One Piece Heroines Edition Vol.2",
