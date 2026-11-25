@@ -4,5 +4,8 @@
   },
   "Philibert": {
     "error": "Aucun produit One Piece Card Game surveillable détecté sur Philibert"
+  },
+  "Premium Bandai US": {
+    "error": "Page.wait_for_function: Timeout 30000ms exceeded."
   }
 }
