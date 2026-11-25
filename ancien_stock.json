@@ -3179,19 +3179,6 @@
             "priority_target": "",
             "priority": 3
         },
-        "https://www.parkage.com/fr/1112955": {
-            "site": "Parkage — Cartes à l’unité",
-            "name": "OP13-001 Monkey.D.Luffy",
-            "price": "30,00 €",
-            "status": "AVAILABLE",
-            "link": "https://www.parkage.com/fr/1112955",
-            "image": "https://embedded.parkage.com/files/img/products/autres_tcg/one_piece/cu/op13/en/001a.jpg",
-            "language": "EN",
-            "card_details": "Leader alternatif · OP13 · Near mint",
-            "category": "OTHER",
-            "priority_target": "",
-            "priority": 3
-        },
         "https://www.parkage.com/fr/1112780": {
             "site": "Parkage — Cartes à l’unité",
             "name": "OP13-079 Imu",
@@ -3347,19 +3334,6 @@
             "category": "OTHER",
             "priority_target": "",
             "priority": 1
-        },
-        "https://www.parkage.com/fr/1095546": {
-            "site": "Parkage — Cartes à l’unité",
-            "name": "OP11-040 Monkey.D.Luffy",
-            "price": "35,00 €",
-            "status": "AVAILABLE",
-            "link": "https://www.parkage.com/fr/1095546",
-            "image": "https://embedded.parkage.com/files/img/products/autres_tcg/one_piece/cu/op11/en/040a.jpg",
-            "language": "EN",
-            "card_details": "Leader alternatif · OP11 · Near mint",
-            "category": "OTHER",
-            "priority_target": "",
-            "priority": 3
         },
         "https://www.parkage.com/fr/1124644": {
             "site": "Parkage — Cartes à l’unité",
