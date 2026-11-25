@@ -2,10 +2,11 @@ import json
 from datetime import date
 from pathlib import Path
 import unittest
-from unittest.mock import MagicMock, patch
+from unittest.mock import MagicMock, mock_open, patch
 
 from bs4 import BeautifulSoup
 
+from comparateur import comparer
 from integrite import valider_scan
 from notifier import construire_embed
 from scanners import parkage, ultrajeux
@@ -15,6 +16,42 @@ FIXTURES = Path(__file__).parent / "fixtures"
 
 
 class UltraJeuxReleaseTests(unittest.TestCase):
+    def test_gift_collection_reaches_new_available_alert(self):
+        html = (FIXTURES / "ultrajeux_gift_heroines.html").read_text()
+        playwright = MagicMock()
+        page = playwright.chromium.launch.return_value.new_page.return_value
+        page.content.return_value = html
+        with (
+            patch.object(ultrajeux, "sync_playwright") as factory,
+            patch.object(ultrajeux, "add_missing_tins"),
+        ):
+            factory.return_value.__enter__.return_value = playwright
+            products = ultrajeux.scan()
+        self.assertEqual(1, len(products))
+        product = next(iter(products.values()))
+        self.assertEqual("Gift Collection - One Piece Heroines", product["name"])
+        self.assertEqual("AVAILABLE", product["status"])
+        self.assertEqual("74,90 €", product["price"])
+        # An existing shop must alert for a previously unseen available product.
+        with (
+            patch("comparateur.charger_config", return_value={}),
+            patch("builtins.open", mock_open(read_data='{"UltraJeux": {}}')),
+        ):
+            alerts = comparer({"UltraJeux": products})
+        self.assertEqual(1, len(alerts))
+        self.assertEqual("NOUVEAU PRODUIT DISPONIBLE", alerts[0]["type_alerte"])
+        self.assertEqual(product["link"], alerts[0]["link"])
+
+    def test_gift_collection_keeps_language_and_product_exclusions(self):
+        for name in (
+            "Gift Collection - One Piece Heroines Japanese",
+            "Gift Collection - One Piece Heroines JP",
+            "Gift Collection - One Piece Heroines sleeves",
+            "Mug Gift Collection - One Piece Heroines",
+        ):
+            with self.subTest(name=name):
+                self.assertFalse(ultrajeux.is_tcg_product(name))
+
     def test_orderable_release_is_preorder_then_available_on_release_day(self):
         for today, expected in (
             (date(2026, 10, 29), "PREORDER"),

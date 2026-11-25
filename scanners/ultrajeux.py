@@ -104,6 +104,7 @@ def is_tcg_product(name):
         "PREMIUM CARD COLLECTION",
         "PREMIUM BOOSTER",
         "DEVIL FRUITS COLLECTION",
+        "GIFT COLLECTION",
         "TIN PACK",
         "MINI-TIN",
         "MINI TIN",
