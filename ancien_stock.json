@@ -4,7 +4,7 @@
             "site": "UltraJeux",
             "name": "Gift Collection - One Piece Heroines",
             "price": "83,50 €",
-            "status": "AVAILABLE",
+            "status": "SOLD OUT",
             "priority": 3,
             "link": "https://www.ultrajeux.com/produit-33699-gift-collection-one-piece-heroines-0810199503950.html",
             "image": "https://static.ultrajeux.com/images/produits/normal/33699.jpg?v=2",
@@ -2375,7 +2375,7 @@
         "https://www.parkage.com/fr/1132243-double-pack-set-one-piece-card-game-dp-13-vol-13": {
             "site": "Parkage",
             "name": "Double Pack Set One Piece Card Game - DP-13 : Vol.13",
-            "price": "24,90 €",
+            "price": "22,90 €",
             "status": "STORE_ONLY",
             "link": "https://www.parkage.com/fr/1132243-double-pack-set-one-piece-card-game-dp-13-vol-13",
             "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/op-18/dp_fr_x1.jpg",
@@ -3566,9 +3566,7 @@
             "card_details": "Super Rare · OP16 · Near mint",
             "category": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage — Cartes à l’unité"
+            "priority": 3
         },
         "https://www.parkage.com/fr/1134521": {
             "site": "Parkage — Cartes à l’unité",
