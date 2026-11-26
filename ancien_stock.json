@@ -3436,9 +3436,7 @@
             "card_details": "Secret Rare · EB05 · Near mint",
             "category": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage — Cartes à l’unité"
+            "priority": 3
         },
         "https://www.parkage.com/fr/1147549": {
             "site": "Parkage — Cartes à l’unité",
@@ -3451,9 +3449,7 @@
             "card_details": "Super Rare · EB05 · Near mint",
             "category": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage — Cartes à l’unité"
+            "priority": 3
         },
         "https://www.parkage.com/fr/1147544": {
             "site": "Parkage — Cartes à l’unité",
@@ -3466,9 +3462,7 @@
             "card_details": "Super Rare · EB05 · Near mint",
             "category": "OTHER",
             "priority_target": "",
-            "priority": 3,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage — Cartes à l’unité"
+            "priority": 3
         },
         "https://www.parkage.com/fr/1142483": {
             "site": "Parkage — Cartes à l’unité",
