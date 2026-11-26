@@ -2,12 +2,6 @@
   "Oupi": {
     "error": "Oupi ne fournit pas son catalogue rendu au tracker"
   },
-  "Parkage": {
-    "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.parkage.com/fr/recherche?category_id=9883&product_type_id=9885&product_type_id=9898&product_type_id=9886&product_type_id=10585&page=1\nCall log:\n  - navigating to \"https://www.parkage.com/fr/recherche?category_id=9883&product_type_id=9885&product_type_id=9898&product_type_id=9886&product_type_id=10585&page=1\", waiting until \"domcontentloaded\"\n"
-  },
-  "Parkage — Cartes à l’unité": {
-    "error": "HTTPSConnectionPool(host='back.parkage.com', port=443): Max retries exceeded with url: /api/parkage/search/get?category_id=9883&product_type_id=10419&locale=fr&complete=true&count=true&limit=50&order=relevance&direction=DESC&rarity_id=10415&treatment_id=12863&offset=0 (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'back.parkage.com'. (_ssl.c:1011)\")))"
-  },
   "Philibert": {
     "error": "Aucun produit One Piece Card Game surveillable détecté sur Philibert"
   }
