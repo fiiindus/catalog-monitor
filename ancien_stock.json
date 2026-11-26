@@ -3399,19 +3399,6 @@
             "priority_target": "",
             "priority": 1
         },
-        "https://www.parkage.com/fr/1147589": {
-            "site": "Parkage — Cartes à l’unité",
-            "name": "EB05-061 Nami",
-            "price": "4,50 €",
-            "status": "AVAILABLE",
-            "link": "https://www.parkage.com/fr/1147589",
-            "image": "https://embedded.parkage.com/files/img/products/autres_tcg/one_piece/cu/eb05/en/061.jpg",
-            "language": "EN",
-            "card_details": "Secret Rare · EB05 · Near mint",
-            "category": "OTHER",
-            "priority_target": "",
-            "priority": 3
-        },
         "https://www.parkage.com/fr/1147549": {
             "site": "Parkage — Cartes à l’unité",
             "name": "EB05-021 Alvida",
