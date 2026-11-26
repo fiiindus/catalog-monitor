@@ -1,5 +1,19 @@
 {
     "UltraJeux": {
+        "https://www.ultrajeux.com/produit-33699-gift-collection-one-piece-heroines-0810199503950.html": {
+            "site": "UltraJeux",
+            "name": "Gift Collection - One Piece Heroines",
+            "price": "83,50 €",
+            "status": "AVAILABLE",
+            "priority": 3,
+            "link": "https://www.ultrajeux.com/produit-33699-gift-collection-one-piece-heroines-0810199503950.html",
+            "image": "https://static.ultrajeux.com/images/produits/normal/33699.jpg?v=2",
+            "category": "PROMO",
+            "language": "OTHER",
+            "priority_target": "",
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "UltraJeux"
+        },
         "https://www.ultrajeux.com/produit-33698-premium-card-collection-live-action-edition-vol2-straw-hat-crew-0810199502205.html": {
             "site": "UltraJeux",
             "name": "Premium Card Collection - Live Action Edition Vol.2 Straw Hat Crew",
