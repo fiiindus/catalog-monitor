@@ -2372,6 +2372,36 @@
         }
     },
     "Parkage": {
+        "https://www.parkage.com/fr/1132944-one-piece-card-game-box-premium-card-collection-live-action-edition-vol-2-baroque-works": {
+            "site": "Parkage",
+            "name": "One Piece Card Game Box - Premium Card Collection - Live Action Edition Vol.2 - Baroque Works",
+            "price": "30,00 €",
+            "status": "AVAILABLE",
+            "link": "https://www.parkage.com/fr/1132944-one-piece-card-game-box-premium-card-collection-live-action-edition-vol-2-baroque-works",
+            "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/pack_speciaux/live_action_vol_2_baroque_works.jpg",
+            "language": "VF",
+            "product_types": [],
+            "category": "PROMO",
+            "priority_target": "",
+            "priority": 5,
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "Parkage"
+        },
+        "https://www.parkage.com/fr/1132942-one-piece-card-game-box-premium-card-collection-live-action-edition-vol-2-straw-hat-crew": {
+            "site": "Parkage",
+            "name": "One Piece Card Game Box - Premium Card Collection - Live Action Edition Vol.2 - Straw Hat Crew",
+            "price": "30,00 €",
+            "status": "AVAILABLE",
+            "link": "https://www.parkage.com/fr/1132942-one-piece-card-game-box-premium-card-collection-live-action-edition-vol-2-straw-hat-crew",
+            "image": "https://embedded.parkage.com/files/img/thumbs/300x225/img/products/autres_tcg/one_piece/pack_speciaux/live_action_vol_2_straw_hat.jpg",
+            "language": "VF",
+            "product_types": [],
+            "category": "PROMO",
+            "priority_target": "",
+            "priority": 5,
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "Parkage"
+        },
         "https://www.parkage.com/fr/1132243-double-pack-set-one-piece-card-game-dp-13-vol-13": {
             "site": "Parkage",
             "name": "Double Pack Set One Piece Card Game - DP-13 : Vol.13",
