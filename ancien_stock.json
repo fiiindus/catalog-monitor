@@ -3425,19 +3425,6 @@
             "priority_target": "",
             "priority": 1
         },
-        "https://www.parkage.com/fr/1151040": {
-            "site": "Parkage — Cartes à l’unité",
-            "name": "OP18-011 Nefertari Vivi",
-            "price": "1,90 €",
-            "status": "AVAILABLE",
-            "link": "https://www.parkage.com/fr/1151040",
-            "image": "https://embedded.parkage.com/files/img/products/autres_tcg/one_piece/cu/op18/fr/011.jpg",
-            "language": "VF",
-            "card_details": "Super Rare · OP18 · Near mint",
-            "category": "OTHER",
-            "priority_target": "",
-            "priority": 1
-        },
         "https://www.parkage.com/fr/1142483": {
             "site": "Parkage — Cartes à l’unité",
             "name": "OP17-119 Loki",
