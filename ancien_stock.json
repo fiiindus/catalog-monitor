@@ -7951,22 +7951,6 @@
         }
     },
     "Playin": {
-        "https://www.play-in.com/fr/produit/685639/booster-one-piece-tcg-la-domination-de-dieu-op-18-fr": {
-            "site": "Playin",
-            "name": "Booster One Piece Tcg : La Domination de Dieu [OP-18] - FR",
-            "price": "9,90 €",
-            "status": "STORE_ONLY",
-            "availability": "",
-            "link": "https://www.play-in.com/fr/produit/685639/booster-one-piece-tcg-la-domination-de-dieu-op-18-fr",
-            "image": "https://media.play-in.com/media/medias/6af194e7dd2ce922251149.jpg",
-            "language": "OTHER",
-            "source": "catalogue",
-            "delivery": "STORE_ONLY",
-            "notify_when_referenced": false,
-            "category": "OTHER",
-            "priority_target": "",
-            "priority": -1
-        },
         "https://www.play-in.com/fr/produit/685641/booster-one-piece-tcg-la-domination-de-dieu-op-18-en": {
             "site": "Playin",
             "name": "Booster One Piece Tcg : La Domination de Dieu [OP-18] - EN",
@@ -8047,22 +8031,6 @@
             "priority_target": "",
             "priority": 1
         },
-        "https://www.play-in.com/fr/produit/611687/deck-de-demarrage-one-piece-tcg-bleu-ace-newgate-st-22-fr": {
-            "site": "Playin",
-            "name": "Deck de démarrage One Piece Tcg : Bleu Ace & Newgate [ST-22] - FR",
-            "price": "19,90 €",
-            "status": "AVAILABLE",
-            "availability": "",
-            "link": "https://www.play-in.com/fr/produit/611687/deck-de-demarrage-one-piece-tcg-bleu-ace-newgate-st-22-fr",
-            "image": "https://media.play-in.com/img/product/deck-one-piece-card-game-st-22.jpg",
-            "language": "OTHER",
-            "source": "catalogue",
-            "delivery": "SHIPPING_OR_ANNOUNCED",
-            "notify_when_referenced": false,
-            "category": "STARTER",
-            "priority_target": "",
-            "priority": 1
-        },
         "https://www.play-in.com/fr/produit/662632/deck-pour-debutant-one-piece-tcg-violet-charlotte-katakuri-st-34-fr": {
             "site": "Playin",
             "name": "Deck pour débutant One Piece Tcg : Violet Charlotte Katakuri [ST-34] - FR",
@@ -8071,6 +8039,22 @@
             "availability": "",
             "link": "https://www.play-in.com/fr/produit/662632/deck-pour-debutant-one-piece-tcg-violet-charlotte-katakuri-st-34-fr",
             "image": "https://media.play-in.com/media/medias/6a676581b9bb6809115868.jpg",
+            "language": "OTHER",
+            "source": "catalogue",
+            "delivery": "SHIPPING_OR_ANNOUNCED",
+            "notify_when_referenced": false,
+            "category": "STARTER",
+            "priority_target": "",
+            "priority": 1
+        },
+        "https://www.play-in.com/fr/produit/611687/deck-de-demarrage-one-piece-tcg-bleu-ace-newgate-st-22-fr": {
+            "site": "Playin",
+            "name": "Deck de démarrage One Piece Tcg : Bleu Ace & Newgate [ST-22] - FR",
+            "price": "19,90 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://www.play-in.com/fr/produit/611687/deck-de-demarrage-one-piece-tcg-bleu-ace-newgate-st-22-fr",
+            "image": "https://media.play-in.com/img/product/deck-one-piece-card-game-st-22.jpg",
             "language": "OTHER",
             "source": "catalogue",
             "delivery": "SHIPPING_OR_ANNOUNCED",
@@ -8094,6 +8078,24 @@
             "category": "STARTER",
             "priority_target": "",
             "priority": 1
+        },
+        "https://www.play-in.com/fr/produit/662630/deck-pour-debutant-one-piece-tcg-vert-roronoa-zoro-st-32-fr": {
+            "site": "Playin",
+            "name": "Deck pour débutant One Piece Tcg : Vert Roronoa Zoro [ST-32] - FR",
+            "price": "29,90 €",
+            "status": "AVAILABLE",
+            "availability": "",
+            "link": "https://www.play-in.com/fr/produit/662630/deck-pour-debutant-one-piece-tcg-vert-roronoa-zoro-st-32-fr",
+            "image": "https://media.play-in.com/media/medias/6a676245ac03b633176628.jpg",
+            "language": "OTHER",
+            "source": "catalogue",
+            "delivery": "SHIPPING_OR_ANNOUNCED",
+            "notify_when_referenced": false,
+            "category": "STARTER",
+            "priority_target": "",
+            "priority": 1,
+            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
+            "boutique": "Playin"
         },
         "https://www.play-in.com/fr/produit/662629/deck-pour-debutant-one-piece-tcg-rouge-monkey-d-luffy-st-31-fr": {
             "site": "Playin",
