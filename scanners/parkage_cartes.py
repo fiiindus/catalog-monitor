@@ -3,6 +3,7 @@ from urllib.parse import quote
 import requests
 
 from observabilite import noter_requete
+from integrite import charger_stock_precedent
 from scanners.parkage import BASE_URL
 
 
@@ -135,6 +136,19 @@ def lire_recherche(session, filtres):
             return
 
 
+def conserver_ruptures(produits, precedent):
+    # La recherche Parkage ne renvoie que les références commandables.
+    # Après une recherche complète, conserver les absentes comme épuisées
+    # permet de réarmer la déduplication et d'identifier chaque réassort.
+    resultat = {
+        lien: {**carte, "status": "SOLD OUT"}
+        for lien, carte in precedent.items()
+        if lien not in produits
+    }
+    resultat.update(produits)
+    return resultat
+
+
 def scan():
     produits = {}
     recherches = (
@@ -147,4 +161,6 @@ def scan():
                 carte = extraire_carte(fiche)
                 if carte:
                     produits[carte["link"]] = carte
-    return produits
+    return conserver_ruptures(
+        produits, charger_stock_precedent().get(BOUTIQUE, {})
+    )

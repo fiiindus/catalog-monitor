@@ -4,6 +4,7 @@ from unittest.mock import Mock, mock_open, patch
 
 from comparateur import comparer
 from notifier import construire_embed
+from deduplication import filtrer_alertes, mettre_a_jour_etat
 from scanners import parkage_cartes as parkage
 
 
@@ -31,6 +32,34 @@ def fiche(rarete, traitements=(), identifiant=1147754):
 
 
 class ParkageCartesTests(unittest.TestCase):
+    def test_repeated_restocks_rearm_notifications(self):
+        carte = parkage.extraire_carte(fiche(parkage.SUPER_RARE))
+        lien = carte["link"]
+        precedent = {lien: carte}
+        initiale = {**carte, "type_alerte": "NOUVEAU PRODUIT DISPONIBLE"}
+        etat = mettre_a_jour_etat({}, [initiale], {parkage.BOUTIQUE: precedent})
+        for _ in range(2):
+            rupture = parkage.conserver_ruptures({}, precedent)
+            self.assertEqual("SOLD OUT", rupture[lien]["status"])
+            self.assertEqual("AVAILABLE", precedent[lien]["status"])
+            etat = mettre_a_jour_etat(etat, [], {parkage.BOUTIQUE: rupture})
+            self.assertNotIn(lien, etat)
+            with patch("comparateur.open", mock_open(read_data=json.dumps({parkage.BOUTIQUE: rupture}))):
+                alertes = comparer({parkage.BOUTIQUE: {lien: dict(carte)}})
+            alertes = filtrer_alertes(alertes, etat)
+            self.assertEqual(1, len(alertes))
+            self.assertEqual("RETOUR EN STOCK", alertes[0]["type_alerte"])
+            etat = mettre_a_jour_etat(etat, alertes, {parkage.BOUTIQUE: precedent})
+            self.assertEqual([], filtrer_alertes(alertes, etat))
+
+    def test_failed_pagination_does_not_turn_cards_into_sold_out(self):
+        with patch.object(parkage.requests, "Session") as session:
+            session.return_value.__enter__.return_value.get.side_effect = RuntimeError("API indisponible")
+            with patch.object(parkage, "conserver_ruptures") as conserver:
+                with self.assertRaisesRegex(RuntimeError, "API indisponible"):
+                    parkage.scan()
+                conserver.assert_not_called()
+
     def test_filters_all_three_rarities_by_treatment(self):
         alt = (parkage.ALTERNATIVE_ART, "Alternative Art")
         manga = (98765, "Manga Rare")
