@@ -2423,9 +2423,7 @@
             "product_types": [],
             "category": "PROMO",
             "priority_target": "",
-            "priority": 5,
-            "type_alerte": "NOUVEAU PRODUIT DISPONIBLE",
-            "boutique": "Parkage"
+            "priority": 5
         },
         "https://www.parkage.com/fr/1132243-double-pack-set-one-piece-card-game-dp-13-vol-13": {
             "site": "Parkage",
