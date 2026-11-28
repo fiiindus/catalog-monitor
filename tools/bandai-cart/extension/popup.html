@@ -1,0 +1,11 @@
+<!doctype html><html lang="fr"><meta charset="utf-8"><title>Panier Bandai</title>
+<link rel="stylesheet" href="popup.css">
+<h1>Panier Bandai</h1>
+<p>Ouvre la fiche choisie dans ton navigateur connecté à Premium Bandai US.</p>
+<p id="product">Chargement…</p>
+<label>Prix maximum du produit (USD)<input id="price" type="number" min="0.01" step="0.01"></label>
+<label class="check"><input id="checked" type="checkbox"> J’ai vérifié que cet article est absent de mon panier. Je souhaite en ajouter 1 exemplaire.</label>
+<p>Nouvel essai toutes les 5 secondes après rupture explicite. Aucun paiement automatique. Laisse le PC éveillé et cet onglet ouvert.</p>
+<button id="arm">Démarrer les tentatives</button><button id="stop">Arrêter</button>
+<p id="status" role="status"></p>
+<script src="core.js"></script><script src="popup.js"></script></html>

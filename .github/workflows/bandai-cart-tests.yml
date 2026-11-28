@@ -1,0 +1,19 @@
+name: Bandai cart extension tests
+on:
+  pull_request:
+    paths:
+      - 'tools/bandai-cart/**'
+      - '.github/workflows/bandai-cart-tests.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'tools/bandai-cart/**'
+      - '.github/workflows/bandai-cart-tests.yml'
+permissions:
+  contents: read
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+      - run: node --test tools/bandai-cart/tests/*.test.cjs
