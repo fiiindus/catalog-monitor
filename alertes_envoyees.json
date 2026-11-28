@@ -1349,6 +1349,12 @@
     "status": "AVAILABLE",
     "type": "RETOUR EN STOCK"
   },
+  "https://www.ultrajeux.com/produit-32957-op17-the-world-s-strongest-warriors-0810199501963.html": {
+    "fingerprint": "4a25afc068cfdd2b512f38080f7b97e08311f3081cfcef35ddc634ec658c375d",
+    "name": "OP17 - The World's Strongest Warriors",
+    "status": "AVAILABLE",
+    "type": "RETOUR EN STOCK"
+  },
   "https://www.ultrajeux.com/produit-32958-display-op17-les-guerriers-les-plus-puissants-au-monde-4582770058710.html": {
     "fingerprint": "e2b0362bb32ceee8c2abc3781673cc34a6c0673200067c92342abc4ade55f71c",
     "name": "Display OP17 - Les Guerriers les Plus Puissants au Monde",
@@ -1472,6 +1478,24 @@
   "https://www.ultrajeux.com/produit-33698-premium-card-collection-live-action-edition-vol2-straw-hat-crew-0810199502205.html": {
     "fingerprint": "48d81f70ebbe8e2fd7e77166c488f698ac4455560775cf41f86990db95b33816",
     "name": "Premium Card Collection - Live Action Edition Vol.2 Straw Hat Crew",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.ultrajeux.com/produit-33733-display-op18-the-dominance-of-god-0810199503806.html": {
+    "fingerprint": "cdf5d4eaf47c2092520d13e09badc4787cfb323fb2396c1ce584e77f671169fb",
+    "name": "Display OP18 - The Dominance of God",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.ultrajeux.com/produit-33734-op18-the-dominance-of-god-0810199503790.html": {
+    "fingerprint": "fac2200e225648a17aef6e970a30cb4d86dea055b4da05222e1f0090a5c5e7a2",
+    "name": "OP18 - The Dominance of God",
+    "status": "AVAILABLE",
+    "type": "NOUVEAU PRODUIT DISPONIBLE"
+  },
+  "https://www.ultrajeux.com/produit-33735-op18-the-dominance-of-god-0810199506708.html": {
+    "fingerprint": "f9d45c8ed8ea47bc82e12d0715be2cd9f6b9d5365b93d39fe2db8cc2478967e2",
+    "name": "OP18 - The Dominance of God",
     "status": "AVAILABLE",
     "type": "NOUVEAU PRODUIT DISPONIBLE"
   }
